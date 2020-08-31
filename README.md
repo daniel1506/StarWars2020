@@ -3,7 +3,7 @@ A Star Wars mod for the game Starsector
 
 ### Features
 
-2 faction:
+2 factions:
 Galactic Empire and New Republic
 
 2 new systems: Coruscant Prime and ChandrilaPrime
