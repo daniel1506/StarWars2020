@@ -15,8 +15,7 @@ New Hullmods and planet type
 ### Credit 
 
   Ship sprite artworks:
-    Fractalsponge (Ansel Hsiao)
-    Star Wars Interregnum team, especially dolynick.
+    Fractalsponge (Ansel Hsiao) and Star Wars Interregnum team, especially dolynick.
   
   Inspiration from the Star Wars mod created by LazyWizard and ShadowFox.
 
