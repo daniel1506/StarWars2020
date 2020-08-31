@@ -6,7 +6,7 @@ A Star Wars mod for the game Starsector
 2 factions:
 Galactic Empire and New Republic
 
-2 new systems: Coruscant Prime and ChandrilaPrime
+2 new systems: Coruscant Prime and Chandrila Prime
 
 42 ships and 28 fighters
 
