@@ -1,4 +1,4 @@
-# starsector_sw
+# Star Wars 2020
 Star Wars mod for Starsector
 
 Credit:
