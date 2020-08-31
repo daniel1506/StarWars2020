@@ -1,11 +1,22 @@
 # Star Wars 2020
-Star Wars mod for Starsector
+A Star Wars mod for the game Starsector
 
-Credit:
+### Features
+
+2 faction:
+Galactic Empire and New Republic
+
+2 new systems: Coruscant Prime and ChandrilaPrime
+
+42 ships and 28 fighters
+
+New Hullmods and planet type
+
+### Credit 
 
   Ship sprite artworks:
     Fractalsponge (Ansel Hsiao)
-    Star Wars Interregnum team, especially dolynick
+    Star Wars Interregnum team, especially dolynick.
   
   Inspiration from the Star Wars mod created by LazyWizard and ShadowFox.
 
