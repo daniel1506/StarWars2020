@@ -106,7 +106,7 @@
       "id": "WS0009",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "TURRET",
+      "mount": "HIDDEN",
       "arc": 180,
       "angle": -270,
       "locations": [-56.5, 69.5]
