@@ -1,0 +1,50 @@
+{
+  "id": "sw_kx9_laser_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_kx9_laser",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/sw_laser_cannon_turret_base.png",
+  #"turretGlowSprite": "graphics/weapons/sw_ion_cannon_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/sw_laser_cannon_hardpoint_base.png",
+  #"hardpointGlowSprite": "graphics/weapons/sw_ion_cannon_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    250,
+    0,
+    0,
+    255
+  ],
+  "turretOffsets": [
+    2,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    6.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 5,
+    "spread": 10,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.2,
+    "particleCount": 15,
+    "particleColor": [
+      250,
+      0,
+      0,
+      175
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "sw_sound_xwing_laser_cannon"
+}

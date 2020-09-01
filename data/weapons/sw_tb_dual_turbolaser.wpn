@@ -1,0 +1,52 @@
+{
+  "id": "sw_tb_dual_turbolaser",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_redlaser_dual",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/light_dual_autocannon_turret_base.png",
+  "turretGunSprite": "graphics/weapons/light_dual_autocannon_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/light_dual_autocannon_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/light_dual_autocannon_hardpoint_recoil.png",
+  "visualRecoil":3.0,
+  "renderHints":[RENDER_BARREL_BELOW],	
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    250,
+    0,
+    50,
+    255
+  ],
+  "turretOffsets": [
+    7.5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    12.5,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 15,
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      250,
+      0,
+      50,
+      200
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "sw_sound_laser_cannon"
+}

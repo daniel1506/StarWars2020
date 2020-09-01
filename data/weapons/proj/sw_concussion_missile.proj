@@ -1,0 +1,34 @@
+{
+	"id":"sw_concussion_missile",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	#"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
+	"sprite":"graphics/missiles/sw_concussion_missile.png",
+	"size":[3,7],	
+	"center":[1,3],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":50,
+					 "coreRadius":25, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":3.0,
+					 "particleSizeRange":1.0,
+					 "particleDuration":1,
+					 "particleCount":50,
+					 "particleColor":[255,185,155,255]},
+	"armingTime":0.5,
+	"engineSpec":{"turnAcc":160,
+				  "turnRate":120,
+				  "acc":1250,
+				  "dec":1000},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4, 0],
+				    "style":"MISSILE_HIGH_TECH",
+				    "width":7.0,
+				    "length":14.0,
+				    "angle":180.0}]
+}

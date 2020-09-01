@@ -1,0 +1,56 @@
+{
+  "id": "sw_dual_ion_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_laser_ion_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/light_dual_autocannon_turret_base.png",
+  "turretGunSprite": "graphics/weapons/light_dual_autocannon_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/light_dual_autocannon_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/light_dual_autocannon_hardpoint_recoil.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    12.5,
+    3,
+    12.5,
+    -3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    18,
+    3,
+    18,
+    -3
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 13,
+    "particleSizeMin": 10,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 17,
+    "particleColor": [
+      100,
+      200,
+      255,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "sw_sound_ion_cannon"
+}

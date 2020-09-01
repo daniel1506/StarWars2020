@@ -1,0 +1,47 @@
+{
+	"id":"sw_proton_torpedo",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	#"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
+	"sprite":"graphics/missiles/sw_proton_torpedo.png",
+	"size":[9,11],	
+	"center":[4.5,5.5],
+	"collisionRadius":5,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[225,150,105,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":50, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":50,
+					 "coreRadius":25, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":3.0,
+					 "particleSizeRange":1.0,
+					 "particleDuration":1,
+					 "particleCount":100,
+					 "particleColor":[255,185,155,255]},
+	"armingTime":0.5,
+	"engineSpec":{"turnAcc":125,
+				  "turnRate":85,
+				  "acc":500,
+				  "dec":300},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-2, 0],
+				    "style":"CUSTOM",
+				    "styleSpec":{
+					"mode":"QUAD_STRIP",
+					"engineColor":[230,0,50,255],
+					"contrailColor":[200,0,50,150],
+					"contrailDuration":0.1,
+					"contrailWidthMult":1,
+					"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+					"contrailMinSeg":1, # min segment length, in pixels
+					"contrailMaxSpeedMult":0.0f,
+					"contrailAngularVelocityMult":0.5f,
+					"contrailSpawnDistMult":0.0f,
+					"type":"SMOKE",
+				    },
+				    "width":7.0,
+				    "length":14.0,
+				    "angle":180.0}]
+}

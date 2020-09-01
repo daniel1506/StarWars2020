@@ -1,0 +1,34 @@
+{
+	"id":"sw_mg7",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	#"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
+	"sprite":"graphics/missiles/sw_mg7.png",
+	"size":[3,7],	
+	"center":[1,3],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":125,
+					 "coreRadius":75, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":150,
+					 "particleColor":[255,185,155,255]},
+	"armingTime":0.5,
+	"engineSpec":{"turnAcc":125,
+				  "turnRate":85,
+				  "acc":1100,
+				  "dec":750},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4, 0],
+				    "style":"MISSILE_MIDLINE",
+				    "width":7.0,
+				    "length":14.0,
+				    "angle":180.0}]
+}

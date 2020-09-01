@@ -1,0 +1,50 @@
+{
+  "id": "sw_tb_laser_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_redlaser2",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/sw_laser_cannon_turret_base.png",
+  #"turretGlowSprite": "graphics/weapons/sw_ion_cannon_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/sw_laser_cannon_hardpoint_base.png",
+  #"hardpointGlowSprite": "graphics/weapons/sw_ion_cannon_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    0,
+    200,
+    0,
+    255
+  ],
+  "turretOffsets": [
+    2,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    2,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 5,
+    "particleDuration": 0.12,
+    "particleCount": 5,
+    "particleColor": [
+      250,
+      0,
+      50,
+      200
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "sw_sound_laser_cannon"
+}
