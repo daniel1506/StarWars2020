@@ -1,0 +1,62 @@
+{
+  "hullName": "Tug",
+  "hullId": "sw_tug",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_tug.png",
+  "style": "LOW_TECH",
+  "height": 92,
+  "width": 50,
+  "center": [25, 46],
+  "collisionRadius": 49,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 51.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [38, 6.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [38, -6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45.5, 11],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-45.5, -11],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    44.5, -9.5,
+    12, -17.5,
+    -25.5, -19.5,
+    -44.5, -17.5,
+    -44.5, 17.5,
+    -25.5, 19.5,
+    12, 17.5,
+    44.5, 9.5
+  ]
+}

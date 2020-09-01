@@ -1,0 +1,81 @@
+{
+  "hullName": "Bulk Freighter",
+  "hullId": "sw_bulk",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_bulk.png",
+  "style": "LOW_TECH",
+  "height": 170,
+  "width": 66,
+  "center": [33, 85],
+  "collisionRadius": 85.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 87,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedshieldemitter",
+    "repair_gantry",
+    "civgrade",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [82, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-38.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-83.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    83.5, 2.5,
+    73.5, 6.5,
+    63.5, 6.5,
+    63.5, 24.5,
+    51.5, 32,
+    -61, 32,
+    -70, 26,
+    -70, 8,
+    -78, 8,
+    -83, 3.5,
+    -83, -3.5,
+    -78, -8,
+    -70, -8,
+    -70, -26,
+    -61, -32,
+    51.5, -32,
+    63.5, -24.5,
+    63.5, -6.5,
+    73.5, -6.5,
+    83.5, -2.5
+  ]
+}

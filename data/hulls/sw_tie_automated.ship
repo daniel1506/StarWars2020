@@ -1,0 +1,50 @@
+{
+  "hullName": "Tie Automated Fighter",
+  "hullId": "sw_tie_automated",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_automated.png",
+  "style": "MIDLINE",
+  "height": 25,
+  "width": 32,
+  "center": [16, 11],
+  "collisionRadius": 17,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 17.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2.5, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-2.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, -0.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    10.5, -12.5,
+    -10.5, -12.5,
+    -10.5, 12.5,
+    10.5, 12.5
+  ]
+}

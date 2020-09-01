@@ -1,0 +1,120 @@
+{
+  "hullName": "AA-9 Freighter",
+  "hullId": "sw_aa9",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sw_aa9.png",
+  "style": "LOW_TECH",
+  "height": 328,
+  "width": 188,
+  "center": [94, 155],
+  "collisionRadius": 174.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 175.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "civgrade",
+    "drive_field_stabilizer",
+    "heavyarmor",
+    "repair_gantry",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [135.5, 25.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [135.5, -25.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [78, 35]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [78, -35]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [-2.5, -35]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -270,
+      "locations": [-2.5, 35]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-150.5, 74.5],
+      "length": 10,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-150.5, -74.5],
+      "length": 10,
+      "width": 30,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-152, -0],
+      "length": 10,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    170, 10,
+    160, 28,
+    131, 43,
+    -62.5, 42.5,
+    -88, 90,
+    -142, 89.5,
+    -152, 84,
+    -152, -84,
+    -142, -89.5,
+    -88, -90,
+    -62.5, -42.5,
+    131, -43,
+    160, -28,
+    170, -10
+  ]
+}

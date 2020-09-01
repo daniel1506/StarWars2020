@@ -1,0 +1,90 @@
+{
+  "hullName": "Tie Avenger",
+  "hullId": "sw_tie_avenger",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_avenger.png",
+  "style": "HIGH_TECH",
+  "height": 38,
+  "width": 18,
+  "center": [9, 19],
+  "collisionRadius": 21,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14, 7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [14, -7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, 7.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13.5, -7.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 3]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3.5, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    5.5, -3.5,
+    16.5, -8.5,
+    -18, -8.5,
+    -8.5, -3.5,
+    -8.5, 3.5,
+    -18, 8.5,
+    16.5, 8.5,
+    5.5, 3.5
+  ]
+}

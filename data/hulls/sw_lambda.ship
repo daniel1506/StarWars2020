@@ -1,0 +1,97 @@
+{
+  "hullName": "Lambda Class Shuttle",
+  "hullId": "sw_lambda",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_lambda.png",
+  "style": "LOW_TECH",
+  "height": 63,
+  "width": 106,
+  "center": [53, 31.5],
+  "collisionRadius": 56.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 58,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds",
+    "sw_hyperdrive"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [29, -3.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 15.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, -15.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [17.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24, 10],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-24, -10],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    30.5, -4.5,
+    9, -8.5,
+    9, -17.5,
+    5, -17.5,
+    -7, -51.5,
+    -21, -51.5,
+    -21, 51.5,
+    -7, 51.5,
+    5, 17.5,
+    9, 17.5,
+    9, 8.5,
+    30.5, 4.5
+  ]
+}

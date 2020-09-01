@@ -1,0 +1,100 @@
+{
+  "hullName": "T-85 X-Wing",
+  "hullId": "sw_t85_xwing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_t85_xwing.png",
+  "style": "HIGH_TECH",
+  "height": 33,
+  "width": 30,
+  "center": [15, 16.5],
+  "collisionRadius": 19.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-3.5, 14.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-3.5, -14.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, 14.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4, -14.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, 2.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1, -2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 3.5],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, -3.5],
+      "length": 15,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    15.5, 1,
+    -6.5, 3.5,
+    -6.5, 15,
+    -12, 15,
+    -14.5, 6.5,
+    -14.5, -6.5,
+    -12, -15,
+    -6.5, -15,
+    -6.5, -3.5,
+    15.5, -1
+  ]
+}

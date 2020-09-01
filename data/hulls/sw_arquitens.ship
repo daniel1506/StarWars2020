@@ -1,0 +1,145 @@
+{
+  "hullName": "Arquitens Class Light Cruiser",
+  "hullId": "sw_arquitens",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_arquitens.png",
+  "style": "MIDLINE",
+  "height": 134,
+  "width": 56,
+  "center": [28, 65],
+  "collisionRadius": 69.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 70,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 230,
+      "angle": 0,
+      "locations": [7.5, 11.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 230,
+      "angle": 0,
+      "locations": [7.5, -11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 290,
+      "locations": [34, -15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 70,
+      "locations": [34, 15]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 290,
+      "locations": [16, -19.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 70,
+      "locations": [16, 19.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 290,
+      "locations": [51, -8]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -290,
+      "locations": [51, 8]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -13, -0,
+        3, -0
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-64.5, 20],
+      "length": 10,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64.5, -20],
+      "length": 10,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-64.5, -0],
+      "length": 10,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    68.5, 3.5,
+    1.5, 26.5,
+    -11, 26.5,
+    -27.5, 12,
+    -37, 12,
+    -48, 25,
+    -64, 25,
+    -64, -25,
+    -48, -25,
+    -37, -12,
+    -27.5, -12,
+    -11, -26.5,
+    1.5, -26.5,
+    68.5, -3.5
+  ]
+}

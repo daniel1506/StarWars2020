@@ -1,0 +1,145 @@
+{
+  "hullName": "Quasar Fire Class Carrier",
+  "hullId": "sw_quasar",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_quasar.png",
+  "style": "MIDLINE",
+  "height": 112,
+  "width": 86,
+  "center": [43.5, 51.5],
+  "collisionRadius": 62.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 63,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "chassis_storage",
+    "recovery_shuttles",
+    "surveying_equipment"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 270,
+      "angle": 0,
+      "locations": [53, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [-27.5, -39.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-27.5, 39.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-48.5, 25]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-48.5, -25]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -40, 25,
+        -15, 25.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -40, 9,
+        -14.5, 9.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -40.5, -24.5,
+        -15.5, -24.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        4.5, 0.5,
+        25.5, 0.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51, 10],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-51, -10],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    60, 2.5,
+    -10, 38,
+    -10, 42,
+    -44, 42,
+    -51, 35,
+    -51, -35,
+    -44, -42,
+    -10, -42,
+    -10, -38,
+    60, -2.5
+  ]
+}

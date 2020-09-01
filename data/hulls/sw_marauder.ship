@@ -1,0 +1,140 @@
+{
+  "hullName": "Marauder Class Corvette",
+  "hullId": "sw_marauder",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_marauder.png",
+  "style": "LOW_TECH",
+  "height": 137,
+  "width": 97,
+  "center": [48.5, 68.5],
+  "collisionRadius": 69,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 70,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "eccm"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [62, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [62, -7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [4.5, 11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [4.5, -11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-21.5, 42.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-21.5, -42.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-21.5, 36.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-21.5, -36.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-56, 16.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56, -16.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    66.5, -8,
+    42, -15,
+    28.5, -16.5,
+    23, -12,
+    2, -12,
+    -21.5, -29,
+    -21.5, -48,
+    -37, -48,
+    -57, -12,
+    -67.5, -8,
+    -67.5, 8,
+    -57, 12,
+    -37, 48,
+    -21.5, 48,
+    -21.5, 29,
+    2, 12,
+    23, 12,
+    28.5, 16.5,
+    42, 15,
+    66.5, 8
+  ]
+}

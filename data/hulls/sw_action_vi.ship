@@ -1,0 +1,81 @@
+{
+  "hullName": "Action VI Transport",
+  "hullId": "sw_action_vi",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_action_vi.png",
+  "style": "LOW_TECH",
+  "height": 246,
+  "width": 42,
+  "center": [20.5, 126.5],
+  "collisionRadius": 120.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 127,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "repair_gantry",
+    "civgrade",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [111, 5.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [111, -5.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [41, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-115.5, 7],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-115.5, -7],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    119, 8.5,
+    91.5, 16,
+    -41.5, 15,
+    -41.5, 19,
+    -89, 19,
+    -117.5, 14,
+    -117.5, -14,
+    -89, -19,
+    -41.5, -19,
+    -41.5, -15,
+    91.5, -16,
+    119, -8.5
+  ]
+}

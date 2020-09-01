@@ -1,0 +1,104 @@
+{
+  "hullName": "T-70 X-wing",
+  "hullId": "sw_t70_xwing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_t70_xwing.png",
+  "style": "MIDLINE",
+  "height": 31,
+  "width": 28,
+  "center": [14, 15.5],
+  "collisionRadius": 18.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 19,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 13.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0, -13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, 13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-0.5, -13.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, 1.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [1, -1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 4],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-15, -4],
+      "length": 5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    15, -0.5,
+    5, -1.5,
+    -4, -1.5,
+    -4, -13.5,
+    -11, -13.5,
+    -15, -4.5,
+    -15, 4.5,
+    -11, 13.5,
+    -4, 13.5,
+    -4, 1.5,
+    5, 1.5,
+    15, 0.5
+  ]
+}

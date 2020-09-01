@@ -1,0 +1,94 @@
+{
+  "hullName": "Tie Oppressor",
+  "hullId": "sw_tie_oppressor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_oppressor.png",
+  "style": "MIDLINE",
+  "height": 33,
+  "width": 29,
+  "center": [14.5, 16.5],
+  "collisionRadius": 20,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 20.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12, -1]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8, -7]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, 1.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3, -1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5, 1.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-5, -1.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    16, 11,
+    -15.5, 11,
+    -15.5, -11,
+    16, -11
+  ]
+}

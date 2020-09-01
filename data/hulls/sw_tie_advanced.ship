@@ -1,0 +1,68 @@
+{
+  "hullName": "Tie Advanced",
+  "hullId": "sw_tie_advanced",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_advanced.png",
+  "style": "MIDLINE",
+  "height": 25,
+  "width": 24,
+  "center": [12, 12.5],
+  "collisionRadius": 16,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 16.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6.5, 1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [6.5, -1.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 6]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    11, -10.5,
+    -11.5, -10.5,
+    -11.5, 10.5,
+    11, 10.5
+  ]
+}

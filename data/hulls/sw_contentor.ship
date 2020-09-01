@@ -1,0 +1,117 @@
+{
+  "hullName": "Contentor Class Replenishment Ship",
+  "hullId": "sw_contentor",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sw_contentor.png",
+  "style": "MIDLINE",
+  "height": 312,
+  "width": 93,
+  "center": [46.5, 156],
+  "collisionRadius": 156,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 157,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "repair_gantry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 250,
+      "angle": 0,
+      "locations": [146.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [-74.5, -36]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-74.5, 36]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [7, -35.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -270,
+      "locations": [7, 35.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [79.5, -35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -270,
+      "locations": [79.5, 35]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-146.5, 25],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-146.5, -25],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    150.5, 11.5,
+    122.5, 39.5,
+    -127, 39.5,
+    -133.5, 32.5,
+    -146, 32,
+    -146, 20.5,
+    -155, 12,
+    -155, -12,
+    -146, -20.5,
+    -146, -32,
+    -133.5, -32.5,
+    -127, -39.5,
+    122.5, -39.5,
+    150.5, -11.5
+  ]
+}

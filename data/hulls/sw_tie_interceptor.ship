@@ -1,0 +1,86 @@
+{
+  "hullName": "Tie Interceptor",
+  "hullId": "sw_tie_interceptor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_interceptor.png",
+  "style": "LOW_TECH",
+  "height": 28,
+  "width": 21,
+  "center": [10.5, 14],
+  "collisionRadius": 16.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 17,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4, -1]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 9]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, -9]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9, 9]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [9, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    12.5, -9.5,
+    -12.5, -9.5,
+    -12.5, 9.5,
+    12.5, 9.5
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "hullName": "Gozanti Assault Cruiser",
+  "hullId": "sw_gozanti",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_gozanti.png",
+  "style": "LOW_TECH",
+  "height": 105,
+  "width": 49,
+  "center": [24.5, 52.5],
+  "collisionRadius": 53.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 54.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "chassis_storage",
+    "blast_doors"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [48.5, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [48.5, -3]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22, 12.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [22, -12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-23.5, 0.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -8, 0.5,
+        8.5, 0.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-29, 16],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-29, -16],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    51, 3,
+    22.5, 8,
+    22.5, 15,
+    -2, 15,
+    -23.5, 23.5,
+    -29, 18,
+    -29, 3,
+    -50.5, 0.5,
+    -29, -3,
+    -29, -18,
+    -23.5, -23.5,
+    -2, -15,
+    22.5, -15,
+    22.5, -8,
+    51, -3
+  ]
+}

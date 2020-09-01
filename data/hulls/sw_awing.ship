@@ -1,0 +1,86 @@
+{
+  "hullName": "RZ-1 A-wing",
+  "hullId": "sw_awing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/SW_awing.png",
+  "style": "LOW_TECH",
+  "height": 28,
+  "width": 20,
+  "center": [10, 14],
+  "collisionRadius": 15,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 16,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, 9.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0.5, -9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9.5, 2.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [9.5, -2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, 5],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-13, -5],
+      "length": 15,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    12.5, -2.5,
+    0.5, -7.5,
+    0.5, -9.5,
+    -3, -9.5,
+    -3, -6.5,
+    -13.5, -6.5,
+    -13.5, 6.5,
+    -3, 6.5,
+    -3, 9.5,
+    0.5, 9.5,
+    0.5, 7.5,
+    12.5, 2.5
+  ]
+}

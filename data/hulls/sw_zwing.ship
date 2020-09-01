@@ -1,0 +1,84 @@
+{
+  "hullName": "Z-95 Headhunter",
+  "hullId": "sw_zwing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_zwing.png",
+  "style": "LOW_TECH",
+  "height": 31,
+  "width": 38,
+  "center": [19, 14.5],
+  "collisionRadius": 22,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4.5, 18.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4.5, -18.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, 2]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [0.5, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 4.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-14, -4.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    15, -1.5,
+    -4.5, -2,
+    -4.5, -18.5,
+    -11, -18.5,
+    -14, -5.5,
+    -14, 5.5,
+    -11, 18.5,
+    -4.5, 18.5,
+    -4.5, 2,
+    15, 1.5
+  ]
+}

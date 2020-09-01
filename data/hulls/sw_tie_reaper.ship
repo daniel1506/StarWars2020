@@ -1,0 +1,62 @@
+{
+  "hullName": "Tie Reaper",
+  "hullId": "sw_tie_reaper",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_reaper.png",
+  "style": "LOW_TECH",
+  "height": 37,
+  "width": 24,
+  "center": [12, 18.5],
+  "collisionRadius": 19,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 19.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, 2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17.5, 3],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-17.5, -3],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    17.5, -3.5,
+    -3, -11.5,
+    -7, -11.5,
+    -18, -4.5,
+    -18, 4.5,
+    -7, 11.5,
+    -3, 11.5,
+    17.5, 3.5
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "hullName": "T-65B X-wing",
+  "hullId": "sw_t65b_xwing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_t65b_xwing.png",
+  "style": "LOW_TECH",
+  "height": 31,
+  "width": 30,
+  "center": [14.5, 15.5],
+  "collisionRadius": 17.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 13.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [5, -13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [4.5, 13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [4.5, -13.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2.5, 2]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2.5, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 4],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-14, -4],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    15, -1,
+    -4.5, -2.5,
+    -4.5, -10.5,
+    3, -10.5,
+    5, -14,
+    -10, -14,
+    -10, -5,
+    -14, -5,
+    -14, 5,
+    -10, 5,
+    -10, 14,
+    5, 14,
+    3, 10.5,
+    -4.5, 10.5,
+    -4.5, 2.5,
+    15, 1
+  ]
+}

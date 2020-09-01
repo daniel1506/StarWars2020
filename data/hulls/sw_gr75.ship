@@ -1,0 +1,111 @@
+{
+  "hullName": "GR-75 Medium Transport",
+  "hullId": "sw_gr75",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_gr75.png",
+  "style": "LOW_TECH",
+  "height": 214,
+  "width": 62,
+  "center": [31, 107],
+  "collisionRadius": 107,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 108.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "ground_support",
+    "repair_gantry",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-19.5, 26.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [-19.5, -26.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [44, 28.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [44, -28.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97, 9.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97, -9.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-78, 17],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-78, -17],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    105, -6,
+    99, -13,
+    85.5, -20,
+    60.5, -28,
+    40, -29.5,
+    -4, -29,
+    -40.5, -24.5,
+    -97.5, -9,
+    -106, -0,
+    -97.5, 9,
+    -40.5, 24.5,
+    -4, 29,
+    40, 29.5,
+    60.5, 28,
+    85.5, 20,
+    99, 13,
+    105, 6
+  ]
+}

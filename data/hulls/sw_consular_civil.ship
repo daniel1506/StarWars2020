@@ -1,0 +1,119 @@
+{
+  "hullName": "Consular Civilian Transport",
+  "hullId": "sw_consular_civil",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_consular_civil.png",
+  "style": "LOW_TECH",
+  "height": 184,
+  "width": 96,
+  "center": [48, 92],
+  "collisionRadius": 100,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 101.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "civgrade",
+    "drive_field_stabilizer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [83, 12.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [83, -12.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [51, -18.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [51, 18.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [11.5, -18.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -270,
+      "locations": [11.5, 18.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-90.5, 34.5],
+      "length": 10,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-90.5, -34.5],
+      "length": 10,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-90.5, -0],
+      "length": 10,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    91, 7.5,
+    79, 21,
+    -7.5, 21,
+    -7.5, 14.5,
+    -20, 14.5,
+    -62.5, 46.5,
+    -83.5, 46.5,
+    -89.5, 41.5,
+    -89.5, -41.5,
+    -83.5, -46.5,
+    -62.5, -46.5,
+    -20, -14.5,
+    -7.5, -14.5,
+    -7.5, -21,
+    79, -21,
+    91, -7.5
+  ]
+}

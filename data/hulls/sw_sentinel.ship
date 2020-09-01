@@ -1,0 +1,117 @@
+{
+  "hullName": "Sentinel Class Landing Craft",
+  "hullId": "sw_sentinel",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sw_sentinel.png",
+  "style": "MIDLINE",
+  "height": 86,
+  "width": 58,
+  "center": [29, 43],
+  "collisionRadius": 44.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 45.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [38, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [38, -3]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, 20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13.5, -20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, 12]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13.5, -12]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [27, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-40.5, 6],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-40.5, -6],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    41.5, 3.5,
+    15.5, 10,
+    15.5, 22.5,
+    -17.5, 22.5,
+    -17.5, 27.5,
+    -22.5, 27.5,
+    -40.5, 15.5,
+    -40.5, -15.5,
+    -22.5, -27.5,
+    -17.5, -27.5,
+    -17.5, -22.5,
+    15.5, -22.5,
+    15.5, -10,
+    41.5, -3.5
+  ]
+}
