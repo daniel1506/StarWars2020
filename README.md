@@ -12,12 +12,14 @@ Galactic Empire and New Republic
 
 New Hullmods and planet type
 
+Compatible with Nexerelin
+
 ### Credit 
 
   Ship sprite artworks:
     Fractalsponge (Ansel Hsiao) and Star Wars Interregnum team, especially dolynick.
   
-  Inspiration from the Star Wars mod created by LazyWizard and ShadowFox.
+    Inspiration from the Star Wars mod created by LazyWizard and ShadowFox.
 
 
 Special thnanks to Alex and the dev team of Starsector, Starsector community and all Star Wars fans.
