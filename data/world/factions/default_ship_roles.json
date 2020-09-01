@@ -1,0 +1,242 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"sw_raider_light":7,
+		"sw_cr90_rebel":5,
+		"sw_dp20_rebel":7,
+
+		"sw_vigil_imperial":10,
+		"sw_marauder_rebel":10,
+
+		"sw_arquitens_imperial":10,
+		"sw_nebulon_b_rebel":10,
+
+		"sw_gozanti_imperial":5,
+
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+		"sw_raider_light":10,
+		"sw_cr90_rebel":10,
+		"sw_dp20_rebel":10,
+
+		"sw_vigil_imperial":10,
+		"sw_marauder_rebel":10,
+
+		"sw_arquitens_imperial":10,
+		"sw_nebulon_b_rebel":10,
+
+		"sw_gozanti_imperial":5,
+		
+		"fallback":{"combatMedium":0.5},
+	},
+	"combatMedium":{
+		"sw_vindicator_imperial":10,
+		"sw_mc40a_rebel":10,
+
+		"sw_dreadnought_heavy":10,
+		"sw_mc30c_rebel":10,
+
+		"sw_lancer_heavy":10,
+
+		"sw_immobilizer_imperial":7,
+		"sw_assault_frigate_mk2_rebel":5,
+
+		"sw_victory_i_imperial":3,
+		"sw_nebula_rebel":3,
+		
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge":{
+		"sw_acclamator_imperial":5,
+
+		"sw_victory_i_imperial":10,
+		"sw_nebula_rebel":10,
+
+		"sw_procursator_imperial":7,
+		"sw_mc80b_rebel":7,
+
+		
+		"fallback":{"combatMedium":1},
+	},
+	"combatCapital":{
+		"sw_procursator_imperial":7,
+		"sw_mc80b_rebel":7,
+		"sw_mc80_home_one_rebel":7,
+
+		"sw_imperial_ii_imperial":10,
+		"sw_mc80_liberty_rebel":10,
+
+		"sw_allegiance_imperial":5,
+		"sw_starhawk_rebel":5,
+
+		"sw_bellator_imperial":3,
+		"sw_viscount_rebel":3,
+
+		"sw_assertor_imperial":1,
+		
+		"fallback":{"combatLarge":1},
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"sw_arquitens_imperial":10,
+		"sw_yt1300_light":10,
+
+		"fallback":{"freighterSmall":1},
+	},
+	"combatFreighterMedium":{
+		"sw_dreadnought_heavy":10,
+		"sw_gr75_medium":10,
+		"fallback":{"combatFreighterSmall":1},
+	},
+	"combatFreighterLarge":{
+		"sw_acclamator_imperial":10,
+		"fallback":{"combatFreighterMedium":1},
+	},
+	
+	"civilianRandom":{
+		"sw_lambda_imperial":10,
+		"sw_sentinel_landing":7,
+		"sw_yt1300_light":10,
+	},
+
+	# carriers
+	"carrierSmall":{
+		"sw_quasar_imperial":10,
+		"sw_quasar_rebel":10,
+		
+		"fallback":{"carrierMedium":0.5},
+		"fallback2":{"carrierLarge":0.25},
+	},
+	"carrierMedium":{
+		"sw_consolidator_assault":10,
+		"sw_ton_falk_escort":10,
+		"fallback":{"carrierSmall":1},
+		"fallback2":{"carrierLarge":0.5},
+	},
+	"carrierLarge":{
+		"sw_gladiator_imperial":10,
+		"sw_mc75_rebel":10,
+
+		"sw_acclamator_imperial":5,
+		"sw_acclamator_rebel":5,
+
+		"sw_secutor_imperial":1,
+		
+		"fallback":{"carrierMedium":1},
+		"fallback2":{"carrierSmall":1},
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"sw_bulk_light":10,
+		"fallback":{"freighterMedium":0.5},
+		"fallback2":{"freighterLarge":0.25},
+	},
+	"freighterMedium":{
+		"sw_action_vi_transport":10,
+		"sw_contentor_replenishment":5,
+		"fallback":{"freighterSmall":1},
+		"fallback2":{"freighterLarge":0.5},
+	},
+	"freighterLarge":{
+		"sw_aa9_super":10,
+		"sw_altor_replenishment":3,
+		"fallback":{"freighterMedium":1},
+		"fallback2":{"freighterSmall":1},
+	},
+	
+	"tankerSmall":{
+		"sw_contentor_replenishment":10,
+		"fallback":{"tankerMedium":0.5},
+		"fallback2":{"tankerLarge":0.25},
+	},
+	"tankerMedium":{
+		"sw_contentor_replenishment":10,
+		"fallback":{"tankerSmall":1},
+		"fallback2":{"tankerLarge":0.5},
+	},
+	"tankerLarge":{
+		"sw_altor_replenishment":10,
+		"fallback":{"tankerMedium":1},
+		"fallback2":{"tankerSmall":1},
+	},
+	
+	"personnelSmall":{
+		"sw_lambda_imperial":10,
+		"fallback":{"personnelMedium":0.5},
+		"fallback2":{"personnelLarge":0.25},
+	},
+	"personnelMedium":{
+		"sw_sentinel_landing":10,
+		"fallback":{"personnelSmall":1},
+		"fallback2":{"personnelLarge":0.5},
+	},
+	"personnelLarge":{
+		"sw_raider_light":10,
+		"sw_consular_civil_light":10,
+		"fallback":{"personnelMedium":1},
+		"fallback2":{"personnelSmall":1},
+	},
+	
+	"linerSmall":{
+		"sw_sentinel_landing":10,
+		"fallback":{"linerMedium":0.5},
+		"fallback2":{"linerLarge":0.25},
+	},
+	"linerMedium":{
+		"sw_consular_civil_light":10,
+		"fallback":{"linerSmall":1},
+		"fallback2":{"linerLarge":0.5},
+	},
+	"linerLarge":{
+		"sw_consular_civil_light":10,
+		"sw_lancer_heavy":5,
+		"fallback":{"linerMedium":1},
+		"fallback2":{"linerSmall":1},
+	},
+	
+	# utility ships
+	"tug":{
+		"sw_tug_utility":10,
+		"fallback":{"utility":1},
+	},
+	"crig":{
+		"crig_Standard":10,
+		"fallback":{"utility":1},
+	},
+	"utility":{
+		"crig_Standard":10,
+		"ox_Standard":2,
+	},
+	
+	# Old/unused below this line
+	"fastAttack":{
+		"sw_raider_light":10,
+		"sw_vigil_imperial":10,
+		"sw_arquitens_imperial":10,
+		"sw_lancer_heavy":7,
+		"fallback":{"combatSmall":1},
+	},
+
+	"escortSmall":{
+		"sw_gozanti_imperial":10,
+		"sw_raider_light":10,
+		"sw_vigil_imperial":10,
+		"sw_arquitens_imperial":10,
+		"sw_lancer_heavy":10,
+		"sw_dreadnought_heavy":7,
+		"fallback":{"combatSmall":1},
+	},
+	"escortMedium":{
+		"sw_lancer_heavy":10,
+		"sw_dreadnought_heavy":10,
+		"sw_vindicator_imperial":10,
+		"sw_immobilizer_imperial":7,
+		"fallback":{"combatMedium":1},
+	},
+	
+}

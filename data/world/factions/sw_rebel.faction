@@ -1,0 +1,221 @@
+{
+	id:"sw_rebel",
+	"color":[255,0,50,255],
+	"displayName":"Republic",
+	"displayNameWithArticle":"the Repubic",
+	"displayNameLong":"New Repubic",   
+    "displayNameLongWithArticle":"the New Repubic",  
+	"logo":"graphics/factions/sw_rebel_flag.png",
+	"crest":"graphics/factions/sw_rebel_crest.png",
+	"shipNamePrefix":"Alliance",
+	"shipNameSources":{
+		"IMPERIAL":2,
+		"ROMAN":1,
+		"GREEK":1,
+	},
+	"names":{
+		"old english":1,
+		"future":1,
+		"myth":1,	
+	},
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	"variantOverrides":{
+		"sw_quasar_rebel":10,
+		"sw_acclamator_rebel":10,
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp"],
+		"hulls":[
+		],
+	},
+
+	"knownShips":{
+		"tags":["rebel", "star_wars"],
+		"hulls":[
+			"sw_acclamator",
+			"sw_immobilizer",
+			"sw_quasar",
+		],
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[			
+		],
+	},
+	"knownFighters":{
+		"tags":["rebel"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["sw_missile_bp", "sw_lowtech_bp", "sw_midline_bp", "sw_hightech_bp"],
+		"weapons":[			
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "star_wars"],
+		"hullMods":[
+			"advancedshieldemitter",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"frontshield",  # makeshift
+			"surveying_equipment",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":3,
+		"phaseShips":1,
+		
+		"officerQuality":2,
+		"shipQuality":5,
+		"numShips":1,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+		
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"officer_management",
+			"coordinated_maneuvers",
+			"fighter_doctrine",
+			"electronic_warfare",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",	
+	],
+	"music":{
+		"theme":"music_hegemony_market_neutral",
+		"market_neutral":"music_hegemony_market_neutral",
+		"market_hostile":"music_hegemony_market_hostile",
+		"market_friendly":"music_hegemony_market_friendly",
+		"encounter_neutral":"music_hegemony_encounter_neutral",
+		"encounter_hostile":"music_hegemony_encounter_hostile",
+		"encounter_friendly":"music_hegemony_encounter_friendly",
+	},
+	"internalComms":"sw_rebel_internal",
+
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/Luke_Skywalker.png",
+			"graphics/portraits/Nien_Nunb.png",
+			"graphics/portraits/Admiral_Arkbar.png",
+			"graphics/portraits/Crix_Madine1.png",
+			"graphics/portraits/Crix_Madine2.png",
+			"graphics/portraits/Lobot.png",
+			"graphics/portraits/Mon_Calamari1.png",
+			"graphics/portraits/Mon_Calamari2.png",
+			"graphics/portraits/Mon_Calamari3.png",
+			"graphics/portraits/Mon_Calamari4.png",
+			"graphics/portraits/Poe1.png",
+			"graphics/portraits/Poe2.png",
+			"graphics/portraits/Rebel_General1.png",
+			"graphics/portraits/Rebel_General2.png",
+			"graphics/portraits/Rebel_Pilot1.png",
+			"graphics/portraits/Rebel_Pilot2.png",
+			"graphics/portraits/Rebel_Pilot3.png",
+			"graphics/portraits/Rebel_Trooper1.png",
+			"graphics/portraits/Raymus_Antilles1.png",
+			"graphics/portraits/Raymus_Antilles2.png",
+			"graphics/portraits/Greedo.png",
+		],
+
+		"standard_female":[
+			"graphics/portraits/C3PO.png",
+			"graphics/portraits/Med_Droid.png",
+			"graphics/portraits/Princess_Leia.png",
+			"graphics/portraits/Rey.png",
+			"graphics/portraits/Mara_Jade.png",
+			"graphics/portraits/Niathal.png",
+			"graphics/portraits/Rebel_Trooper2.png",
+			"graphics/portraits/Mon_Mothma1.png",
+			"graphics/portraits/Mon_Mothma2.png",
+			"graphics/portraits/Mon_Mothma3.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Supreme Chancellor"},
+			"spaceSailor":{"name":"Pilot"},
+			"spaceChief":{"name":"Officer"},
+			"spaceCommander":{"name":"Commander"},
+			"spaceCaptain":{"name":"Captain"},
+			"spaceAdmiral":{"name":"Admiral"},
+			"spaceMarshal":{"name":"Grand Admiral"}
+		},
+		"posts":{
+			"factionLeader":{"name":"Supreme Chancellor"},
+			"patrolCommander":{"name":"Commodore"},
+			"fleetCommander":{"name":"Amiral"},
+			"baseCommander":{"name":"General"},
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Trading Convoy",
+		"trade":"Trading Fleet",
+		"tradeLiner":"Personal Transport Convoy",
+		"patrolSmall":"Planet Patrol Fleet",
+		"patrolMedium":"Border Patrol Fleet",
+		"patrolLarge":"Sector Patrol Fleet",
+		"mercBountyHunter":"Bounty Hunter Fleet",
+		"inspectionFleet":"Recon Fleet",
+		"taskForce":"Principal Force Fleet",
+		"battlestation":"Defense Platform",
+	},	
+},
