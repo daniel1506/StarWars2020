@@ -1,0 +1,98 @@
+{
+  "variantId": "sw_imperial_ii_imperial",
+  "hullId": "sw_imperial_ii",
+  "displayName": "Imperial",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "chassis_storage",
+    "drive_field_stabilizer",
+    "ground_support",
+    "operations_center",
+    "repair_gantry",
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_oct_turbolaser",
+        "WS0002": "sw_oct_turbolaser",
+        "WS0003": "sw_oct_turbolaser",
+        "WS0004": "sw_oct_turbolaser",
+        "WS0005": "sw_oct_turbolaser",
+        "WS0006": "sw_oct_turbolaser",
+        "WS0007": "sw_oct_turbolaser",
+        "WS0008": "sw_oct_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sw_dual_turbolaser",
+        "WS0010": "sw_dual_turbolaser",
+        "WS0011": "sw_dual_turbolaser",
+        "WS0012": "sw_dual_turbolaser",
+        "WS0013": "sw_dual_turbolaser",
+        "WS0014": "sw_dual_turbolaser",
+        "WS0015": "sw_dual_turbolaser",
+        "WS0016": "sw_dual_turbolaser",
+        "WS0017": "sw_dual_turbolaser",
+        "WS0018": "sw_dual_turbolaser",
+        "WS0019": "sw_dual_turbolaser",
+        "WS0020": "sw_dual_turbolaser",
+        "WS0021": "sw_dual_turbolaser",
+        "WS0022": "sw_dual_turbolaser",
+        "WS0023": "sw_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0024": "sw_nk7_ion_cannon",
+        "WS0025": "sw_nk7_ion_cannon",
+        "WS0026": "sw_nk7_ion_cannon",
+        "WS0027": "sw_nk7_ion_cannon",
+        "WS0028": "sw_nk7_ion_cannon",
+        "WS0029": "sw_nk7_ion_cannon",
+        "WS0030": "sw_nk7_ion_cannon",
+        "WS0031": "sw_nk7_ion_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0032": "sw_concussion_missile_heavy",
+        "WS0033": "sw_concussion_missile_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0034": "sw_laser_cannon",
+        "WS0035": "sw_laser_cannon",
+        "WS0036": "sw_laser_cannon",
+        "WS0037": "sw_laser_cannon",
+        "WS0038": "sw_laser_cannon",
+        "WS0039": "sw_laser_cannon",
+        "WS0040": "sw_laser_cannon",
+        "WS0041": "sw_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_tie_fighter_wing",
+    "sw_tie_interceptor_wing",
+    "sw_tie_bomber_wing"
+  ]
+}

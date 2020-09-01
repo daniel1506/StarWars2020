@@ -1,0 +1,58 @@
+{
+  "variantId": "sw_vindicator_imperial",
+  "hullId": "sw_vindicator",
+  "displayName": "Imperial",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "blast_doors",
+    "ground_support",
+    "repair_gantry"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sw_dual_turbolaser_heavy",
+        "WS0005": "sw_dual_turbolaser_heavy",
+        "WS0006": "sw_dual_turbolaser_heavy",
+        "WS0007": "sw_dual_turbolaser_heavy",
+        "WS0008": "sw_dual_turbolaser_heavy",
+        "WS0009": "sw_dual_turbolaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sw_concussion_missile_heavy",
+        "WS0011": "sw_concussion_missile_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "sw_laser_cannon",
+        "WS0013": "sw_laser_cannon",
+        "WS0014": "sw_laser_cannon",
+        "WS0015": "sw_laser_cannon",
+        "WS0016": "sw_laser_cannon",
+        "WS0017": "sw_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_tie_fighter_wing"
+  ]
+}

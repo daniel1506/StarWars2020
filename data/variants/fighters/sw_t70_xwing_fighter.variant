@@ -1,0 +1,33 @@
+{
+  "variantId": "sw_t70_xwing_fighter",
+  "hullId": "sw_t70_xwing",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_kx12_laser_cannon",
+        "WS0002": "sw_kx12_laser_cannon",
+        "WS0003": "sw_kx12_laser_cannon",
+        "WS0004": "sw_kx12_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_proton_torpedo",
+        "WS0006": "sw_proton_torpedo"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

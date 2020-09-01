@@ -1,0 +1,27 @@
+{
+  "variantId": "sw_tie_interceptor_interceptor",
+  "hullId": "sw_tie_interceptor",
+  "displayName": "Interceptor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_ls72_laser_cannon",
+        "WS0002": "sw_ls72_laser_cannon",
+        "WS0003": "sw_ls72_laser_cannon",
+        "WS0004": "sw_ls72_laser_cannon",
+        "WS0005": "sw_ls72_laser_cannon",
+        "WS0006": "sw_ls72_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

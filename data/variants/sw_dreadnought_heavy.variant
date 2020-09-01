@@ -1,0 +1,60 @@
+{
+  "variantId": "sw_dreadnought_heavy",
+  "hullId": "sw_dreadnought",
+  "displayName": "Heavy",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "blast_doors",
+    "ground_support",
+    "repair_gantry",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_dual_turbolaser",
+        "WS0002": "sw_dual_turbolaser",
+        "WS0003": "sw_dual_turbolaser",
+        "WS0004": "sw_dual_turbolaser",
+        "WS0005": "sw_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sw_nk7_ion_cannon",
+        "WS0007": "sw_nk7_ion_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sw_concussion_missile_heavy",
+        "WS0009": "sw_concussion_missile_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sw_laser_cannon",
+        "WS0011": "sw_laser_cannon",
+        "WS0012": "sw_laser_cannon",
+        "WS0013": "sw_laser_cannon",
+        "WS0014": "sw_laser_cannon",
+        "WS0015": "sw_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
