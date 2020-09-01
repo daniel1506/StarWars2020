@@ -56,9 +56,9 @@
   ],
   "modules": [],
   "wings": [
-    "sw_tie_defender_wing",
-    "sw_tie_hunter_wing",
-    "sw_tie_interdictor_wing",
-    "sw_tie_predator_wing"
+    "sw_tie_aggressor_wing",
+    "sw_tie_advanced_wing",
+    "sw_tie_oppressor_wing",
+    "sw_tie_automated_wing"
   ]
 }
