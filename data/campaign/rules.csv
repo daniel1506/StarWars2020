@@ -1,0 +1,190 @@
+id,trigger,conditions,script,text,options,notes
+#Nexerelin menu options,,,,,,
+ExerelinNGCListGalacticEmpire,ExerelinNGCListFactions2,,,,exerelinNGCJoinGalacticEmpire:Galactic Empire,
+#ExerelinNGCJoinGalacticEmpire,NewGameOptionSelected,$option == exerelinNGCJoinGalacticEmpire,"$playerFaction = sw_empire
+FireBest ExerelinNGCJoinFaction",,,
+#ExerelinFactionDirectoryListGalacticEmpire,ExerelinFactionDirectoryList2,$directoryFactions:sw_empire,,,exerelinFactionDirectoryGetGalacticEmpire:Galactic Empire,
+#ExerelinFactionDirectoryGetGalacticEmpire,DialogOptionSelected,$option == exerelinFactionDirectoryGetGalacticEmpire,"$_directoryFaction = sw_empire 0
+FireBest ExerelinFactionDirectorySubmit",,,
+,,,,,,
+ExerelinNGCListNewRepublic,ExerelinNGCListFactions2,,,,exerelinNGCJoinNewRepublic:New Republic,
+#ExerelinNGCJoinNewRepublic,NewGameOptionSelected,$option == exerelinNGCJoinNewRepublic,"$playerFaction = sw_rebel
+FireBest ExerelinNGCJoinFaction",,,
+#ExerelinFactionDirectoryListNewRepublic,ExerelinFactionDirectoryList2,$directoryFactions:sw_rebel,,,exerelinFactionDirectoryGetNewRepublic:New Republic,
+#ExerelinFactionDirectoryGetNewRepublic,DialogOptionSelected,$option == exerelinFactionDirectoryGetNewRepublic,"$_directoryFaction = sw_rebel 0
+FireBest ExerelinFactionDirectorySubmit",,,
+,,,,,,
+,,,,,,
+##############################################,#############################,####################################################,##########################################################################,,,
+,,,,,,
+## Comms Options,,,,,,
+# Galactic Empire,,,,,,
+greetingFriendlyGalacticEmpire,OpenCommLink,"$faction.id == sw_empire
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","Communication established.
+
+""Greetings, captain. What business do you want with the Imperial today?""
+OR
+The Imperial $personRank salutes you in a very strict but welcoming fashion.
+
+""Captain, good to see you! The Empire welcomes you and hopes your journey has gone unscathed.""
+OR
+The Imperial $personRank greets you with a warm welcome.
+
+""Captain, glad to see you well! On behalf of the Emperor, I wish you a continuine good luck on your endeavours.""",,
+greetingHostileWeakerGalacticEmpire,OpenCommLink,"$faction.id == sw_empire
+$entity.isHostile
+$entity.relativeStrength < 0",$ignorePlayerCommRequests = true 1,"After a silent period of nothing but static the Imperial $personRank finally appears.
+
+""Captain, what an unexpected visit... I advise you to stand down and nobody will get hurt.""",cutCommLink:Cut the comm link,
+greetingHostileWeakerDefiantGalacticEmpire,OpenCommLink,"$faction.id == sw_empire
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"An angry $personRank appears on screen...
+
+""Captain, let me warn you a battle between us will end in nothing but death on both sides, but if you choose to do so the Empire will NOT surrender!""
+
+The comm is abruptly cut as the $heOrShe strikes the terminal.
+OR
+A very confident $personRank appears on screen...
+
+""Captain, I hope you do not greet us with a white flag, we still have quite a few salvaged from the last fleet that attempted to destroy us.""",cutCommLink:Cut the comm link,
+greetingHostileStrongerGalacticEmpire,OpenCommLink,"$faction.id == sw_empire
+$entity.isHostile
+$entity.relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"The Empire's crest appears on screen moments before a very imposing $personRank calmly starts to speak.
+
+""You are an enemy of the $faction, surrender now or prepare to face a swift death.""
+OR
+A very confident and aggressive $personRank appears on screen...
+
+""You stand no chance against the full power of the Empire. You have no choice but to surrender if you wish to be spared from certain doom!!""
+
+The $personRank glares at you one last time before quickly turning his back to the console while shouting battle commands to the crew of the $shipOrFleet.
+OR
+The Empire's crest appears on the comm-line and a strong voice is heard.
+
+""This is $personName, $personRank of the $faction. I will give you one chance to surrender before we open fire on your $shipOrFleet!""
+OR
+The $personRank proptly appears on the comms console...
+
+""Make it quick, our weapons are getting cold""
+OR
+After a lengthly delay, the $personRank finally appears answers the comm request...
+
+""I'm terribly sorry Commander, I was laughing with my crew while looking at your fleet... I do hope you enjoy your last moments alive!""",cutCommLink:Cut the comm link,
+greetingNeutralGalacticEmpire,OpenCommLink,"$faction.id == sw_empire
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","Communication established.
+
+""This is the Imperial Navy. Tread carefully as the $faction does not take aggression lightly!""
+OR
+A $personRank appears in a hurry...
+
+""State your business with the Imperial force at once, we have no time to deal with this kind of nuisances...""",,
+,,,,,,
+flavorTextMarketGalacticEmpire,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sw_empire","AddText ""As the ships approach the market area multiple escort frigates immediately engage each ship scanning for any threats or unwanted goods. The sky is filled with ships coming from all sides of the sector, dwarfing even some of the most imposing military fleets."" marketFlavorTextColor
+AddText ""Upon landing, multiple Empire banners are visible in each dock, with each hangar being heavily guarded my armed soldiers, almost as if the entire army was guarding the market."" marketFlavorTextColor",,,
+flavorTextMarketSmallGalacticEmpire,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sw_empire
+$market.size < 4","AddText ""A small stream of ships roam around the docks breaking the otherwise calm and peaceful environment. Small contingents of storm troopers guard the docks, easily scanning every ship coming in and out of each hangar, with each trooper bearing the Empire's insinia in their shoulders."" marketFlavorTextColor",,,
+flavorTextMarketCoruscant,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sw_empire
+$market.id == coruscant","AddText ""A true megalopolis, traders fill both the streets and the skies, with as many clients passing by as the entire population of some planets."" marketFlavorTextColor
+AddText ""In the distance, several large buildings cutting through the sky can be spotted, marking the center of the diplomatic district, the core and capital of all of the Imperial Worlds owned by the Empire. Banners as large as the whole buildings can be seen covering most of the largest structures, with entire military fleets patrolling the skies."" marketFlavorTextColor",,,
+,,,,,,
+marketPostOpenSiegedGalacticEmpire,MarketPostOpen,"$hasMarket
+$market.sieged == true score:1000","$marketLeaveTooltip = ""$Market is besieged."" 0
+$menuState = main 0
+$tradeMode = NONE 0","A fleet of the Imperial is holding their position preventing any ship from entering or leaving $market, engaging anyone attempting to ignore the blockade.",,
+,,,,,,
+aiCores_turnInOptionSellGalacticEmpire,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == sw_empire",FireAll PopulateCoresTurnInOptions,"""The Empire would be grateful and reward you so you would allow us to take possession of this sort of objects. Each of these helps with our war efforts and will allow for the development of new technologies.""",,
+aiCores_turnInResponseGalacticEmpire,AICoresTurnedIn,$faction.id == sw_empire,FireAll PopulateOptions,The $PersonRank $personLastName greets you one last time before closing the comms with the crest of the Empire.,,
+,,,,,,
+# New Republic,,,,,,
+greetingFriendlyNewRepublic,OpenCommLink,"$faction.id == sw_rebel
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","Communication established.
+
+""Greetings, captain. What business do you want with the Alliance today?""
+OR
+The Republic $personRank salutes you in a very strict but welcoming fashion.
+
+""Captain, good to see you! The Alliance welcomes you and hopes your journey has gone unscathed.""
+OR
+The Republic $personRank greets you with a warm welcome.
+
+""Captain, glad to see you well! On behalf of the Supreme Chancellor, I wish you a continuine good luck on your endeavours.""",,
+greetingHostileWeakerNewRepublic,OpenCommLink,"$faction.id == sw_rebel
+$entity.isHostile
+$entity.relativeStrength < 0",$ignorePlayerCommRequests = true 1,"After a silent period of nothing but static the Republic $personRank finally appears.
+
+""Captain, what an unexpected visit... I advise you to stand down and nobody will get hurt.""",cutCommLink:Cut the comm link,
+greetingHostileWeakerDefiantNewRepublic,OpenCommLink,"$faction.id == sw_rebel
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"An angry $personRank appears on screen...
+
+""Captain, let me warn you a battle between us will end in nothing but death on both sides, but if you choose to do so the Republic will NOT surrender!""
+
+The comm is abruptly cut as the $heOrShe strikes the terminal.
+OR
+A very confident $personRank appears on screen...
+
+""Captain, I hope you do not greet us with a white flag, we still have quite a few salvaged from the last fleet that attempted to destroy us.""",cutCommLink:Cut the comm link,
+greetingHostileStrongerNewRepublic,OpenCommLink,"$faction.id == sw_rebel
+$entity.isHostile
+$entity.relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"The Republic's crest appears on screen moments before a very imposing $personRank calmly starts to speak.
+
+""You are an enemy of the $faction, surrender now or prepare to face a swift death.""
+OR
+A very confident and aggressive $personRank appears on screen...
+
+""You stand no chance against the full power of the Republic. You have no choice but to surrender if you wish to be spared from certain doom!!""
+
+The $personRank glares at you one last time before quickly turning his back to the console while shouting battle commands to the crew of the $shipOrFleet.
+OR
+The Republic's crest appears on the comm-line and a strong voice is heard.
+
+""This is $personName, $personRank of the $faction. I will give you one chance to surrender before we open fire on your $shipOrFleet!""
+OR
+The $personRank proptly appears on the comms console...
+
+""Make it quick, our weapons are getting cold""
+OR
+After a lengthly delay, the $personRank finally appears answers the comm request...
+
+""I'm terribly sorry Commander, I was laughing with my crew while looking at your fleet... I do hope you enjoy your last moments alive!""",cutCommLink:Cut the comm link,
+greetingNeutralNewRepublic,OpenCommLink,"$faction.id == sw_rebel
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","Communication established.
+
+""The Alliance greets you. Tread carefully as the $faction does not take aggression lightly!""
+OR
+A $personRank appears in a hurry...
+
+""State your business with the Republic force at once, we have no time to deal with this kind of nuisances...""",,
+,,,,,,
+flavorTextMarketNewRepublic,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sw_rebel","AddText ""As the ships approach the market area multiple escort frigates immediately engage each ship scanning for any threats or unwanted goods. The sky is filled with ships coming from all sides of the sector, dwarfing even some of the most imposing military fleets."" marketFlavorTextColor
+AddText ""Upon landing, multiple Republic banners are visible in each dock, with each hangar being heavily guarded my armed soldiers, almost as if the entire army was guarding the market."" marketFlavorTextColor",,,
+flavorTextMarketSmallNewRepublic,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sw_rebel
+$market.size < 4","AddText ""A small stream of ships roam around the docks breaking the otherwise calm and peaceful environment. Small contingents of police forces guard the docks, easily scanning every ship coming in and out of each hangar, with each police bearing the Republic's insinia in their shoulders."" marketFlavorTextColor",,,
+flavorTextMarketChandrila,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sw_rebel
+$market.id == chandrila","AddText ""A true megalopolis, traders fill both the streets and the skies, with as many clients passing by as the entire population of some planets."" marketFlavorTextColor
+AddText ""In the distance, several large buildings cutting through the sky can be spotted, marking the center of the diplomatic district, the core and capital of all of the Republic Worlds owned by the New Republic. Banners as large as the whole buildings can be seen covering most of the largest structures, with entire military fleets patrolling the skies."" marketFlavorTextColor",,,
+,,,,,,
+marketPostOpenSiegedNewRepublic,MarketPostOpen,"$hasMarket
+$market.sieged == true score:1000","$marketLeaveTooltip = ""$Market is besieged."" 0
+$menuState = main 0
+$tradeMode = NONE 0","A fleet of the Republic is holding their position preventing any ship from entering or leaving $market, engaging anyone attempting to ignore the blockade.",,
+,,,,,,
+aiCores_turnInOptionSellNewRepublic,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == sw_rebel",FireAll PopulateCoresTurnInOptions,"""The Alliance would be grateful and reward you so you would allow us to take possession of this sort of objects. Each of these helps with our war efforts and will allow for the development of new technologies.""",,
+aiCores_turnInResponseNewRepublic,AICoresTurnedIn,$faction.id == sw_rebel,FireAll PopulateOptions,The $PersonRank $personLastName greets you one last time before closing the comms with the crest of the Republic.,,
+,,,,,,
+,,,,,,
+##############################################,#############################,####################################################,##########################################################################,,,
