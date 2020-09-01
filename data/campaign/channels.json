@@ -1,0 +1,48 @@
+{
+	"defaultChannels":[
+		"sw_empire_public",
+		"sw_rebel_public"		
+        ],
+        
+        "sw_empire_public":{
+		"name":"Galactic Empire Public Channel",
+		"logo":"graphics/icons/intel/sw_empire_icon.png",
+		"icon":"graphics/icons/intel/sw_empire_icon.png",
+		"image":"graphics/factions/sw_empire_flag.png",
+		"sound":"ui_channel_news",
+		"faction":"sw_empire",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"sw_empire_internal":{
+		"name":"Imperial Navy Encrypted Comm Link",
+		"logo":"graphics/icons/intel/sw_empire_icon.png",
+		"icon":"graphics/icons/intel/sw_empire_icon.png",
+		"image":"graphics/factions/sw_empire_flag.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"sw_empire",
+		"type":"Encrypted Transmission",
+		"shortType":"Intel",
+	},
+
+	"sw_rebel_public":{
+		"name":"New Repubic Public Channel",
+		"logo":"graphics/icons/intel/sw_rebel_icon.png",
+		"icon":"graphics/icons/intel/sw_rebel_icon.png",
+		"image":"graphics/factions/sw_rebel_flag.png",
+		"sound":"ui_channel_news",
+		"faction":"sw_rebel",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"sw_rebel_internal":{
+		"name":"Republic Alliance Encrypted Comm Link",
+		"logo":"graphics/icons/intel/sw_rebel_icon.png",
+		"icon":"graphics/icons/intel/sw_rebel_icon.png",
+		"image":"graphics/factions/sw_rebel_flag.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"sw_rebel",
+		"type":"Encrypted Transmission",
+		"shortType":"Intel",
+	},
+}
