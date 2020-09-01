@@ -1,0 +1,26 @@
+{
+	"sw_empire_label":{
+		"defaultName":"The Imperial Worlds", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":6,
+		"nameAngle":0,
+		"nameColor":[205,205,205,200],
+		"nameShadowColor":[0,0,0,120], 
+		"scaleNameWithZoom":true,
+	},
+	"sw_rebel_label":{
+		"defaultName":"The Imperial Worlds", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":6,
+		"nameAngle":0,
+		"nameColor":[230,0,0,200],
+		"nameShadowColor":[0,0,0,120], 
+		"scaleNameWithZoom":true,
+	},
+}

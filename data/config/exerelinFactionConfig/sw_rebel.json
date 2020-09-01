@@ -1,0 +1,69 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Separatist",
+    
+    "directoryUseShortName":true,
+	
+	"marketSpawnWeight":0.8,
+	
+	"startRelationships":{ "independent":0.5, "hegemony": -0.7, "luddic_church": -0.3, "sw_empire": -1.0, "persean": 1.0 },
+	"maxRelationships":{ "independent":0.5, "hegemony": -0.5, "sw_empire":-0.5 },
+	"diplomacyPositiveChance":{ "independent":0.5, },
+	"diplomacyNegativeChance":{ "hegemony":1, "sw_empire":1 },
+	"diplomacyTraits":["helps_allies", "likes_ai", "stalwart", "neutralist"],
+    
+    "alignments":{
+        "technocratic":0.5,
+        "diplomatic":0.5,
+        "militarist":0.1,
+	"ideological":0.3,
+    },
+    
+    "startShipsSolo":[["sw_nebula_rebel"]],
+    "startShipsTradeSmall":[
+		["sw_mc40a_rebel", "sw_bulk_light", "sw_dp20_rebel"],
+		["sw_bulk_light", "sw_quasar_rebel", "sw_mc30c_rebel"]
+	],
+    "startShipsTradeLarge":[
+		["sw_aa9_super", "sw_lancer_heavy", "sw_assault_frigate_mk2_rebel"],
+		["sw_aa9_super", "sw_ton_falk_escort", "sw_mc40a_rebel"]
+	],
+    "startShipsCombatSmall":[
+		["sw_nebula_rebel", "sw_mc30c_rebel", "sw_mc30c_rebel"],
+		["sw_assault_frigate_mk2_rebel", "sw_immobilizer_imperial", "sw_mc30c_rebel"]		
+	],
+    "startShipsCombatLarge":[		
+		["sw_mc30c_rebel", "sw_mc80_liberty_rebel", "sw_assault_frigate_mk2_rebel"],
+		["sw_mc80b_rebel", "sw_nebula_rebel", "sw_mc30c_rebel"]
+	],
+    "startShipsCarrierSmall":[		
+		["sw_ton_falk_escort", "sw_assault_frigate_mk2_rebel", "sw_nebula_rebel"],
+		["sw_mc75_rebel", "sw_assault_frigate_mk2_rebel", "sw_immobilizer_imperial"]
+	],
+    "startShipsCarrierLarge":[
+		["sw_mc75_rebel", "sw_nebula_rebel", "sw_assault_frigate_mk2_rebel"],
+		["sw_mc80_liberty_rebel", "sw_ton_falk_escort", "sw_mc30c_rebel"]
+	],
+    
+    "startSpecialItems":[
+        [["sw_weapon_package", "sw_lowtech_package"]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

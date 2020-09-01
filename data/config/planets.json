@@ -1,0 +1,25 @@
+{	
+	"ecumenopolis":{
+		"name":"Ecumenopolis",
+		"tilt":20, # left-right (>0 tilts to the left)
+		"pitch":30, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":40, #  minimum thickness in pixels
+		"atmosphereColor":[60,160,215,160],
+		"texture":"graphics/planets/coruscant.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[155,185,255,255],
+		"isStar":false,
+		"lightPosition":[4,-1,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[235,240,250,0],
+		"cloudRotation":-5, # degrees/second, optional
+	},	
+}
+
+
+
+
+

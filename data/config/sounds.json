@@ -1,0 +1,44 @@
+{
+	"sw_sound_quad_turbolaser":[
+		{"file":"sounds/sfx_wpn_energy/sw_quad_turbolaser_fire.ogg","pitch":1.0,"volume":0.5},
+	],
+	"sw_sound_laser_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_laser_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+	],
+	"sw_sound_ion_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_ion_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+	],
+	"sw_sound_torpedo_launch":[
+		{"file":"sounds/sfx_wpn_missiles/sw_torpedo_launch.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_sound_missile_launch":[
+		{"file":"sounds/sfx_wpn_missiles/sw_missile_launch.ogg","pitch":1.0,"volume":0.7},
+	],
+	"sw_sound_ls72_laser_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_ls72_laser_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+	],
+	"sw_sound_nk3_ion_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_nk3_ion_cannon_fire.ogg","pitch":1.0,"volume":0.5},
+	],
+	"sw_sound_xwing_laser_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_xwing_fire.ogg","pitch":1.0,"volume":0.3},
+	],
+	"sw_system_concentrate_fire":[
+		{"file":"sounds/sfx_systems/sw_concentrate_fire1.ogg","pitch":1.0,"volume":0.7},
+		{"file":"sounds/sfx_systems/sw_concentrate_fire2.ogg","pitch":1.0,"volume":0.7},
+	],
+	"sw_system_shields_boost":[
+		{"file":"sounds/sfx_systems/sw_shields_boost1.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_systems/sw_shields_boost2.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_systems/sw_shields_boost3.ogg","pitch":1.0,"volume":0.5},
+	],	     
+}
+
+
+
+
+
+
+
+
+
