@@ -112,19 +112,19 @@
 		"fallback2":{"carrierLarge":0.25},
 	},
 	"carrierMedium":{
-		"sw_consolidator_assault":10,
+		"sw_gladiator_imperial":10,
 		"sw_ton_falk_escort":10,
 		"fallback":{"carrierSmall":1},
 		"fallback2":{"carrierLarge":0.5},
 	},
 	"carrierLarge":{
-		"sw_gladiator_imperial":10,
+		"sw_consolidator_assault":10,
 		"sw_mc75_rebel":10,
 
 		"sw_acclamator_imperial":5,
 		"sw_acclamator_rebel":5,
 
-		"sw_secutor_imperial":1,
+		"sw_secutor_imperial":3,
 		
 		"fallback":{"carrierMedium":1},
 		"fallback2":{"carrierSmall":1},
