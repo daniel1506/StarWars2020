@@ -18,7 +18,7 @@
 		{"file":"sounds/sfx_wpn_energy/sw_ls72_laser_cannon_fire.ogg","pitch":1.0,"volume":0.3},
 	],
 	"sw_sound_nk3_ion_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_nk3_ion_cannon_fire.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_energy/sw_nk3_ion_cannon_fire.ogg","pitch":1.0,"volume":0.3},
 	],
 	"sw_sound_xwing_laser_cannon":[
 		{"file":"sounds/sfx_wpn_energy/sw_xwing_fire.ogg","pitch":1.0,"volume":0.3},
