@@ -1,27 +1,49 @@
 {
+
+"music":{
+	
+	"music_combat":[
+			{
+				"source":"sounds/music/",
+				"volume":0.2,
+				"files":[
+					"The_Battle_Of_Endor_I.ogg",
+					"The_Battle_Of_Endor_II.ogg",
+				],
+			},
+		],
+
+	},
+
 	"sw_sound_quad_turbolaser":[
 		{"file":"sounds/sfx_wpn_energy/sw_quad_turbolaser_fire.ogg","pitch":1.0,"volume":0.5},
 	],
+	"sw_sound_oct_turbolaser":[
+		{"file":"sounds/sfx_wpn_energy/sw_oct_turbolaser_fire.ogg","pitch":1.0,"volume":0.4},
+	],
+	"sw_sound_turbolaser":[
+		{"file":"sounds/sfx_wpn_energy/sw_turbolaser_fire.ogg","pitch":1.0,"volume":0.1},
+	],
 	"sw_sound_laser_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_laser_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+		{"file":"sounds/sfx_wpn_energy/sw_laser_cannon_fire.ogg","pitch":1.0,"volume":0.4},
 	],
 	"sw_sound_ion_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_ion_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+		{"file":"sounds/sfx_wpn_energy/sw_ion_cannon_fire.ogg","pitch":1.0,"volume":0.2},
 	],
 	"sw_sound_torpedo_launch":[
-		{"file":"sounds/sfx_wpn_missiles/sw_torpedo_launch.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_wpn_missiles/sw_torpedo_launch.ogg","pitch":1.0,"volume":0.5},
 	],
 	"sw_sound_missile_launch":[
-		{"file":"sounds/sfx_wpn_missiles/sw_missile_launch.ogg","pitch":1.0,"volume":0.7},
+		{"file":"sounds/sfx_wpn_missiles/sw_missile_launch.ogg","pitch":1.0,"volume":0.5},
 	],
 	"sw_sound_ls72_laser_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_ls72_laser_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+		{"file":"sounds/sfx_wpn_energy/sw_ls72_laser_cannon_fire.ogg","pitch":1.0,"volume":0.2},
 	],
 	"sw_sound_nk3_ion_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_nk3_ion_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+		{"file":"sounds/sfx_wpn_energy/sw_nk3_ion_cannon_fire.ogg","pitch":1.0,"volume":0.2},
 	],
 	"sw_sound_xwing_laser_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_xwing_fire.ogg","pitch":1.0,"volume":0.3},
+		{"file":"sounds/sfx_wpn_energy/sw_xwing_fire.ogg","pitch":1.0,"volume":0.15},
 	],
 	"sw_system_concentrate_fire":[
 		{"file":"sounds/sfx_systems/sw_concentrate_fire1.ogg","pitch":1.0,"volume":0.7},
@@ -31,8 +53,57 @@
 		{"file":"sounds/sfx_systems/sw_shields_boost1.ogg","pitch":1.0,"volume":0.5},
 		{"file":"sounds/sfx_systems/sw_shields_boost2.ogg","pitch":1.0,"volume":0.5},
 		{"file":"sounds/sfx_systems/sw_shields_boost3.ogg","pitch":1.0,"volume":0.5},
-	],	     
+	],
+	"sw_imperial_shields_burnout":[
+		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout1.ogg","pitch":1,"volume":2},
+		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout2.ogg","pitch":1,"volume":0.5},
+		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout3.ogg","pitch":1,"volume":0.5},
+	],
+	"sw_imperial_flameout":[
+		{"file":"sounds/sfx_voices/sw_imperial_flameout1.ogg","pitch":1,"volume":2},
+		{"file":"sounds/sfx_voices/sw_imperial_flameout2.ogg","pitch":1,"volume":0.5},
+	],
+	"sw_rebel_shields_burnout":[
+		{"file":"sounds/sfx_voices/sw_rebel_shields_burnout.ogg","pitch":1,"volume":0.3},
+	],
+	"sw_rebel_flameout":[
+		{"file":"sounds/sfx_voices/sw_rebel_flameout.ogg","pitch":1,"volume":0.3},
+	],
+
+	"sw_imperial_engine_loop":{
+		"sounds":[
+			{"file":"sounds/sfx_engines/sw_tie_engine_loop.ogg","pitch":1,"volume":1}, # index:  0
+			{"file":"sounds/sfx_engines/engine_03_hitek_01_frigate.ogg","pitch":1,"volume":1},    # index: 1
+			{"file":"sounds/sfx_engines/engine_03_hitek_02_destroyer.ogg","pitch":1,"volume":1},  # index: 2
+			{"file":"sounds/sfx_engines/engine_03_hitek_03_cruiser.ogg","pitch":1,"volume":1},    # index: 3
+			{"file":"sounds/sfx_engines/engine_03_hitek_04_capital.ogg","pitch":1,"volume":1},    # index: 4
+			],
+
+		"SW_IMPERIAL":{"sounds":[0,1,2,3,4], "pitch":1, "volume":0.5},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.3},
+		"FRIGATE":{"sounds":[1], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[2], "pitch":1, "volume":0.7},
+		"CRUISER":{"sounds":[3], "pitch":1, "volume":0.7},
+		"CAPITAL_SHIP":{"sounds":[4], "pitch":1, "volume":1},	
+		},
+
+#	"sw_imperial_shield_burnout":{ # played when a ship overloads
+#		"sounds":[
+#			{"file":"sounds/sfx_shields/shields_burnout_oneshot.ogg","pitch":1,"volume":1},
+#			{"file":"sounds/sfx_shields/sw_imperial_shields_burnout1.ogg","pitch":1,"volume":1},
+#			{"file":"sounds/sfx_shields/sw_imperial_shields_burnout2.ogg","pitch":1,"volume":1},
+#			{"file":"sounds/sfx_shields/sw_imperial_shields_burnout3.ogg","pitch":1,"volume":1},
+#		],
+#		"SW_IMPERIAL":{"sounds":[0,1,2,3], "pitch":1, "volume":1},
+#		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+#		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+#		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+#		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.5},
+#		"CAPITAL_SHIP":{"sounds":[1], "pitch":1, "volume":2},
+#		},
+	     
 }
+
 
 
 
