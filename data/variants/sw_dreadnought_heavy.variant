@@ -8,11 +8,9 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "advancedshieldemitter",
     "blast_doors",
     "ground_support",
-    "repair_gantry",
-    "targetingunit"
+    "repair_gantry"
   ],
   "weaponGroups": [
     {
