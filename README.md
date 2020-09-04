@@ -27,4 +27,4 @@ Special thnanks to Alex and the dev team of Starsector, Starsector community and
 
 Voice line sfx from Star Wars Empire at War are property of Petroglyph Games and LucasArts.
 
-All models, and sound are property of and all rights reserved by STAR WARS © & ™ LUCASFILM LTD.
+All models, music and sound are property of and all rights reserved by STAR WARS © & ™ LUCASFILM LTD.
