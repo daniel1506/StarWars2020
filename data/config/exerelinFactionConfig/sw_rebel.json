@@ -23,8 +23,8 @@
     
     "startShipsSolo":[["sw_nebula_rebel"]],
     "startShipsTradeSmall":[
-		["sw_mc40a_rebel", "sw_bulk_light", "sw_dp20_rebel"],
-		["sw_bulk_light", "sw_quasar_rebel", "sw_mc30c_rebel"]
+		["sw_mc40a_rebel", "sw_bff_1_bulk", "sw_dp20_rebel"],
+		["sw_bff_1_bulk", "sw_quasar_rebel", "sw_mc30c_rebel"]
 	],
     "startShipsTradeLarge":[
 		["sw_aa9_super", "sw_lancer_heavy", "sw_assault_frigate_mk2_rebel"],

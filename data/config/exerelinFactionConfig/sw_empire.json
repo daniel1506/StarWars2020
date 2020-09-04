@@ -23,8 +23,8 @@
     
     "startShipsSolo":[["sw_procursator_imperial"]],
     "startShipsTradeSmall":[
-		["sw_vindicator_imperial", "sw_bulk_light", "sw_vigil_imperial"],
-		["sw_bulk_light", "sw_quasar_imperial", "sw_dreadnought_heavy"]
+		["sw_vindicator_imperial", "sw_bff_1_bulk", "sw_vigil_imperial"],
+		["sw_bff_1_bulk", "sw_quasar_imperial", "sw_dreadnought_heavy"]
 	],
     "startShipsTradeLarge":[
 		["sw_aa9_super", "sw_lancer_heavy", "sw_victory_i_imperial"],
