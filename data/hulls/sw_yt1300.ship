@@ -1,19 +1,18 @@
 {
-  "hullName": "YT-1300 Lighter Freighter",
+  "hullName": "YT-1300 Light Frieghter",
   "hullId": "sw_yt1300",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sw_yt1300.png",
   "style": "LOW_TECH",
-  "height": 88,
-  "width": 69,
-  "center": [33.5, 44],
-  "collisionRadius": 45.5,
+  "height": 60,
+  "width": 47,
+  "center": [22.5, 30],
+  "collisionRadius": 31,
   "shieldCenter": [0, -0],
-  "shieldRadius": 46.5,
+  "shieldRadius": 32,
   "viewOffset": 0,
   "builtInMods": [
     "civgrade",
-    "repair_gantry",
     "shielded_holds",
     "sw_hyperdrive"
   ],
@@ -25,7 +24,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [40.5, 8]
+      "locations": [28, 6]
     },
     {
       "id": "WS0002",
@@ -34,7 +33,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [40.5, -8]
+      "locations": [28, -6]
     },
     {
       "id": "WS0003",
@@ -43,7 +42,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [25.5, 4]
+      "locations": [16.5, 1.5]
     },
     {
       "id": "WS0004",
@@ -52,7 +51,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [25.5, -4]
+      "locations": [16.5, -1.5]
     },
     {
       "id": "WS0005",
@@ -61,59 +60,43 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [-11, -0]
+      "locations": [-7.5, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-42, 10.5],
+      "location": [-27.5, 10.5],
       "length": 1,
       "width": 10,
       "angle": 180,
-      "contrailSize": 1,
+      "contrailSize": 30,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-42, -10.5],
+      "location": [-27.5, -10.5],
       "length": 1,
       "width": 10,
       "angle": -180,
-      "contrailSize": 5,
+      "contrailSize": 30,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-43.5, -0],
+      "location": [-29.5, -0],
       "length": 1,
       "width": 10,
       "angle": 180,
-      "contrailSize": 5,
-      "style": "HIGH_TECH"
-    },
-    {
-      "location": [-43.5, 0],
-      "length": 1,
-      "width": 15,
-      "angle": -180,
-      "contrailSize": 5,
+      "contrailSize": 30,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    26.5, -4.5,
-    42.5, -4.5,
-    42.5, -10,
-    7.5, -25,
-    -3.5, -31,
-    -18.5, -31,
-    -36, -21.5,
-    -43.5, -6.5,
-    -43.5, 6.5,
-    -36, 21.5,
-    -18.5, 31,
-    -3.5, 31,
-    7.5, 25,
-    42.5, 10,
-    42.5, 4.5,
-    26.5, 4.5
+    29.5, -6.5,
+    -1, -22,
+    -13.5, -22,
+    -29.5, -8,
+    -29.5, 8,
+    -13.5, 22,
+    -1, 22,
+    29.5, 6.5
   ]
 }
