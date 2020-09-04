@@ -3,7 +3,7 @@
   "hullId": "sw_assertor",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/sw_assertor.png",
-  "style": "HIGH_TECH",
+  "style": "SW_IMPERIAL",
   "height": 1200,
   "width": 632,
   "center": [316, 600],
@@ -25,7 +25,8 @@
     "hiressensors",
     "nav_relay",
     "recovery_shuttles",
-    "surveying_equipment"
+    "surveying_equipment",
+    "targetingunit"
   ],
   "weaponSlots": [
     {

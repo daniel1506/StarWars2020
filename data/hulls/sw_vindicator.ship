@@ -3,7 +3,7 @@
   "hullId": "sw_vindicator",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/sw_vindicator.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 305,
   "width": 150,
   "center": [75.5, 148.5],

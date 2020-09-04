@@ -3,7 +3,7 @@
   "hullId": "sw_allegiance",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/sw_allegiance.png",
-  "style": "HIGH_TECH",
+  "style": "SW_IMPERIAL",
   "height": 709,
   "width": 428,
   "center": [214, 354.5],

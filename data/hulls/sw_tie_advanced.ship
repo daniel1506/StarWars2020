@@ -3,7 +3,7 @@
   "hullId": "sw_tie_advanced",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_advanced.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 25,
   "width": 24,
   "center": [12, 12.5],

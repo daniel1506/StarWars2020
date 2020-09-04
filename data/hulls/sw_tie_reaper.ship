@@ -3,7 +3,7 @@
   "hullId": "sw_tie_reaper",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_reaper.png",
-  "style": "LOW_TECH",
+  "style": "SW_IMPERIAL",
   "height": 37,
   "width": 24,
   "center": [12, 18.5],

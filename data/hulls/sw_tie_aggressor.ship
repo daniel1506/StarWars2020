@@ -3,7 +3,7 @@
   "hullId": "sw_tie_aggressor",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_aggressor.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 36,
   "width": 33,
   "center": [16.5, 18],

@@ -3,7 +3,7 @@
   "hullId": "sw_procursator",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/sw_procursator.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 466,
   "width": 248,
   "center": [124, 232],

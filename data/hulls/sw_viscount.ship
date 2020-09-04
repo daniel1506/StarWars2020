@@ -24,7 +24,8 @@
     "repair_gantry",
     "sw_deflector_shield",
     "sw_hyperdrive",
-    "surveying_equipment"
+    "surveying_equipment",
+    "targetingunit"
   ],
   "weaponSlots": [
     {

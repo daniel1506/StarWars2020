@@ -3,7 +3,7 @@
   "hullId": "sw_imperial_ii",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/sw_imperial_ii.png",
-  "style": "HIGH_TECH",
+  "style": "SW_IMPERIAL",
   "height": 650,
   "width": 396,
   "center": [198, 325],

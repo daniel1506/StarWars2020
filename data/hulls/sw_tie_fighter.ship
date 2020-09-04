@@ -3,7 +3,7 @@
   "hullId": "sw_tie_fighter",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_fighter.png",
-  "style": "LOW_TECH",
+  "style": "SW_IMPERIAL",
   "height": 34,
   "width": 30,
   "center": [15, 17],

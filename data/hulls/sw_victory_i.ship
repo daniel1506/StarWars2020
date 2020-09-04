@@ -3,7 +3,7 @@
   "hullId": "sw_victory_i",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/sw_victory_i.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 398,
   "width": 312,
   "center": [156, 176.5],
@@ -106,7 +106,7 @@
       "id": "WS0009",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": -270,
       "locations": [-56.5, 69.5]

@@ -3,7 +3,7 @@
   "hullId": "sw_secutor",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/sw_secutor.png",
-  "style": "HIGH_TECH",
+  "style": "SW_IMPERIAL",
   "height": 746,
   "width": 618,
   "center": [309, 326.5],

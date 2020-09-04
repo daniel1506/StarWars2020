@@ -3,7 +3,7 @@
   "hullId": "sw_consolidator",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/sw_consolidator.png",
-  "style": "HIGH_TECH",
+  "style": "SW_IMPERIAL",
   "height": 653,
   "width": 382,
   "center": [191, 326.5],

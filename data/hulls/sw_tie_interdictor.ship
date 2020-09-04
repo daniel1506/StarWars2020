@@ -3,7 +3,7 @@
   "hullId": "sw_tie_interdictor",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_interdictor.png",
-  "style": "HIGH_TECH",
+  "style": "SW_IMPERIAL",
   "height": 30,
   "width": 31,
   "center": [15.5, 15],

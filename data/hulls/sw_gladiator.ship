@@ -1,7 +1,7 @@
 {
   "hullName": "Gladiator Class Star Destroyer",
   "hullId": "sw_gladiator",
-  "hullSize": "CRUISER",
+  "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/sw_gladiator.png",
   "style": "MIDLINE",
   "height": 243,

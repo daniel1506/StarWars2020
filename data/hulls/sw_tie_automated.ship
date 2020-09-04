@@ -3,7 +3,7 @@
   "hullId": "sw_tie_automated",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_automated.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 25,
   "width": 32,
   "center": [16, 11],

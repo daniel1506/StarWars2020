@@ -3,7 +3,7 @@
   "hullId": "sw_tie_oppressor",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_oppressor.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 33,
   "width": 29,
   "center": [14.5, 16.5],
