@@ -132,7 +132,9 @@
 
 	# freighters and such
 	"freighterSmall":{
-		"sw_bulk_light":10,
+		"sw_bff_1_bulk":10,
+		"sw_yt1300_light":7,
+		"sw_gr75_medium":7,
 		"fallback":{"freighterMedium":0.5},
 		"fallback2":{"freighterLarge":0.25},
 	},
