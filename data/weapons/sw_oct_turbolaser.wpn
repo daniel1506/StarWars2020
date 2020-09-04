@@ -46,5 +46,5 @@
     ]
   },
   "textureType": ROUGH,
-  "fireSoundTwo": "sw_sound_quad_turbolaser"
+  "fireSoundTwo": "sw_sound_oct_turbolaser"
 }

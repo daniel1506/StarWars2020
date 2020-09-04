@@ -50,5 +50,5 @@
     ]
   },
   "textureType": ROUGH,
-  "fireSoundTwo": "sw_sound_laser_cannon"
+  "fireSoundTwo": "sw_sound_turbolaser"
 }
