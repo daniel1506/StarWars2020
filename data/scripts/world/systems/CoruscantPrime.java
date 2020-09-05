@@ -50,7 +50,7 @@ public class CoruscantPrime {
 										    500); // corona radius, from star edge
 		system.setLightColor(new Color(245, 250, 255)); // light color in entire system, affects all entities				
 		
-		PlanetAPI coruscant1 = system.addPlanet("coruscant", coruscant_star, "Caruscant", "ecumenopolis", 10, 110, 2500, 110);
+		PlanetAPI coruscant1 = system.addPlanet("coruscant", coruscant_star, "Coruscant", "ecumenopolis", 10, 110, 2500, 110);
 		coruscant1.getSpec().setPlanetColor(new Color(205,205,205,205));
 		coruscant1.setCustomDescriptionId("planet_coruscant");
 		coruscant1.applySpecChanges();
