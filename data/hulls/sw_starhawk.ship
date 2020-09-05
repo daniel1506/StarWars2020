@@ -13,15 +13,10 @@
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "chassis_storage",
     "drive_field_stabilizer",
     "ground_support",
     "hiressensors",
-    "nav_relay",
     "operations_center",
-    "repair_gantry",
-    "surveying_equipment",
-    "recovery_shuttles",
     "sw_deflector_shield"
   ],
   "weaponSlots": [

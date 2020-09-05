@@ -12,7 +12,6 @@
   "shieldRadius": 54.5,
   "viewOffset": 0,
   "builtInMods": [
-    "chassis_storage",
     "blast_doors"
   ],
   "weaponSlots": [

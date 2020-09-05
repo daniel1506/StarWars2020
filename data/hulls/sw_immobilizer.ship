@@ -13,13 +13,9 @@
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "chassis_storage",
     "drive_field_stabilizer",
     "ecm",
     "eccm",
-    "ground_support",
-    "repair_gantry",
-    "surveying_equipment",
     "sw_deflector_shield"
   ],
   "weaponSlots": [

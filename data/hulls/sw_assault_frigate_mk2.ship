@@ -14,9 +14,6 @@
   "builtInMods": [
     "blast_doors",
     "ground_support",
-    "nav_relay",
-    "repair_gantry",
-    "surveying_equipment",
     "sw_deflector_shield"
   ],
   "weaponSlots": [

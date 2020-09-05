@@ -12,20 +12,14 @@
   "shieldRadius": 439.5,
   "viewOffset": 0,
   "builtInMods": [
-    "chassis_storage",
     "drive_field_stabilizer",
     "ground_support",
-    "repair_gantry",
-    "nav_relay",
     "operations_center",
-    "recovery_shuttles",
     "blast_doors",
-    "surveying_equipment",
     "sw_deflector_shield",
     "sw_hyperdrive",
-    "sw_r_droids",
     "hiressensors",
-    "targetingunit"
+    "recovery_shuttles"
   ],
   "weaponSlots": [
     {

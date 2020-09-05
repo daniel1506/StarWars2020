@@ -12,18 +12,11 @@
   "shieldRadius": 349.5,
   "viewOffset": 0,
   "builtInMods": [
-    "autorepair",
     "blast_doors",
-    "chassis_storage",
     "drive_field_stabilizer",
     "ground_support",
-    "hardenedshieldemitter",
     "hiressensors",
-    "nav_relay",
     "operations_center",
-    "recovery_shuttles",
-    "repair_gantry",
-    "surveying_equipment",
     "sw_deflector_shield"
   ],
   "weaponSlots": [

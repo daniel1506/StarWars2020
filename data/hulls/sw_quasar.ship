@@ -13,9 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "chassis_storage",
-    "recovery_shuttles",
-    "surveying_equipment"
+    "recovery_shuttles"
   ],
   "weaponSlots": [
     {

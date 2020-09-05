@@ -12,8 +12,7 @@
   "shieldRadius": 115.5,
   "viewOffset": 0,
   "builtInMods": [
-    "blast_doors",
-    "repair_gantry"
+    "blast_doors"
   ],
   "weaponSlots": [
     {

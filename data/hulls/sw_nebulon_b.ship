@@ -13,8 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "repair_gantry",
-    "surveying_equipment"
+    "surveying_equipment",
+    "nav_relay"
   ],
   "weaponSlots": [
     {

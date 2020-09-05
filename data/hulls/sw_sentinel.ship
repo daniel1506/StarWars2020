@@ -12,8 +12,8 @@
   "shieldRadius": 45.5,
   "viewOffset": 0,
   "builtInMods": [
-    "repair_gantry",
-    "shielded_holds"
+    "shielded_holds",
+    "sw_hyperdrive"
   ],
   "weaponSlots": [
     {
