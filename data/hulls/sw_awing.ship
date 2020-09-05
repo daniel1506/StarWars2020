@@ -2,7 +2,7 @@
   "hullName": "RZ-1 A-wing",
   "hullId": "sw_awing",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/fighters/SW_awing.png",
+  "spriteName": "graphics/ships/fighters/sw_awing.png",
   "style": "LOW_TECH",
   "height": 28,
   "width": 20,
