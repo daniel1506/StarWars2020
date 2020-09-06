@@ -1,7 +1,7 @@
 {
   "hullName": "Ton-Folk Escort Carrier",
   "hullId": "sw_ton_falk",
-  "hullSize": "DESTROYER",
+  "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sw_ton_falk.png",
   "style": "MIDLINE",
   "height": 178,

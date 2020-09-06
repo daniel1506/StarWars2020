@@ -93,115 +93,7 @@
       "locations": [-132.5, 95.5]
     },
     {
-      "id": "WS0009",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [-214.5, -178]
-    },
-    {
-      "id": "WS0010",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 75,
-      "locations": [-214.5, 178]
-    },
-    {
-      "id": "WS0011",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [-105.5, -141.5]
-    },
-    {
-      "id": "WS0012",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 75,
-      "locations": [-105.5, 141.5]
-    },
-    {
-      "id": "WS0013",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [-36, -119]
-    },
-    {
-      "id": "WS0014",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -285,
-      "locations": [-36, 119]
-    },
-    {
-      "id": "WS0015",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [30.5, -97]
-    },
-    {
-      "id": "WS0016",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -285,
-      "locations": [30.5, 97]
-    },
-    {
-      "id": "WS0017",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [167, -51.5]
-    },
-    {
-      "id": "WS0018",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -285,
-      "locations": [167, 51.5]
-    },
-    {
       "id": "WS0019",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [259.5, -22.5]
-    },
-    {
-      "id": "WS0020",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -285,
-      "locations": [259.5, 22.5]
-    },
-    {
-      "id": "WS0021",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -210,7 +102,7 @@
       "locations": [-7.5, 0]
     },
     {
-      "id": "WS0022",
+      "id": "WS0018",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -219,7 +111,7 @@
       "locations": [5, 0]
     },
     {
-      "id": "WS0023",
+      "id": "WS0017",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -228,79 +120,7 @@
       "locations": [18, -0]
     },
     {
-      "id": "WS0024",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [-159, -159.5]
-    },
-    {
-      "id": "WS0025",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -285,
-      "locations": [-159, 159.5]
-    },
-    {
       "id": "WS0026",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [73.5, -71]
-    },
-    {
-      "id": "WS0027",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -285,
-      "locations": [73.5, 71]
-    },
-    {
-      "id": "WS0028",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [111, -59.5]
-    },
-    {
-      "id": "WS0029",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -285,
-      "locations": [111, 59.5]
-    },
-    {
-      "id": "WS0030",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 285,
-      "locations": [215.5, -36.5]
-    },
-    {
-      "id": "WS0031",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -285,
-      "locations": [215.5, 36.5]
-    },
-    {
-      "id": "WS0032",
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HIDDEN",
@@ -309,7 +129,7 @@
       "locations": [-73, -122]
     },
     {
-      "id": "WS0033",
+      "id": "WS0027",
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HIDDEN",
@@ -318,7 +138,7 @@
       "locations": [-73, 122]
     },
     {
-      "id": "WS0034",
+      "id": "WS0028",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -327,7 +147,7 @@
       "locations": [-229.5, -77]
     },
     {
-      "id": "WS0035",
+      "id": "WS0029",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -336,7 +156,7 @@
       "locations": [-229.5, 77]
     },
     {
-      "id": "WS0036",
+      "id": "WS0030",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -345,7 +165,7 @@
       "locations": [-139.5, -77]
     },
     {
-      "id": "WS0037",
+      "id": "WS0031",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -354,7 +174,7 @@
       "locations": [-139.5, 77]
     },
     {
-      "id": "WS0038",
+      "id": "WS0032",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -363,7 +183,7 @@
       "locations": [-82.5, -61]
     },
     {
-      "id": "WS0039",
+      "id": "WS0033",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -372,7 +192,7 @@
       "locations": [-82.5, 61]
     },
     {
-      "id": "WS0040",
+      "id": "WS0034",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -381,7 +201,7 @@
       "locations": [-272, -61]
     },
     {
-      "id": "WS0041",
+      "id": "WS0035",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -424,6 +244,132 @@
         -141, -23,
         -118.5, -23
       ]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 290,
+      "locations": [268, -23.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 70,
+      "locations": [268, 23.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 290,
+      "locations": [182, -52]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -290,
+      "locations": [182, 52]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 290,
+      "locations": [-6.5, -111]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 70,
+      "locations": [-6.5, 111]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 290,
+      "locations": [-122.5, -150.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 70,
+      "locations": [-122.5, 150.5]
+    },
+    {
+      "id": "WS0020",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 290,
+      "locations": [119, -63]
+    },
+    {
+      "id": "WS0021",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -290,
+      "locations": [119, 63]
+    },
+    {
+      "id": "WS0022",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 290,
+      "locations": [73, -77]
+    },
+    {
+      "id": "WS0023",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -290,
+      "locations": [73, 77]
+    },
+    {
+      "id": "WS0024",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 290,
+      "locations": [-187, -172]
+    },
+    {
+      "id": "WS0025",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -290,
+      "locations": [-187, 172]
     }
   ],
   "engineSlots": [
