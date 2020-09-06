@@ -1,18 +1,17 @@
 {
-  "hullName": "Gozanti Assault Cruiser",
+  "hullName": "Gozanti Class Assault Cruiser",
   "hullId": "sw_gozanti",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sw_gozanti.png",
-  "style": "LOW_TECH",
-  "height": 105,
-  "width": 49,
-  "center": [24.5, 52.5],
-  "collisionRadius": 53.5,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 54.5,
+  "style": "MIDLINE",
+  "height": 132,
+  "width": 60,
+  "center": [29.5, 66],
+  "collisionRadius": 63.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65.5,
   "viewOffset": 0,
   "builtInMods": [
-    "chassis_storage",
     "blast_doors"
   ],
   "weaponSlots": [
@@ -23,7 +22,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [48.5, 3]
+      "locations": [54.5, 4]
     },
     {
       "id": "WS0002",
@@ -32,7 +31,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [48.5, -3]
+      "locations": [54.5, -4]
     },
     {
       "id": "WS0003",
@@ -41,7 +40,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [22, 12.5]
+      "locations": [24.5, 16]
     },
     {
       "id": "WS0004",
@@ -50,7 +49,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [22, -12.5]
+      "locations": [24.5, -16]
     },
     {
       "id": "WS0005",
@@ -59,24 +58,21 @@
       "mount": "HIDDEN",
       "arc": 360,
       "angle": 0,
-      "locations": [-23.5, 0.5]
+      "locations": [-30.5, -0]
     },
     {
-      "id": "LB 1",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
       "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [
-        -8, 0.5,
-        8.5, 0.5
-      ]
+      "arc": 0,
+      "angle": -0,
+      "locations": [-30.5, 0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-29, 16],
+      "location": [-37.5, 18.5],
       "length": 30,
       "width": 10,
       "angle": 180,
@@ -84,7 +80,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-29, -16],
+      "location": [-37.5, -18.5],
       "length": 30,
       "width": 10,
       "angle": -180,
@@ -93,20 +89,20 @@
     }
   ],
   "bounds": [
-    51, 3,
-    22.5, 8,
-    22.5, 15,
-    -2, 15,
-    -23.5, 23.5,
-    -29, 18,
-    -29, 3,
-    -50.5, 0.5,
-    -29, -3,
-    -29, -18,
-    -23.5, -23.5,
-    -2, -15,
-    22.5, -15,
-    22.5, -8,
-    51, -3
+    62.5, -3.5,
+    26.5, -11,
+    26.5, -19,
+    -4, -19,
+    -30.5, -29.5,
+    -34, -27.5,
+    -34, -4.5,
+    -63.5, -0,
+    -34, 4.5,
+    -34, 27.5,
+    -30.5, 29.5,
+    -4, 19,
+    26.5, 19,
+    26.5, 11,
+    62.5, 3.5
   ]
 }
