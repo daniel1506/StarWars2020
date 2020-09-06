@@ -28,7 +28,5 @@
     }
   ],
   "modules": [],
-  "wings": [
-    "sw_tie_fighter_wing"
-  ]
+  "wings": []
 }
