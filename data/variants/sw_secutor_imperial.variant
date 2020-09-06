@@ -9,8 +9,6 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
-    "chassis_storage",
-    "nav_relay",
     "operations_center",
     "recovery_shuttles"
   ],

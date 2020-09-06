@@ -9,8 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
-    "ground_support",
-    "repair_gantry"
+    "ground_support"
   ],
   "weaponGroups": [
     {

@@ -9,13 +9,8 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
-    "chassis_storage",
-    "augmentedengines",
     "drive_field_stabilizer",
-    "ecm",
-    "ground_support",
-    "nav_relay",
-    "repair_gantry"
+    "ecm"
   ],
   "weaponGroups": [
     {

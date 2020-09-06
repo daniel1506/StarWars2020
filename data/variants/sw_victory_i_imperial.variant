@@ -10,10 +10,7 @@
   "hullMods": [
     "blast_doors",
     "ground_support",
-    "nav_relay",
-    "operations_center",
-    "recovery_shuttles",
-    "repair_gantry"
+    "operations_center"
   ],
   "weaponGroups": [
     {

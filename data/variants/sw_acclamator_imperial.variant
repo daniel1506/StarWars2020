@@ -9,10 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
-    "chassis_storage",
     "ground_support",
-    "nav_relay",
-    "recovery_shuttles",
     "repair_gantry"
   ],
   "weaponGroups": [

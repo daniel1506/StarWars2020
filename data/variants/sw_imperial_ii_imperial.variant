@@ -9,12 +9,9 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
-    "chassis_storage",
     "drive_field_stabilizer",
     "ground_support",
-    "operations_center",
-    "repair_gantry",
-    "nav_relay"
+    "operations_center"
   ],
   "weaponGroups": [
     {
@@ -45,47 +42,41 @@
         "WS0016": "sw_dual_turbolaser",
         "WS0017": "sw_dual_turbolaser",
         "WS0018": "sw_dual_turbolaser",
-        "WS0019": "sw_dual_turbolaser",
-        "WS0020": "sw_dual_turbolaser",
-        "WS0021": "sw_dual_turbolaser",
-        "WS0022": "sw_dual_turbolaser",
-        "WS0023": "sw_dual_turbolaser"
+        "WS0019": "sw_dual_turbolaser"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0020": "sw_nk7_ion_cannon",
+        "WS0021": "sw_nk7_ion_cannon",
+        "WS0022": "sw_nk7_ion_cannon",
+        "WS0023": "sw_nk7_ion_cannon",
         "WS0024": "sw_nk7_ion_cannon",
-        "WS0025": "sw_nk7_ion_cannon",
-        "WS0026": "sw_nk7_ion_cannon",
-        "WS0027": "sw_nk7_ion_cannon",
-        "WS0028": "sw_nk7_ion_cannon",
-        "WS0029": "sw_nk7_ion_cannon",
-        "WS0030": "sw_nk7_ion_cannon",
-        "WS0031": "sw_nk7_ion_cannon"
+        "WS0025": "sw_nk7_ion_cannon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0032": "sw_concussion_missile_heavy",
-        "WS0033": "sw_concussion_missile_heavy"
+        "WS0026": "sw_concussion_missile_heavy",
+        "WS0027": "sw_concussion_missile_heavy"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0028": "sw_laser_cannon",
+        "WS0029": "sw_laser_cannon",
+        "WS0030": "sw_laser_cannon",
+        "WS0031": "sw_laser_cannon",
+        "WS0032": "sw_laser_cannon",
+        "WS0033": "sw_laser_cannon",
         "WS0034": "sw_laser_cannon",
-        "WS0035": "sw_laser_cannon",
-        "WS0036": "sw_laser_cannon",
-        "WS0037": "sw_laser_cannon",
-        "WS0038": "sw_laser_cannon",
-        "WS0039": "sw_laser_cannon",
-        "WS0040": "sw_laser_cannon",
-        "WS0041": "sw_laser_cannon"
+        "WS0035": "sw_laser_cannon"
       }
     }
   ],

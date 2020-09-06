@@ -9,12 +9,8 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
-    "chassis_storage",
-    "drive_field_stabilizer",
     "ground_support",
-    "nav_relay",
-    "operations_center",
-    "repair_gantry"
+    "operations_center"
   ],
   "weaponGroups": [
     {
@@ -23,58 +19,49 @@
       "weapons": {
         "WS0001": "sw_quad_turbolaser",
         "WS0002": "sw_quad_turbolaser",
-        "WS0003": "sw_quad_turbolaser"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
+        "WS0003": "sw_quad_turbolaser",
         "WS0004": "sw_dual_turbolaser",
         "WS0005": "sw_dual_turbolaser",
         "WS0006": "sw_dual_turbolaser",
-        "WS0007": "sw_dual_turbolaser",
         "WS0008": "sw_dual_turbolaser",
         "WS0009": "sw_dual_turbolaser",
-        "WS0010": "sw_dual_turbolaser",
-        "WS0011": "sw_dual_turbolaser",
-        "WS0012": "sw_dual_turbolaser",
-        "WS0013": "sw_dual_turbolaser"
+        "WS0010": "sw_nk7_ion_cannon",
+        "WS0011": "sw_nk7_ion_cannon",
+        "WS0012": "sw_nk7_ion_cannon",
+        "WS0013": "sw_nk7_ion_cannon",
+        "WS0014": "sw_concussion_missile_heavy",
+        "WS0015": "sw_concussion_missile_heavy",
+        "WS0016": "sw_concussion_missile_heavy",
+        "WS0017": "sw_concussion_missile_heavy",
+        "WS0018": "sw_laser_cannon",
+        "WS0019": "sw_laser_cannon",
+        "WS0020": "sw_laser_cannon",
+        "WS0021": "sw_laser_cannon",
+        "WS0022": "sw_laser_cannon",
+        "WS0023": "sw_laser_cannon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0014": "sw_nk7_ion_cannon",
-        "WS0015": "sw_nk7_ion_cannon",
-        "WS0016": "sw_nk7_ion_cannon",
-        "WS0017": "sw_nk7_ion_cannon",
-        "WS0018": "sw_nk7_ion_cannon",
-        "WS0019": "sw_nk7_ion_cannon"
+        "WS0007": "sw_dual_turbolaser"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0020": "sw_concussion_missile_heavy",
-        "WS0021": "sw_concussion_missile_heavy",
-        "WS0022": "sw_concussion_missile_heavy",
-        "WS0023": "sw_concussion_missile_heavy"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0024": "sw_laser_cannon",
-        "WS0025": "sw_laser_cannon",
-        "WS0026": "sw_laser_cannon",
-        "WS0027": "sw_laser_cannon",
-        "WS0028": "sw_laser_cannon",
-        "WS0029": "sw_laser_cannon"
-      }
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],

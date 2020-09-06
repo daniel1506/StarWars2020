@@ -9,11 +9,8 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
-    "chassis_storage",
     "drive_field_stabilizer",
     "ground_support",
-    "nav_relay",
-    "repair_gantry",
     "recovery_shuttles"
   ],
   "weaponGroups": [
@@ -48,10 +45,13 @@
         "WS0013": "sw_laser_cannon",
         "WS0014": "sw_laser_cannon",
         "WS0015": "sw_laser_cannon",
-        "WS0016": "sw_laser_cannon",
-        "WS0017": "sw_laser_cannon",
-        "WS0018": "sw_laser_cannon"
+        "WS0016": "sw_laser_cannon"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],
