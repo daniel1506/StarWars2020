@@ -38,15 +38,15 @@
         "WS0015": "sw_tb_dual_turbolaser_heavy",
         "WS0016": "sw_tb_dual_turbolaser_heavy",
         "WS0017": "sw_tb_dual_turbolaser_heavy",
-        "WS0018": "sw_tb_dual_turbolaser_heavy",
-        "WS0019": "sw_tb_dual_turbolaser_heavy",
-        "WS0020": "sw_tb_dual_turbolaser_heavy"
+        "WS0018": "sw_tb_dual_turbolaser_heavy"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0019": "sw_dual_ion_cannon",
+        "WS0020": "sw_dual_ion_cannon",
         "WS0021": "sw_dual_ion_cannon",
         "WS0022": "sw_dual_ion_cannon",
         "WS0023": "sw_dual_ion_cannon",
@@ -54,37 +54,33 @@
         "WS0025": "sw_dual_ion_cannon",
         "WS0026": "sw_dual_ion_cannon",
         "WS0027": "sw_dual_ion_cannon",
-        "WS0028": "sw_dual_ion_cannon",
-        "WS0029": "sw_dual_ion_cannon",
-        "WS0030": "sw_dual_ion_cannon"
+        "WS0028": "sw_dual_ion_cannon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0029": "sw_concussion_missile_heavy",
+        "WS0030": "sw_concussion_missile_heavy",
         "WS0031": "sw_concussion_missile_heavy",
         "WS0032": "sw_concussion_missile_heavy",
         "WS0033": "sw_concussion_missile_heavy",
-        "WS0034": "sw_concussion_missile_heavy",
-        "WS0035": "sw_concussion_missile_heavy",
-        "WS0036": "sw_concussion_missile_heavy"
+        "WS0034": "sw_concussion_missile_heavy"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0035": "sw_tb_laser_cannon",
+        "WS0036": "sw_tb_laser_cannon",
         "WS0037": "sw_tb_laser_cannon",
         "WS0038": "sw_tb_laser_cannon",
         "WS0039": "sw_tb_laser_cannon",
         "WS0040": "sw_tb_laser_cannon",
         "WS0041": "sw_tb_laser_cannon",
-        "WS0042": "sw_tb_laser_cannon",
-        "WS0043": "sw_tb_laser_cannon",
-        "WS0044": "sw_tb_laser_cannon",
-        "WS0045": "sw_tb_laser_cannon",
-        "WS0046": "sw_tb_laser_cannon"
+        "WS0042": "sw_tb_laser_cannon"
       }
     }
   ],
