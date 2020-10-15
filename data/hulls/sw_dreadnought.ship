@@ -4,17 +4,16 @@
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/sw_dreadnaught.png",
   "style": "MIDLINE",
-  "height": 272,
-  "width": 62,
-  "center": [31, 136],
-  "collisionRadius": 137,
+  "height": 306,
+  "width": 70,
+  "center": [35, 153],
+  "collisionRadius": 154.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 138,
+  "shieldRadius": 155.5,
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "ground_support",
-    "repair_gantry"
+    "ground_support"
   ],
   "weaponSlots": [
     {
@@ -24,7 +23,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 0,
-      "locations": [124.5, -0]
+      "locations": [148, -0]
     },
     {
       "id": "WS0002",
@@ -32,8 +31,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [-25.5, -21.5]
+      "angle": 90,
+      "locations": [30, 27]
     },
     {
       "id": "WS0003",
@@ -41,8 +40,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 90,
-      "locations": [-25.5, 21.5]
+      "angle": 270,
+      "locations": [30, -27]
     },
     {
       "id": "WS0004",
@@ -50,8 +49,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [19.5, -23.5]
+      "angle": 90,
+      "locations": [-20, 26]
     },
     {
       "id": "WS0005",
@@ -59,8 +58,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": -270,
-      "locations": [19.5, 23.5]
+      "angle": -90,
+      "locations": [-20, -26]
     },
     {
       "id": "WS0006",
@@ -68,8 +67,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [7.5, -27.5]
+      "angle": 90,
+      "locations": [14, 31]
     },
     {
       "id": "WS0007",
@@ -77,8 +76,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": -270,
-      "locations": [7.5, 27.5]
+      "angle": -90,
+      "locations": [14, -31]
     },
     {
       "id": "WS0008",
@@ -87,7 +86,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [114.5, 10]
+      "locations": [138, 10]
     },
     {
       "id": "WS0009",
@@ -96,7 +95,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [114.5, -10]
+      "locations": [138, -10]
     },
     {
       "id": "WS0010",
@@ -104,8 +103,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [91, -25]
+      "angle": 90,
+      "locations": [-119.5, 28]
     },
     {
       "id": "WS0011",
@@ -113,8 +112,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 90,
-      "locations": [91, 25]
+      "angle": -90,
+      "locations": [-119.5, -28]
     },
     {
       "id": "WS0012",
@@ -122,8 +121,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [-11, -24.5]
+      "angle": 90,
+      "locations": [-12, 28]
     },
     {
       "id": "WS0013",
@@ -131,8 +130,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": -270,
-      "locations": [-11, 24.5]
+      "angle": -90,
+      "locations": [-12, -28]
     },
     {
       "id": "WS0014",
@@ -140,8 +139,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [-89, -27]
+      "angle": 90,
+      "locations": [103, 27]
     },
     {
       "id": "WS0015",
@@ -149,52 +148,84 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": -270,
-      "locations": [-89, 27]
+      "angle": 270,
+      "locations": [103, -27]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [132.5, 20.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 270,
+      "locations": [132.5, -20.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-134.5, 16],
-      "length": 30,
-      "width": 10,
+      "location": [-152, 17],
+      "length": 15,
+      "width": 20,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-134.5, -16],
-      "length": 30,
-      "width": 10,
+      "location": [-152, -17],
+      "length": 15,
+      "width": 20,
       "angle": -180,
-      "contrailSize": 30,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-133.5, -0],
-      "length": 30,
+      "location": [-149, -0],
+      "length": 15,
       "width": 10,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    132.5, 12.5,
-    91, 25.5,
-    -30, 25.5,
-    -38.5, 20.5,
-    -47, 20.5,
-    -63.5, 29,
-    -124.5, 29,
-    -134.5, 24.5,
-    -134.5, -24.5,
-    -124.5, -29,
-    -63.5, -29,
-    -47, -20.5,
-    -38.5, -20.5,
-    -30, -25.5,
-    91, -25.5,
-    132.5, -12.5
+    149.5, -13,
+    125, -21,
+    92.5, -27.5,
+    43, -27.5,
+    29.5, -30.5,
+    17.5, -30.5,
+    13.5, -32.5,
+    3, -32.5,
+    -0.5, -28,
+    -36.5, -28,
+    -52, -23,
+    -71, -32,
+    -140, -32,
+    -140, -28,
+    -151, -28,
+    -151, 28,
+    -140, 28,
+    -140, 32,
+    -71, 32,
+    -52, 23,
+    -36.5, 28,
+    -0.5, 28,
+    3, 32.5,
+    13.5, 32.5,
+    17.5, 30.5,
+    29.5, 30.5,
+    43, 27.5,
+    92.5, 27.5,
+    125, 21,
+    149.5, 13
   ]
 }

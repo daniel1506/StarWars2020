@@ -4,18 +4,16 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sw_quasar.png",
   "style": "MIDLINE",
-  "height": 112,
-  "width": 86,
-  "center": [43.5, 51.5],
-  "collisionRadius": 62.5,
-  "shieldCenter": [0, -0],
-  "shieldRadius": 63,
+  "height": 249,
+  "width": 221,
+  "center": [110.5, 124.5],
+  "collisionRadius": 157,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 158,
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "chassis_storage",
-    "recovery_shuttles",
-    "surveying_equipment"
+    "recovery_shuttles"
   ],
   "weaponSlots": [
     {
@@ -25,7 +23,7 @@
       "mount": "HIDDEN",
       "arc": 270,
       "angle": 0,
-      "locations": [53, 0.5]
+      "locations": [119, -0]
     },
     {
       "id": "WS0002",
@@ -33,8 +31,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [-27.5, -39.5]
+      "angle": 65,
+      "locations": [90.5, 23.5]
     },
     {
       "id": "WS0003",
@@ -42,8 +40,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 90,
-      "locations": [-27.5, 39.5]
+      "angle": -65,
+      "locations": [90.5, -23.5]
     },
     {
       "id": "WS0004",
@@ -51,8 +49,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 180,
-      "locations": [-48.5, 25]
+      "angle": 90,
+      "locations": [-81, 107.5]
     },
     {
       "id": "WS0005",
@@ -60,8 +58,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 180,
-      "locations": [-48.5, -25]
+      "angle": 270,
+      "locations": [-81, -107.5]
     },
     {
       "id": "LB 1",
@@ -71,8 +69,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -40, 25,
-        -15, 25.5
+        -100, 80,
+        -55, 80
       ]
     },
     {
@@ -83,8 +81,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -40, 9,
-        -14.5, 9.5
+        -100, 35,
+        -55, 35
       ]
     },
     {
@@ -95,8 +93,8 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -40.5, -24.5,
-        -15.5, -24.5
+        -100, -35,
+        -55, -35
       ]
     },
     {
@@ -107,39 +105,60 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        4.5, 0.5,
-        25.5, 0.5
+        -100, -80,
+        -55, -80
+      ]
+    },
+    {
+      "id": "LB 5",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -100, -0,
+        -67, -0
       ]
     }
   ],
   "engineSlots": [
     {
-      "location": [-51, 10],
-      "length": 30,
-      "width": 10,
+      "location": [-119, -0],
+      "length": 10,
+      "width": 25,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-51, -10],
-      "length": 30,
-      "width": 10,
+      "location": [-112, 62],
+      "length": 10,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-112, -62],
+      "length": 10,
+      "width": 20,
       "angle": -180,
-      "contrailSize": 30,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    60, 2.5,
-    -10, 38,
-    -10, 42,
-    -44, 42,
-    -51, 35,
-    -51, -35,
-    -44, -42,
-    -10, -42,
-    -10, -38,
-    60, -2.5
+    122, -9,
+    -51, -95.5,
+    -51, -109.5,
+    -112, -109.5,
+    -112, -22.5,
+    -120, -0,
+    -112, 22.5,
+    -112, 109.5,
+    -51, 109.5,
+    -51, 95.5,
+    122, 9
   ]
 }

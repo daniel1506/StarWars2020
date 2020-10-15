@@ -4,12 +4,12 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sw_arquitens.png",
   "style": "MIDLINE",
-  "height": 134,
-  "width": 56,
-  "center": [28, 65],
-  "collisionRadius": 69.5,
-  "shieldCenter": [0, -0],
-  "shieldRadius": 70,
+  "height": 240,
+  "width": 100,
+  "center": [50, 120],
+  "collisionRadius": 127.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 128.5,
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors"
@@ -19,19 +19,19 @@
       "id": "WS0001",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 230,
+      "mount": "TURRET",
+      "arc": 270,
       "angle": 0,
-      "locations": [7.5, 11.5]
+      "locations": [9, 21.5]
     },
     {
       "id": "WS0002",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 230,
-      "angle": 0,
-      "locations": [7.5, -11.5]
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [9, -21.5]
     },
     {
       "id": "WS0003",
@@ -39,8 +39,8 @@
       "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": 290,
-      "locations": [34, -15]
+      "angle": 70,
+      "locations": [57.5, 26]
     },
     {
       "id": "WS0004",
@@ -48,8 +48,8 @@
       "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": 70,
-      "locations": [34, 15]
+      "angle": 290,
+      "locations": [57.5, -26]
     },
     {
       "id": "WS0005",
@@ -57,8 +57,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 290,
-      "locations": [16, -19.5]
+      "angle": 70,
+      "locations": [91, 11]
     },
     {
       "id": "WS0006",
@@ -66,8 +66,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 70,
-      "locations": [16, 19.5]
+      "angle": -70,
+      "locations": [91, -11]
     },
     {
       "id": "WS0007",
@@ -75,8 +75,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 290,
-      "locations": [51, -8]
+      "angle": 70,
+      "locations": [23, 36.5]
     },
     {
       "id": "WS0008",
@@ -84,8 +84,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": -290,
-      "locations": [51, 8]
+      "angle": 290,
+      "locations": [23, -36.5]
     },
     {
       "id": "LB 1",
@@ -95,51 +95,51 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        -13, -0,
-        3, -0
+        5, -0,
+        30, -0
       ]
     }
   ],
   "engineSlots": [
     {
-      "location": [-64.5, 20],
+      "location": [-119, 36],
       "length": 10,
       "width": 10,
       "angle": 180,
-      "contrailSize": 5,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-64.5, -20],
+      "location": [-119, -36],
       "length": 10,
       "width": 10,
       "angle": -180,
-      "contrailSize": 5,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-64.5, -0],
+      "location": [-119, -0],
       "length": 10,
       "width": 10,
       "angle": 180,
-      "contrailSize": 5,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    68.5, 3.5,
-    1.5, 26.5,
-    -11, 26.5,
-    -27.5, 12,
-    -37, 12,
-    -48, 25,
-    -64, 25,
-    -64, -25,
-    -48, -25,
-    -37, -12,
-    -27.5, -12,
-    -11, -26.5,
-    1.5, -26.5,
-    68.5, -3.5
+    119, -6,
+    -3.5, -46.5,
+    -22.5, -46.5,
+    -53, -21.5,
+    -68.5, -21.5,
+    -91, -44.5,
+    -116, -44.5,
+    -116, 44.5,
+    -91, 44.5,
+    -68.5, 21.5,
+    -53, 21.5,
+    -22.5, 46.5,
+    -3.5, 46.5,
+    119, 6
   ]
 }
