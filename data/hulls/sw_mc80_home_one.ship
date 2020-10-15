@@ -12,23 +12,17 @@
   "shieldRadius": 349.5,
   "viewOffset": 0,
   "builtInMods": [
-    "autorepair",
     "blast_doors",
-    "chassis_storage",
     "drive_field_stabilizer",
     "ground_support",
-    "hardenedshieldemitter",
     "hiressensors",
     "nav_relay",
     "operations_center",
-    "recovery_shuttles",
-    "repair_gantry",
-    "surveying_equipment",
-    "sw_deflector_shield"
+    "surveying_equipment"
   ],
   "weaponSlots": [
     {
-      "id": "WS0001",
+      "id": "WS0004",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -37,7 +31,7 @@
       "locations": [-121.5, 80]
     },
     {
-      "id": "WS0002",
+      "id": "WS0003",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -46,7 +40,7 @@
       "locations": [-121.5, -80]
     },
     {
-      "id": "WS0003",
+      "id": "WS0006",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -55,7 +49,7 @@
       "locations": [-37.5, 82.5]
     },
     {
-      "id": "WS0004",
+      "id": "WS0005",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -64,7 +58,7 @@
       "locations": [-37.5, -82.5]
     },
     {
-      "id": "WS0005",
+      "id": "WS0002",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -73,7 +67,7 @@
       "locations": [-181, 67]
     },
     {
-      "id": "WS0006",
+      "id": "WS0001",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -82,7 +76,7 @@
       "locations": [-181, -67]
     },
     {
-      "id": "WS0007",
+      "id": "WS0008",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -91,7 +85,7 @@
       "locations": [48, 64]
     },
     {
-      "id": "WS0008",
+      "id": "WS0007",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -100,7 +94,7 @@
       "locations": [48, -64]
     },
     {
-      "id": "WS0009",
+      "id": "WS0016",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -109,7 +103,7 @@
       "locations": [118, 57.5]
     },
     {
-      "id": "WS0010",
+      "id": "WS0015",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -118,7 +112,7 @@
       "locations": [118, -57.5]
     },
     {
-      "id": "WS0011",
+      "id": "WS0018",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -127,7 +121,7 @@
       "locations": [197, 41.5]
     },
     {
-      "id": "WS0012",
+      "id": "WS0017",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -136,7 +130,7 @@
       "locations": [197, -41.5]
     },
     {
-      "id": "WS0013",
+      "id": "WS0010",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -145,7 +139,7 @@
       "locations": [272, 24.5]
     },
     {
-      "id": "WS0014",
+      "id": "WS0009",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -154,25 +148,7 @@
       "locations": [272, -24.5]
     },
     {
-      "id": "WS0015",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 70,
-      "locations": [314.5, 14.5]
-    },
-    {
-      "id": "WS0016",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 290,
-      "locations": [314.5, -14.5]
-    },
-    {
-      "id": "WS0017",
+      "id": "WS0011",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -181,7 +157,7 @@
       "locations": [-101.5, -63.5]
     },
     {
-      "id": "WS0018",
+      "id": "WS0012",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -190,7 +166,7 @@
       "locations": [-101.5, 63.5]
     },
     {
-      "id": "WS0019",
+      "id": "WS0014",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -199,7 +175,7 @@
       "locations": [-44.5, 63.5]
     },
     {
-      "id": "WS0020",
+      "id": "WS0013",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -208,79 +184,7 @@
       "locations": [-43.5, -63.5]
     },
     {
-      "id": "WS0021",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 90,
-      "locations": [80.5, 49]
-    },
-    {
-      "id": "WS0022",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -90,
-      "locations": [80.5, -49]
-    },
-    {
-      "id": "WS0023",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 80,
-      "locations": [155.5, 43]
-    },
-    {
-      "id": "WS0024",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 280,
-      "locations": [155.5, -43]
-    },
-    {
-      "id": "WS0025",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 80,
-      "locations": [232.5, 29]
-    },
-    {
-      "id": "WS0026",
-      "size": "MEDIUM",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -80,
-      "locations": [232.5, -29]
-    },
-    {
-      "id": "WS0027",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 90,
-      "locations": [-253, 20]
-    },
-    {
-      "id": "WS0028",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -90,
-      "locations": [-253, -20]
-    },
-    {
-      "id": "WS0029",
+      "id": "WS0020",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -289,7 +193,7 @@
       "locations": [-189, 30.5]
     },
     {
-      "id": "WS0030",
+      "id": "WS0019",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -298,7 +202,7 @@
       "locations": [-189, -30.5]
     },
     {
-      "id": "WS0031",
+      "id": "WS0022",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -307,7 +211,7 @@
       "locations": [-95.5, 24]
     },
     {
-      "id": "WS0032",
+      "id": "WS0021",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -316,7 +220,7 @@
       "locations": [-95.5, -24]
     },
     {
-      "id": "WS0033",
+      "id": "WS0024",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -325,7 +229,7 @@
       "locations": [-18, 21]
     },
     {
-      "id": "WS0034",
+      "id": "WS0023",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -334,7 +238,7 @@
       "locations": [-18, -21]
     },
     {
-      "id": "WS0035",
+      "id": "WS0026",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -343,7 +247,7 @@
       "locations": [67, 17]
     },
     {
-      "id": "WS0036",
+      "id": "WS0025",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -352,25 +256,7 @@
       "locations": [67, -17]
     },
     {
-      "id": "WS0037",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 80,
-      "locations": [242, 16.5]
-    },
-    {
-      "id": "WS0038",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -80,
-      "locations": [242, -16.5]
-    },
-    {
-      "id": "WS0039",
+      "id": "WS0028",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -379,7 +265,7 @@
       "locations": [164, 18.5]
     },
     {
-      "id": "WS0040",
+      "id": "WS0027",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
