@@ -9,8 +9,7 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
-    "ground_support",
-    "repair_gantry"
+    "ground_support"
   ],
   "weaponGroups": [
     {
@@ -49,7 +48,9 @@
         "WS0012": "sw_laser_cannon",
         "WS0013": "sw_laser_cannon",
         "WS0014": "sw_laser_cannon",
-        "WS0015": "sw_laser_cannon"
+        "WS0015": "sw_laser_cannon",
+        "WS0016": "sw_laser_cannon",
+        "WS0017": "sw_laser_cannon"
       }
     }
   ],
