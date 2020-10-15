@@ -7,25 +7,25 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
 public class DeflectorShield extends BaseHullMod {
 
-	public static final float SHIELD_BONUS_TURN = 50f;
-	public static final float SHIELD_BONUS_UNFOLD = 500f;
+	public static final int HARD_FLUX_DISSIPATION_PERCENT = 25;
+	public static final float SHIELD_BONUS = 20f;
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-		stats.getShieldTurnRateMult().modifyPercent(id, SHIELD_BONUS_TURN);
-		stats.getShieldUnfoldRateMult().modifyPercent(id, SHIELD_BONUS_UNFOLD);
+		stats.getShieldDamageTakenMult().modifyMult(id, 1f - SHIELD_BONUS * 0.01f);
+		stats.getHardFluxDissipationFraction().modifyFlat(id, (float)HARD_FLUX_DISSIPATION_PERCENT * 0.01f);
 	}
 	
 	public String getDescriptionParam(int index, HullSize hullSize) {
-		if (index == 0) return "" + (int) SHIELD_BONUS_TURN + "%";
-		if (index == 1) return "" + (int) SHIELD_BONUS_UNFOLD + "%";
+		if (index == 0) return "" + (int) SHIELD_BONUS + "%";
+		if (index == 1) return "" + HARD_FLUX_DISSIPATION_PERCENT + "%";
 		return null;
 	}
 
-	public boolean isApplicableToShip(ShipAPI ship) {
-		return ship != null && ship.getShield() != null;
-	}
+	//public boolean isApplicableToShip(ShipAPI ship) {
+	//	return ship != null && ship.getShield() != null;
+	//}
 	
-	public String getUnapplicableReason(ShipAPI ship) {
-		return "Ship has no shields";
-	}
+	//public String getUnapplicableReason(ShipAPI ship) {
+	//	return "Ship has no shields";
+	//}
 }
