@@ -5,10 +5,22 @@
 
 	"statsScript":"data.shipsystems.scripts.ShieldsBoostStats",
 	
-	"shieldRingColor":[255,255,255,255],
-	"shieldInnerColor":[255,100,255,75],
-	"shieldThicknessMult":1,
-	"shieldFluctuationMult":0,
+	#"shieldRingColor":[255,255,255,255],
+	#"shieldInnerColor":[255,100,255,75],
+	#"shieldThicknessMult":1,
+	#"shieldFluctuationMult":0,
+	
+	"jitterUnderColor":[255,100,100,200],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[255,100,255,100],
+	"jitterCopies":10,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
 	
 	"soundFilterType":"LOWPASS",
 	"soundFilterGain":0.75,
