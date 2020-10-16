@@ -57,9 +57,9 @@ public class DeflectorShieldStats extends BaseShipSystemScript {
 		}
 		//stats.getHullDamageTakenMult().modifyMult(id, 0.01f);
 		//stats.getArmorDamageTakenMult().modifyMult(id, 0.01f);
-		stats.getProjectileDamageTakenMult().modifyMult(id, 0.01f);
-		stats.getBeamDamageTakenMult().modifyMult(id, 0.01f);
-		stats.getMissileDamageTakenMult().modifyMult(id, 0.01f);
+		stats.getProjectileDamageTakenMult().modifyMult(id, 0.0f);
+		stats.getBeamDamageTakenMult().modifyMult(id, 0.0f);
+		stats.getMissileDamageTakenMult().modifyMult(id, 0.0f);
 		stats.getEmpDamageTakenMult().modifyMult(id, 0.01f);
 				
 		ShipAPI ship = null;
@@ -72,10 +72,10 @@ public class DeflectorShieldStats extends BaseShipSystemScript {
 		for (DamagingProjectileAPI p : projectiles) {
 			if (p.getDamageTarget() == ship) {
 				if (p.getSpawnType() == ProjectileSpawnType.BEAM) {					
-					flux.increaseFlux(p.getDamageAmount() * p.getDamageType().getShieldMult() * stats.getShieldDamageTakenMult().getModifiedValue(), false);					
+					flux.increaseFlux(p.getDamageAmount() * p.getDamageType().getShieldMult() * stats.getShieldDamageTakenMult().getModifiedValue() * 0.75f, false);					
 				} 
 				else {
-					flux.increaseFlux(p.getDamageAmount() * p.getDamageType().getShieldMult() * stats.getShieldDamageTakenMult().getModifiedValue(), true);
+					flux.increaseFlux(p.getDamageAmount() * p.getDamageType().getShieldMult() * stats.getShieldDamageTakenMult().getModifiedValue() * 0.75f, true);
 				}
 			}
 		}
@@ -83,7 +83,7 @@ public class DeflectorShieldStats extends BaseShipSystemScript {
 		for (MissileAPI m : missiles) {			
 			//log.info("missile damage " + m.getDamageTarget());
 			if (m.getDamageTarget() == ship) {				
-				flux.increaseFlux(m.getDamageAmount() * m.getDamageType().getShieldMult() * stats.getShieldDamageTakenMult().getModifiedValue(), true);				
+				flux.increaseFlux(m.getDamageAmount() * m.getDamageType().getShieldMult() * stats.getShieldDamageTakenMult().getModifiedValue() * 0.75f, true);				
 			}
 		}
 	}
