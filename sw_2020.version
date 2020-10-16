@@ -1,12 +1,12 @@
 {
-    "masterVersionFile":"https://raw.githubusercontent.com/daniel1506/StarWars2020/master/sw_2020.version",
-    "modName":"Star Wars 2020",
-    "modThreadId":,
-    "modNexusId":45,
-    "modVersion":
-    {
-        "major":0,
-        "minor":3,
-        "patch":0
-    }
+	"masterVersionFile":"https://raw.githubusercontent.com/daniel1506/StarWars2020/master/sw_2020.version",
+	"modName":"Star Wars 2020",
+    	"modThreadId":19084,
+	"modNexusId":45,
+	"modVersion":
+	{
+		"major":0,
+		"minor":3,
+        "patch":1
+	}
 }
