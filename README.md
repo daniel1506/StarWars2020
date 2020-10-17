@@ -20,6 +20,8 @@ Compatible with Nexerelin
     Fractalsponge (Ansel Hsiao) and Star Wars Interregnum team, especially dolynick.
     
    Inspiration from the Star Wars mod created by LazyWizard and ShadowFox.
+   
+Lazywizard for creating LazyLib
 
 
 Special thnanks to Alex and the dev team of Starsector, Starsector community and all Star Wars fans.
