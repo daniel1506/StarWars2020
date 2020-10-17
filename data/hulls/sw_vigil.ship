@@ -4,16 +4,15 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sw_vigil.png",
   "style": "MIDLINE",
-  "height": 136,
-  "width": 99,
-  "center": [49.5, 66],
-  "collisionRadius": 67.5,
-  "shieldCenter": [0, -0],
-  "shieldRadius": 68.5,
+  "height": 196,
+  "width": 142,
+  "center": [71, 98],
+  "collisionRadius": 99.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 100,
   "viewOffset": 0,
   "builtInMods": [
-    "blast_doors",
-    "surveying_equipment"
+    "blast_doors"
   ],
   "weaponSlots": [
     {
@@ -21,59 +20,59 @@
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
-      "arc": 230,
+      "arc": 250,
       "angle": 0,
-      "locations": [6.5, 22]
+      "locations": [7, 30.5]
     },
     {
       "id": "WS0002",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
-      "arc": 230,
+      "arc": 250,
       "angle": -0,
-      "locations": [6.5, -22]
+      "locations": [7, -30.5]
     },
     {
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
-      "arc": 230,
+      "arc": 250,
       "angle": 0,
-      "locations": [42.5, -0]
+      "locations": [58, -0]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
-      "arc": 230,
+      "arc": 250,
       "angle": 0,
-      "locations": [59, -0]
+      "locations": [77, -0]
     },
     {
       "id": "WS0005",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
-      "arc": 230,
-      "angle": 270,
-      "locations": [-20, -46.5]
+      "arc": 210,
+      "angle": 75,
+      "locations": [-31, 67]
     },
     {
       "id": "WS0006",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
-      "arc": 230,
-      "angle": 90,
-      "locations": [-20, 46.5]
+      "arc": 210,
+      "angle": -75,
+      "locations": [-31, -67]
     }
   ],
   "engineSlots": [
     {
-      "location": [-56, 24],
+      "location": [-96.5, 11.5],
       "length": 30,
       "width": 10,
       "angle": 180,
@@ -81,44 +80,46 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-56, -24],
-      "length": 20,
+      "location": [-96.5, -11.5],
+      "length": 30,
       "width": 10,
       "angle": -180,
-      "contrailSize": 10,
+      "contrailSize": 30,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-65.5, 7.5],
-      "length": 20,
+      "location": [-83, 35],
+      "length": 30,
       "width": 10,
       "angle": 180,
-      "contrailSize": 10,
+      "contrailSize": 30,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-65.5, -7.5],
-      "length": 20,
+      "location": [-83, -35],
+      "length": 30,
       "width": 10,
       "angle": -180,
-      "contrailSize": 10,
+      "contrailSize": 30,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    59, 6,
-    -13, 40,
-    -19, 48,
-    -35.5, 44.5,
-    -43.5, 29,
-    -53.5, 29,
-    -65, 12,
-    -65, -12,
-    -53.5, -29,
-    -43.5, -29,
-    -35.5, -44.5,
-    -19, -48,
-    -13, -40,
-    59, -6
+    87.5, -5.5,
+    -23, -59,
+    -30.5, -70,
+    -53, -64.5,
+    -65, -42,
+    -83.5, -41,
+    -83.5, -18.5,
+    -96.5, -17.5,
+    -96.5, 17.5,
+    -83.5, 18.5,
+    -83.5, 41,
+    -65, 42,
+    -53, 64.5,
+    -30.5, 70,
+    -23, 59,
+    87.5, 5.5
   ]
 }
