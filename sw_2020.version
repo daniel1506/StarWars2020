@@ -8,5 +8,6 @@
 		"major":0,
 		"minor":5,
         	"patch":0,
-	}
+	},
+	"starsectorVersion":"0.9.1a"
 }
