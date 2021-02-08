@@ -2,12 +2,10 @@
 	"masterVersionFile":"https://raw.githubusercontent.com/daniel1506/StarWars2020/master/sw_2020.version",
 	"modName":"Star Wars 2020",
     	"modThreadId":19084,
-	"modNexusId":45,
 	"modVersion":
 	{
 		"major":0,
 		"minor":5,
         	"patch":0,
 	},
-	"starsectorVersion":"0.9.1a"
 }
