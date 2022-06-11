@@ -1,0 +1,106 @@
+{
+  "hullName": "Aggressive ReConnaissance-170 Starfighter",
+  "hullId": "sw_arc170",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_arc170.png",
+  "style": "MIDLINE",
+  "height": 48,
+  "width": 79,
+  "center": [39.5, 27.5],
+  "collisionRadius": 41,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 41.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [20, 34.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [20, -34.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-17, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, 2]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 7.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-20, -7.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    18, -1.5,
+    3, -2,
+    3, -11,
+    0, -11,
+    0, -38,
+    -5, -38,
+    -15, -8,
+    -20, -8,
+    -20, -4,
+    -24, -2,
+    -24, 2,
+    -20, 4,
+    -20, 8,
+    -15, 8,
+    -5, 38,
+    0, 38,
+    0, 11,
+    3, 11,
+    3, 2,
+    18, 1.5
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "variantId": "sw_t70_xwing_fighter",
   "hullId": "sw_t70_xwing",
-  "displayName": "Fighter",
-  "goalVariant": false,
+  "displayName": "Starfighter",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

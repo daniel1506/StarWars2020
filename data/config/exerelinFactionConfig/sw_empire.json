@@ -6,54 +6,54 @@
     
     "directoryUseShortName":true,
 	
-	"marketSpawnWeight":0.8,
+	"marketSpawnWeight":1.2,
 	
-	"startRelationships":{ "independent":0.1, "hegemony": -0.3, "luddic_church": -0.3, "tritachyon": 1.0, "persean":-0.6, "sw_rebel":-1.0 },
-	"maxRelationships":{ "hegemony": -0.4, "persean":-0.5, "sw_rebel":-0.5 },
+	"startRelationships":{ "independent":0.1, "hegemony": -0.3, "luddic_church": 0.0, "tritachyon": 1.0, "persean":-0.6, "sw_rebel":-1.0 },
+	"maxRelationships":{ "hegemony": 0.0, "persean":-0.5, "sw_rebel":-0.5 },
 	"diplomacyPositiveChance":{ "independent":0.5, },
-	"diplomacyNegativeChance":{ "persean":1, "hegemony":1, "sw_rebel":1 },
-	"diplomacyTraits":["stalwart", "likes_ai", "law_and_order", "envious"],
+	"diplomacyNegativeChance":{ "persean":1, "hegemony":1, "sw_rebel":1, "sw_cis":0.5, "sw_republic":1},
+	"diplomacyTraits":["paranoid", "stalwart", "likes_ai", "law_and_order", "envious"],
     
     "alignments":{
         "technocratic":0.5,
         "diplomatic":0.3,
-        "militarist":0.5,
+        "militarist":1.0,
 		"ideological":-0.5,
     },
     
     "startShipsSolo":[["sw_procursator_imperial"]],
     "startShipsTradeSmall":[
-		["sw_vindicator_imperial", "sw_bff_1_bulk", "sw_vigil_imperial"],
-		["sw_bff_1_bulk", "sw_quasar_imperial", "sw_dreadnought_heavy"]
+		["sw_arquitens_imperial", "sw_vt49_imperial", "sw_bff_1_bulk"],
+		["sw_lancer_heavy", "sw_quasar_imperial", "sw_bff_1_bulk"]
 	],
     "startShipsTradeLarge":[
-		["sw_aa9_super", "sw_lancer_heavy", "sw_victory_i_imperial"],
-		["sw_aa9_super", "sw_consolidator_assault", "sw_vindicator_imperial"]
+		["sw_victory_i_imperial", "sw_lancer_heavy", "sw_aa9_super"],
+		["sw_vindicator_imperial", "sw_dreadnought_heavy", "sw_aa9_super"]
 	],
     "startShipsCombatSmall":[
-		["sw_victory_i_imperial", "sw_dreadnought_heavy", "sw_dreadnought_heavy"],
-		["sw_vindicator_imperial", "sw_immobilizer_imperial", "sw_vindicator_imperial"]
+		["sw_victory_i_imperial", "sw_lancer_heavy", "sw_carrack_imperial"],
+		["sw_vindicator_imperial", "sw_immobilizer_imperial", "sw_dreadnought_heavy"]
 	],
     "startShipsCombatLarge":[
 		["sw_dreadnought_heavy", "sw_imperial_ii_imperial", "sw_vindicator_imperial"],
 		["sw_procursator_imperial", "sw_victory_i_imperial", "sw_dreadnought_heavy"]
 	],
     "startShipsCarrierSmall":[
-		["sw_consolidator_assault", "sw_vindicator_imperial", "sw_victory_i_imperial"],
+		["sw_victory_i_imperial", "sw_quasar_imperial", "sw_quasar_imperial"],
 		["sw_gladiator_imperial", "sw_vindicator_imperial", "sw_immobilizer_imperial"]
 	],
     "startShipsCarrierLarge":[		
-		["sw_gladiator_imperial", "sw_victory_i_imperial", "sw_victory_i_imperial"],
-		["sw_imperial_ii_imperial", "sw_consolidator_assault", "sw_dreadnought_heavy"]
+		["sw_consolidator_assault", "sw_victory_i_imperial", "sw_dreadnought_heavy"],
+		["sw_venator_imperial_imperial", "sw_victory_i_imperial", "sw_vindicator_imperial"]
 	],
     
     "startSpecialItems":[
-        [["sw_weapon_package", "sw_lowtech_package", ""]],
+        [["sw_weapon_package", "", ""]],
     ],
     
     "defenceStations":[
-        {"ids":["orbitalstation", "battlestation", "starfortress"]},
-        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+        {"ids":["sw_shieldgate_imperial", "sw_golan_iii_imperial", "sw_shipyards_imperial"]},
+        {"ids":["orbitalstation", "battlestation", "starfortress"], "weight":0.5},
     ],
     
     "industrySeeds":[

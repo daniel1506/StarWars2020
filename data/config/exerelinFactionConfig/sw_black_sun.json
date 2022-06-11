@@ -1,0 +1,73 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"pirateFaction":true,
+
+    "rebelFleetSuffix":"Consortium",
+    
+    "directoryUseShortName":true,
+	
+	"difficultyString":"hard",
+	
+	"marketSpawnWeight":0.8,
+	"morality":"evil",
+	
+	"startRelationships":{"sw_mandalorian":0.5, "hegemony": -1.0, "luddic_church": -0.7, "tritachyon": 0.3, "persean":-0.7, "sw_rebel":-1.0, "sw_empire":-1.0, "sw_zann":-1.0, "sw_republic":-1.0},
+	"maxRelationships":{ "sw_zann": -1.0, "sw_empire":-0.5, "sw_rebel":-0.5, "sw_republic":-0.5},
+	"diplomacyPositiveChance":{"sw_mandalorian":0.5, "sw_cis":0.2},
+	"diplomacyNegativeChance":{"sw_empire":1, "sw_rebel":1, "sw_republic":0.5, "sw_cis":0.5},
+	"diplomacyTraits":["paranoid", "stalwart", "likes_ai", "anarchist", "envious"],
+    
+    "alignments":{
+        "technocratic":0.5,
+        "diplomatic":0.3,
+        "militarist":1.0,
+		"ideological":-0.5,
+    },
+    
+    "startShipsSolo":[["sw_venator_black_sun_blacksun"]],
+    "startShipsTradeSmall":[
+		["sw_interceptor_iv_blacksun", "sw_veg77_blacksun", "sw_bff_1_bulk"],
+		["sw_interceptor_iv_blacksun", "sw_gozanti_black_sun_blacksun", "sw_bff_1_bulk"]
+	],
+    "startShipsTradeLarge":[
+		["sw_venngeance_friagate_zann", "sw_trireme_blacksun", "sw_aa9_super"],
+		["sw_venngeance_friagate_zann", "sw_interceptor_iv_blacksun", "sw_aa9_super"]
+	],
+    "startShipsCombatSmall":[
+		["sw_venngeance_friagate_zann", "sw_interceptor_iv_blacksun", "sw_trireme_blacksun"],
+		["sw_venngeance_friagate_zann", "sw_corona_blacksun", "sw_trireme_blacksun"]
+	],
+    "startShipsCombatLarge":[
+		["sw_venator_black_sun_blacksun", "sw_interceptor_iv_blacksun", "sw_interceptor_iv_blacksun"],
+		["sw_venator_black_sun_blacksun", "sw_corona_blacksun", "sw_trireme_blacksun"]
+	],
+    "startShipsCarrierSmall":[
+		["sw_dreadnought_carrier_blacksun", "sw_interceptor_iv_blacksun", "sw_trireme_blacksun"],
+		["sw_dreadnought_carrier_blacksun", "sw_dreadnought_carrier_blacksun", "sw_trireme_blacksun"]
+	],
+    "startShipsCarrierLarge":[		
+		["sw_lucrehulk_blacksun", "sw_dreadnought_carrier_blacksun", "sw_dreadnought_carrier_blacksun"],
+		["sw_dreadnought_carrier_blacksun", "sw_dreadnought_carrier_blacksun", "sw_dreadnought_carrier_blacksun"]
+	],
+    
+    "startSpecialItems":[
+        [["sw_weapon_package", "", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

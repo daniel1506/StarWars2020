@@ -2,8 +2,8 @@
   "hullName": "Vigil Class Corvette",
   "hullId": "sw_vigil",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sw_vigil.png",
-  "style": "MIDLINE",
+  "spriteName": "graphics/ships/empire/sw_vigil.png",
+  "style": "SW_IMPERIAL",
   "height": 196,
   "width": 142,
   "center": [71, 98],
@@ -12,14 +12,15 @@
   "shieldRadius": 100,
   "viewOffset": 0,
   "builtInMods": [
-    "blast_doors"
+    "blast_doors",
+    "sw_targeting_computer"
   ],
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 250,
       "angle": 0,
       "locations": [7, 30.5]
@@ -28,7 +29,7 @@
       "id": "WS0002",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 250,
       "angle": -0,
       "locations": [7, -30.5]
@@ -37,7 +38,7 @@
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 250,
       "angle": 0,
       "locations": [58, -0]
@@ -52,7 +53,7 @@
       "locations": [77, -0]
     },
     {
-      "id": "WS0005",
+      "id": "WS0007",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
@@ -61,13 +62,31 @@
       "locations": [-31, 67]
     },
     {
-      "id": "WS0006",
+      "id": "WS0008",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 210,
       "angle": -75,
       "locations": [-31, -67]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 65,
+      "locations": [37, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -65,
+      "locations": [37, -29]
     }
   ],
   "engineSlots": [

@@ -1,0 +1,113 @@
+{
+  "hullName": "Preybird-class Starfighter",
+  "hullId": "sw_preybird",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_preybird.png",
+  "style": "HIGH_TECH",
+  "height": 67,
+  "width": 85,
+  "center": [42.5, 33.5],
+  "collisionRadius": 46,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 46.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10.5, 40.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10.5, -40.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9, 7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [9, -7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, 9.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33, -9.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    32, -3,
+    21, -6,
+    10, -6,
+    9, -7,
+    -5, -7,
+    -5, -11,
+    -6, -12,
+    -9, -12,
+    -9, -40,
+    11, -40,
+    11, -41,
+    -7.5, -42,
+    -18, -42,
+    -18, -12,
+    -23, -12,
+    -24, -11,
+    -33, -11,
+    -33, -8,
+    -23, -8,
+    -23, 8,
+    -33, 8,
+    -33, 11,
+    -24, 11,
+    -23, 12,
+    -18, 12,
+    -18, 42,
+    -7.5, 42,
+    11, 41,
+    11, 40,
+    -9, 40,
+    -9, 12,
+    -6, 12,
+    -5, 11,
+    -5, 7,
+    9, 7,
+    10, 6,
+    21, 6,
+    32, 3
+  ]
+}

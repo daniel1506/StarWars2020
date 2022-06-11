@@ -7,16 +7,13 @@
   "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [
-    "advancedshieldemitter",
-    "heavyarmor"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "sw_dual_turbolaser"
+        "WS0001": "sw_xx9_turbolaser_heavy"
       }
     },
     {
@@ -28,8 +25,17 @@
         "WS0004": "sw_laser_cannon",
         "WS0005": "sw_laser_cannon",
         "WS0006": "sw_laser_cannon",
-        "WS0007": "sw_laser_cannon"
+        "WS0007": "sw_laser_cannon",
+        "WS0008": "sw_laser_cannon",
+        "WS0009": "sw_laser_cannon",
+        "WS0010": "sw_laser_cannon",
+        "WS0011": "sw_laser_cannon"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],

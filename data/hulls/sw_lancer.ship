@@ -1,47 +1,47 @@
 {
-  "hullName": "Lancer Class Frigate",
+  "hullName": "Lancer-class Frigate",
   "hullId": "sw_lancer",
-  "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/sw_lancer.png",
-  "style": "MIDLINE",
-  "height": 228,
-  "width": 52,
-  "center": [26, 114],
-  "collisionRadius": 114.5,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 115.5,
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/empire/sw_lancer.png",
+  "style": "SW_IMPERIAL",
+  "height": 185,
+  "width": 43,
+  "center": [21.5, 93],
+  "collisionRadius": 92,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 92.5,
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "repair_gantry"
+    "sw_targeting_computer"
   ],
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 250,
+      "mount": "TURRET",
+      "arc": 360,
       "angle": 0,
-      "locations": [111, -0]
+      "locations": [15.5, -0]
     },
     {
       "id": "WS0002",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [20.5, -0]
+      "locations": [-29, -0]
     },
     {
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": 270,
-      "locations": [-65.5, -18]
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-60, -0]
     },
     {
       "id": "WS0004",
@@ -50,16 +50,16 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 90,
-      "locations": [-65.5, 18]
+      "locations": [-52.5, 19]
     },
     {
       "id": "WS0005",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [-36, -13]
+      "angle": -90,
+      "locations": [-52.5, -19]
     },
     {
       "id": "WS0006",
@@ -67,8 +67,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": -270,
-      "locations": [-36, 13]
+      "angle": 90,
+      "locations": [65.5, 10]
     },
     {
       "id": "WS0007",
@@ -76,35 +76,35 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [-22.5, -10]
+      "angle": -90,
+      "locations": [65.5, -10]
     },
     {
       "id": "WS0008",
       "size": "SMALL",
       "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 180,
-      "angle": -270,
-      "locations": [-22.5, 10]
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [60.5, -0]
     },
     {
       "id": "WS0009",
       "size": "SMALL",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
-      "angle": 270,
-      "locations": [54.5, -10]
+      "angle": 90,
+      "locations": [-19.5, 7.5]
     },
     {
       "id": "WS0010",
       "size": "SMALL",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
-      "angle": 90,
-      "locations": [54.5, 10]
+      "angle": -90,
+      "locations": [-19.5, -7.5]
     },
     {
       "id": "WS0011",
@@ -112,8 +112,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [83.5, -10]
+      "angle": 90,
+      "locations": [-29.5, 11]
     },
     {
       "id": "WS0012",
@@ -121,36 +121,56 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": -270,
-      "locations": [83.5, 10]
+      "angle": -90,
+      "locations": [-29.5, -11]
     }
   ],
   "engineSlots": [
     {
-      "location": [-111.5, -0],
-      "length": 30,
+      "location": [-90.5, -0],
+      "length": 10,
       "width": 10,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    113, 4.5,
-    96.5, 11.5,
-    35.5, 11.5,
-    33.5, 10.5,
-    -41.5, 10.5,
-    -56, 17.5,
-    -93.5, 17,
-    -111, 8.5,
-    -111, -8.5,
-    -93.5, -17,
-    -56, -17.5,
-    -41.5, -10.5,
-    33.5, -10.5,
-    35.5, -11.5,
-    96.5, -11.5,
-    113, -4.5
+    91.5, -4,
+    76.5, -10,
+    28.5, -10,
+    21.5, -7,
+    -7.5, -7,
+    -16.5, -9,
+    -27.5, -9,
+    -27.5, -12,
+    -30.5, -12,
+    -30.5, -9,
+    -32.5, -9,
+    -47.5, -14,
+    -47.5, -20,
+    -54.5, -20,
+    -57.5, -15,
+    -70.5, -15,
+    -85.5, -13,
+    -91.5, -7,
+    -91.5, 7,
+    -85.5, 13,
+    -70.5, 15,
+    -57.5, 15,
+    -54.5, 20,
+    -47.5, 20,
+    -47.5, 14,
+    -32.5, 9,
+    -30.5, 9,
+    -30.5, 12,
+    -27.5, 12,
+    -27.5, 9,
+    -16.5, 9,
+    -7.5, 7,
+    21.5, 7,
+    28.5, 10,
+    76.5, 10,
+    91.5, 4
   ]
 }

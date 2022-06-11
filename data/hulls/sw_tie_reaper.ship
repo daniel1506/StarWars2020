@@ -1,16 +1,19 @@
 {
-  "hullName": "Tie Reaper",
+  "hullName": "TIE/rp Reaper Attack Lander",
   "hullId": "sw_tie_reaper",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_reaper.png",
   "style": "SW_IMPERIAL",
-  "height": 37,
-  "width": 24,
-  "center": [12, 18.5],
-  "collisionRadius": 19,
+  "height": 72,
+  "width": 48,
+  "center": [24, 36],
+  "collisionRadius": 36.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 19.5,
+  "shieldRadius": 37,
   "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -19,7 +22,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [11, 2]
+      "locations": [35.5, 5.5]
     },
     {
       "id": "WS0002",
@@ -28,35 +31,43 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [11, -2]
+      "locations": [35.5, -5.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-17.5, 3],
+      "location": [-35.5, 6.5],
       "length": 30,
       "width": 10,
       "angle": 180,
       "contrailSize": 128,
-      "style": "LOW_TECH"
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
     },
     {
-      "location": [-17.5, -3],
+      "location": [-35.5, -6.5],
       "length": 30,
       "width": 10,
       "angle": -180,
       "contrailSize": 128,
-      "style": "LOW_TECH"
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
     }
   ],
   "bounds": [
-    17.5, -3.5,
-    -3, -11.5,
-    -7, -11.5,
-    -18, -4.5,
-    -18, 4.5,
-    -7, 11.5,
-    -3, 11.5,
-    17.5, 3.5
+    24.5, -5.5,
+    35.5, -5.5,
+    34.5, -8,
+    -7.5, -23.5,
+    -10.5, -23.5,
+    -25.5, -19.5,
+    -35.5, -8.5,
+    -35.5, 8.5,
+    -25.5, 19.5,
+    -10.5, 23.5,
+    -7.5, 23.5,
+    34.5, 8,
+    35.5, 5.5,
+    24.5, 5.5
   ]
 }

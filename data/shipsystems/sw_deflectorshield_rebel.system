@@ -1,7 +1,8 @@
 {
 	"id":"sw_deflectorshield_rebel",
 	"type":"PHASE_CLOAK",
-	"aiType":"PHASE_CLOAK",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.DeflectorShieldAI",
 	
 	"statsScript":"data.shipsystems.scripts.DeflectorShieldStats",
 	

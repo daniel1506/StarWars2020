@@ -1,0 +1,99 @@
+{
+  "hullName": "TIE/dg Dagger Starfighter",
+  "hullId": "sw_tie_dagger",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_dagger.png",
+  "style": "SW_IMPERIAL",
+  "height": 48,
+  "width": 56,
+  "center": [28, 24],
+  "collisionRadius": 35,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 35.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1.5, 5.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [1.5, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, 12],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-16.5, -12],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    3.5, -3.5,
+    4.5, -11.5,
+    1.5, -11.5,
+    -0.5, -19.5,
+    22.5, -20.5,
+    22.5, -23.5,
+    -20.5, -27.5,
+    -22.5, -26.5,
+    -22.5, -23.5,
+    -16.5, -18.5,
+    -17.5, -6.5,
+    -17.5, 6.5,
+    -16.5, 18.5,
+    -22.5, 23.5,
+    -22.5, 26.5,
+    -20.5, 27.5,
+    22.5, 23.5,
+    22.5, 20.5,
+    -0.5, 19.5,
+    1.5, 11.5,
+    4.5, 11.5,
+    3.5, 3.5
+  ]
+}

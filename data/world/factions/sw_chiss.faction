@@ -1,0 +1,240 @@
+{
+	id:"sw_chiss",
+	"color":[50,200,255,255],
+	"displayName":"Chiss Ascendancy",
+	"displayNameWithArticle":"the Chiss Ascendancy",
+	"displayNameLong":"Chiss Ascendancy",   
+    "displayNameLongWithArticle":"the Chiss Ascendancy",  
+	"logo":"graphics/factions/sw_chiss_flag.png",
+	"crest":"graphics/factions/sw_chiss_crest.png",
+	"shipNamePrefix":"Chiss",
+	"shipNameSources":{
+		"STARWARS":2,
+		"ROMAN":1,
+		"GREEK":1,
+	},
+	"names":{
+		"old english":1,
+		"future":1,
+		"myth":1,	
+	},
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	"variantOverrides":{
+		"sw_dreadnought_heavy":10,
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp"],
+		"hulls":[
+		],
+	},
+
+	"knownShips":{
+		"tags":["chiss", "star_wars"],
+		"hulls":[
+		],
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			
+		],
+	},
+	"knownFighters":{
+		"tags":["chiss"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["sw_missile_bp", "chiss_bp"],
+		"weapons":[			
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "star_wars", "empire"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"augmentedengines",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":4,
+		"shipQuality":4,
+		"numShips":2,
+		
+		"shipSize":3,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0.25,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.25,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.5,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.33,
+		
+		"commanderSkillsShuffleProbability":0.5,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"electronic_warfare",
+			"weapon_drills",			
+			"flux_regulation",			
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",	
+	],
+	"music":{
+		"theme":"music_hegemony_market_neutral",
+		"market_neutral":"music_hegemony_market_neutral",
+		"market_hostile":"music_hegemony_market_hostile",
+		"market_friendly":"music_hegemony_market_friendly",
+		"encounter_neutral":"music_hegemony_encounter_neutral",
+		"encounter_hostile":"music_hegemony_encounter_hostile",
+		"encounter_friendly":"music_hegemony_encounter_friendly",
+	},
+	"internalComms":"sw_chiss_internal",
+
+	"portraits":{
+		"standard_male":[		
+			"graphics/portraits/chiss/Thrawn1.png",
+			"graphics/portraits/chiss/Thrawn2.png",
+			"graphics/portraits/chiss/Thrawn3.png",
+			"graphics/portraits/chiss/Thrawn4.png",
+			"graphics/portraits/chiss/Thrawn5.png",
+			"graphics/portraits/chiss/Thrawn6.png",
+			"graphics/portraits/chiss/Thrawn7.png",
+			"graphics/portraits/chiss/Chiss1.png",
+			"graphics/portraits/chiss/Chiss2.png",
+			"graphics/portraits/chiss/Chiss3.png",
+			"graphics/portraits/chiss/Chiss4.png",
+			"graphics/portraits/chiss/Chiss5.png",
+			"graphics/portraits/chiss/Chiss6.png",
+		],
+		"standard_female":[
+			"graphics/portraits/chiss/Chiss7.png",
+			"graphics/portraits/chiss/Chiss8.png",
+			"graphics/portraits/chiss/Chiss9.png",
+			"graphics/portraits/chiss/Chiss10.png",
+			"graphics/portraits/chiss/Chiss11.png",
+			"graphics/portraits/chiss/Chiss12.png",
+			"graphics/portraits/chiss/Aralani1.png",
+			"graphics/portraits/chiss/Aralani2.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Aristocra"},	
+			
+			"spaceSailor":{"name":"Lieutenant"},
+			"spaceChief":{"name":"Lieutenant Commander"},
+			"spaceEnsign":{"name":"Commander"},
+			"spaceLieutenant":{"name":"Captain"},
+			"spaceCommander":{"name":"Commodore"},
+			"spaceCaptain":{"name":"Mid Admiral"},
+			"spaceAdmiral":{"name":"Admiral"},
+			"spaceMarshal":{"name":"Supreme Admiral"},
+
+			"groundPrivate":{"name":"Warrior"},
+			"groundSergeant":{"name":"Lieutenant"},
+			"groundLieutenant":{"name":"Captain"},
+			"groundCaptain":{"name":"Colonel"},
+			"groundMajor":{"name":"Brigadier"},
+			"groundColonel":{"name":"General"},
+			"groundGeneral":{"name":"Supreme General"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Aristocra"},
+			
+			"patrolCommander":{"name":"Mid Amiral"},
+			"fleetCommander":{"name":"Amiral"},
+			"baseCommander":{"name":"General"},
+			
+			"administrator":{"name":"Chiss Family Official"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+			"aristo":3,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Trading Convoy",
+		"trade":"Trading Fleet",
+		"tradeLiner":"Personal Transport Convoy",
+		"patrolSmall":"Planet Patrol Fleet",
+		"patrolMedium":"Border Patrol Fleet",
+		"patrolLarge":"Sector Patrol Fleet",
+		"mercBountyHunter":"Bounty Hunter Fleet",
+		"inspectionFleet":"Recon Fleet",
+		"taskForce":"Chiss Expansionary Defense Force",
+		"battlestation":"Defense Platform",
+	},	
+},

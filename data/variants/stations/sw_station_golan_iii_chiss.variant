@@ -1,0 +1,21 @@
+{
+  "variantId": "sw_station_golan_iii_chiss",
+  "hullId": "sw_station_golan_iii",
+  "displayName": "Ascendancy",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "sw_module_golan_iii1_chiss"
+    },
+    {
+      "WS0002": "sw_module_golan_iii2_chiss"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,110 @@
+{
+  "hullName": "Lancer-class Pursuit Craft",
+  "hullId": "sw_lancer_pc",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_lancer_pc.png",
+  "style": "HIGH_TECH",
+  "height": 71,
+  "width": 74,
+  "center": [37, 35.5],
+  "collisionRadius": 45,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 45.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [33.5, 7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [33.5, -7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, 33],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-27, -33],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-32, -0],
+      "length": 10,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    34, -7.5,
+    28.5, -7.5,
+    23, -16.5,
+    16, -23,
+    14, -28.5,
+    24, -31.5,
+    24, -34.5,
+    23, -35.5,
+    -1, -35.5,
+    -2, -36.5,
+    -22, -36.5,
+    -27, -34.5,
+    -27, -31.5,
+    -22, -29.5,
+    -10, -29.5,
+    -10, -24.5,
+    -25, -17.5,
+    -35, -11.5,
+    -35, 11.5,
+    -25, 17.5,
+    -10, 24.5,
+    -10, 29.5,
+    -22, 29.5,
+    -27, 31.5,
+    -27, 34.5,
+    -22, 36.5,
+    -2, 36.5,
+    -1, 35.5,
+    23, 35.5,
+    24, 34.5,
+    24, 31.5,
+    14, 28.5,
+    16, 23,
+    23, 16.5,
+    28.5, 7.5,
+    34, 7.5
+  ]
+}

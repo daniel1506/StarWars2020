@@ -2,8 +2,8 @@
   "hullName": "Lambda Class Shuttle",
   "hullId": "sw_lambda",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sw_lambda.png",
-  "style": "LOW_TECH",
+  "spriteName": "graphics/ships/empire/sw_lambda.png",
+  "style": "SW_IMPERIAL",
   "height": 63,
   "width": 106,
   "center": [53, 31.5],
@@ -64,20 +64,20 @@
   ],
   "engineSlots": [
     {
-      "location": [-24, 10],
-      "length": 30,
+      "location": [-24, 11.5],
+      "length": 5,
       "width": 10,
       "angle": 180,
-      "contrailSize": 128,
-      "style": "LOW_TECH_FIGHTER"
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
     },
     {
-      "location": [-24, -10],
-      "length": 30,
+      "location": [-24, -11.5],
+      "length": 5,
       "width": 10,
       "angle": -180,
-      "contrailSize": 128,
-      "style": "LOW_TECH_FIGHTER"
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
     }
   ],
   "bounds": [

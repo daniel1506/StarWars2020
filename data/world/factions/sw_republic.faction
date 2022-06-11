@@ -1,0 +1,278 @@
+{
+	id:"sw_republic",
+	"color":[255,51,153,255],
+	"displayName":"Republic",
+	"displayNameWithArticle":"the Republic",
+	"displayNameLong":"Galactic Republic",   
+    "displayNameLongWithArticle":"the Galactic Republic",  
+	"logo":"graphics/factions/sw_republic_flag.png",
+	"crest":"graphics/factions/sw_republic_crest.png",
+	"shipNamePrefix":"Republic",
+	"shipNameSources":{
+		"STARWARS":2,
+		"ROMAN":1,
+		"GREEK":1,
+	},
+	"names":{
+		"old english":1,
+		"future":1,
+		"myth":1,	
+	},
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	"variantOverrides":{
+		"sw_acclamator_republic":10,
+		"sw_dreadnought_republic":10,
+		"sw_victory_i_republic":10,
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp"],
+		"hulls":[
+		],
+	},
+
+	"knownShips":{
+		"tags":["republic", "star_wars"],
+		"hulls":[
+		],
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			
+		],
+	},
+	"knownFighters":{
+		"tags":["republic"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["sw_missile_bp", "republic_bp"],
+		"weapons":[			
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "star_wars", "republic"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"augmentedengines",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":3,
+		"phaseShips":1,
+		
+		"officerQuality":4,
+		"shipQuality":4,
+		"numShips":1,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.25,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.25,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.5,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.33,
+		
+		"commanderSkillsShuffleProbability":0.5,
+		"commanderSkills":[
+			"fighter_uplink",
+			"carrier_group",
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",			
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",	
+	],
+	"music":{
+		"theme":"music_hegemony_market_neutral",
+		"market_neutral":"music_hegemony_market_neutral",
+		"market_hostile":"music_hegemony_market_hostile",
+		"market_friendly":"music_hegemony_market_friendly",
+		"encounter_neutral":"music_hegemony_encounter_neutral",
+		"encounter_hostile":"music_hegemony_encounter_hostile",
+		"encounter_friendly":"music_hegemony_encounter_friendly",
+	},
+	"internalComms":"sw_republic_internal",
+
+	"portraits":{
+		"standard_male":[			
+			"graphics/portraits/republic/Wullf.png",
+			"graphics/portraits/republic/Rex1.png",
+			"graphics/portraits/republic/Republic_Admiral1.png",
+			"graphics/portraits/republic/Bail_Organa1.png",
+			"graphics/portraits/republic/Bail_Organa2.png",
+			"graphics/portraits/republic/Bail_Organa3.png",
+			"graphics/portraits/republic/Bail_Organa4.png",
+			"graphics/portraits/republic/Kit_Fisto.png",
+			"graphics/portraits/republic/Kit_Fisto1.png",
+			"graphics/portraits/republic/Kit_Fisto2.png",
+			"graphics/portraits/republic/Plo_Koon.png",
+			"graphics/portraits/republic/Plo_Koon1.png",
+			"graphics/portraits/republic/Plo_Koon2.png",
+			"graphics/portraits/republic/Clone_Officer1.png",
+			"graphics/portraits/republic/Clone_Officer2.png",
+			"graphics/portraits/republic/Clone_Officer3.png",
+			"graphics/portraits/republic/Clone_Officer4.png",
+			"graphics/portraits/republic/Clone_Trooper1.png",
+			"graphics/portraits/republic/Clone_Trooper2.png",
+			"graphics/portraits/republic/Clone_Trooper3.png",
+			"graphics/portraits/republic/Clone_Trooper4.png",
+			"graphics/portraits/republic/Clone_Trooper5.png",
+			"graphics/portraits/republic/Clone_Trooper6.png",
+			"graphics/portraits/republic/Clone_Trooper7.png",
+			"graphics/portraits/republic/Clone_Trooper8.png",
+			"graphics/portraits/republic/Hunter1.png",
+			"graphics/portraits/republic/Hunter2.png",
+			"graphics/portraits/republic/Echo1.png",
+			"graphics/portraits/republic/Echo2.png",
+			"graphics/portraits/republic/Tech1.png",
+			"graphics/portraits/republic/Crosshair1.png",
+			"graphics/portraits/republic/Wrecker1.png",
+			"graphics/portraits/republic/Cham_Syndulla1.png",
+			"graphics/portraits/republic/Cham_Syndulla2.png",
+			"graphics/portraits/republic/Obi_Wan1.png",
+			"graphics/portraits/republic/Obi_Wan2.png",
+			"graphics/portraits/republic/Obi_Wan3.png",
+			"graphics/portraits/republic/Obi_Wan4.png",
+			"graphics/portraits/republic/Anakin1.png",
+			"graphics/portraits/republic/Terrinald_Screed1.png",
+			"graphics/portraits/republic/Terrinald_Screed2.png",
+		],
+		"standard_female":[
+			"graphics/portraits/republic/Shaak_Ti.png",
+			"graphics/portraits/Ahsoka_Tano1.png",
+			"graphics/portraits/Ahsoka_Tano4.png",
+			"graphics/portraits/Ahsoka_Tano5.png",
+			"graphics/portraits/Ahsoka_Tano6.png",
+			"graphics/portraits/republic/Padme1.png",
+			"graphics/portraits/republic/Padme2.png",
+			"graphics/portraits/republic/Padme3.png",
+			"graphics/portraits/republic/Padme4.png",
+			"graphics/portraits/republic/Padme5.png",
+			"graphics/portraits/republic/Padme6.png",
+			"graphics/portraits/republic/Aayla_Secura1.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Supreme Chancellor"},
+			
+			"spaceSailor":{"name":"Ensign"},
+			"spaceChief":{"name":"Junior Lieutenant"},
+			"spaceEnsign":{"name":"Senior Lieutenant"},
+			"spaceLieutenant":{"name":"Commander"},
+			"spaceCommander":{"name":"Captain"},
+			"spaceCaptain":{"name":"Rear Admiral"},
+			"spaceAdmiral":{"name":"Vice Admiral"},
+			"spaceMarshal":{"name":"Admiral"},
+			
+			"groundPrivate":{"name":"Corporal"},
+			"groundSergeant":{"name":"Sergeant"},
+			"groundLieutenant":{"name":"Lieutenant"},
+			"groundCaptain":{"name":"Captain"},
+			"groundMajor":{"name":"Major"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"General"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Supreme Chancellor"},
+			
+			"patrolCommander":{"name":"Vice Amiral"},
+			"fleetCommander":{"name":"Amiral"},
+			"baseCommander":{"name":"General"},
+			"administrator":{"name":"Senator"},
+			
+			"portmaster":{"name":"Port Commander"},
+			
+			"investigator":{"name":"Senator Representative"},
+			"specialAgent":{"name":"Jedi Knight"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+			"aristo":3,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Trading Convoy",
+		"trade":"Trading Fleet",
+		"tradeLiner":"Personal Transport Convoy",
+		"patrolSmall":"Planet Patrol Fleet",
+		"patrolMedium":"Border Patrol Fleet",
+		"patrolLarge":"Sector Patrol Fleet",
+		"mercBountyHunter":"Bounty Hunter Fleet",
+		"inspectionFleet":"Recon Fleet",
+		"taskForce":"Strike Force Fleet",
+		"battlestation":"Defense Platform",
+	},	
+},

@@ -1,0 +1,73 @@
+{
+  "hullName": "Golan III Space Defense NovaGun",
+  "hullId": "sw_station_golan_iii",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/stations/sw_station_golan_iii_base.png",
+  "style": "HIGH_TECH",
+  "height": 419,
+  "width": 556,
+  "center": [278, 209.5],
+  "collisionRadius": 278,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 279,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "vastbulk"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 278]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -278]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    209, -24.5,
+    207, -145.5,
+    207, -164.5,
+    202, -169.5,
+    202, -191.5,
+    184.5, -208.5,
+    136, -243,
+    25, -277.5,
+    -22, -277.5,
+    -119.5, -251.5,
+    -179, -212.5,
+    -202, -189.5,
+    -202, -167.5,
+    -206, -167.5,
+    -207, -162.5,
+    -209, -26.5,
+    -209, 26.5,
+    -207, 162.5,
+    -206, 167.5,
+    -202, 167.5,
+    -202, 189.5,
+    -179, 212.5,
+    -119.5, 251.5,
+    -22, 277.5,
+    25, 277.5,
+    136, 243,
+    184.5, 208.5,
+    202, 191.5,
+    202, 169.5,
+    207, 164.5,
+    207, 145.5,
+    209, 24.5
+  ]
+}

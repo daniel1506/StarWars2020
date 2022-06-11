@@ -1,0 +1,31 @@
+{
+  "variantId": "sw_aggressor_fighter_fighter",
+  "hullId": "sw_aggressor_fighter",
+  "displayName": "Assault Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_laser_cannon_heavy",
+        "WS0002": "sw_laser_cannon_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sw_nk3_ion_cannon",
+        "WS0004": "sw_nk3_ion_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

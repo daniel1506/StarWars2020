@@ -3,7 +3,7 @@
   "hullId": "sw_dreadnought",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/sw_dreadnaught.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 306,
   "width": 70,
   "center": [35, 153],

@@ -2,8 +2,8 @@
   "hullName": "Immobilizer 418 Cruiser",
   "hullId": "sw_immobilizer",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/sw_immobiliser.png",
-  "style": "MIDLINE",
+  "spriteName": "graphics/ships/empire/sw_immobiliser.png",
+  "style": "SW_IMPERIAL",
   "height": 306,
   "width": 148,
   "center": [74, 146.5],
@@ -13,21 +13,14 @@
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "chassis_storage",
-    "drive_field_stabilizer",
-    "ecm",
-    "eccm",
-    "ground_support",
-    "repair_gantry",
-    "surveying_equipment",
-    "sw_deflector_shield"
+    "drive_field_stabilizer"
   ],
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": 0,
       "locations": [-18, 11]
@@ -36,7 +29,7 @@
       "id": "WS0002",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": -0,
       "locations": [-18, -11]
@@ -45,7 +38,7 @@
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": 0,
       "locations": [71.5, -0]
@@ -120,10 +113,10 @@
   "engineSlots": [
     {
       "location": [-143.5, 39.5],
-      "length": 30,
+      "length": 20,
       "width": 10,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     },
     {

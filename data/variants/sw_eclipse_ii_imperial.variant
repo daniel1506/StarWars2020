@@ -1,0 +1,126 @@
+{
+  "variantId": "sw_eclipse_ii_imperial",
+  "hullId": "sw_eclipse_ii",
+  "displayName": "Imperial",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "sw_deflector_shield",
+    "sw_kyber_crystal_focus"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_eclipse_ii_superlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sw_quad_turbolaser",
+        "WS0003": "sw_quad_turbolaser",
+        "WS0004": "sw_quad_turbolaser",
+        "WS0005": "sw_quad_turbolaser",
+        "WS0006": "sw_quad_turbolaser",
+        "WS0007": "sw_quad_turbolaser",
+        "WS0008": "sw_quad_turbolaser",
+        "WS0009": "sw_quad_turbolaser",
+        "WS0010": "sw_quad_turbolaser",
+        "WS0011": "sw_quad_turbolaser",
+        "WS0012": "sw_quad_turbolaser",
+        "WS0013": "sw_quad_turbolaser",
+        "WS0014": "sw_quad_turbolaser",
+        "WS0015": "sw_quad_turbolaser",
+        "WS0016": "sw_quad_turbolaser",
+        "WS0017": "sw_quad_turbolaser",
+        "WS0018": "sw_quad_turbolaser",
+        "WS0019": "sw_quad_turbolaser",
+        "WS0020": "sw_quad_turbolaser",
+        "WS0021": "sw_quad_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "sw_xx9_turbolaser_heavy",
+        "WS0023": "sw_xx9_turbolaser_heavy",
+        "WS0024": "sw_xx9_turbolaser_heavy",
+        "WS0025": "sw_xx9_turbolaser_heavy",
+        "WS0026": "sw_xx9_turbolaser_heavy",
+        "WS0027": "sw_xx9_turbolaser_heavy",
+        "WS0028": "sw_xx9_turbolaser_heavy",
+        "WS0029": "sw_xx9_turbolaser_heavy",
+        "WS0030": "sw_xx9_turbolaser_heavy",
+        "WS0031": "sw_xx9_turbolaser_heavy",
+        "WS0032": "sw_xx9_turbolaser_heavy",
+        "WS0033": "sw_xx9_turbolaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0034": "sw_ion_cannon_heavy",
+        "WS0035": "sw_ion_cannon_heavy",
+        "WS0036": "sw_ion_cannon_heavy",
+        "WS0037": "sw_ion_cannon_heavy",
+        "WS0038": "sw_ion_cannon_heavy",
+        "WS0039": "sw_ion_cannon_heavy",
+        "WS0040": "sw_ion_cannon_heavy",
+        "WS0041": "sw_ion_cannon_heavy",
+        "WS0042": "sw_ion_cannon_heavy",
+        "WS0043": "sw_ion_cannon_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0044": "sw_laser_cannon",
+        "WS0045": "sw_laser_cannon",
+        "WS0046": "sw_laser_cannon",
+        "WS0047": "sw_laser_cannon",
+        "WS0048": "sw_laser_cannon",
+        "WS0049": "sw_laser_cannon",
+        "WS0050": "sw_laser_cannon",
+        "WS0051": "sw_laser_cannon",
+        "WS0052": "sw_laser_cannon",
+        "WS0053": "sw_laser_cannon",
+        "WS0054": "sw_laser_cannon",
+        "WS0055": "sw_laser_cannon",
+        "WS0056": "sw_laser_cannon",
+        "WS0057": "sw_laser_cannon",
+        "WS0058": "sw_laser_cannon",
+        "WS0059": "sw_laser_cannon",
+        "WS0060": "sw_laser_cannon",
+        "WS0061": "sw_laser_cannon",
+        "WS0062": "sw_laser_cannon",
+        "WS0063": "sw_laser_cannon",
+        "WS0064": "sw_laser_cannon",
+        "WS0065": "sw_laser_cannon",
+        "WS0066": "sw_laser_cannon",
+        "WS0067": "sw_laser_cannon",
+        "WS0068": "sw_laser_cannon",
+        "WS0069": "sw_laser_cannon",
+        "WS0070": "sw_laser_cannon",
+        "WS0071": "sw_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_tie_defender_wing",
+    "sw_tie_defender_wing",
+    "sw_tie_hunter_wing",
+    "sw_tie_hunter_wing",
+    "sw_tie_interdictor_wing",
+    "sw_tie_interdictor_wing"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "variantId": "sw_praetor_mk2_imperial",
+  "hullId": "sw_praetor_mk2",
+  "displayName": "Imperial",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_ball_quad_turbolaser",
+        "WS0002": "sw_ball_quad_turbolaser",
+        "WS0003": "sw_ball_quad_turbolaser",
+        "WS0004": "sw_ball_quad_turbolaser",
+        "WS0005": "sw_ball_quad_turbolaser",
+        "WS0006": "sw_ball_quad_turbolaser",
+        "WS0007": "sw_ball_quad_turbolaser",
+        "WS0008": "sw_ball_quad_turbolaser",
+        "WS0009": "sw_ball_quad_turbolaser",
+        "WS0010": "sw_ball_quad_turbolaser",
+        "WS0011": "sw_ball_quad_turbolaser",
+        "WS0012": "sw_ball_quad_turbolaser",
+        "WS0013": "sw_ball_quad_turbolaser",
+        "WS0014": "sw_ball_quad_turbolaser",
+        "WS0015": "sw_ball_quad_turbolaser",
+        "WS0016": "sw_ball_quad_turbolaser",
+        "WS0017": "sw_ball_quad_turbolaser",
+        "WS0018": "sw_ball_quad_turbolaser",
+        "WS0019": "sw_ball_quad_turbolaser",
+        "WS0020": "sw_ball_quad_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "sw_twin_ion_cannon_lr",
+        "WS0022": "sw_twin_ion_cannon_lr",
+        "WS0023": "sw_twin_ion_cannon_lr",
+        "WS0024": "sw_twin_ion_cannon_lr",
+        "WS0025": "sw_twin_ion_cannon_lr",
+        "WS0026": "sw_twin_ion_cannon_lr"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0027": "sw_ball_twin_turbolaser_medium",
+        "WS0028": "sw_ball_twin_turbolaser_medium",
+        "WS0029": "sw_ball_twin_turbolaser_medium",
+        "WS0030": "sw_ball_twin_turbolaser_medium",
+        "WS0031": "sw_ball_twin_turbolaser_medium",
+        "WS0032": "sw_ball_twin_turbolaser_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0033": "sw_laser_cannon",
+        "WS0034": "sw_laser_cannon",
+        "WS0035": "sw_laser_cannon",
+        "WS0036": "sw_laser_cannon",
+        "WS0037": "sw_laser_cannon",
+        "WS0038": "sw_laser_cannon",
+        "WS0039": "sw_laser_cannon",
+        "WS0040": "sw_laser_cannon",
+        "WS0041": "sw_laser_cannon",
+        "WS0042": "sw_laser_cannon",
+        "WS0043": "sw_laser_cannon",
+        "WS0044": "sw_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_tie_aggressor_wing",
+    "sw_tie_avenger_wing",
+    "sw_tie_oppressor_wing"
+  ]
+}

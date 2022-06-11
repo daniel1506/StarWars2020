@@ -8,7 +8,7 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
 public class KyberCrystalFocus extends BaseHullMod {
 
-	private static final float DAMAGE_BONUS_PERCENT = 10f;
+	private static final float DAMAGE_BONUS_PERCENT = 15f;
 	private static final float RANGE_BONUS = 20f;
 
 	

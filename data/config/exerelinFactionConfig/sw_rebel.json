@@ -6,49 +6,49 @@
     
     "directoryUseShortName":true,
 	
-	"marketSpawnWeight":0.8,
+	"marketSpawnWeight":1.2,
 	
-	"startRelationships":{ "independent":0.5, "hegemony": -0.7, "luddic_church": -0.3, "sw_empire": -1.0, "persean": 1.0 },
+	"startRelationships":{ "independent":0.5, "hegemony": -0.7, "luddic_church": -0.3, "sw_empire": -1.0, "persean": 1.0, "sw_republic":0.5},
 	"maxRelationships":{ "independent":0.5, "hegemony": -0.5, "sw_empire":-0.5 },
 	"diplomacyPositiveChance":{ "independent":0.5, },
 	"diplomacyNegativeChance":{ "hegemony":1, "sw_empire":1 },
-	"diplomacyTraits":["helps_allies", "likes_ai", "stalwart", "neutralist"],
+	"diplomacyTraits":["helps_allies", "likes_ai", "stalwart"],
     
     "alignments":{
-        "technocratic":0.5,
+        "technocratic":0.3,
         "diplomatic":0.5,
         "militarist":0.1,
-	"ideological":0.3,
+		"ideological":0.5,
     },
     
     "startShipsSolo":[["sw_nebula_rebel"]],
     "startShipsTradeSmall":[
-		["sw_mc40a_rebel", "sw_bff_1_bulk", "sw_dp20_rebel"],
-		["sw_bff_1_bulk", "sw_quasar_rebel", "sw_mc30c_rebel"]
+		["sw_mc40a_rebel", "sw_vcx100_light", "sw_bff_1_bulk"],
+		["sw_majestic_rebel", "sw_yt1300_light", "sw_bff_1_bulk"]
 	],
     "startShipsTradeLarge":[
-		["sw_aa9_super", "sw_lancer_heavy", "sw_assault_frigate_mk2_rebel"],
-		["sw_aa9_super", "sw_ton_falk_escort", "sw_mc40a_rebel"]
+		["sw_assault_frigate_mk1_rebel", "sw_majestic_rebel", "sw_aa9_super"],
+		["sw_assault_frigate_mk2_rebel", "sw_quasar_rebel", "sw_aa9_super"]
 	],
     "startShipsCombatSmall":[
-		["sw_nebula_rebel", "sw_mc30c_rebel", "sw_mc30c_rebel"],
-		["sw_assault_frigate_mk2_rebel", "sw_immobilizer_imperial", "sw_mc30c_rebel"]		
+		["sw_mc40a_rebel", "sw_majestic_rebel", "sw_mc30c_rebel"],
+		["sw_assault_frigate_mk2_rebel", "sw_assault_frigate_mk1_rebel", "sw_mc30c_rebel"]		
 	],
     "startShipsCombatLarge":[		
-		["sw_mc30c_rebel", "sw_mc80_liberty_rebel", "sw_assault_frigate_mk2_rebel"],
+		["sw_mc80_liberty_rebel", "sw_assault_frigate_mk1_rebel", "sw_mc30c_rebel"],
 		["sw_mc80b_rebel", "sw_nebula_rebel", "sw_mc30c_rebel"]
 	],
     "startShipsCarrierSmall":[		
-		["sw_ton_falk_escort", "sw_assault_frigate_mk2_rebel", "sw_nebula_rebel"],
-		["sw_mc75_rebel", "sw_assault_frigate_mk2_rebel", "sw_immobilizer_imperial"]
+		["sw_nebula_rebel", "sw_assault_frigate_mk1_rebel", "sw_quasar_rebel"],
+		["sw_assault_frigate_mk2_rebel", "sw_liberator_rebel", "sw_cc7700_rebel"]
 	],
     "startShipsCarrierLarge":[
-		["sw_mc75_rebel", "sw_nebula_rebel", "sw_assault_frigate_mk2_rebel"],
-		["sw_mc80_liberty_rebel", "sw_ton_falk_escort", "sw_mc30c_rebel"]
+		["sw_mc75_rebel", "sw_nebula_rebel", "sw_assault_frigate_mk1_rebel"],
+		["sw_mc80_liberty_rebel", "sw_liberator_rebel", "sw_mc30c_rebel"]
 	],
     
     "startSpecialItems":[
-        [["sw_weapon_package", "sw_lowtech_package"]],
+        [["sw_weapon_package", ""]],
     ],
     
     "defenceStations":[

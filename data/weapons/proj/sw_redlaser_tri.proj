@@ -1,0 +1,17 @@
+{
+	"id":"sw_redlaser_tri",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":14.0,
+	"width":15.0,
+	"fadeTime":0.3,
+	"fringeColor":[250,0,50,0],
+	"coreColor":[200,0,0,255],
+	"glowColor":[250,0,50,75],
+	"hitGlowRadius":30,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/sw_redlaser_tri.png"	
+}

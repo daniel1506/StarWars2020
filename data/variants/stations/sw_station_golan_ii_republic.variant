@@ -1,0 +1,21 @@
+{
+  "variantId": "sw_station_golan_ii_republic",
+  "hullId": "sw_station_golan_ii",
+  "displayName": "Republic",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "sw_module_golan_ii1_republic"
+    },
+    {
+      "WS0002": "sw_module_golan_ii2_republic"
+    }
+  ],
+  "wings": []
+}

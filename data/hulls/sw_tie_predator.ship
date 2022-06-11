@@ -1,16 +1,19 @@
 {
-  "hullName": "Tie_predator",
+  "hullName": "Predator-class Fighter",
   "hullId": "sw_tie_predator",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_predator.png",
   "style": "SW_IMPERIAL",
-  "height": 19,
-  "width": 48,
-  "center": [24, 9.5],
-  "collisionRadius": 25.5,
+  "height": 31,
+  "width": 79,
+  "center": [39.5, 15.5],
+  "collisionRadius": 41.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 26,
+  "shieldRadius": 42,
   "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -19,7 +22,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [7, 2.5]
+      "locations": [13, 4]
     },
     {
       "id": "WS0002",
@@ -28,7 +31,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [7, -2.5]
+      "locations": [13, -4]
     },
     {
       "id": "WS0003",
@@ -37,7 +40,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [9, -0]
+      "locations": [14, -0]
     },
     {
       "id": "WS0004",
@@ -45,26 +48,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": -0,
-      "locations": [9, 0]
-    },
-    {
-      "id": "WS0005",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 0,
       "angle": 0,
-      "locations": [8, -0]
-    },
-    {
-      "id": "WS0006",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": -0,
-      "locations": [8, 0]
+      "locations": [13, -0]
     }
   ],
   "engineSlots": [
@@ -74,13 +59,18 @@
       "width": 10,
       "angle": 180,
       "contrailSize": 128,
-      "style": "LOW_TECH"
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
     }
   ],
   "bounds": [
-    9, -2.5,
-    -9, -23.5,
-    -9, 23.5,
-    9, 2.5
+    14, -4,
+    8, -6,
+    -15, -38,
+    1, -13,
+    1, 13,
+    -15, 38,
+    8, 6,
+    14, 4
   ]
 }

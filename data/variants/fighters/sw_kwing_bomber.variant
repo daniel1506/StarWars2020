@@ -1,8 +1,8 @@
 {
   "variantId": "sw_kwing_bomber",
   "hullId": "sw_kwing",
-  "displayName": "Heavy Bomber",
-  "goalVariant": false,
+  "displayName": "Assault Starfighter",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,
@@ -13,7 +13,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "sw_tb_laser_cannon"
+        "WS0001": "sw_tb_quad_laser_cannon"
       }
     },
     {
@@ -27,8 +27,16 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "sw_proton_torpedo",
-        "WS0004": "sw_proton_torpedo",
+        "WS0003": "sw_concussion_missile",
+        "WS0004": "sw_concussion_missile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_proton_torpedo",
+        "WS0006": "sw_proton_torpedo",
         "WS0007": "sw_proton_torpedo",
         "WS0008": "sw_proton_torpedo"
       }
@@ -37,8 +45,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "sw_concussion_missile",
-        "WS0006": "sw_concussion_missile"
+        "WS0009": "sw_ion_torpedo",
+        "WS0010": "sw_ion_torpedo"
       }
     }
   ],

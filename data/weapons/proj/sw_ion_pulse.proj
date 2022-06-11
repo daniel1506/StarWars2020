@@ -1,0 +1,49 @@
+{
+	"id":"sw_ion_pulse",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/sw_ion_pulse.png",
+	"onHitEffect":"data.scripts.combat.SWIonPulseEffect",
+	"size":[88,88],	
+	"center":[44,44],
+	"collisionRadius":10,
+	"collisionClass":"NONE",
+	"explosionColor":[255,0,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"engineSpec":{"turnAcc":0,
+                        "turnRate":0,
+                        "acc":1,
+                        "dec":0},
+	"engineSlots":[{"id":"ES1",
+			"loc":[5, 0],
+			"style":"CUSTOM",
+			"styleSpec":{
+                                "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                                "engineColor":[255,0,255,250],
+                                "contrailDuration":1,
+                                "contrailWidthMult":2.5,
+                                "contrailWidthAddedFractionAtEnd":0,  # can be negative. makes trail spread out/narrow at the end
+                                "contrailMinSeg":20, # min segment length, in pixels
+                                "contrailMaxSpeedMult":0f,
+                                "contrailAngularVelocityMult":0f,
+                                "contrailSpawnDistMult":0, # how far away from engine it starts
+                                "contrailColor":[255,0,255,100],
+                                "type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+                        },
+                        "width":44.0,
+                        "length":60.0,
+                        "angle":180.0}],
+	"renderTargetIndicator":false, # no target diamond in combat view, not targeted by flares
+	"noCollisionWhileFading":true,
+	"useHitGlowWhenDealingDamage":false, # ? look at this
+	"useHitGlowWhenDestroyed":true, # instead of the default explosion
+	"dudProbabilityOnFlameout":0,
+	"fizzleOnReachingWeaponRange":true,
+	"armingTime":0,
+	"flameoutTime":0.5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration			
+	"glowColor":[255,0,255,200],
+	"glowRadius":100,
+	#"glowRadius":0,
+}

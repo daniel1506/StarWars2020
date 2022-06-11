@@ -1,0 +1,90 @@
+{
+  "hullName": "Hyena-class Bomber",
+  "hullId": "sw_hyena",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_hyena.png",
+  "style": "MIDLINE",
+  "height": 46,
+  "width": 36,
+  "center": [18.5, 22],
+  "collisionRadius": 26.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 16]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8, -16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10, 4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, 4],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18.5, -4],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    6.5, -11,
+    2.5, -14,
+    2.5, -15,
+    20.5, -15,
+    18.5, -17,
+    -0.5, -17,
+    -21.5, -14,
+    -4.5, -14,
+    -18.5, -5,
+    -18.5, 5,
+    -4.5, 14,
+    -21.5, 14,
+    -0.5, 17,
+    18.5, 17,
+    20.5, 15,
+    2.5, 15,
+    2.5, 14,
+    6.5, 11
+  ]
+}

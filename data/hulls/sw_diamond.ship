@@ -1,0 +1,132 @@
+{
+  "hullName": "Diamond-class Cruiser",
+  "hullId": "sw_diamond",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/cis/sw_diamond.png",
+  "style": "SW_CIS",
+  "height": 179,
+  "width": 298,
+  "center": [149, 74.5],
+  "collisionRadius": 156,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 156.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [103, 31.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [103, -31.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [103, 22.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [103, -22.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-20, 127.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-20, -127.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-73.5, -0],
+      "length": 30,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    102, -18.5,
+    104, -23.5,
+    104, -33.5,
+    103, -38.5,
+    101, -45.5,
+    98, -51.5,
+    95, -61.5,
+    89, -71.5,
+    78, -89.5,
+    61, -107.5,
+    44, -121.5,
+    29, -131.5,
+    7, -140.5,
+    -18, -147.5,
+    -48, -148.5,
+    -71, -62.5,
+    -71, -28.5,
+    -42, -28.5,
+    -42, -10.5,
+    -60, -10.5,
+    -62, -8.5,
+    -72, -8.5,
+    -74, -5.5,
+    -74, 5.5,
+    -72, 8.5,
+    -62, 8.5,
+    -60, 10.5,
+    -42, 10.5,
+    -42, 28.5,
+    -71, 28.5,
+    -71, 62.5,
+    -48, 148.5,
+    -18, 147.5,
+    7, 140.5,
+    29, 131.5,
+    44, 121.5,
+    61, 107.5,
+    78, 89.5,
+    89, 71.5,
+    95, 61.5,
+    98, 51.5,
+    101, 45.5,
+    103, 38.5,
+    104, 33.5,
+    104, 23.5,
+    102, 18.5
+  ]
+}

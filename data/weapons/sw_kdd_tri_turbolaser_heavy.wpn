@@ -1,0 +1,51 @@
+{
+  "id": "sw_kdd_tri_turbolaser_heavy",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_bluelaser_tri",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/sw_kdd_heavy_tri_turbolaser_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sw_kdd_heavy_tri_turbolaser_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/sw_kdd_heavy_tri_turbolaser_hardpoint_base.png",
+  "glowColor": [
+    0,
+    102,
+    255,
+    255
+  ],
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    11,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 5,
+    "spread": 5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      0,
+      102,
+      255,
+      200
+    ]
+  },
+  "fireSoundTwo": "sw_sound_quad_turbolaser"
+}

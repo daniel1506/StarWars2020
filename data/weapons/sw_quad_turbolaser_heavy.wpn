@@ -4,9 +4,9 @@
   "projectileSpecId": "sw_greenlaser_quad",
   "type": "ENERGY",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/sw_quad_turbolaser_turret_base.png",
+  "turretSprite": "graphics/weapons/sw_heavy_quad_turbolaser_turret_base.png",
   "turretGlowSprite": "graphics/weapons/sw_turbolaser_turret_glow.png",
-  "hardpointSprite": "graphics/weapons/sw_quad_turbolaser_turret_base.png",
+  "hardpointSprite": "graphics/weapons/sw_heavy_quad_turbolaser_turret_base.png",
   "hardpointGlowSprite": "graphics/weapons/sw_turbolaser_hardpoint_glow.png",
   "renderAboveAllWeapons": 0,
   "glowColor": [
@@ -32,8 +32,8 @@
   "barrelMode": "LINKED",
   "animationType": "GLOW_AND_FLASH",
   "muzzleFlashSpec": {
-    "length": 40,
-    "spread": 15,
+    "length": 20,
+    "spread": 10,
     "particleSizeMin": 20,
     "particleSizeRange": 10,
     "particleDuration": 0.12,

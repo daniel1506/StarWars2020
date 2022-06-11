@@ -1,8 +1,8 @@
 {
   "variantId": "sw_zwing_support",
   "hullId": "sw_zwing",
-  "displayName": "Support Fighter",
-  "goalVariant": false,
+  "displayName": "Starfighter",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

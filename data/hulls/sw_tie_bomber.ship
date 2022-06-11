@@ -1,15 +1,15 @@
 {
-  "hullName": "Tie Bomber",
+  "hullName": "TIE/sa Bomber",
   "hullId": "sw_tie_bomber",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_bomber.png",
   "style": "SW_IMPERIAL",
-  "height": 29,
-  "width": 32,
-  "center": [16, 14.5],
-  "collisionRadius": 20.5,
+  "height": 37,
+  "width": 38,
+  "center": [19, 18.5],
+  "collisionRadius": 25,
   "shieldCenter": [0, 0],
-  "shieldRadius": 21,
+  "shieldRadius": 25.5,
   "viewOffset": 0,
   "weaponSlots": [
     {
@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [5.5, 1.5]
+      "locations": [12, -2.5]
     },
     {
       "id": "WS0002",
@@ -27,8 +27,8 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": -0,
-      "locations": [5.5, -1.5]
+      "angle": 0,
+      "locations": [12, -7.5]
     },
     {
       "id": "WS0003",
@@ -36,8 +36,8 @@
       "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": -0,
-      "locations": [9, -4.5]
+      "angle": 0,
+      "locations": [10, 6]
     },
     {
       "id": "WS0004",
@@ -45,32 +45,61 @@
       "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
-      "angle": -0,
-      "locations": [7.5, -4.5]
+      "angle": 0,
+      "locations": [9, 6]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0.5, 6]
     }
   ],
   "engineSlots": [
     {
-      "location": [-7.5, 4.5],
+      "location": [-9, 6],
       "length": 30,
       "width": 10,
       "angle": 180,
       "contrailSize": 128,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
     },
     {
-      "location": [-7.5, -4.5],
+      "location": [-9, -6],
       "length": 30,
       "width": 10,
       "angle": -180,
       "contrailSize": 128,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
     }
   ],
   "bounds": [
-    13.5, -14.5,
-    -13.5, -14.5,
-    -13.5, 14.5,
-    13.5, 14.5
+    9, -12.5,
+    12, -12.5,
+    17, -17.5,
+    -16, -17.5,
+    -12, -12.5,
+    -9, -12.5,
+    -9, 12.5,
+    -12, 12.5,
+    -16, 17.5,
+    17, 17.5,
+    12, 12.5,
+    9, 12.5,
+    11, 7.5,
+    11, 4.5,
+    9, 1.5,
+    8, 1.5,
+    8, -1.5,
+    11, -1.5,
+    12, -2.5,
+    12, -8.5,
+    11, -9.5,
+    9, -9.5
   ]
 }

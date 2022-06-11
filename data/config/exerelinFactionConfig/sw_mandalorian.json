@@ -1,0 +1,69 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Mandal",
+    
+    "directoryUseShortName":true,
+	
+	"marketSpawnWeight":0.8,
+	
+	"startRelationships":{ "sw_zann":1.0, "sw_republic":0.5, "luddic_church": -0.7, "tritachyon": 0.5, "persean":0.3, "sw_rebel":0.8, "sw_empire":-1.0, "sw_black_sun":0.4},
+	"maxRelationships":{"sw_empire":-0.8},
+	"diplomacyPositiveChance":{"sw_republic":0.5, "sw_zann":0.5, "sw_rebel":0.5},
+	"diplomacyNegativeChance":{"sw_empire":1},
+	"diplomacyTraits":["law_and_order", "stalwart"],
+    
+    "alignments":{
+        "technocratic":0.5,
+        "diplomatic":-0.3,
+        "militarist":1.0,
+		"ideological":0.3,
+    },
+    
+    "startShipsSolo":[["sw_keldabe_zann"]],
+    "startShipsTradeSmall":[
+		["sw_jahaveyir_mandal", "sw_crusader_mandal", "sw_bff_1_bulk"],
+		["sw_jahaveyir_mandal", "sw_jahaveyir_mandal", "sw_bff_1_bulk"]
+	],
+    "startShipsTradeLarge":[
+		["sw_kandosii_mandal", "sw_crusader_mandal", "sw_aa9_super"],
+		["sw_keldabe_zann", "sw_crusader_mandal", "sw_aa9_super"]
+	],
+    "startShipsCombatSmall":[
+		["sw_jahaveyir_mandal", "sw_jahaveyir_mandal", "sw_crusader_mandal"],
+		["sw_teroch_mandal", "sw_crusader_mandal", "sw_crusader_mandal"]
+	],
+    "startShipsCombatLarge":[
+		["sw_aggressor_mandalorian_mandal", "sw_jahaveyir_mandal", "sw_crusader_mandal"],
+		["sw_keldabe_zann", "sw_teroch_mandal", "sw_jahaveyir_mandal"]
+	],
+    "startShipsCarrierSmall":[
+		["sw_dreadnought_carrier_mandal", "sw_jahaveyir_mandal", "sw_crusader_mandal"],
+		["sw_dreadnought_carrier_mandal", "sw_dreadnought_carrier_mandal", "sw_crusader_mandal"]
+	],
+    "startShipsCarrierLarge":[		
+		["sw_keldabe_zann", "sw_dreadnought_carrier_mandal", "sw_dreadnought_carrier_mandal"],
+		["sw_aggressor_mandalorian_mandal", "sw_dreadnought_carrier_mandal", "sw_dreadnought_carrier_mandal"]
+	],
+    
+    "startSpecialItems":[
+        [["sw_weapon_package", "", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

@@ -1,0 +1,74 @@
+{
+  "variantId": "sw_proclamator_republic",
+  "hullId": "sw_proclamator",
+  "displayName": "Republic",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_kdd_tri_turbolaser",
+        "WS0002": "sw_kdd_tri_turbolaser",
+        "WS0003": "sw_kdd_tri_turbolaser",
+        "WS0004": "sw_kdd_tri_turbolaser",
+        "WS0005": "sw_kdd_tri_turbolaser",
+        "WS0006": "sw_kdd_tri_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sw_kdd_quad_turbolaser",
+        "WS0008": "sw_kdd_quad_turbolaser",
+        "WS0009": "sw_kdd_quad_turbolaser",
+        "WS0010": "sw_kdd_quad_turbolaser",
+        "WS0011": "sw_kdd_quad_turbolaser",
+        "WS0012": "sw_kdd_quad_turbolaser",
+        "WS0013": "sw_kdd_quad_turbolaser",
+        "WS0014": "sw_kdd_quad_turbolaser",
+        "WS0015": "sw_kdd_quad_turbolaser",
+        "WS0016": "sw_kdd_quad_turbolaser",
+        "WS0017": "sw_kdd_quad_turbolaser",
+        "WS0018": "sw_kdd_quad_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "sw_kdd_laser_cannon",
+        "WS0020": "sw_kdd_laser_cannon",
+        "WS0021": "sw_kdd_laser_cannon",
+        "WS0022": "sw_kdd_laser_cannon",
+        "WS0023": "sw_kdd_laser_cannon",
+        "WS0024": "sw_kdd_laser_cannon",
+        "WS0025": "sw_kdd_laser_cannon",
+        "WS0026": "sw_kdd_laser_cannon",
+        "WS0027": "sw_kdd_laser_cannon",
+        "WS0028": "sw_kdd_laser_cannon",
+        "WS0029": "sw_kdd_laser_cannon",
+        "WS0030": "sw_kdd_laser_cannon",
+        "WS0031": "sw_kdd_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_v19_wing",
+    "sw_vwing_wing",
+    "sw_btl_b_ywing_wing",
+    "sw_delta7_wing"
+  ]
+}

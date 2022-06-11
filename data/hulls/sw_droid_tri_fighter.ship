@@ -1,0 +1,112 @@
+{
+  "hullName": "Droid Tri-fighter",
+  "hullId": "sw_droid_tri_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_droid_tri_fighter.png",
+  "style": "HIGH_TECH",
+  "height": 34,
+  "width": 21,
+  "center": [10.5, 17],
+  "collisionRadius": 17.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 18,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10.5, 8]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10.5, -8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11.5, 4]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11.5, -4]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, 6]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8.5, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, -0],
+      "length": 5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    11.5, -1,
+    11.5, -4,
+    5.5, -10,
+    -4.5, -10,
+    -16.5, -4,
+    -16.5, 4,
+    -4.5, 10,
+    5.5, 10,
+    11.5, 4,
+    11.5, 1,
+    16.5, -0
+  ]
+}

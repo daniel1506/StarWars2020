@@ -1,0 +1,184 @@
+{
+  "hullName": "CC-7700 Frigate",
+  "hullId": "sw_cc7700",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/rebel/sw_cc7700.png",
+  "style": "MIDLINE",
+  "height": 169,
+  "width": 70,
+  "center": [35, 84.5],
+  "collisionRadius": 84.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 85.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "drive_field_stabilizer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-26, 21]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-26, -21]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-4.5, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-4.5, -21]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [20.5, 8]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [20.5, -8]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-20, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-15.5, 30]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-15.5, -30]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 80,
+      "locations": [53, 13]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -80,
+      "locations": [53, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-80, 18.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-80, -18.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    84, -6.5,
+    70, -9.5,
+    70, -11.5,
+    42, -18.5,
+    38, -15.5,
+    33, -15.5,
+    33, -17.5,
+    22.5, -20.5,
+    14, -20.5,
+    9, -19,
+    2.5, -34.5,
+    -34, -34.5,
+    -41, -24.5,
+    -50, -28.5,
+    -73, -28.5,
+    -80.5, -21.5,
+    -80.5, -8.5,
+    -84, -7,
+    -84, 7,
+    -80.5, 8.5,
+    -80.5, 21.5,
+    -73, 28.5,
+    -50, 28.5,
+    -41, 24.5,
+    -34, 34.5,
+    2.5, 34.5,
+    9, 19,
+    14, 20.5,
+    22.5, 20.5,
+    33, 17.5,
+    33, 15.5,
+    38, 15.5,
+    42, 18.5,
+    70, 11.5,
+    70, 9.5,
+    84, 6.5
+  ]
+}

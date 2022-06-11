@@ -1,0 +1,38 @@
+{
+  "variantId": "sw_komrk_fighter",
+  "hullId": "sw_komrk",
+  "displayName": "Fighter",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_ht12_laser_cannon",
+        "WS0002": "sw_ht12_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sw_ht12_laser_cannon",
+        "WS0004": "sw_ht12_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_mandal_turbolaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

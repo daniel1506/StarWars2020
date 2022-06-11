@@ -1,8 +1,8 @@
 {
   "variantId": "sw_tie_bomber_bomber",
   "hullId": "sw_tie_bomber",
-  "displayName": "Light Bomber",
-  "goalVariant": false,
+  "displayName": "Bomber",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,
@@ -21,14 +21,21 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "sw_proton_torpedo"
+        "WS0003": "sw_concussion_missile"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "sw_concussion_missile"
+        "WS0004": "sw_proton_torpedo"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_proton_bomb"
       }
     }
   ],

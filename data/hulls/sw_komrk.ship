@@ -1,0 +1,107 @@
+{
+  "hullName": "Kom'rk-class Fighter",
+  "hullId": "sw_komrk",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_komrk.png",
+  "style": "HIGH_TECH",
+  "height": 74,
+  "width": 71,
+  "center": [35.5, 34.5],
+  "collisionRadius": 45,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 45.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19, 5.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [19, -5.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-14, 34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-14, -34]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-33, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31, 19.5],
+      "length": 5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-31, -19.5],
+      "length": 5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    29, -3,
+    22, -8,
+    38, -8,
+    38, -10,
+    27, -14,
+    18, -17,
+    -1, -22,
+    -4, -22,
+    -15, -35,
+    -27, -35,
+    -31, -25,
+    -34, -0,
+    -31, 25,
+    -27, 35,
+    -15, 35,
+    -4, 22,
+    -1, 22,
+    18, 17,
+    27, 14,
+    38, 10,
+    38, 8,
+    22, 8,
+    29, 3
+  ]
+}

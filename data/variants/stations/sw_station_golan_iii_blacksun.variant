@@ -1,0 +1,21 @@
+{
+  "variantId": "sw_station_golan_iii_blacksun",
+  "hullId": "sw_station_golan_iii",
+  "displayName": "Black Sun",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "sw_module_golan_iii1_blacksun"
+    },
+    {
+      "WS0002": "sw_module_golan_iii2_blacksun"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,108 @@
+{
+  "variantId": "sw_rothana_battlecruiser_republic",
+  "hullId": "sw_rothana_battlecruiser",
+  "displayName": "Republic",
+  "goalVariant": true,
+  "fluxCapacitors": 40,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_dby827_dual_turbolaser",
+        "WS0002": "sw_dby827_dual_turbolaser",
+        "WS0003": "sw_dby827_dual_turbolaser",
+        "WS0004": "sw_dby827_dual_turbolaser",
+        "WS0005": "sw_dby827_dual_turbolaser",
+        "WS0006": "sw_dby827_dual_turbolaser",
+        "WS0007": "sw_dby827_dual_turbolaser",
+        "WS0008": "sw_dby827_dual_turbolaser",
+        "WS0009": "sw_dby827_dual_turbolaser",
+        "WS0010": "sw_dby827_dual_turbolaser",
+        "WS0011": "sw_dby827_dual_turbolaser",
+        "WS0012": "sw_dby827_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "sw_dual_turbolaser_medium",
+        "WS0014": "sw_dual_turbolaser_medium",
+        "WS0015": "sw_dual_turbolaser_medium",
+        "WS0016": "sw_dual_turbolaser_medium",
+        "WS0017": "sw_dual_turbolaser_medium",
+        "WS0018": "sw_dual_turbolaser_medium",
+        "WS0019": "sw_dual_turbolaser_medium",
+        "WS0020": "sw_dual_turbolaser_medium",
+        "WS0021": "sw_dual_turbolaser_medium",
+        "WS0022": "sw_dual_turbolaser_medium",
+        "WS0023": "sw_dual_turbolaser_medium",
+        "WS0024": "sw_dual_turbolaser_medium",
+        "WS0025": "sw_dual_turbolaser_medium",
+        "WS0026": "sw_dual_turbolaser_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0027": "sw_dual_ion_cannon_heavy",
+        "WS0028": "sw_dual_ion_cannon_heavy",
+        "WS0029": "sw_dual_ion_cannon_heavy",
+        "WS0030": "sw_dual_ion_cannon_heavy",
+        "WS0031": "sw_dual_ion_cannon_heavy",
+        "WS0032": "sw_dual_ion_cannon_heavy",
+        "WS0033": "sw_dual_ion_cannon_heavy",
+        "WS0034": "sw_dual_ion_cannon_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0035": "sw_mg7",
+        "WS0036": "sw_mg7",
+        "WS0037": "sw_mg7",
+        "WS0038": "sw_mg7",
+        "WS0039": "sw_mg7",
+        "WS0040": "sw_mg7"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0041": "sw_kdd_laser_cannon",
+        "WS0042": "sw_kdd_laser_cannon",
+        "WS0043": "sw_kdd_laser_cannon",
+        "WS0044": "sw_kdd_laser_cannon",
+        "WS0045": "sw_kdd_laser_cannon",
+        "WS0046": "sw_kdd_laser_cannon",
+        "WS0047": "sw_kdd_laser_cannon",
+        "WS0048": "sw_kdd_laser_cannon",
+        "WS0049": "sw_kdd_laser_cannon",
+        "WS0050": "sw_kdd_laser_cannon",
+        "WS0051": "sw_kdd_laser_cannon",
+        "WS0052": "sw_kdd_laser_cannon",
+        "WS0053": "sw_kdd_laser_cannon",
+        "WS0054": "sw_kdd_laser_cannon",
+        "WS0055": "sw_kdd_laser_cannon",
+        "WS0056": "sw_kdd_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_arc170_wing",
+    "sw_arc170_wing",
+    "sw_vwing_wing",
+    "sw_ntb_630_wing"
+  ]
+}

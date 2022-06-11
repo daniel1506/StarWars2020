@@ -1,0 +1,103 @@
+{
+  "hullName": "Clone Z-95 Headhunter Starfighter",
+  "hullId": "sw_z95",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_z95.png",
+  "style": "HIGH_TECH",
+  "height": 53,
+  "width": 61,
+  "center": [30.5, 23.5],
+  "collisionRadius": 34,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 3]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [5, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, 7],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-23, -7],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    28, -1,
+    20, -1,
+    17, -3,
+    15, -2,
+    -1, -3,
+    -1, -9,
+    -3, -9,
+    -3, -12,
+    -8, -29,
+    -17, -29,
+    -17, -10,
+    -23, -8,
+    -23, -6,
+    -18, -6,
+    -18, 6,
+    -23, 6,
+    -23, 8,
+    -17, 10,
+    -17, 29,
+    -8, 29,
+    -3, 12,
+    -3, 9,
+    -1, 9,
+    -1, 3,
+    15, 2,
+    17, 3,
+    20, 1,
+    28, 1
+  ]
+}

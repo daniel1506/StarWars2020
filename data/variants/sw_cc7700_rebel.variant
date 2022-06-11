@@ -1,0 +1,50 @@
+{
+  "variantId": "sw_cc7700_rebel",
+  "hullId": "sw_cc7700",
+  "displayName": "Rebel",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_tb_turbolaser",
+        "WS0002": "sw_tb_turbolaser",
+        "WS0003": "sw_tb_turbolaser",
+        "WS0004": "sw_tb_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_tb_turbolaser",
+        "WS0006": "sw_tb_turbolaser",
+        "WS0007": "sw_tb_turbolaser",
+        "WS0008": "sw_tb_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sw_tb_laser_cannon",
+        "WS0010": "sw_tb_laser_cannon",
+        "WS0011": "sw_tb_laser_cannon",
+        "WS0012": "sw_tb_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

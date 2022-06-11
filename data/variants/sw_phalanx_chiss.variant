@@ -1,0 +1,87 @@
+{
+  "variantId": "sw_phalanx_chiss",
+  "hullId": "sw_phalanx",
+  "displayName": "Ascendancy",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_quad_megamaser_heavy",
+        "WS0002": "sw_quad_megamaser_heavy",
+        "WS0003": "sw_quad_megamaser_heavy",
+        "WS0004": "sw_quad_megamaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_dual_megamaser_medium",
+        "WS0006": "sw_dual_megamaser_medium",
+        "WS0007": "sw_dual_megamaser_medium",
+        "WS0008": "sw_dual_megamaser_medium",
+        "WS0009": "sw_dual_megamaser_medium",
+        "WS0010": "sw_dual_megamaser_medium",
+        "WS0011": "sw_dual_megamaser_medium",
+        "WS0012": "sw_dual_megamaser_medium",
+        "WS0013": "sw_dual_megamaser_medium",
+        "WS0014": "sw_dual_megamaser_medium",
+        "WS0015": "sw_dual_megamaser_medium",
+        "WS0016": "sw_dual_megamaser_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "sw_dual_ion_cannon_heavy",
+        "WS0018": "sw_dual_ion_cannon_heavy",
+        "WS0019": "sw_dual_ion_cannon_heavy",
+        "WS0020": "sw_dual_ion_cannon_heavy",
+        "WS0021": "sw_dual_ion_cannon_heavy",
+        "WS0022": "sw_dual_ion_cannon_heavy",
+        "WS0023": "sw_dual_ion_cannon_heavy",
+        "WS0024": "sw_dual_ion_cannon_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0025": "sw_concussion_missile_assault",
+        "WS0026": "sw_concussion_missile_assault",
+        "WS0027": "sw_concussion_missile_assault",
+        "WS0028": "sw_concussion_missile_assault",
+        "WS0029": "sw_concussion_missile_assault",
+        "WS0030": "sw_concussion_missile_assault"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0031": "sw_maser_cannon",
+        "WS0032": "sw_maser_cannon",
+        "WS0033": "sw_maser_cannon",
+        "WS0034": "sw_maser_cannon",
+        "WS0035": "sw_maser_cannon",
+        "WS0036": "sw_maser_cannon",
+        "WS0037": "sw_maser_cannon",
+        "WS0038": "sw_maser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_nsiss_wing",
+    "sw_krsiss_wing",
+    "sw_syca_wing"
+  ]
+}

@@ -5,9 +5,7 @@
   "type": "ENERGY",
   "size": "SMALL",
   "turretSprite": "graphics/weapons/sw_laser_cannon_turret_base.png",
-  #"turretGlowSprite": "graphics/weapons/sw_ion_cannon_turret_glow.png",
   "hardpointSprite": "graphics/weapons/sw_laser_cannon_hardpoint_base.png",
-  #"hardpointGlowSprite": "graphics/weapons/sw_ion_cannon_hardpoint_glow.png",
   "renderAboveAllWeapons": 0,
   "glowColor": [
     0,
@@ -16,28 +14,34 @@
     255
   ],
   "turretOffsets": [
+    4.5,
     2,
-    0
+    4.5,
+    -2
   ],
   "turretAngleOffsets": [
+    0,
     0
   ],
   "hardpointOffsets": [
+    3.5,
     2,
-    0
+    3.5,
+    -2
   ],
   "hardpointAngleOffsets": [
+    0,
     0
   ],
-  "barrelMode": "LINKED",
+  "barrelMode": "ALTERNATING",
   "animationType": "GLOW_AND_FLASH",
   "muzzleFlashSpec": {
-    "length": 10,
-    "spread": 5,
-    "particleSizeMin": 10,
-    "particleSizeRange": 5,
+    "length": 5,
+    "spread": 3,
+    "particleSizeMin": 5,
+    "particleSizeRange": 3,
     "particleDuration": 0.12,
-    "particleCount": 10,
+    "particleCount": 3,
     "particleColor": [
       0,
       250,

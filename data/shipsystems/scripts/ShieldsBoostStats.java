@@ -14,7 +14,7 @@ public class ShieldsBoostStats extends BaseShipSystemScript {
 	
 	protected void playSoundEffect(ShipAPI ship) {
 		if (ship == Global.getCombatEngine().getPlayerShip()) {
-			Global.getSoundPlayer().playUISound("sw_system_shields_boost", 1.0f, 0.7f);
+			Global.getSoundPlayer().playSound("sw_system_shields_boost", 1.0f, 0.7f, ship.getLocation(), ship.getVelocity());
 		};
 	}
 
@@ -25,7 +25,7 @@ public class ShieldsBoostStats extends BaseShipSystemScript {
 			playSoundEffect(ship);
 			alreadyExecuted = true;
 		}		
-		stats.getShieldDamageTakenMult().modifyMult(id, 1f - .9f * effectLevel);
+		stats.getShieldDamageTakenMult().modifyMult(id, 1f - .6f * effectLevel);
 		
 		stats.getShieldUpkeepMult().modifyMult(id, 0f);
 		
@@ -34,10 +34,7 @@ public class ShieldsBoostStats extends BaseShipSystemScript {
 	
 	public void unapply(MutableShipStatsAPI stats, String id) {
 		stats.getShieldAbsorptionMult().unmodify(id);
-		stats.getShieldArcBonus().unmodify(id);
 		stats.getShieldDamageTakenMult().unmodify(id);
-		stats.getShieldTurnRateMult().unmodify(id);
-		stats.getShieldUnfoldRateMult().unmodify(id);
 		stats.getShieldUpkeepMult().unmodify(id);
 		stats.getEnergyWeaponDamageMult().unmodify(id);
 		alreadyExecuted = false;
@@ -45,7 +42,7 @@ public class ShieldsBoostStats extends BaseShipSystemScript {
 	
 	public StatusData getStatusData(int index, State state, float effectLevel) {
 		if (index == 0) {
-			return new StatusData("shield absorbs 10x damage", false);
+			return new StatusData("shield absorbs 40x damage", false);
 		}
 //		else if (index == 1) {
 //			return new StatusData("shield upkeep reduced to 0", false);

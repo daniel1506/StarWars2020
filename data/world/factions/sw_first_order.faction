@@ -1,0 +1,272 @@
+{
+	id:"sw_first_order",
+	"color":[180,0,60,255],
+	"displayName":"First Order",
+	"displayNameWithArticle":"the First Order",
+	"displayNameLong":"First Order",   
+    "displayNameLongWithArticle":"the First Order",  
+	"logo":"graphics/factions/sw_first_order_flag.png",
+	"crest":"graphics/factions/sw_first_order_crest.png",
+	"shipNamePrefix":"First Order",
+	"shipNameSources":{
+		"STARWARS":2,
+		"ROMAN":1,
+		"GREEK":1,
+	},
+	"names":{
+		"old english":1,
+		"future":1,
+		"myth":1,	
+	},
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	"variantOverrides":{
+		"sw_dreadnought_heavy":10,
+		"sw_gozanti_firstorder":10,
+		"sw_imperial_i_firstorder":10,
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp"],
+		"hulls":[
+		],
+	},
+
+	"knownShips":{
+		"tags":["first_order", "star_wars"],
+		"hulls":[
+		],
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			
+		],
+	},
+	"knownFighters":{
+		"tags":["first_order"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["sw_missile_bp", "empire_bp"],
+		"weapons":[			
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "star_wars", "empire"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"augmentedengines",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":4,
+		"shipQuality":4,
+		"numShips":1,
+		
+		"shipSize":4,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0.25,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.25,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.5,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.33,
+		
+		"commanderSkillsShuffleProbability":0.5,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"electronic_warfare",
+			"weapon_drills",			
+			"flux_regulation",			
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",	
+	],
+	"music":{
+		"theme":"music_hegemony_market_neutral",
+		"market_neutral":"music_hegemony_market_neutral",
+		"market_hostile":"music_hegemony_market_hostile",
+		"market_friendly":"music_hegemony_market_friendly",
+		"encounter_neutral":"music_hegemony_encounter_neutral",
+		"encounter_hostile":"music_hegemony_encounter_hostile",
+		"encounter_friendly":"music_hegemony_encounter_friendly",
+	},
+	"internalComms":"sw_firstorder_internal",
+
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/firstorder/General_Hux1.png",	
+			"graphics/portraits/firstorder/General_Hux2.png",
+			"graphics/portraits/firstorder/General_Hux3.png",
+			"graphics/portraits/firstorder/Enric_Pryde1.png",
+			"graphics/portraits/firstorder/Enric_Pryde2.png",
+			"graphics/portraits/firstorder/Enric_Pryde3.png",
+			"graphics/portraits/firstorder/Enric_Pryde4.png",
+			"graphics/portraits/firstorder/Enric_Pryde5.png",
+			"graphics/portraits/firstorder/Moden_Canady1.png",
+			"graphics/portraits/firstorder/Snoke1.png",
+			"graphics/portraits/firstorder/Snoke2.png",
+			"graphics/portraits/firstorder/Snoke3.png",
+			"graphics/portraits/firstorder/Snoke4.png",
+			"graphics/portraits/firstorder/Snoke5.png",
+			"graphics/portraits/firstorder/First_Order_Trooper1.png",
+			"graphics/portraits/firstorder/First_Order_Trooper2.png",
+			"graphics/portraits/firstorder/First_Order_Trooper3.png",
+			"graphics/portraits/firstorder/First_Order_Trooper4.png",
+			"graphics/portraits/firstorder/First_Order_Trooper5.png",
+			"graphics/portraits/firstorder/First_Order_Tie_Pilot1.png",
+			"graphics/portraits/firstorder/First_Order_Tie_Pilot2.png",
+			"graphics/portraits/firstorder/First_Order_Tie_Pilot3.png",
+			"graphics/portraits/firstorder/First_Order_Tie_Pilot4.png",
+			"graphics/portraits/firstorder/First_Order_Tie_Pilot5.png",
+			"graphics/portraits/firstorder/First_Order_Tie_Pilot6.png",
+			"graphics/portraits/firstorder/First_Order_Tie_Pilot7.png",
+			"graphics/portraits/firstorder/Sith_Trooper1.png",
+			"graphics/portraits/firstorder/Sith_Trooper2.png",
+			"graphics/portraits/firstorder/Sith_Trooper3.png",
+			"graphics/portraits/firstorder/Sith_Trooper4.png",
+			"graphics/portraits/firstorder/Sith_Trooper5.png",
+			"graphics/portraits/firstorder/Sith_Trooper6.png",
+			"graphics/portraits/firstorder/Sith_Trooper7.png",
+			"graphics/portraits/firstorder/First_Order_Officer1.png",
+			"graphics/portraits/firstorder/First_Order_Officer2.png",
+			"graphics/portraits/firstorder/First_Order_Officer3.png",
+			"graphics/portraits/firstorder/First_Order_Officer4.png",
+			"graphics/portraits/firstorder/First_Order_Officer9.png",
+			"graphics/portraits/firstorder/First_Order_Officer10.png",
+		],
+		"standard_female":[
+			"graphics/portraits/firstorder/Rae_Sloane1.png",
+			"graphics/portraits/firstorder/Rae_Sloane2.png",
+			"graphics/portraits/firstorder/Rae_Sloane3.png",
+			"graphics/portraits/firstorder/Rae_Sloane4.png",
+			"graphics/portraits/firstorder/Phasma1.png",
+			"graphics/portraits/firstorder/Phasma2.png",
+			"graphics/portraits/firstorder/Phasma3.png",
+			"graphics/portraits/firstorder/Phasma4.png",
+			"graphics/portraits/firstorder/Phasma5.png",
+			"graphics/portraits/firstorder/First_Order_Officer5.png",
+			"graphics/portraits/firstorder/First_Order_Officer6.png",
+			"graphics/portraits/firstorder/First_Order_Officer7.png",
+			"graphics/portraits/firstorder/First_Order_Officer8.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Supreme Leader"},
+			
+			"spaceSailor":{"name":"Ensign"},
+			"spaceChief":{"name":"Junior Lieutenant"},
+			"spaceEnsign":{"name":"Senior Lieutenant"},
+			"spaceLieutenant":{"name":"Commander"},
+			"spaceCommander":{"name":"Captain"},
+			"spaceCaptain":{"name":"Rear Admiral"},
+			"spaceAdmiral":{"name":"Vice Admiral"},
+			"spaceMarshal":{"name":"Admiral"},
+			
+			"groundPrivate":{"name":"Squad Leader"},
+			"groundSergeant":{"name":"Sergeant"},
+			"groundLieutenant":{"name":"Lieutenant"},
+			"groundCaptain":{"name":"Captain"},
+			"groundMajor":{"name":"Major"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"General"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Supreme Leader"},
+			"patrolCommander":{"name":"Vice Amiral"},
+			"fleetCommander":{"name":"Amiral"},
+			"baseCommander":{"name":"General"},
+			
+			"investigator":{"name":"First Order Security Bureau Agent"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+			"aristo":3,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Trading Convoy",
+		"trade":"Trading Fleet",
+		"tradeLiner":"Personal Transport Convoy",
+		"patrolSmall":"Planet Patrol Fleet",
+		"patrolMedium":"Border Patrol Fleet",
+		"patrolLarge":"Sector Patrol Fleet",
+		"mercBountyHunter":"Bounty Hunter Fleet",
+		"inspectionFleet":"Recon Fleet",
+		"taskForce":"Principal Force Fleet",
+		"battlestation":"Defense Platform",
+	},	
+},

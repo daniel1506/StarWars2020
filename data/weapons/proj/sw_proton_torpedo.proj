@@ -6,7 +6,7 @@
 	"sprite":"graphics/missiles/sw_proton_torpedo.png",
 	"size":[9,11],	
 	"center":[4.5,5.5],
-	"collisionRadius":5,
+	"collisionRadius":9,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[225,150,105,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":50, # purely visual
@@ -24,14 +24,14 @@
 	"engineSpec":{"turnAcc":125,
 				  "turnRate":85,
 				  "acc":500,
-				  "dec":300},
+				  "dec":600},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-2, 0],
 				    "style":"CUSTOM",
 				    "styleSpec":{
 					"mode":"QUAD_STRIP",
-					"engineColor":[230,0,50,255],
-					"contrailColor":[200,0,50,150],
+					"engineColor":[255,180,205,255],
+					"contrailColor":[255,130,170,150],
 					"contrailDuration":0.1,
 					"contrailWidthMult":1,
 					"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end

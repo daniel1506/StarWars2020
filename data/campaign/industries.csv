@@ -1,0 +1,198 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+sw_shieldgate_imperial,Golan M3185 Shield Gate,50,90,,3,,sw_golan_iii_imperial,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_shieldgate_imperial,
+fleetName:Golan M3185 Shield Gate,
+}",graphics/icons/industry/sw_shieldgate.png,data.scripts.campaign.industry.SWOrbitalStationImperial,"The Golan M3185 was a class of wheel-shaped space station of the Galactic Empire that was used for planetary defense.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_iii_imperial,Imperial Golan III Space Defense NovaGun,100,120,,4,sw_shieldgate_imperial,sw_shipyards_imperial,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_golan_iii_imperial,
+fleetName:Golan III Space Defense NovaGun,
+}",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationImperial,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
+
+Must be reduced before invasions or bombardment can be attempted.",2020
+,,,,,,,,,,,,,
+sw_shipyards_imperial,Imperial Dockyards,200,180,,5,sw_golan_iii_imperial,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:sw_station_shipyards_imperial,
+fleetName:Imperial Dockyards
+}",graphics/icons/industry/sw_shipyards.png,data.scripts.campaign.industry.SWOrbitalStationImperial,"Imperial dockyards were a class of space stations servicing and attending to its many starships.
+
+Must be reduced before invasions or bombardment can be attempted.",2030
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+sw_golan_ii_rebel,New Republic Golan II Space Defense SpaceGun,50,90,,3,,sw_golan_iii_rebel,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_golan_ii_rebel,
+fleetName:Golan II Space Defense SpaceGun,
+}",graphics/icons/industry/sw_golan_ii.png,data.scripts.campaign.industry.SWOrbitalStationRebel,"The Golan II Space Defense SpaceGun, also known simply as the Golan II, was the second space station in Golan Arms' series of space defense platforms.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_iii_rebel,New Republic Golan III Space Defense NovaGun,100,120,,4,sw_golan_ii_rebel,sw_shipyards_rebel,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_golan_iii_rebel,
+fleetName:Golan III Space Defense NovaGun,
+}",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationRebel,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
+
+Must be reduced before invasions or bombardment can be attempted.",2020
+,,,,,,,,,,,,,
+sw_shipyards_rebel,Rebel Dockyards,200,180,,5,sw_golan_iii_rebel,,"station, starfortress, unraidable, structure","{
+radius:85,
+variant:sw_station_shipyards_rebel,
+fleetName:Imperial Dockyards
+}",graphics/icons/industry/sw_shipyards.png,data.scripts.campaign.industry.SWOrbitalStationRebel,"Imperial dockyards were a class of space stations servicing and attending to its many starships.
+
+Must be reduced before invasions or bombardment can be attempted.",2030
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+sw_golan_ii_republic,Republic Golan II Space Defense SpaceGun,50,90,,3,,sw_golan_iii_republic,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_golan_ii_republic,
+fleetName:Golan II Space Defense SpaceGun,
+}",graphics/icons/industry/sw_golan_ii.png,data.scripts.campaign.industry.SWOrbitalStationRepublic,"The Golan II Space Defense SpaceGun, also known simply as the Golan II, was the second space station in Golan Arms' series of space defense platforms.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_iii_republic,Republic Golan III Space Defense NovaGun,100,120,,4,sw_golan_ii_republic,sw_shipyards_republic,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_golan_iii_republic,
+fleetName:Golan III Space Defense NovaGun,
+}",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationRepublic,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
+
+Must be reduced before invasions or bombardment can be attempted.",2020
+,,,,,,,,,,,,,
+sw_shipyards_republic,Republic Dockyards,200,180,,5,sw_golan_iii_republic,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:sw_station_shipyards_republic,
+fleetName:Imperial Dockyards
+}",graphics/icons/industry/sw_shipyards.png,data.scripts.campaign.industry.SWOrbitalStationRepublic,"Imperial dockyards were a class of space stations servicing and attending to its many starships.
+
+Must be reduced before invasions or bombardment can be attempted.",2030
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+sw_golan_ii_cis,CIS Golan II Space Defense SpaceGun,50,90,,3,,sw_golan_iii_cis,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_golan_ii_cis,
+fleetName:Golan II Space Defense SpaceGun,
+}",graphics/icons/industry/sw_golan_ii.png,data.scripts.campaign.industry.SWOrbitalStationCIS,"The Golan II Space Defense SpaceGun, also known simply as the Golan II, was the second space station in Golan Arms' series of space defense platforms.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_iii_cis,CIS Golan III Space Defense NovaGun,100,120,,4,sw_golan_ii_cis,sw_shipyards_cis,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_golan_iii_cis,
+fleetName:Golan III Space Defense NovaGun,
+}",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationCIS,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
+
+Must be reduced before invasions or bombardment can be attempted.",2020
+,,,,,,,,,,,,,
+sw_shipyards_cis,CIS Dockyards,200,180,,5,sw_golan_iii_cis,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:sw_station_shipyards_cis,
+fleetName:Imperial Dockyards
+}",graphics/icons/industry/sw_shipyards.png,data.scripts.campaign.industry.SWOrbitalStationCIS,"Imperial dockyards were a class of space stations servicing and attending to its many starships.
+
+Must be reduced before invasions or bombardment can be attempted.",2030
+,,,,,,,,,,,,,
+sw_golan_ii_mandal,Mandalorian Golan II Space Defense SpaceGun,50,90,,3,,sw_golan_iii_mandal,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_golan_ii_mandal,
+fleetName:Golan II Space Defense SpaceGun,
+}",graphics/icons/industry/sw_golan_ii.png,data.scripts.campaign.industry.SWOrbitalStationMandal,"The Golan II Space Defense SpaceGun, also known simply as the Golan II, was the second space station in Golan Arms' series of space defense platforms.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_iii_mandal,Mandalorian Golan III Space Defense NovaGun,100,120,,4,sw_golan_ii_mandal,,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_golan_iii_mandal,
+fleetName:Golan III Space Defense NovaGun,
+}",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationMandal,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
+
+Must be reduced before invasions or bombardment can be attempted.",2020
+,,,,,,,,,,,,,
+sw_golan_ii_zann,Zann Consortium Golan II Space Defense SpaceGun,50,90,,3,,sw_golan_iii_zann,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_golan_ii_zann,
+fleetName:Golan II Space Defense SpaceGun,
+}",graphics/icons/industry/sw_golan_ii.png,data.scripts.campaign.industry.SWOrbitalStationZann,"The Golan II Space Defense SpaceGun, also known simply as the Golan II, was the second space station in Golan Arms' series of space defense platforms.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_iii_zann,Zann Consortium Golan III Space Defense NovaGun,100,120,,4,sw_golan_ii_zann,,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_golan_iii_zann,
+fleetName:Golan III Space Defense NovaGun,
+}",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationZann,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
+
+Must be reduced before invasions or bombardment can be attempted.",2020
+,,,,,,,,,,,,,
+sw_golan_ii_blacksun,Black Sun Golan II Space Defense SpaceGun,50,90,,3,,sw_golan_iii_blacksun,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_golan_ii_blacksun,
+fleetName:Golan II Space Defense SpaceGun,
+}",graphics/icons/industry/sw_golan_ii.png,data.scripts.campaign.industry.SWOrbitalStationBlackSun,"The Golan II Space Defense SpaceGun, also known simply as the Golan II, was the second space station in Golan Arms' series of space defense platforms.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_iii_blacksun,Black Sun Golan III Space Defense NovaGun,100,120,,4,sw_golan_ii_blacksun,,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_golan_iii_blacksun,
+fleetName:Golan III Space Defense NovaGun,
+}",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationBlackSun,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
+
+Must be reduced before invasions or bombardment can be attempted.",2020
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+sw_shieldgate_firstorder,Golan M3185 Shield Gate,50,90,,3,,sw_golan_iii_firstorder,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_shieldgate_firstorder,
+fleetName:Golan M3185 Shield Gate,
+}",graphics/icons/industry/sw_shieldgate.png,data.scripts.campaign.industry.SWOrbitalStationFirstOrder,"The Golan M3185 was a class of wheel-shaped space station of the Galactic Empire that was used for planetary defense.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_iii_firstorder,First Order Golan III Space Defense NovaGun,100,120,,4,sw_shieldgate_firstorder,sw_shipyards_firstorder,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_golan_iii_firstorder,
+fleetName:Golan III Space Defense NovaGun,
+}",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationFirstOrder,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
+
+Must be reduced before invasions or bombardment can be attempted.",2020
+,,,,,,,,,,,,,
+sw_shipyards_firstorder,First Order Dockyards,200,180,,5,sw_golan_iii_firstorder,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:sw_station_shipyards_firstorder,
+fleetName:Imperial Dockyards
+}",graphics/icons/industry/sw_shipyards.png,data.scripts.campaign.industry.SWOrbitalStationFirstOrder,"Imperial dockyards were a class of space stations servicing and attending to its many starships.
+
+Must be reduced before invasions or bombardment can be attempted.",2030
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+sw_shieldgate_chiss,Golan M3185 Shield Gate,50,90,,3,,sw_golan_iii_chiss,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_shieldgate_chiss,
+fleetName:Golan M3185 Shield Gate,
+}",graphics/icons/industry/sw_shieldgate.png,data.scripts.campaign.industry.SWOrbitalStationChiss,"The Golan M3185 was a class of wheel-shaped space station of the Galactic Empire that was used for planetary defense.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_iii_chiss,Chiss Ascendancy Golan III Space Defense NovaGun,100,120,,4,sw_shieldgate_chiss,sw_shipyards_chiss,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_golan_iii_chiss,
+fleetName:Golan III Space Defense NovaGun,
+}",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationChiss,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
+
+Must be reduced before invasions or bombardment can be attempted.",2020
+,,,,,,,,,,,,,
+sw_shipyards_chiss,Chiss Ascendancy Dockyards,200,180,,5,sw_golan_iii_chiss,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:sw_station_shipyards_chiss,
+fleetName:Imperial Dockyards
+}",graphics/icons/industry/sw_shipyards.png,data.scripts.campaign.industry.SWOrbitalStationChiss,"Imperial dockyards were a class of space stations servicing and attending to its many starships.
+
+Must be reduced before invasions or bombardment can be attempted.",2030

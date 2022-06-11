@@ -1,0 +1,74 @@
+{
+  "hullName": "TIE/fo Space Superiority Fighter",
+  "hullId": "sw_tie_fo",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_fo.png",
+  "style": "SW_IMPERIAL",
+  "height": 47,
+  "width": 41,
+  "center": [20.5, 23.5],
+  "collisionRadius": 30.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    8, -3,
+    2, -8,
+    2, -14,
+    5, -18,
+    23, -18,
+    23, -19,
+    -23, -19,
+    -23, -18,
+    -6, -18,
+    -2, -14,
+    -2, -8,
+    -8, -3,
+    -8, 3,
+    -2, 8,
+    -2, 14,
+    -6, 18,
+    -23, 18,
+    -23, 19,
+    23, 19,
+    23, 18,
+    5, 18,
+    2, 14,
+    2, 8,
+    8, 3
+  ]
+}

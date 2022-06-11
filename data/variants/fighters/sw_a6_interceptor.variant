@@ -1,0 +1,24 @@
+{
+  "variantId": "sw_a6_interceptor",
+  "hullId": "sw_a6",
+  "displayName": "Interceptor",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sw_laser_cannon_medium",
+        "WS0002": "sw_laser_cannon_medium",
+        "WS0003": "sw_laser_cannon_medium"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

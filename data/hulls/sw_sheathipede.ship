@@ -1,0 +1,92 @@
+{
+  "hullName": "Transport Shuttle",
+  "hullId": "sw_sheathipede",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/cis/sw_sheathipede.png",
+  "style": "SW_CIS",
+  "height": 98,
+  "width": 52,
+  "center": [26, 49],
+  "collisionRadius": 49,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 49.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [40.5, 13.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [40.5, -13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-37.5, 16.5],
+      "length": 3,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-37.5, -16.5],
+      "length": 3,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    48.5, -3.5,
+    46.5, -7.5,
+    39.5, -15.5,
+    30.5, -21.5,
+    19.5, -25.5,
+    17.5, -25.5,
+    16.5, -24.5,
+    -3.5, -24.5,
+    -4.5, -25.5,
+    -25.5, -25.5,
+    -36.5, -16.5,
+    -44.5, -9.5,
+    -48.5, -3.5,
+    -48.5, 3.5,
+    -44.5, 9.5,
+    -36.5, 16.5,
+    -25.5, 25.5,
+    -4.5, 25.5,
+    -3.5, 24.5,
+    16.5, 24.5,
+    17.5, 25.5,
+    19.5, 25.5,
+    30.5, 21.5,
+    39.5, 15.5,
+    46.5, 7.5,
+    48.5, 3.5
+  ]
+}

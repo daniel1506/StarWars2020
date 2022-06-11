@@ -1,0 +1,136 @@
+{
+  "hullName": "M12-L Kimoglia Heavy fighter",
+  "hullId": "sw_m12l",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_m12l.png",
+  "style": "HIGH_TECH",
+  "height": 55,
+  "width": 57,
+  "center": [28.5, 27.5],
+  "collisionRadius": 30,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25, 2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [25, -2]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [4, 25.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [4, -25.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16, 6]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [16, -6]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 8],
+      "length": 5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-19, -8],
+      "length": 3,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23.5, -0],
+      "length": 5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    25, -2,
+    16, -7,
+    7, -7,
+    -2, -25,
+    5, -25,
+    5, -26,
+    -2, -26,
+    -5, -28,
+    -9, -28,
+    -9, -9,
+    -18, -9,
+    -22, -5,
+    -26, -5,
+    -26, 5,
+    -22, 5,
+    -18, 9,
+    -9, 9,
+    -9, 28,
+    -5, 28,
+    -2, 26,
+    5, 26,
+    5, 25,
+    -2, 25,
+    7, 7,
+    16, 7,
+    25, 2
+  ]
+}

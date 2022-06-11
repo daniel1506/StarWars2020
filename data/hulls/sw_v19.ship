@@ -1,0 +1,96 @@
+{
+  "hullName": "V-19 Torrent Starfighter",
+  "hullId": "sw_v19",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_v19.png",
+  "style": "HIGH_TECH",
+  "height": 28,
+  "width": 54,
+  "center": [27, 14],
+  "collisionRadius": 30.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 31,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, 26]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [13.5, -26]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12.5, 4.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12.5, -4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13.5, 8.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-13.5, -8.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    13.5, -10.5,
+    9.5, -10.5,
+    9.5, -25.5,
+    13.5, -25.5,
+    13.5, -26.5,
+    1.5, -26.5,
+    -3.5, -16.5,
+    -3.5, -9.5,
+    -13.5, -9.5,
+    -13.5, -7.5,
+    -4.5, -7.5,
+    -8.5, -1.5,
+    -8.5, 1.5,
+    -4.5, 7.5,
+    -13.5, 7.5,
+    -13.5, 9.5,
+    -3.5, 9.5,
+    -3.5, 16.5,
+    1.5, 26.5,
+    13.5, 26.5,
+    13.5, 25.5,
+    9.5, 25.5,
+    9.5, 10.5,
+    13.5, 10.5
+  ]
+}

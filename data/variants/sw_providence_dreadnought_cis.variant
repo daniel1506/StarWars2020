@@ -1,0 +1,101 @@
+{
+  "variantId": "sw_providence_dreadnought_cis",
+  "hullId": "sw_providence_dreadnought",
+  "displayName": "CIS",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_tu_quad_turbolaser_heavy",
+        "WS0002": "sw_tu_quad_turbolaser_heavy",
+        "WS0003": "sw_tu_quad_turbolaser_heavy",
+        "WS0004": "sw_tu_quad_turbolaser_heavy",
+        "WS0005": "sw_tu_quad_turbolaser_heavy",
+        "WS0006": "sw_tu_quad_turbolaser_heavy",
+        "WS0007": "sw_tu_quad_turbolaser_heavy",
+        "WS0008": "sw_tu_quad_turbolaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sw_tu_quad_turbolaser",
+        "WS0010": "sw_tu_quad_turbolaser",
+        "WS0011": "sw_tu_quad_turbolaser",
+        "WS0012": "sw_tu_quad_turbolaser",
+        "WS0013": "sw_tu_quad_turbolaser",
+        "WS0014": "sw_tu_quad_turbolaser",
+        "WS0015": "sw_tu_quad_turbolaser",
+        "WS0016": "sw_tu_quad_turbolaser",
+        "WS0017": "sw_tu_quad_turbolaser",
+        "WS0018": "sw_tu_quad_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "sw_flak_gun",
+        "WS0020": "sw_flak_gun",
+        "WS0021": "sw_flak_gun",
+        "WS0022": "sw_flak_gun",
+        "WS0023": "sw_flak_gun",
+        "WS0024": "sw_flak_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0025": "sw_mg7",
+        "WS0026": "sw_mg7",
+        "WS0027": "sw_mg7",
+        "WS0028": "sw_mg7"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0029": "sw_twin_laser_cannon",
+        "WS0030": "sw_twin_laser_cannon",
+        "WS0031": "sw_twin_laser_cannon",
+        "WS0032": "sw_twin_laser_cannon",
+        "WS0033": "sw_twin_laser_cannon",
+        "WS0034": "sw_twin_laser_cannon",
+        "WS0035": "sw_twin_laser_cannon",
+        "WS0036": "sw_twin_laser_cannon",
+        "WS0037": "sw_twin_laser_cannon",
+        "WS0038": "sw_twin_laser_cannon",
+        "WS0039": "sw_twin_laser_cannon",
+        "WS0040": "sw_twin_laser_cannon",
+        "WS0041": "sw_twin_laser_cannon",
+        "WS0042": "sw_twin_laser_cannon",
+        "WS0043": "sw_twin_laser_cannon",
+        "WS0044": "sw_twin_laser_cannon",
+        "WS0045": "sw_twin_laser_cannon",
+        "WS0046": "sw_twin_laser_cannon",
+        "WS0047": "sw_twin_laser_cannon",
+        "WS0048": "sw_twin_laser_cannon",
+        "WS0049": "sw_twin_laser_cannon",
+        "WS0050": "sw_twin_laser_cannon",
+        "WS0051": "sw_twin_laser_cannon",
+        "WS0052": "sw_twin_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_scarab_wing",
+    "sw_porax38_wing",
+    "sw_belbullab24_wing"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "hullName": "Cabur-class Starfighter",
+  "hullId": "sw_cabur",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_cabur.png",
+  "style": "HIGH_TECH",
+  "height": 67,
+  "width": 35,
+  "center": [17.5, 33.5],
+  "collisionRadius": 33.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 34,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [24, -4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, 12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-28, 12],
+      "length": 3,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-28, -12],
+      "length": 3,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    33, -3,
+    7, -8,
+    2, -8,
+    -2, -13,
+    -4, -14,
+    -9, -15,
+    -12, -15,
+    -14, -17,
+    -23, -17,
+    -26, -16,
+    -32, -7,
+    -32, 7,
+    -26, 16,
+    -23, 17,
+    -14, 17,
+    -12, 15,
+    -9, 15,
+    -4, 14,
+    -2, 13,
+    2, 8,
+    7, 8,
+    33, 3
+  ]
+}

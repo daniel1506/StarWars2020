@@ -1,0 +1,122 @@
+{
+  "hullName": "HMP Droid Gunship",
+  "hullId": "sw_hmp_droid",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_hmp_droid.png",
+  "style": "HIGH_TECH",
+  "height": 54,
+  "width": 44,
+  "center": [22, 25],
+  "collisionRadius": 25,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 25.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [20.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 30,
+      "locations": [17.5, 6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -30,
+      "locations": [17.5, -6.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, 19.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, -19.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2.5, 10.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2.5, -10.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    18.5, -6.5,
+    15, -6.5,
+    13.5, -4.5,
+    11.5, -4.5,
+    11.5, -8.5,
+    1.5, -17.5,
+    -3.5, -17.5,
+    -3.5, -20.5,
+    -7.5, -20.5,
+    -8.5, -17.5,
+    -12.5, -17.5,
+    -17.5, -13.5,
+    -23.5, -3.5,
+    -23.5, 3.5,
+    -17.5, 13.5,
+    -12.5, 17.5,
+    -8.5, 17.5,
+    -7.5, 20.5,
+    -3.5, 20.5,
+    -3.5, 17.5,
+    1.5, 17.5,
+    11.5, 8.5,
+    11.5, 4.5,
+    13.5, 4.5,
+    15, 6.5,
+    18.5, 6.5,
+    20.5, -0
+  ]
+}

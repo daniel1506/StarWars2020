@@ -33,12 +33,12 @@
   "animationType": "MUZZLE_FLASH",
   "autocharge": true,
   "muzzleFlashSpec": {
-    "length": 5,
-    "spread": 10,
-    "particleSizeMin": 12,
-    "particleSizeRange": 14,
+    "length": 3,
+    "spread": 5,
+    "particleSizeMin": 5,
+    "particleSizeRange": 7,
     "particleDuration": 0.2,
-    "particleCount": 18,
+    "particleCount": 10,
     "particleColor": [
       0,
       200,

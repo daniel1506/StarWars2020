@@ -1,0 +1,161 @@
+{
+  "hullName": "Crusader-class Corvette",
+  "hullId": "sw_crusader",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/mandalorian/sw_crusader.png",
+  "style": "SW_MANDAL",
+  "height": 146,
+  "width": 74,
+  "center": [37, 73],
+  "collisionRadius": 73,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 74.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "sw_targeting_computer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [69.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [7.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [40.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [35, 10]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [35, -10]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [24, 10]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [24, -10]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [13, 10]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [13, -10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63.5, 17],
+      "length": 5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-63.5, -17],
+      "length": 5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    70.5, -1.5,
+    63.5, -5.5,
+    44.5, -5.5,
+    40.5, -4.5,
+    40.5, -15.5,
+    8.5, -15.5,
+    -24.5, -36.5,
+    -42.5, -36.5,
+    -46.5, -32.5,
+    -57.5, -32.5,
+    -57.5, -21.5,
+    -63.5, -21.5,
+    -63.5, -13.5,
+    -65.5, -12.5,
+    -65.5, -9.5,
+    -63.5, -8.5,
+    -52.5, -8.5,
+    -52.5, -5.5,
+    -67.5, -5.5,
+    -72.5, -2.5,
+    -72.5, 2.5,
+    -67.5, 5.5,
+    -52.5, 5.5,
+    -52.5, 8.5,
+    -63.5, 8.5,
+    -65.5, 9.5,
+    -65.5, 12.5,
+    -63.5, 13.5,
+    -63.5, 21.5,
+    -57.5, 21.5,
+    -57.5, 32.5,
+    -46.5, 32.5,
+    -42.5, 36.5,
+    -24.5, 36.5,
+    8.5, 15.5,
+    40.5, 15.5,
+    40.5, 4.5,
+    44.5, 5.5,
+    63.5, 5.5,
+    70.5, 1.5
+  ]
+}

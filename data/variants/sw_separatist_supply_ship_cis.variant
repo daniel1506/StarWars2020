@@ -1,0 +1,31 @@
+{
+  "variantId": "sw_separatist_supply_ship_cis",
+  "hullId": "sw_separatist_supply_ship",
+  "displayName": "CIS",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_twin_turbolaser",
+        "WS0002": "sw_twin_turbolaser",
+        "WS0003": "sw_twin_laser_cannon",
+        "WS0004": "sw_twin_laser_cannon",
+        "WS0005": "sw_twin_laser_cannon",
+        "WS0006": "sw_twin_laser_cannon",
+        "WS0007": "sw_twin_laser_cannon",
+        "WS0008": "sw_twin_laser_cannon",
+        "WS0009": "sw_twin_laser_cannon",
+        "WS0010": "sw_twin_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

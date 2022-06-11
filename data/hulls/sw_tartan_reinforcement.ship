@@ -1,0 +1,198 @@
+{
+  "hullName": "Tartan-class Patrol Cruiser",
+  "hullId": "sw_tartan_reinforcement",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/empire/sw_tartan.png",
+  "style": "SW_IMPERIAL",
+  "height": 177,
+  "width": 64,
+  "center": [32, 88.5],
+  "collisionRadius": 88.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 89.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "sw_targeting_computer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [70, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [40.5, 18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [40.5, -18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [57, 13.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [57, -13.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [30, 20.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [30, -20.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [15, 20.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [15, -20.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [0, 20.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [0, -20.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-77, 23.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-77, -23.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85, 9.5],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-85, -9.5],
+      "length": 25,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    87, -4.5,
+    82, -9.5,
+    72, -13.5,
+    46, -13.5,
+    38, -20.5,
+    -11, -20.5,
+    -9, -26.5,
+    -19, -26.5,
+    -26, -19.5,
+    -29, -19.5,
+    -34, -24.5,
+    -52, -31.5,
+    -67, -31.5,
+    -70, -27.5,
+    -77, -27.5,
+    -77, -19.5,
+    -88, -6.5,
+    -88, 6.5,
+    -77, 19.5,
+    -77, 27.5,
+    -70, 27.5,
+    -67, 31.5,
+    -52, 31.5,
+    -34, 24.5,
+    -29, 19.5,
+    -26, 19.5,
+    -19, 26.5,
+    -9, 26.5,
+    -11, 20.5,
+    38, 20.5,
+    46, 13.5,
+    72, 13.5,
+    82, 9.5,
+    87, 4.5
+  ]
+}

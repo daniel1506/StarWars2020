@@ -1,0 +1,36 @@
+{
+  "id": "sw_ion_pulse_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_ion_pulse",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.combat.SWIonPulseEffect",
+  "turretSprite": "graphics/weapons/sw_ion_pulse_cannon_hardpoint_base.png",
+  "hardpointSprite": "graphics/weapons/sw_ion_pulse_cannon_hardpoint_base.png",
+  "glowColor": [
+    255,
+    0,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    8.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    14,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW",
+  "autocharge": true,
+  "fireSoundTwo": "realitydisruptor_fire",
+  "mountTypeOverride": "SYNERGY",
+  "unaffectedByProjectileSpeedBonuses": true
+}

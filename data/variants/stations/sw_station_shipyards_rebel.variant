@@ -1,0 +1,24 @@
+{
+  "variantId": "sw_station_shipyards_rebel",
+  "hullId": "sw_station_shipyards",
+  "displayName": "Rebel",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0002": "sw_module_shipyards2_rebel"
+    },
+    {
+      "WS0001": "sw_module_shipyards1_rebel"
+    },
+    {
+      "WS0003": "sw_module_shipyards3_rebel"
+    }
+  ],
+  "wings": []
+}

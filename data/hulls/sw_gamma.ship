@@ -1,0 +1,119 @@
+{
+  "hullName": "Gamma-class Assault Shuttle",
+  "hullId": "sw_gamma",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_gamma.png",
+  "style": "MIDLINE",
+  "height": 70,
+  "width": 50,
+  "center": [25, 35],
+  "collisionRadius": 36,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 36.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [14, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [15, 12.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [15, -12.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-25, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [33, 5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [33, -5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33.5, -0],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31.5, 12.5],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31.5, -12.5],
+      "length": 15,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    33.5, -7.5,
+    18.5, -19.5,
+    11.5, -14.5,
+    -9.5, -14.5,
+    -14, -24.5,
+    -22.5, -24.5,
+    -22.5, -16.5,
+    -30.5, -16.5,
+    -32.5, -4.5,
+    -32.5, 4.5,
+    -30.5, 16.5,
+    -22.5, 16.5,
+    -22.5, 24.5,
+    -14, 24.5,
+    -9.5, 14.5,
+    11.5, 14.5,
+    18.5, 19.5,
+    33.5, 7.5
+  ]
+}

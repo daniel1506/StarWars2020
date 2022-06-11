@@ -1,0 +1,35 @@
+{
+  "variantId": "sw_c9979_cis",
+  "hullId": "sw_c9979",
+  "displayName": "CIS",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_twin_turbolaser",
+        "WS0002": "sw_twin_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sw_twin_laser_cannon",
+        "WS0004": "sw_twin_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_scarab_wing",
+    "sw_vulture_droid_wing",
+    "sw_hyena_wing"
+  ]
+}

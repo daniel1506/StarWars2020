@@ -1,0 +1,138 @@
+{
+  "hullName": "Scimitar Starfighter",
+  "hullId": "sw_scimitar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_scimitar.png",
+  "style": "HIGH_TECH",
+  "height": 75,
+  "width": 49,
+  "center": [24.5, 36.5],
+  "collisionRadius": 41.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 42,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-6, -12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6.5, 12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-6.5, -12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7, 12]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-7, -12]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-17, 11]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-17, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, 4],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-34, -4],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    38, -4,
+    22, -8,
+    0, -11,
+    -9, -11,
+    -9, -8,
+    -13, -8,
+    -17, -11,
+    -17, -24,
+    -33, -24,
+    -36, -11,
+    -29, -11,
+    -29, -7,
+    -32, -7,
+    -34, -5,
+    -34, 5,
+    -32, 7,
+    -29, 7,
+    -29, 11,
+    -36, 11,
+    -33, 24,
+    -17, 24,
+    -17, 11,
+    -13, 8,
+    -9, 8,
+    -9, 11,
+    0, 11,
+    22, 8,
+    38, 4
+  ]
+}

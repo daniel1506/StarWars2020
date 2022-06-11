@@ -1,15 +1,15 @@
 {
-  "hullName": "Tie Automated Fighter",
+  "hullName": "TIE/D Automated starfighter",
   "hullId": "sw_tie_automated",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_automated.png",
   "style": "SW_IMPERIAL",
-  "height": 25,
-  "width": 32,
-  "center": [16, 11],
-  "collisionRadius": 17,
-  "shieldCenter": [0, -0],
-  "shieldRadius": 17.5,
+  "height": 30,
+  "width": 35,
+  "center": [17.5, 15],
+  "collisionRadius": 23,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23.5,
   "viewOffset": 0,
   "weaponSlots": [
     {
@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-2.5, 0.5]
+      "locations": [-2.5, 3]
     },
     {
       "id": "WS0002",
@@ -28,23 +28,40 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-2.5, -0.5]
+      "locations": [-2.5, -3]
     }
   ],
   "engineSlots": [
     {
-      "location": [-9.5, -0.5],
+      "location": [-13.5, -0],
       "length": 30,
       "width": 10,
       "angle": 180,
       "contrailSize": 128,
-      "style": "LOW_TECH"
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
     }
   ],
   "bounds": [
-    10.5, -12.5,
-    -10.5, -12.5,
-    -10.5, 12.5,
-    10.5, 12.5
+    -1.5, -2,
+    -5.5, -6,
+    -5.5, -11,
+    14.5, -11,
+    14.5, -17,
+    -14.5, -17,
+    -14.5, -11,
+    -9.5, -11,
+    -9.5, -6,
+    -13.5, -2,
+    -13.5, 2,
+    -9.5, 6,
+    -9.5, 11,
+    -14.5, 11,
+    -14.5, 17,
+    14.5, 17,
+    14.5, 11,
+    -5.5, 11,
+    -5.5, 6,
+    -1.5, 2
   ]
 }

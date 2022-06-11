@@ -1,0 +1,237 @@
+{
+  "hullName": "Teroch-class Mandalorian Cruiser",
+  "hullId": "sw_teroch",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mandalorian/sw_teroch.png",
+  "style": "SW_MANDAL",
+  "height": 234,
+  "width": 82,
+  "center": [41, 117],
+  "collisionRadius": 117,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 117.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        50, -0,
+        60, -0
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [35, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [25, 23]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [25, -23]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, 28.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-0.5, -28.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, 30]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11, -30]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [111, 6]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [111, -6]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [87, 13.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [87, -13.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-23, -0]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-43.5, 28]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-43.5, -28]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75.5, 16.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-75.5, -16.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    116.5, -4.5,
+    92.5, -13.5,
+    82.5, -13.5,
+    82.5, -12.5,
+    78.5, -12.5,
+    68.5, -15.5,
+    58.5, -15.5,
+    54.5, -19.5,
+    51.5, -19.5,
+    49.5, -17.5,
+    44.5, -17.5,
+    41.5, -20.5,
+    30.5, -23.5,
+    37.5, -24.5,
+    27.5, -26.5,
+    21.5, -26.5,
+    18.5, -22.5,
+    17, -22.5,
+    6.5, -38.5,
+    2.5, -38.5,
+    0.5, -39.5,
+    -28.5, -39.5,
+    -55.5, -38.5,
+    -55.5, -33.5,
+    -49.5, -21.5,
+    -52.5, -20.5,
+    -75.5, -19.5,
+    -75.5, -14.5,
+    -114.5, -8.5,
+    -116.5, -4.5,
+    -116.5, 4.5,
+    -114.5, 8.5,
+    -75.5, 14.5,
+    -75.5, 19.5,
+    -52.5, 20.5,
+    -49.5, 21.5,
+    -55.5, 33.5,
+    -55.5, 38.5,
+    -28.5, 39.5,
+    0.5, 39.5,
+    2.5, 38.5,
+    6.5, 38.5,
+    17, 22.5,
+    18.5, 22.5,
+    21.5, 26.5,
+    27.5, 26.5,
+    37.5, 24.5,
+    30.5, 23.5,
+    41.5, 20.5,
+    44.5, 17.5,
+    49.5, 17.5,
+    51.5, 19.5,
+    54.5, 19.5,
+    58.5, 15.5,
+    68.5, 15.5,
+    78.5, 12.5,
+    82.5, 12.5,
+    82.5, 13.5,
+    92.5, 13.5,
+    116.5, 4.5
+  ]
+}

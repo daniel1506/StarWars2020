@@ -1,0 +1,259 @@
+{
+	id:"sw_cis",
+	"color":[0,102,255,255],
+	"displayName":"CIS",
+	"displayNameWithArticle":"the Separatists",
+	"displayNameLong":"Confederacy of Independent Systems",   
+	"displayNameLongWithArticle":"the Confederacy of Independent Systems",  
+	"logo":"graphics/factions/sw_cis_flag.png",
+	"crest":"graphics/factions/sw_cis_crest.png",
+	"shipNamePrefix":"CIS",
+	"shipNameSources":{
+		"STARWARS":2,
+		"ROMAN":1,
+		"GREEK":1,
+	},
+	"names":{
+		"old english":1,
+		"future":1,
+		"myth":1,	
+	},
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	"variantOverrides":{
+		"sw_lucrehulk_cis":10,
+		"sw_bulwark_mk1_cis":10,
+		"sw_bulwark_mk2_cis":10,
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp"],
+		"hulls":[
+		],
+	},
+
+	"knownShips":{
+		"tags":["cis", "star_wars"],
+		"hulls":[
+		],
+	},
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			
+		],
+	},
+	"knownFighters":{
+		"tags":["cis"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["sw_missile_bp", "cis_bp"],
+		"weapons":[			
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "star_wars", "cis"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"augmentedengines",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"hiressensors",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":4,
+		"shipQuality":4,
+		"numShips":1,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.25,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.25,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.5,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.0,
+		
+		"commanderSkillsShuffleProbability":0.5,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"electronic_warfare",
+			"weapon_drills",			
+			"flux_regulation",			
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",	
+	],
+	"music":{
+		"theme":"music_hegemony_market_neutral",
+		"market_neutral":"music_hegemony_market_neutral",
+		"market_hostile":"music_hegemony_market_hostile",
+		"market_friendly":"music_hegemony_market_friendly",
+		"encounter_neutral":"music_hegemony_encounter_neutral",
+		"encounter_hostile":"music_hegemony_encounter_hostile",
+		"encounter_friendly":"music_hegemony_encounter_friendly",
+	},
+	"internalComms":"sw_cis_internal",
+
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/cis/Admiral_Trenchhs1.png",
+			"graphics/portraits/cis/Admiral_Trenchhs2.png",
+			"graphics/portraits/cis/Nute_Gunray1.png",
+			"graphics/portraits/cis/Nute_Gunray2.png",
+			"graphics/portraits/cis/Nute_Gunray3.png",
+			"graphics/portraits/cis/Wat_Tambor1.png",
+			"graphics/portraits/cis/Wat_Tambor2.png",
+			"graphics/portraits/cis/Wat_Tambor3.png",
+			"graphics/portraits/cis/Wat_Tambor4.png",
+			"graphics/portraits/cis/B1_Battle_Droid1.png",
+			"graphics/portraits/cis/B1_Battle_Droid2.png",
+			"graphics/portraits/cis/B1_Battle_Droid3.png",	
+			"graphics/portraits/cis/B1_Battle_Droid4.png",
+			"graphics/portraits/cis/B1_Battle_Droid5.png",
+			"graphics/portraits/cis/B1_Battle_Droid6.png",
+			"graphics/portraits/cis/B1_Battle_Droid7.png",
+			"graphics/portraits/cis/B1_Battle_Droid8.png",
+			"graphics/portraits/cis/Super_Tactical_Droid1.png",
+			"graphics/portraits/cis/Super_Tactical_Droid2.png",
+			"graphics/portraits/cis/Super_Tactical_Droid3.png",
+			"graphics/portraits/cis/Tactical_Droid1.png",
+			"graphics/portraits/cis/Tactical_Droid2.png",
+			"graphics/portraits/cis/Tactical_Droid3.png",
+			"graphics/portraits/cis/Dooku1.png",
+			"graphics/portraits/cis/Dooku2.png",
+			"graphics/portraits/cis/Dooku3.png",
+			"graphics/portraits/cis/Dooku4.png",
+			"graphics/portraits/cis/Dooku5.png",
+			"graphics/portraits/cis/Dooku6.png",
+			"graphics/portraits/cis/Dooku7.png",
+			"graphics/portraits/cis/Grievous1.png",
+			"graphics/portraits/cis/Grievous2.png",
+			"graphics/portraits/cis/Grievous3.png",
+			"graphics/portraits/cis/Grievous4.png",
+		],
+		"standard_female":[
+			"graphics/portraits/cis/Assaj_Ventress1.png",
+			"graphics/portraits/cis/Assaj_Ventress2.png",
+			"graphics/portraits/cis/Assaj_Ventress3.png",
+			"graphics/portraits/cis/Assaj_Ventress4.png",
+			"graphics/portraits/cis/B1_Battle_Droid5.png",
+			"graphics/portraits/cis/B1_Battle_Droid6.png",
+			"graphics/portraits/cis/B1_Battle_Droid7.png",
+			"graphics/portraits/cis/B1_Battle_Droid8.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Separatist Congress Leader"},
+			"spaceSailor":{"name":"Fleet Officer"},
+			"spaceChief":{"name":"Executive Officer"},
+			"spaceEnsign":{"name":"Lieutenant"},
+			"spaceCommander":{"name":"Captain"},
+			"spaceCaptain":{"name":"Commander"},
+			"spaceAdmiral":{"name":"Admiral"},
+			"spaceMarshal":{"name":"Supreme Commander"},
+			
+			"groundPrivate":{"name":"Sergeant"},
+			"groundSergeant":{"name":"Lieutenant"},
+			"groundLieutenant":{"name":"Captain"},
+			"groundCaptain":{"name":"Major"},
+			"groundMajor":{"name":"Commander"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"General"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Separatist Congress Leader"},
+			"patrolCommander":{"name":"Commander"},
+			"fleetCommander":{"name":"Amiral"},
+			"baseCommander":{"name":"General"},
+			"administrator":{"name":"Separatist Councilor"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+			"aristo":3,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Trading Convoy",
+		"trade":"Trading Fleet",
+		"tradeLiner":"Personal Transport Convoy",
+		"patrolSmall":"Planet Patrol Fleet",
+		"patrolMedium":"Border Patrol Fleet",
+		"patrolLarge":"Sector Patrol Fleet",
+		"mercBountyHunter":"Bounty Hunter Fleet",
+		"inspectionFleet":"Recon Fleet",
+		"taskForce":"Attack Fleet",
+		"battlestation":"Defense Platform",
+	},	
+},

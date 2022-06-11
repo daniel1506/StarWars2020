@@ -2,3 +2,10 @@ faction
 data/world/factions/player.faction
 data/world/factions/sw_empire.faction
 data/world/factions/sw_rebel.faction
+data/world/factions/sw_republic.faction
+data/world/factions/sw_cis.faction
+data/world/factions/sw_mandalorian.faction
+data/world/factions/sw_zann.faction
+data/world/factions/sw_black_sun.faction
+data/world/factions/sw_first_order.faction
+data/world/factions/sw_chiss.faction

@@ -1,25 +1,28 @@
 {
-  "hullName": "BTL-S8 K-Wing",
+  "hullName": "BTL-S8 K-wing Assault Starfighter",
   "hullId": "sw_kwing",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_kwing.png",
   "style": "HIGH_TECH",
-  "height": 34,
-  "width": 52,
-  "center": [26, 17],
-  "collisionRadius": 26,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 27,
+  "height": 51,
+  "width": 69,
+  "center": [34.5, 22.5],
+  "collisionRadius": 35,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 35.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
-      "size": "MEDIUM",
+      "size": "SMALL",
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 0,
-      "locations": [13, -0]
+      "locations": [27.5, -0]
     },
     {
       "id": "WS0002",
@@ -28,7 +31,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 180,
-      "locations": [6.5, -0]
+      "locations": [14, -0]
     },
     {
       "id": "WS0003",
@@ -37,7 +40,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-4, 8]
+      "locations": [5, 9.5]
     },
     {
       "id": "WS0004",
@@ -46,7 +49,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-4, -8]
+      "locations": [5, -9.5]
     },
     {
       "id": "WS0005",
@@ -55,7 +58,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-4, 16]
+      "locations": [6, 24]
     },
     {
       "id": "WS0006",
@@ -64,7 +67,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-4, -16]
+      "locations": [6, -24]
     },
     {
       "id": "WS0007",
@@ -73,7 +76,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-5.5, 24]
+      "locations": [6, 17]
     },
     {
       "id": "WS0008",
@@ -82,54 +85,79 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-5.5, -24]
+      "locations": [6, -17]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, 33]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [6, -33]
     }
   ],
   "engineSlots": [
     {
-      "location": [-14, 7.5],
-      "length": 30,
+      "location": [-21.5, -0],
+      "length": 10,
       "width": 5,
       "angle": 180,
-      "contrailSize": 10,
+      "contrailSize": 3,
       "style": "CUSTOM",
       "styleId": "COBRA_BOMBER"
     },
     {
-      "location": [-14, -7.5],
-      "length": 30,
+      "location": [-17, 9],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-17, -9],
+      "length": 10,
       "width": 5,
       "angle": -180,
-      "contrailSize": 10,
-      "style": "CUSTOM",
-      "styleId": "COBRA_BOMBER"
-    },
-    {
-      "location": [-15, -0],
-      "length": 30,
-      "width": 5,
-      "angle": 180,
-      "contrailSize": 10,
+      "contrailSize": 3,
       "style": "CUSTOM",
       "styleId": "COBRA_BOMBER"
     }
   ],
   "bounds": [
-    14.5, -2,
-    12.5, -5.5,
-    4, -5.5,
-    4, -2,
-    -1.5, -2,
-    -1.5, -24.5,
-    -8.5, -24.5,
-    -14, -8.5,
-    -14, 8.5,
-    -8.5, 24.5,
-    -1.5, 24.5,
-    -1.5, 2,
-    4, 2,
-    4, 5.5,
-    12.5, 5.5,
-    14.5, 2
+    28, -4,
+    22, -7,
+    15, -7,
+    9, -2,
+    7, -2,
+    7, -34,
+    -6, -34,
+    -11, -12,
+    -17, -9,
+    -13, -7,
+    -13, -4,
+    -22, -0,
+    -13, 4,
+    -13, 7,
+    -17, 9,
+    -11, 12,
+    -6, 34,
+    7, 34,
+    7, 2,
+    9, 2,
+    15, 7,
+    22, 7,
+    28, 4
   ]
 }

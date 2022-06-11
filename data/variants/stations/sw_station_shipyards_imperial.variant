@@ -1,0 +1,24 @@
+{
+  "variantId": "sw_station_shipyards_imperial",
+  "hullId": "sw_station_shipyards",
+  "displayName": "Imperial",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0002": "sw_module_shipyards2_imperial"
+    },
+    {
+      "WS0001": "sw_module_shipyards1_imperial"
+    },
+    {
+      "WS0003": "sw_module_shipyards3_imperial"
+    }
+  ],
+  "wings": []
+}

@@ -1,15 +1,15 @@
 {
-  "hullName": "X-Wing TwinTail",
+  "hullName": "X-83 Twintail Starfighter",
   "hullId": "sw_x83_tl",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_x83_tl.png",
   "style": "HIGH_TECH",
-  "height": 35,
-  "width": 40,
-  "center": [20, 17.5],
-  "collisionRadius": 20,
+  "height": 53,
+  "width": 59,
+  "center": [29.5, 26.5],
+  "collisionRadius": 32.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 22,
+  "shieldRadius": 33,
   "viewOffset": 0,
   "weaponSlots": [
     {
@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [6, 19]
+      "locations": [13, 28.5]
     },
     {
       "id": "WS0002",
@@ -28,7 +28,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [6, -19]
+      "locations": [13, -28.5]
     },
     {
       "id": "WS0003",
@@ -37,7 +37,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [5.5, 19]
+      "locations": [12.5, 28.5]
     },
     {
       "id": "WS0004",
@@ -46,7 +46,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [5.5, -19]
+      "locations": [12.5, -28.5]
     },
     {
       "id": "WS0005",
@@ -55,7 +55,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [4, 5.5]
+      "locations": [20, 4]
     },
     {
       "id": "WS0006",
@@ -64,43 +64,49 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [4, -5.5]
+      "locations": [20, -4]
     }
   ],
   "engineSlots": [
     {
-      "location": [-16.5, 4.5],
-      "length": 15,
-      "width": 10,
+      "location": [-25.5, 7],
+      "length": 10,
+      "width": 5,
       "angle": 180,
       "contrailSize": 10,
-      "style": "LOW_TECH"
+      "style": "HIGH_TECH"
     },
     {
-      "location": [-16.5, -4.5],
-      "length": 15,
-      "width": 10,
+      "location": [-25.5, -7],
+      "length": 10,
+      "width": 5,
       "angle": -180,
       "contrailSize": 10,
-      "style": "LOW_TECH"
+      "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    17, -1.5,
-    14.5, -2.5,
-    7, -2.5,
-    5, -19.5,
-    -1, -19.5,
-    -3.5, -6,
-    -12, -6,
-    -15.5, -12,
-    -15.5, 12,
-    -12, 6,
-    -3.5, 6,
-    -1, 19.5,
-    5, 19.5,
-    7, 2.5,
-    14.5, 2.5,
-    17, 1.5
+    26, -2,
+    20, -4,
+    10, -4,
+    8, -28,
+    13, -28,
+    13, -29,
+    -2, -29,
+    -4, -9,
+    -18, -9,
+    -21, -18,
+    -23, -18,
+    -23, 18,
+    -21, 18,
+    -18, 9,
+    -4, 9,
+    -2, 29,
+    13, 29,
+    13, 28,
+    8, 28,
+    10, 4,
+    20, 4,
+    26, 2
   ]
 }

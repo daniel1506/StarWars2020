@@ -1,0 +1,53 @@
+{
+  "id": "sw_turbolaser",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_greenlaser3",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/sw_turbolaser_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sw_turbolaser_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/sw_turbolaser_hardpoint_base.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    0,
+    200,
+    0,
+    255
+  ],
+  "visualRecoil": 4,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    7,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    7,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 5,
+    "spread": 3,
+    "particleSizeMin": 5,
+    "particleSizeRange": 3,
+    "particleDuration": 0.12,
+    "particleCount": 3,
+    "particleColor": [
+      0,
+      250,
+      0,
+      200
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "sw_sound_laser_cannon"
+}

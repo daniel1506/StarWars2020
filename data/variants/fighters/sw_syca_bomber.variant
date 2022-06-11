@@ -1,0 +1,38 @@
+{
+  "variantId": "sw_syca_bomber",
+  "hullId": "sw_syca",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_ls72_laser_cannon",
+        "WS0002": "sw_ls72_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sw_proton_torpedo",
+        "WS0004": "sw_proton_torpedo"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_proton_bomb"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

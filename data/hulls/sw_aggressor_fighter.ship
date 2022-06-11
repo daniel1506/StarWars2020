@@ -1,0 +1,95 @@
+{
+  "hullName": "Aggressor Assault Fighter",
+  "hullId": "sw_aggressor_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_aggressor_fighter.png",
+  "style": "HIGH_TECH",
+  "height": 49,
+  "width": 47,
+  "center": [23.5, 23],
+  "collisionRadius": 27,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 27.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24.5, 6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [24.5, -6]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, 4]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [8.5, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20.5, -0],
+      "length": 5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    8.5, -5,
+    25.5, -5,
+    25.5, -6,
+    18.5, -9,
+    -0.5, -9,
+    4.5, -17,
+    3.5, -20,
+    -9.5, -22,
+    -15.5, -22,
+    -22.5, -14,
+    2.5, -17,
+    -6.5, -8,
+    -18.5, -5,
+    -20.5, -2,
+    -20.5, 2,
+    -18.5, 5,
+    -6.5, 8,
+    2.5, 17,
+    -22.5, 14,
+    -15.5, 22,
+    -9.5, 22,
+    3.5, 20,
+    4.5, 17,
+    -0.5, 9,
+    18.5, 9,
+    25.5, 6,
+    25.5, 5,
+    8.5, 5
+  ]
+}

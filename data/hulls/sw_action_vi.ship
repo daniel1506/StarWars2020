@@ -3,7 +3,7 @@
   "hullId": "sw_action_vi",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sw_action_vi.png",
-  "style": "LOW_TECH",
+  "style": "SW_MANDAL",
   "height": 246,
   "width": 42,
   "center": [20.5, 126.5],

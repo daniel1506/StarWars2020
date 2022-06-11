@@ -1,0 +1,59 @@
+{
+  "variantId": "sw_first_order_light_cruiser_firstorder",
+  "hullId": "sw_first_order_light_cruiser",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_xx9_turbolaser_heavy",
+        "WS0002": "sw_xx9_turbolaser_heavy",
+        "WS0003": "sw_xx9_turbolaser_heavy",
+        "WS0004": "sw_xx9_turbolaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_concussion_missile_assault",
+        "WS0006": "sw_concussion_missile_assault"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sw_laser_cannon",
+        "WS0008": "sw_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sw_laser_cannon",
+        "WS0010": "sw_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sw_laser_cannon",
+        "WS0012": "sw_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_tie_fo_wing"
+  ]
+}

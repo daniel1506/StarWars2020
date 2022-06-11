@@ -1,0 +1,51 @@
+{
+  "id": "sw_kdd_ball_quad_turbolaser",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_bluelaser_dual",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/sw_ball_turbolaser_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sw_ball_turbolaser_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/sw_ball_turbolaser_hardpoint_base.png",
+  "glowColor": [
+    0,
+    102,
+    255,
+    255
+  ],
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    7.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    11,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 10,
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      0,
+      102,
+      255,
+      200
+    ]
+  },
+  "fireSoundTwo": "sw_sound_turbolaser"
+}

@@ -1,8 +1,8 @@
 {
   "variantId": "sw_tie_reaper_support",
   "hullId": "sw_tie_reaper",
-  "displayName": "Support Dropship",
-  "goalVariant": false,
+  "displayName": "Attack Lander",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

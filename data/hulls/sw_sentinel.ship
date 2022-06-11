@@ -2,8 +2,8 @@
   "hullName": "Sentinel Class Landing Craft",
   "hullId": "sw_sentinel",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sw_sentinel.png",
-  "style": "MIDLINE",
+  "spriteName": "graphics/ships/empire/sw_sentinel.png",
+  "style": "SW_IMPERIAL",
   "height": 86,
   "width": 58,
   "center": [29, 43],
@@ -12,8 +12,8 @@
   "shieldRadius": 45.5,
   "viewOffset": 0,
   "builtInMods": [
-    "repair_gantry",
-    "shielded_holds"
+    "shielded_holds",
+    "sw_hyperdrive"
   ],
   "weaponSlots": [
     {

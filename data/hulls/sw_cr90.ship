@@ -2,8 +2,8 @@
   "hullName": "CR-90 Corvette",
   "hullId": "sw_cr90",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sw_cr90.png",
-  "style": "LOW_TECH",
+  "spriteName": "graphics/ships/rebel/sw_cr90.png",
+  "style": "SW_REBEL",
   "height": 146,
   "width": 46,
   "center": [23, 73],
@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "surveying_equipment"
+    "sw_targeting_computer"
   ],
   "weaponSlots": [
     {
@@ -38,43 +38,43 @@
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 0,
       "locations": [42, -0]
     },
     {
       "id": "WS0004",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": 90,
       "locations": [18.5, 9.5]
     },
     {
       "id": "WS0005",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": 270,
       "locations": [18.5, -9.5]
     },
     {
       "id": "WS0006",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": 90,
       "locations": [28, 9.5]
     },
     {
       "id": "WS0007",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": -90,
       "locations": [28, -9.5]
@@ -83,37 +83,37 @@
   "engineSlots": [
     {
       "location": [-72, 16.5],
-      "length": 30,
-      "width": 10,
+      "length": 10,
+      "width": 5,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 5,
       "style": "CUSTOM",
       "styleId": "COBRA_BOMBER"
     },
     {
       "location": [-72, -16.5],
       "length": 10,
-      "width": 10,
+      "width": 5,
       "angle": -180,
-      "contrailSize": 10,
+      "contrailSize": 5,
       "style": "CUSTOM",
       "styleId": "COBRA_BOMBER"
     },
     {
       "location": [-72.5, 6],
       "length": 10,
-      "width": 10,
+      "width": 5,
       "angle": 180,
-      "contrailSize": 10,
+      "contrailSize": 5,
       "style": "CUSTOM",
       "styleId": "COBRA_BOMBER"
     },
     {
       "location": [-72.5, -6],
       "length": 10,
-      "width": 10,
+      "width": 5,
       "angle": -180,
-      "contrailSize": 10,
+      "contrailSize": 5,
       "style": "CUSTOM",
       "styleId": "COBRA_BOMBER"
     }

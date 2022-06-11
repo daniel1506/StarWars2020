@@ -1,0 +1,115 @@
+{
+  "variantId": "sw_module_golan_ii1_zann",
+  "hullId": "sw_module_golan_ii1",
+  "displayName": "Consortium",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_dby827_dual_turbolaser_heavy",
+        "WS0002": "sw_dby827_dual_turbolaser_heavy",
+        "WS0003": "sw_dby827_dual_turbolaser_heavy",
+        "WS0004": "sw_dby827_dual_turbolaser_heavy",
+        "WS0005": "sw_dby827_dual_turbolaser_heavy",
+        "WS0006": "sw_dby827_dual_turbolaser_heavy",
+        "WS0007": "sw_dby827_dual_turbolaser_heavy",
+        "WS0008": "sw_dby827_dual_turbolaser_heavy",
+        "WS0009": "sw_dby827_dual_turbolaser_heavy",
+        "WS0010": "sw_dby827_dual_turbolaser_heavy",
+        "WS0011": "sw_dby827_dual_turbolaser_heavy",
+        "WS0012": "sw_dby827_dual_turbolaser_heavy",
+        "WS0013": "sw_dby827_dual_turbolaser_heavy",
+        "WS0014": "sw_dby827_dual_turbolaser_heavy",
+        "WS0015": "sw_dby827_dual_turbolaser_heavy",
+        "WS0016": "sw_dby827_dual_turbolaser_heavy",
+        "WS0017": "sw_dby827_dual_turbolaser_heavy",
+        "WS0018": "sw_dby827_dual_turbolaser_heavy",
+        "WS0019": "sw_dby827_dual_turbolaser_heavy",
+        "WS0020": "sw_dby827_dual_turbolaser_heavy",
+        "WS0021": "sw_dby827_dual_turbolaser_heavy",
+        "WS0022": "sw_dby827_dual_turbolaser_heavy",
+        "WS0023": "sw_dby827_dual_turbolaser_heavy",
+        "WS0024": "sw_dby827_dual_turbolaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0025": "sw_dual_turbolaser",
+        "WS0026": "sw_dual_turbolaser",
+        "WS0027": "sw_dual_turbolaser",
+        "WS0028": "sw_dual_turbolaser",
+        "WS0029": "sw_dual_turbolaser",
+        "WS0030": "sw_dual_turbolaser",
+        "WS0031": "sw_dual_turbolaser",
+        "WS0032": "sw_dual_turbolaser",
+        "WS0033": "sw_dual_turbolaser",
+        "WS0034": "sw_dual_turbolaser",
+        "WS0035": "sw_dual_turbolaser",
+        "WS0036": "sw_dual_turbolaser",
+        "WS0037": "sw_dual_turbolaser",
+        "WS0038": "sw_dual_turbolaser",
+        "WS0039": "sw_dual_turbolaser",
+        "WS0040": "sw_dual_turbolaser",
+        "WS0041": "sw_dual_turbolaser",
+        "WS0042": "sw_dual_turbolaser",
+        "WS0043": "sw_dual_turbolaser",
+        "WS0044": "sw_dual_turbolaser",
+        "WS0045": "sw_dual_turbolaser",
+        "WS0046": "sw_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0047": "sw_mg7",
+        "WS0048": "sw_mg7",
+        "WS0049": "sw_mg7",
+        "WS0050": "sw_mg7",
+        "WS0051": "sw_mg7"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0052": "sw_laser_cannon",
+        "WS0053": "sw_laser_cannon",
+        "WS0054": "sw_laser_cannon",
+        "WS0055": "sw_laser_cannon",
+        "WS0056": "sw_laser_cannon",
+        "WS0057": "sw_laser_cannon",
+        "WS0058": "sw_laser_cannon",
+        "WS0059": "sw_laser_cannon",
+        "WS0060": "sw_laser_cannon",
+        "WS0061": "sw_laser_cannon",
+        "WS0062": "sw_laser_cannon",
+        "WS0063": "sw_laser_cannon",
+        "WS0064": "sw_laser_cannon",
+        "WS0065": "sw_laser_cannon",
+        "WS0066": "sw_laser_cannon",
+        "WS0067": "sw_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_rihkxyrk_wing",
+    "sw_starviper_wing",
+    "sw_cloakshape_wing"
+  ]
+}

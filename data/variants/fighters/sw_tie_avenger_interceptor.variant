@@ -1,8 +1,8 @@
 {
   "variantId": "sw_tie_avenger_interceptor",
   "hullId": "sw_tie_avenger",
-  "displayName": "Space Superiority Fighter",
-  "goalVariant": false,
+  "displayName": "Starfighter",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

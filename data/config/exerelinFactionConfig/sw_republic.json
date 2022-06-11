@@ -1,0 +1,69 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Separatist",
+    
+    "directoryUseShortName":true,
+	
+	"marketSpawnWeight":0.8,
+	
+	"startRelationships":{ "independent":0.3, "hegemony": -0.5, "luddic_church": -0.3, "tritachyon": 1.0, "persean":0.5, "sw_rebel":0.5},
+	"maxRelationships":{ "hegemony": -0.4, "sw_empire":-0.5, "sw_cis":-0.5 },
+	"diplomacyPositiveChance":{ "independent":0.5, "sw_rebel":0.5},
+	"diplomacyNegativeChance":{ "sw_empire":1, "hegemony":1, "sw_cis":1 },
+	"diplomacyTraits":["stalwart", "likes_ai", "law_and_order", "neutralist"],
+    
+    "alignments":{
+        "technocratic":0.3,
+        "diplomatic":0.5,
+        "militarist":-0.5,
+		"ideological":0.5,
+    },
+    
+    "startShipsSolo":[["sw_venator_republic_republic"]],
+    "startShipsTradeSmall":[
+		["sw_arquitens_republic", "sw_pelta_republic", "sw_bff_1_bulk"],
+		["sw_arquitens_republic", "sw_consular_republic", "sw_bff_1_bulk"]
+	],
+    "startShipsTradeLarge":[
+		["sw_victory_i_republic", "sw_pelta_republic", "sw_aa9_super"],
+		["sw_venator_republic_republic", "sw_arquitens_republic_republic", "sw_aa9_super"]
+	],
+    "startShipsCombatSmall":[
+		["sw_victory_i_republic", "sw_consular_republic", "sw_consular_republic"],
+		["sw_venator_republic_republic", "sw_arquitens_republic_republic", "sw_arquitens_republic_republic"]
+	],
+    "startShipsCombatLarge":[
+		["sw_legacy_republic", "sw_arquitens_republic_republic", "sw_dreadnought_republic"],
+		["sw_victory_i_republic", "sw_venator_republic_republic", "sw_arquitens_republic_republic"]
+	],
+    "startShipsCarrierSmall":[
+		["sw_venator_republic_republic", "sw_proclamator_republic", "sw_consular_republic"],
+		["sw_venator_republic_republic", "sw_venator_republic_republic", "sw_pelta_republic"]
+	],
+    "startShipsCarrierLarge":[		
+		["sw_victory_i_republic", "sw_venator_republic_republic", "sw_venator_republic_republic"],
+		["sw_venator_republic_republic", "sw_venator_republic_republic", "sw_proclamator_republic"]
+	],
+    
+    "startSpecialItems":[
+        [["sw_weapon_package", "sw_lowtech_package", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["sw_golan_ii_republic", "sw_golan_iii_republic", "sw_shipyards_republic"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

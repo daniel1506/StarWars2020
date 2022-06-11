@@ -1,0 +1,99 @@
+{
+  "hullName": "Vaksai Starfighter",
+  "hullId": "sw_vaksai",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_vaksai.png",
+  "style": "HIGH_TECH",
+  "height": 45,
+  "width": 30,
+  "center": [15, 22.5],
+  "collisionRadius": 22.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3.5, -13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 9]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3.5, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 9],
+      "length": 3,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, -9],
+      "length": 3,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    22, -1.5,
+    20, -1.5,
+    20, -5.5,
+    17, -5.5,
+    16, -2.5,
+    4, -2.5,
+    4, -13.5,
+    -6, -13.5,
+    -15, -10.5,
+    -15, -2.5,
+    -20, -2.5,
+    -22, -1.5,
+    -22, 1.5,
+    -20, 2.5,
+    -15, 2.5,
+    -15, 10.5,
+    -6, 13.5,
+    4, 13.5,
+    4, 2.5,
+    16, 2.5,
+    17, 5.5,
+    20, 5.5,
+    20, 1.5,
+    22, 1.5
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "hullName": "VT-49 Decimator",
+  "hullId": "sw_vt49",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/empire/sw_vt49.png",
+  "style": "SW_IMPERIAL",
+  "height": 111,
+  "width": 78,
+  "center": [39, 55.5],
+  "collisionRadius": 58,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 59,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "repair_gantry",
+    "shielded_holds",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-43, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [49.5, 17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [49.5, -17]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19, 12]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [19, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54, 17],
+      "length": 15,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-54, -17],
+      "length": 15,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    31, -5.5,
+    25, -9.5,
+    21.5, -15.5,
+    54, -15.5,
+    29.5, -29.5,
+    -39, -37.5,
+    -54, -17,
+    -54, 17,
+    -39, 37.5,
+    29.5, 29.5,
+    54, 15.5,
+    21.5, 15.5,
+    25, 9.5,
+    31, 5.5
+  ]
+}

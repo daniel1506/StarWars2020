@@ -1,0 +1,89 @@
+{
+  "hullName": "Syca-class Bomber",
+  "hullId": "sw_syca",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_syca.png",
+  "style": "SW_IMPERIAL",
+  "height": 34,
+  "width": 27,
+  "center": [13.5, 17],
+  "collisionRadius": 19.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15.5, 2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [15.5, -2]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15.5, 7]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [15.5, -7]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-0.5, -0],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    16.5, -9,
+    7.5, -13,
+    -1.5, -13,
+    -16.5, -7,
+    -16.5, -5,
+    -1.5, -4,
+    -1.5, 4,
+    -16.5, 5,
+    -16.5, 7,
+    -1.5, 13,
+    7.5, 13,
+    16.5, 9
+  ]
+}

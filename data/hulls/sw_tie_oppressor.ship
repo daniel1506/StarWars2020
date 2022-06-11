@@ -1,16 +1,19 @@
 {
-  "hullName": "Tie Oppressor",
+  "hullName": "TIE Oppressor",
   "hullId": "sw_tie_oppressor",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_oppressor.png",
   "style": "SW_IMPERIAL",
-  "height": 33,
-  "width": 29,
-  "center": [14.5, 16.5],
-  "collisionRadius": 20,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 20.5,
+  "height": 50,
+  "width": 36,
+  "center": [18, 28],
+  "collisionRadius": 28,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 28.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -19,7 +22,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [12, 1]
+      "locations": [16.5, 3.5]
     },
     {
       "id": "WS0002",
@@ -28,7 +31,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [12, -1]
+      "locations": [16.5, -3.5]
     },
     {
       "id": "WS0003",
@@ -37,7 +40,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [8, 7]
+      "locations": [20.5, 15.5]
     },
     {
       "id": "WS0004",
@@ -46,7 +49,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [8, -7]
+      "locations": [20.5, -15.5]
     },
     {
       "id": "WS0005",
@@ -55,7 +58,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [3, 1.5]
+      "locations": [10.5, 10.5]
     },
     {
       "id": "WS0006",
@@ -64,31 +67,47 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [3, -1.5]
+      "locations": [10.5, -10.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-5, 1.5],
+      "location": [-13, -0],
       "length": 30,
       "width": 10,
       "angle": 180,
       "contrailSize": 128,
-      "style": "LOW_TECH_FIGHTER"
-    },
-    {
-      "location": [-5, -1.5],
-      "length": 30,
-      "width": 10,
-      "angle": -180,
-      "contrailSize": 128,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
     }
   ],
   "bounds": [
-    16, 11,
-    -15.5, 11,
-    -15.5, -11,
-    16, -11
+    16.5, -2.5,
+    10.5, -9.5,
+    10.5, -12.5,
+    16.5, -12.5,
+    21.5, -16.5,
+    -22, -16.5,
+    -5, -14.5,
+    -5, -9.5,
+    -27.5, -3.5,
+    -27.5, 3.5,
+    -5, 9.5,
+    -5, 14.5,
+    -22, 16.5,
+    21.5, 16.5,
+    16.5, 12.5,
+    10.5, 12.5,
+    10.5, 9.5,
+    16.5, 2.5
   ]
 }

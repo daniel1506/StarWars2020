@@ -1,0 +1,67 @@
+{
+  "hullName": "Delta-7 Aethersprite-class Light Interceptor",
+  "hullId": "sw_delta7",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_delta7.png",
+  "style": "HIGH_TECH",
+  "height": 53,
+  "width": 27,
+  "center": [13.5, 26.5],
+  "collisionRadius": 26.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 27,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2.5, 6.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2.5, -6.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, 6.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, -6.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -4, -12,
+    -10, -12,
+    -13, -5,
+    -20, -2,
+    -26, 0.5,
+    -20, 2,
+    -13, 5,
+    -10, 12,
+    -4, 12,
+    26, -0
+  ]
+}

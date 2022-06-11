@@ -1,0 +1,88 @@
+{
+  "hullName": "Nsiss-class Clawcraft",
+  "hullId": "sw_nsiss",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_nsiss.png",
+  "style": "SW_IMPERIAL",
+  "height": 56,
+  "width": 26,
+  "center": [13, 28],
+  "collisionRadius": 28.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25.5, 5.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [25.5, -5.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24.5, 5.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [24.5, -5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15.5, 4.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-15.5, -4.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    2.5, -2.5,
+    -0.5, -5.5,
+    27.5, -5.5,
+    2.5, -12.5,
+    -6.5, -12.5,
+    -27.5, -0,
+    -6.5, 12.5,
+    2.5, 12.5,
+    27.5, 5.5,
+    -0.5, 5.5,
+    2.5, 2.5
+  ]
+}

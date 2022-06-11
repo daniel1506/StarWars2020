@@ -3,16 +3,36 @@
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
 		"sw_raider_light":7,
-		"sw_cr90_rebel":5,
+		"sw_cr90_rebel":7,
 		"sw_dp20_rebel":7,
+		"sw_consular_republic":7,
+		"sw_st70_mandal":7,
 
 		"sw_vigil_imperial":10,
 		"sw_marauder_rebel":10,
+		"sw_crusader_mandal":10,
+		
+		"sw_tartan_imperial":7,
+		"sw_carrack_imperial":7,
+		"sw_carrack_rebel":7,
+		"sw_carrack_republic":7,
+		"sw_mc20_rebel":7,
 
 		"sw_arquitens_imperial":10,
+		"sw_arquitens_republic_republic":10,
 		"sw_nebulon_b_rebel":10,
 
+		"sw_ipv1_imperial":10,
+		"sw_ipv1_mandal":10,
+		"sw_ipv1_blacksun":10,
+		
+		"sw_fruoro_chiss":10,
+		"sw_syzygos_chiss":5,
+		
+		"sw_first_order_light_cruiser_firstorder":10,
+
 		"sw_gozanti_imperial":5,
+		"sw_hammerhead_rebel":5,
 
 		"fallback":{"combatSmall":1},
 	},
@@ -20,61 +40,137 @@
 		"sw_raider_light":10,
 		"sw_cr90_rebel":10,
 		"sw_dp20_rebel":10,
+		"sw_consular_republic":10,
 
 		"sw_vigil_imperial":10,
 		"sw_marauder_rebel":10,
+
+		"sw_tartan_imperial":10,
+		"sw_lancer_heavy":10,
+		"sw_carrack_imperial":8,
+		"sw_carrack_rebel":8,
+		"sw_carrack_republic":10,
+		"sw_cc7700_rebel":5,
 
 		"sw_arquitens_imperial":10,
 		"sw_nebulon_b_rebel":10,
 
 		"sw_gozanti_imperial":5,
+		"sw_gozanti_black_sun_blacksun":5,
+		"sw_hammerhead_rebel":5,
+		"sw_mc20_rebel":7,
+		
+		"sw_trireme_blacksun":10,
+		"sw_crusader_mandal":10,
+		"sw_jehaveyir_mandal":5,
+		"sw_ipv2c_republic":4,
+		
+		"sw_fruoro_chiss":10,
+		"sw_syzygos_chiss":10,
+		
+		"sw_first_order_light_cruiser_firstorder":10,
 		
 		"fallback":{"combatMedium":0.5},
 	},
 	"combatMedium":{
 		"sw_vindicator_imperial":10,
 		"sw_mc40a_rebel":10,
+		"sw_munificent_cis":10,
+		"sw_recusant_cis":10,
+		"sw_corona_blacksun":10,
+		"sw_jehaveyir_mandal":10,
+		"sw_teroch_mandal":10,
 
 		"sw_dreadnought_heavy":10,
+		"sw_dreadnought_republic":10,
 		"sw_mc30c_rebel":10,
-
-		"sw_lancer_heavy":10,
+		"sw_majestic_rebel":8,
+		"sw_cc7700_rebel":7,
 
 		"sw_immobilizer_imperial":7,
-		"sw_assault_frigate_mk2_rebel":5,
+		"sw_assault_frigate_mk2_rebel":7,
+		"sw_assault_frigate_mk1_rebel":8,
 
-		"sw_victory_i_imperial":3,
-		"sw_nebula_rebel":3,
+		"sw_neutron_star_rebel":4,
+		"sw_neutron_star_imperial":2,
+		
+		"sw_kynigos_chiss":10,
+		
+		"sw_dissident_firstorder":10,
 		
 		"fallback":{"combatSmall":1},
 	},
 	"combatLarge":{
 		"sw_acclamator_imperial":5,
+		"sw_acclamator_republic":5,
+		"sw_ascendancy_chiss":5,
 
 		"sw_victory_i_imperial":10,
+		"sw_victory_ii_imperial":10,
+		"sw_victory_i_republic":10,
 		"sw_nebula_rebel":10,
+		"sw_providence_cis":10,
+		"sw_sabaoth_destroyer_cis":10,
 
-		"sw_procursator_imperial":7,
-		"sw_mc80b_rebel":7,
+		"sw_procursator_imperial":10,
+		"sw_mc80b_rebel":10,
 
+		"sw_keldabe_zann":10,
+		"sw_ajuur_mandal":10,
+		"sw_ajuur_blacksun":10,
+		"sw_vengeance_frigate_zann":10,
+		"sw_dauntless_rebel":10,
+
+		"sw_bulwark_mk1_cis":10,
+		"sw_bulwark_mk1_rebel":10,
+		"sw_bulwark_mk1_blacksun":10,
 		
 		"fallback":{"combatMedium":1},
 	},
 	"combatCapital":{
-		"sw_procursator_imperial":7,
-		"sw_mc80b_rebel":7,
-		"sw_mc80_home_one_rebel":7,
+		"sw_mc80_home_one_rebel":8,
+		"sw_interdictor_imperial":9,
+		"sw_tector_imperial":8,
+		"sw_bulwark_mk2_blacksun":9,
+		"sw_bulwark_mk2_cis":9,
+		"sw_bulwark_mk2_rebel":8,
+		"sw_resurgent_firstorder":10,
+		"sw_imperial_i_firstorder":6,
 
 		"sw_imperial_ii_imperial":10,
+		"sw_imperial_i_imperial":10,
 		"sw_mc80_liberty_rebel":10,
-
-		"sw_allegiance_imperial":5,
+		"sw_kandosii_mandal":10,
+		"sw_aggressor_zann":10,
+		"sw_aggressor_mandalorian_mandal":10,
+		
+		"sw_phalanx_chiss":10,
+		
+		"sw_mc90_rebel":7,
+		"sw_allegiance_imperial":7,
+		"sw_bulwark_mk3_rebel":7,
 		"sw_starhawk_rebel":5,
+		"sw_rothana_battlecruiser_republic":7,
 
-		"sw_bellator_imperial":3,
+		"sw_bellator_imperial":5,
+		"sw_mediator_rebel":6,
+		"sw_viscount_prototype_rebel":5,
+		"sw_providence_dreadnought_cis":7,
+		"sw_subjugator_cis":4,
+		
+		"sw_legacy_republic":10,
+		"sw_procurator_republic":6,
+		"sw_mandator_i_republic":4,
+		"sw_praetor_mk2_imperial":4,
+		"sw_praetor_republic":5,
+		"sw_mandator_ii_republic":4,
+		"sw_assertor_imperial":4,
+
+		"sw_mandator_iv_firstorder":3,
 		"sw_viscount_rebel":3,
-
-		"sw_assertor_imperial":1,
+		"sw_executor_imperial":3,
+		"sw_eclipse_i_imperial":2,
+		"sw_eclipse_ii_imperial":1,
 		
 		"fallback":{"combatLarge":1},
 	},
@@ -83,17 +179,26 @@
 	# hybrid ships with good combat and cargo capacity
 	"combatFreighterSmall":{
 		"sw_arquitens_imperial":10,
+		"sw_pelta_republic":10,
+		"sw_vt49_imperial":10,
 		"sw_yt1300_light":10,
-
+		"sw_vcx100_light":10,
+		"sw_gr75_medium":10,
+		"sw_aeg77_blacksun":10,
+		"sw_c9979_cis":2,
 		"fallback":{"freighterSmall":1},
 	},
 	"combatFreighterMedium":{
-		"sw_dreadnought_heavy":10,
-		"sw_gr75_medium":10,
+		"sw_dreadnought_heavy":3,		
+		"sw_hajen_rebel":8,
+		"sw_neutron_star_imperial":5,
+		"sw_neutron_star_rebel":10,
 		"fallback":{"combatFreighterSmall":1},
 	},
 	"combatFreighterLarge":{
 		"sw_acclamator_imperial":10,
+		"sw_acclamator_republic":10,		
+		"sw_separatist_supply_ship_cis":1,
 		"fallback":{"combatFreighterMedium":1},
 	},
 	
@@ -101,12 +206,17 @@
 		"sw_lambda_imperial":10,
 		"sw_sentinel_landing":7,
 		"sw_yt1300_light":10,
+		"sw_consular_civil_light":5,
+		"sw_vcx100_light":10,
 	},
 
 	# carriers
 	"carrierSmall":{
 		"sw_quasar_imperial":10,
 		"sw_quasar_rebel":10,
+		"sw_c9979_cis":2,
+		
+		"sw_ormos_chiss":10,
 		
 		"fallback":{"carrierMedium":0.5},
 		"fallback2":{"carrierLarge":0.25},
@@ -114,17 +224,38 @@
 	"carrierMedium":{
 		"sw_gladiator_imperial":10,
 		"sw_ton_falk_escort":10,
+		"sw_ton_falk_imperial":10,
+		"sw_venator_republic_republic":10,
+		"sw_dreadnought_carrier_blacksun":10,
+		"sw_dreadnought_carrier_mandal":10,
+
+		"sw_proclamator_republic":10,
+		"sw_core_ship_cis":8,
+		"sw_venator_imperial_imperial":5,
+		"sw_auxilia_cis":5,
+		"sw_liberator_rebel":7,
+		"sw_captor_cis":10,
+		
+		"sw_ormos_chiss":5,
+		"sw_first_order_carrier_firstorder":10,
+		
 		"fallback":{"carrierSmall":1},
 		"fallback2":{"carrierLarge":0.5},
 	},
 	"carrierLarge":{
+		"sw_ascendancy_chiss":10,
+
 		"sw_consolidator_assault":10,
 		"sw_mc75_rebel":10,
-
-		"sw_acclamator_imperial":5,
-		"sw_acclamator_rebel":5,
+		
+		"sw_auxilia_cis":10,
+		"sw_venator_black_sun_blacksun":10,
+		"sw_venator_imperial_imperial":7,
+		"sw_mc_heavy_rebel":7,
+		"sw_lucrehulk_cis":7,
 
 		"sw_secutor_imperial":3,
+		"sw_lucrehulk_rebel":5,
 		
 		"fallback":{"carrierMedium":1},
 		"fallback2":{"carrierSmall":1},
@@ -133,26 +264,44 @@
 	# freighters and such
 	"freighterSmall":{
 		"sw_bff_1_bulk":10,
+		"sw_vt49_imperial":10,
+		"sw_pelta_republic":8,
+		"sw_eta_republic":7,
+		"sw_nu_republic":10,
+		"sw_sheathipede_cis":7,	
+		"sw_c9979_cis":2,	
+		"sw_gozanti_imperial":7,
 		"sw_yt1300_light":7,
 		"sw_gr75_medium":7,
+		"sw_vcx100_light":7,
+		"sw_rebel_tanker_replenishment":3,
+		"sw_hardcell_cis":5,
 		"fallback":{"freighterMedium":0.5},
 		"fallback2":{"freighterLarge":0.25},
 	},
 	"freighterMedium":{
 		"sw_action_vi_transport":10,
+		"sw_hajen_rebel":10,
+		"sw_diamond_cis":10,
+		"sw_neutron_star_rebel":8,
+		"sw_neutron_star_imperial":6,
 		"sw_contentor_replenishment":5,
+		"sw_core_ship_cis":5,
 		"fallback":{"freighterSmall":1},
 		"fallback2":{"freighterLarge":0.5},
 	},
 	"freighterLarge":{
-		"sw_aa9_super":10,
-		"sw_altor_replenishment":3,
+		"sw_aa9_super":10,		
+		"sw_separatist_supply_ship_cis":10,
+		"sw_altor_replenishment":5,
 		"fallback":{"freighterMedium":1},
 		"fallback2":{"freighterSmall":1},
 	},
 	
 	"tankerSmall":{
 		"sw_contentor_replenishment":10,
+		"sw_rebel_tanker_replenishment":10,
+		"sw_hardcell_cis":10,
 		"fallback":{"tankerMedium":0.5},
 		"fallback2":{"tankerLarge":0.25},
 	},
@@ -169,6 +318,13 @@
 	
 	"personnelSmall":{
 		"sw_lambda_imperial":10,
+		"sw_yt1300_light":10,
+		"sw_vcx100_light":10,
+		"sw_eta_republic":10,
+		"sw_st70_mandal":10,
+		"sw_aeg77_blacksun":10,
+		"sw_nu_republic":7,
+		"sw_sheathipede_cis":10,
 		"fallback":{"personnelMedium":0.5},
 		"fallback2":{"personnelLarge":0.25},
 	},
@@ -185,18 +341,28 @@
 	},
 	
 	"linerSmall":{
-		"sw_sentinel_landing":10,
+		"sw_lambda_imperial":10,
+		"sw_sentinel_landing":7,
+		"sw_eta_republic":10,
+		"sw_nu_republic":7,
+		"sw_sheathipede_cis":10,
+		"sw_yt1300_light":5,
+		"sw_vcx100_light":5,
+		"sw_vt49_imperial":5,
+		"sw_aeg77_blacksun":5,
+		"sw_c9979_cis":2,
 		"fallback":{"linerMedium":0.5},
 		"fallback2":{"linerLarge":0.25},
 	},
 	"linerMedium":{
+		"sw_sentinel_landing":10,
 		"sw_consular_civil_light":10,
 		"fallback":{"linerSmall":1},
 		"fallback2":{"linerLarge":0.5},
 	},
 	"linerLarge":{
 		"sw_consular_civil_light":10,
-		"sw_lancer_heavy":5,
+		"sw_gr75_medium":5,
 		"fallback":{"linerMedium":1},
 		"fallback2":{"linerSmall":1},
 	},

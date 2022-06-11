@@ -11,12 +11,15 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.campaign.econ.Industry;
+import com.fs.starfarer.api.campaign.SpecialItemData;
 import com.fs.starfarer.api.impl.campaign.ids.Conditions;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.ids.Terrain;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
+import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.impl.campaign.terrain.BaseTiledTerrain;
 import com.fs.starfarer.api.impl.campaign.terrain.MagneticFieldTerrainPlugin.MagneticFieldParams;
 import com.fs.starfarer.api.util.Misc;
@@ -35,7 +38,9 @@ public class CoruscantPrime {
 		LocationAPI hyper = Global.getSector().getHyperspace();
 		
 		system.setBackgroundTextureFilename("graphics/backgrounds/background5.jpg");
-		system.getLocation().set(1500.0f, 5000.0f);
+		system.getLocation().set(-6833f, 13666f);
+		//system.getLocation().set(-6833f, 9454f);
+		//Star Wars map to Starsector map ratio: 1x1 (grid) : 6833x4727
 		
 		SectorEntityToken coruscant_nebula = Misc.addNebulaFromPNG("data/campaign/terrain/valhalla_nebula.png",
 				  0, 0, // center of nebula
@@ -46,63 +51,73 @@ public class CoruscantPrime {
 		// create the star and generate the hyperspace anchor for this system
 		PlanetAPI coruscant_star = system.initStar("coruscant_prime", // unique id for this star 
 										    "star_white",  // id in planets.json
-										    600f, 		  // radius (in pixels at default zoom)
+										    700f, 		  // radius (in pixels at default zoom)
 										    500); // corona radius, from star edge
 		system.setLightColor(new Color(245, 250, 255)); // light color in entire system, affects all entities				
-		
-		PlanetAPI coruscant1 = system.addPlanet("coruscant", coruscant_star, "Coruscant", "ecumenopolis", 10, 110, 2500, 110);
+	
+		//light: "Blue(240, 255, 255)", "Yellow(255, 255, 240)", "Orange(255, 230, 205)", "White(245, 250, 255)"
+		//star_type: "star_neutron", "black_hole", "star_yellow", "star_white", "star_blue_giant", "star_blue_supergiant"
+		//star_type: "star_orange", "star_orange_giant", "star_red_supergiant", "star_red_giant", "star_red_dwarf", "star_browndwarf", ""
+	
+		PlanetAPI coruscant1 = system.addPlanet("coruscant", coruscant_star, "Coruscant", "ecumenopolis", 24, 122.4f, 5000, 110);
 		coruscant1.getSpec().setPlanetColor(new Color(205,205,205,205));
 		coruscant1.setCustomDescriptionId("planet_coruscant");
 		coruscant1.applySpecChanges();
 		
-		SectorEntityToken coruscantStation = system.addCustomEntity("coruscant_starforge", "Coruscant One", "station_side07", "sw_empire");
-		coruscantStation.setCircularOrbitPointingDown(system.getEntityById("coruscant"), 0, 250, 30);		
+		SectorEntityToken coruscantStation = system.addCustomEntity("coruscant_starforge", "Coruscant One", "sw_station_golan_iii", "sw_empire");
+		coruscantStation.setCircularOrbitPointingDown(system.getEntityById("coruscant"), 0, 300, 30);		
 		coruscantStation.setInteractionImage("illustrations", "orbital");
 		coruscantStation.setCustomDescriptionId("station_coruscant");
 		
-		SW_AddMarket.SW_AddMarket("sw_empire", (SectorEntityToken)coruscant1, new ArrayList<String>(Arrays.asList((SectorEntityToken)coruscantStation)), "Coruscant", 5, new ArrayList<String>(Arrays.asList("sw_ecumenopolis", "pollution", "habitable", "population_5", "mild_climate", "trade_center", "regional_capital")), new ArrayList<String>(Arrays.asList("lightindustry", "heavyindustry", "spaceport", "commerce", "highcommand", "population", "heavybatteries", "battlestation_high", "planetaryshield")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.1f);
+		//planet_type: "gas_giant", "ice_giant", "lava", "frozen", "frozen1-3", "barren", "barren_castiron"
+		//planet_type: "barren_venuslike", "toxic", "toxic_cold", "jungle", "terran", "desert", "arid", "rocky_metallic"
+		//planet_type: "cryovolcanic", "rocky_unstable", "water", "rocky_ice", "irradiated", "tundra", "barren-bombarded"
+		//planet_type: "barren-desert", "terran-eccentric", "ecumenopolis"
 		
-	// Kuat System 
-		PlanetAPI coruscant2 = system.addPlanet("kuat", coruscant_star, "Kuat", "gas_giant", 20, 400, 4750, 220);
-		coruscant2.getSpec().setPlanetColor(new Color(200,255,245,255));
-		coruscant2.getSpec().setAtmosphereColor(new Color(220,250,240,150));
-		coruscant2.getSpec().setCloudColor(new Color(220,250,240,200));
-		coruscant2.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "banded"));
-		coruscant2.getSpec().setGlowColor(new Color(0,255,205,62));
-		coruscant2.getSpec().setUseReverseLightForGlow(true);
-		coruscant2.getSpec().setIconColor(new Color(250,225,205,255));
-		coruscant2.applySpecChanges();
-					
-			// kuat Relay, L5 (behind)
-			SectorEntityToken relay = system.addCustomEntity("kuat_relay", // unique id
-					 "Kuat Relay", // name - if null, defaultName from custom_entities.json will be used
-					 "comm_relay", // type of object, defined in custom_entities.json
-					 "sw_empire"); // faction
-			relay.setCircularOrbitPointingDown( system.getEntityById("coruscant_prime"), 320, 4750, 220);
+		//SectorEntityToken mandaloreStation = system.addCustomEntity("mandalore_starforge", "Mandal Hypernautics", "sw_station_golan_iii", "sw_mandalorian");
+		//mandaloreStation.setCircularOrbitPointingDown(system.getEntityById("mandalore"), 0, 250, 30);		
+		//mandaloreStation.setInteractionImage("illustrations", "orbital");
+		//mandaloreStation.setCustomDescriptionId("station_mandalore");
 		
-		SectorEntityToken kuatStation = system.addCustomEntity("kuat_starforge", "Kuat Shipyards", "station_hightech2", "sw_empire");
-		kuatStation.setCircularOrbitPointingDown(system.getEntityById("kuat"), 0, 700, 30);		
-		kuatStation.setCustomDescriptionId("station_kuat");
-				
-		MarketAPI kuat_market = SW_AddMarket.SW_AddMarket("sw_empire", (SectorEntityToken)kuatStation, null, "Kuat Shipyard", 5, new ArrayList<String>(Arrays.asList("no_atmosphere", "population_4", "outpost", "ai_core_admin")), new ArrayList<String>(Arrays.asList("lightindustry", "fuelprod", "spaceport", "waystation", "militarybase", "population", "heavybatteries", "orbitalworks", "starfortress_high")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.3f);				
-
-		kuat_market.getIndustry("militarybase").setAICoreId("beta_core");
-		kuat_market.getIndustry("starfortress_high").setAICoreId("alpha_core");
-		kuat_market.getIndustry("orbitalworks").setAICoreId("beta_core");
+		MarketAPI coruscant_market = SW_AddMarket.SW_AddMarket("sw_empire", (SectorEntityToken)coruscant1, new ArrayList<String>(Arrays.asList((SectorEntityToken)coruscantStation)), "Coruscant", 9, new ArrayList<String>(Arrays.asList("population_9", "habitable", "mild_climate", "sw_ecumenopolis", "regional_capital", "urbanized_polity", "free_market")), new ArrayList<String>(Arrays.asList("population", "megaport", "highcommand", "commerce", "lightindustry", "heavyindustry", "patrolhq", "heavybatteries", "sw_golan_iii_imperial", "planetaryshield")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.3f);
 		
-		PlanetAPI coruscant3 = system.addPlanet("byss", coruscant_star, "Byss", "terran", 50, 220f, 7300, 207f);
-		coruscant3.getSpec().setPlanetColor(new Color(0,205,0,255));
-		coruscant3.applySpecChanges();
-		coruscant3.setCustomDescriptionId("planet_byss");
-//		coruscant3.setInteractionImage("illustrations", "mine");
+		//SpecialItemData nanoforge = new SpecialItemData("pristine_nanoforge", "special_item1");
+		//copero_market.getIndustry("orbitalworks").setSpecialItem(nanoforge);
+		coruscant_market.getIndustry("highcommand").setAICoreId("alpha_core");
+		coruscant_market.getIndustry("commerce").setAICoreId("alpha_core");		
+		coruscant_market.getIndustry("lightindustry").setAICoreId("alpha_core");
+		coruscant_market.getIndustry("heavyindustry").setAICoreId("alpha_core");
+		coruscant_market.getIndustry("patrolhq").setAICoreId("alpha_core");
+		coruscant_market.getIndustry("sw_golan_iii_imperial").setAICoreId("alpha_core");
+		coruscant_market.getIndustry("population").setAICoreId("alpha_core");
+		coruscant_market.getIndustry("megaport").setAICoreId("alpha_core");
+		coruscant_market.getIndustry("heavybatteries").setAICoreId("beta_core");
+		coruscant_market.getIndustry("planetaryshield").setAICoreId("beta_core");
 		
-		SW_AddMarket.SW_AddMarket("sw_empire", (SectorEntityToken)coruscant3, null, "Byss", 5, new ArrayList<String>(Arrays.asList("farmland_rich", "habitable", "population_4", "ore_rich", "rare_ore_rich", "organics_plentiful", "headquarters")), new ArrayList<String>(Arrays.asList("lightindustry", "heavyindustry", "spaceport", "fuelprod", "refining", "mining", "militarybase", "population", "heavybatteries", "battlestation_high", "farming")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.3f);
+		//Industrie: "farming", "aquaculture", "mining", "techmining", "refining", "spaceport", "megaport",
+		//Industrie: "lightindustry", "heavyindustry", "orbitalworks", "fuelprod", "commerce", "heavybatteries"
+		//Industrie: "patrolhq", "militarybase", "highcommand", "planetaryshield", "waystation", "cryosanctum"
 		
-		SectorEntityToken byss_loc = system.addCustomEntity(null,null, "sensor_array_makeshift","sw_empire"); 
-		byss_loc.setCircularOrbitPointingDown( coruscant_star, 180-60, 7300, 340);		
+		//conditions: "farmland_rich", "organics_abundant", "volatiles_plentiful", "rare_ore_rich", "ore_ultrarich"
+		//conditions: "pollution", "water_surface", "mild_climate", "hot", "cold", "ruins_extensive", "habitable"
+		//conditions: "hydroponics_complex", "headquarters", "water", "jungle", "terran", "desert", "ice", "frontier"
+		//conditions: "urbanized_polity", "industrial_polity", "rural_polity", "trade_center", "shipbreaking_center"
+		//conditions: "outpost", "regional_capital", "free_market", "sw_ecumenopolis"						
+		
+		//SectorEntityToken ryloth_loc = system.addCustomEntity(null,null, "sensor_array_makeshift","sw_zann"); 
+		//ryloth_loc.setCircularOrbitPointingDown(ryloth_star, 180-60, 7300, 340);		
+		
+		float outermostOrbitDistance = StarSystemGenerator.addOrbitingEntities(
+			system, 
+			coruscant_star, 
+			StarAge.AVERAGE, //This setting determines what kind of potential entities are added.
+			9, 9, //Min-Max entities to add, here we'll just add 1 entity!
+			2000, //Radius to start adding at. Make sure it's greater than your star's actual radius! You can have planets inside a star otherwise (maybe cool???) 
+			1, //Name offset - next planet will be <system name> <roman numeral of this parameter + 1> if using system-based names.
+			false);
 		
 		// jump point 
-		JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("coruscant_inner_jump", "Coruscant Prime Inner System Jump-point");
+		JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("coruscant_inner_jump", "Coruscant Inner System Jump-point");
 		OrbitAPI orbit = Global.getFactory().createCircularOrbit(coruscant1, 0, 1500, 65);
 		jumpPoint.setOrbit(orbit);
 		jumpPoint.setRelatedPlanet(coruscant1);

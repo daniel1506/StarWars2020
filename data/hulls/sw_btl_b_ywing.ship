@@ -1,0 +1,107 @@
+{
+  "hullName": "BTL-B Y-wing Starfighter",
+  "hullId": "sw_btl_b_ywing",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_btl_b_ywing.png",
+  "style": "MIDLINE",
+  "height": 71,
+  "width": 31,
+  "center": [15.5, 34.5],
+  "collisionRadius": 37,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [36, 2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [36, -2]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [18, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [28, 4]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [28, -4]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, 12.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 0,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-34, -12.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 0,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    36, -2,
+    11, -7,
+    11, -13,
+    9, -15,
+    -34, -15,
+    -34, -11,
+    -9, -6,
+    -9, 6,
+    -34, 11,
+    -34, 15,
+    9, 15,
+    11, 13,
+    11, 7,
+    36, 2
+  ]
+}

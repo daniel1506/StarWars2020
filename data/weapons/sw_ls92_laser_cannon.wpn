@@ -32,12 +32,12 @@
   "barrelMode": "LINKED",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 5,
-    "spread": 10,
-    "particleSizeMin": 10,
-    "particleSizeRange": 10,
+    "length": 3,
+    "spread": 5,
+    "particleSizeMin": 5,
+    "particleSizeRange": 5,
     "particleDuration": 0.2,
-    "particleCount": 15,
+    "particleCount": 10,
     "particleColor": [
       0,
       230,

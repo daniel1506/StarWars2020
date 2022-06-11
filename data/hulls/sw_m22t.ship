@@ -1,0 +1,134 @@
+{
+  "hullName": "M22-T Krayt Gunship",
+  "hullId": "sw_m22t",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_m22t.png",
+  "style": "HIGH_TECH",
+  "height": 63,
+  "width": 51,
+  "center": [25.5, 31.5],
+  "collisionRadius": 32,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 32.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [27, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [27, -3.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [1, 22.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [1, -22.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25, 8]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [25, -8]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [29, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31, 3],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-31, -3],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    31, -1,
+    29, -1,
+    26, -7,
+    25, -8,
+    19, -8,
+    19, -4,
+    10, -6,
+    2, -6,
+    -7, -21,
+    1, -22.5,
+    -9, -24,
+    -14, -24,
+    -14, -8,
+    -22, -8,
+    -26, -4,
+    -31, -4,
+    -31, 4,
+    -26, 4,
+    -22, 8,
+    -14, 8,
+    -14, 24,
+    -9, 24,
+    1, 22.5,
+    -7, 21,
+    2, 6,
+    10, 6,
+    19, 4,
+    19, 8,
+    25, 8,
+    26, 7,
+    29, 1,
+    31, 1
+  ]
+}

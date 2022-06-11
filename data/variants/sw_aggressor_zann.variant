@@ -1,0 +1,71 @@
+{
+  "variantId": "sw_aggressor_zann",
+  "hullId": "sw_aggressor",
+  "displayName": "Consortium",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_ion_blast_cannon",
+        "WS0002": "sw_plasma_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sw_dby827_dual_turbolaser_heavy",
+        "WS0004": "sw_dby827_dual_turbolaser_heavy",
+        "WS0005": "sw_dby827_dual_turbolaser_heavy",
+        "WS0006": "sw_dby827_dual_turbolaser_heavy",
+        "WS0007": "sw_dby827_dual_turbolaser_heavy",
+        "WS0008": "sw_dby827_dual_turbolaser_heavy",
+        "WS0009": "sw_dby827_dual_turbolaser_heavy",
+        "WS0010": "sw_dby827_dual_turbolaser_heavy",
+        "WS0011": "sw_dby827_dual_turbolaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "sw_dual_turbolaser",
+        "WS0013": "sw_dual_turbolaser",
+        "WS0014": "sw_dual_turbolaser",
+        "WS0015": "sw_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "sw_laser_cannon",
+        "WS0017": "sw_laser_cannon",
+        "WS0018": "sw_laser_cannon",
+        "WS0019": "sw_laser_cannon",
+        "WS0020": "sw_laser_cannon",
+        "WS0021": "sw_laser_cannon",
+        "WS0022": "sw_laser_cannon",
+        "WS0023": "sw_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_aggressor_fighter_wing",
+    "sw_starviper_mk2_wing",
+    "sw_scurrg_h6_wing"
+  ]
+}

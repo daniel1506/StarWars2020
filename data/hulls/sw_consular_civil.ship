@@ -3,7 +3,7 @@
   "hullId": "sw_consular_civil",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sw_consular_civil.png",
-  "style": "LOW_TECH",
+  "style": "SW_REPUBLIC",
   "height": 184,
   "width": 96,
   "center": [48, 92],

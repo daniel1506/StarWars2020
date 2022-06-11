@@ -1,0 +1,39 @@
+{
+  "variantId": "sw_consular_republic",
+  "hullId": "sw_consular",
+  "displayName": "Republic",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_twin_turbolaser_light"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sw_concussion_missile_assault",
+        "WS0003": "sw_concussion_missile_assault"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sw_kdd_laser_cannon",
+        "WS0005": "sw_kdd_laser_cannon",
+        "WS0006": "sw_kdd_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

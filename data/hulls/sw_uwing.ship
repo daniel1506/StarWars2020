@@ -1,16 +1,19 @@
 {
-  "hullName": "UT-60D U-Wing",
+  "hullName": "UT-60D U-wing Support Craft",
   "hullId": "sw_uwing",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_uwing.png",
   "style": "HIGH_TECH",
-  "height": 50,
-  "width": 18,
-  "center": [9, 25],
-  "collisionRadius": 26,
+  "height": 87,
+  "width": 34,
+  "center": [17, 43.5],
+  "collisionRadius": 44.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 26.5,
+  "shieldRadius": 45,
   "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -19,7 +22,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [6, 2.5]
+      "locations": [14.5, 2.5]
     },
     {
       "id": "WS0002",
@@ -28,7 +31,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [6, -2.5]
+      "locations": [14.5, -2.5]
     },
     {
       "id": "WS0003",
@@ -37,7 +40,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 90,
-      "locations": [-4.5, 6]
+      "locations": [-8, 11.5]
     },
     {
       "id": "WS0004",
@@ -45,44 +48,50 @@
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
-      "angle": 270,
-      "locations": [-4.5, -6]
+      "angle": -90,
+      "locations": [-8, -11.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-22.5, 7],
+      "location": [-41, 12],
       "length": 10,
-      "width": 10,
+      "width": 5,
       "angle": 180,
       "contrailSize": 10,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-22.5, -7],
+      "location": [-41, -12],
       "length": 10,
-      "width": 10,
+      "width": 5,
       "angle": -180,
       "contrailSize": 10,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    6.5, -2.5,
-    24, -5,
-    -9.5, -5,
-    -12.5, -8.5,
-    -21.5, -8.5,
-    -22.5, -7.5,
-    -22.5, -5.5,
-    -15.5, -3.5,
-    -15.5, 3.5,
-    -22.5, 5.5,
-    -22.5, 7.5,
-    -21.5, 8.5,
-    -12.5, 8.5,
-    -9.5, 5,
-    24, 5,
-    6.5, 2.5
+    13, -6.5,
+    43, -6.5,
+    43, -8.5,
+    14, -11.5,
+    -14, -11.5,
+    -18, -9.5,
+    -22, -14.5,
+    -37, -14.5,
+    -41, -13.5,
+    -41, -10.5,
+    -27, -6.5,
+    -27, 6.5,
+    -41, 10.5,
+    -41, 13.5,
+    -37, 14.5,
+    -22, 14.5,
+    -18, 9.5,
+    -14, 11.5,
+    14, 11.5,
+    43, 8.5,
+    43, 6.5,
+    13, 6.5
   ]
 }

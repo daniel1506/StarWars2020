@@ -1,7 +1,7 @@
 {
 	"specClass":"beam",
 	"id":"sw_tractor_beam",
-	"type":"ENERGY",
+	"type":"DECORATIVE",
 	"size":"MEDIUM",
 	"turretSprite":"graphics/weapons/graviton_beam_turret_base.png",
 	"turretGlowSprite":"graphics/weapons/graviton_beam_turret_glow.png",

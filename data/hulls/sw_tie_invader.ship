@@ -1,0 +1,123 @@
+{
+  "hullName": "TIE Invader Space Superiority Fighter",
+  "hullId": "sw_tie_invader",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_invader.png",
+  "style": "SW_IMPERIAL",
+  "height": 44,
+  "width": 58,
+  "center": [29, 17.5],
+  "collisionRadius": 31.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 32,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [24, 16.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [24, -16.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21, 14.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21, -14.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 3.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [5, -3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    6, -2.5,
+    0, -7.5,
+    0, -11.5,
+    2, -14.5,
+    23, -14.5,
+    26, -16.5,
+    5, -28.5,
+    -13, -28.5,
+    -17, -18.5,
+    -17, -15.5,
+    -5, -14.5,
+    -1, -11.5,
+    -1, -7.5,
+    -7, -2.5,
+    -7, 2.5,
+    -1, 7.5,
+    -1, 11.5,
+    -5, 14.5,
+    -17, 15.5,
+    -17, 18.5,
+    -13, 28.5,
+    5, 28.5,
+    26, 16.5,
+    23, 14.5,
+    2, 14.5,
+    0, 11.5,
+    0, 7.5,
+    6, 2.5
+  ]
+}

@@ -4,10 +4,9 @@
   "projectileSpecId": "sw_redlaser3",
   "type": "ENERGY",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/flechette_turret_base.png",
-  "turretGunSprite": "graphics/weapons/flechette_turret_recoil.png",
-  "hardpointSprite": "graphics/weapons/flechette_hardpoint_base.png",
-  "hardpointGunSprite": "graphics/weapons/flechette_hardpoint_recoil.png",
+  "turretSprite": "graphics/weapons/sw_tb_turbolaser_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sw_tb_turbolaser_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/sw_tb_turbolaser_hardpoint_base.png",
   "renderAboveAllWeapons": 0,
   "glowColor": [
     250,
@@ -20,14 +19,14 @@
     RENDER_BARREL_BELOW
   ],
   "turretOffsets": [
-    13,
+    4.5,
     0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    17.5,
+    4,
     0
   ],
   "hardpointAngleOffsets": [
@@ -36,8 +35,8 @@
   "barrelMode": "LINKED",
   "animationType": "GLOW_AND_FLASH",
   "muzzleFlashSpec": {
-    "length": 20,
-    "spread": 10,
+    "length": 5,
+    "spread": 3,
     "particleSizeMin": 10,
     "particleSizeRange": 5,
     "particleDuration": 0.12,

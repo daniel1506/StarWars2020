@@ -4,12 +4,12 @@
 	"displayName":"Empire",
 	"displayNameWithArticle":"the Empire",
 	"displayNameLong":"Galactic Empire",   
-    "displayNameLongWithArticle":"Galactic Empire",  
+    "displayNameLongWithArticle":"the Galactic Empire",  
 	"logo":"graphics/factions/sw_empire_flag.png",
 	"crest":"graphics/factions/sw_empire_crest.png",
 	"shipNamePrefix":"Imperial",
 	"shipNameSources":{
-		"IMPERIAL":2,
+		"STARWARS":2,
 		"ROMAN":1,
 		"GREEK":1,
 	},
@@ -27,6 +27,15 @@
 	"variantOverrides":{
 		"sw_quasar_imperial":10,
 		"sw_acclamator_imperial":10,
+		"sw_ton_falk_imperial":10,
+		"sw_carrack_imperial":10,
+		"sw_immobilizer_imperial":10,
+		"sw_dreadnought_heavy":10,
+		"sw_victory_i_imperial":10,
+		"sw_neutron_star_imperial":10,
+		"sw_ipv1_imperial":10,
+		"sw_gozanti_imperial":10,
+		"sw_imperial_i_imperial":10,
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
@@ -43,15 +52,7 @@
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
-			"sw_imperial_ii",
-			"sw_victory_i",
-			"sw_dreadnought",
-			"sw_consolidator",
-			"sw_vindicator",
-			"sw_immobilizer",
-			"sw_arquitens",
-			"sw_raider",
-			"sw_procursator",
+			
 		],
 	},
 	"knownFighters":{
@@ -66,11 +67,7 @@
 	},
 	"knownWeapons":{
 		"tags":["sw_missile_bp", "empire_bp"],
-		"weapons":[
-			"sw_concussion_missile",
-			"sw_concussion_missile_heavy",
-			"sw_proton_torpedo",
-			"sw_mg7",
+		"weapons":[			
 		],
 	},
 	"priorityWeapons":{
@@ -79,28 +76,30 @@
 		],
 	},
 	"knownHullMods":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "star_wars"],
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "star_wars", "empire"],
 		"hullMods":[
-			"advancedshieldemitter",
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
 			"turretgyros",
-			"armoredweapons",
 			"augmentedengines",
-			"autorepair",
+			"eccm",
+			"ecm",
 			"expanded_deck_crew",
 			"magazines",
 			"missleracks",
 			"extendedshieldemitter",
 			"frontemitter",
-			"frontshield",
-			"heavyarmor",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
 			"insulatedengine",
+			"pointdefenseai",
 			"targetingunit",
 			"nav_relay",
+			"adaptiveshields", # omni
 			"operations_center",
 			"fluxbreakers",
 			"stabilizedshieldemitter",
-			"frontshield",  # makeshift
-			"surveying_equipment",
+			"hiressensors",
 			"efficiency_overhaul",
 		],
 	},
@@ -109,25 +108,26 @@
 		"carriers":2,
 		"phaseShips":1,
 		
-		"officerQuality":2,
-		"shipQuality":5,
+		"officerQuality":4,
+		"shipQuality":4,
 		"numShips":1,
 		
 		"shipSize":4,
 		
 		"aggression":4,
 		
-		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
-		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
-		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0.1,
+		"combatFreighterProbability":0.25,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.25,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.5,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.33,
 		
-		"commanderSkillsShuffleProbability":0,
+		"commanderSkillsShuffleProbability":0.5,
 		"commanderSkills":[
-			"officer_management",
-			"coordinated_maneuvers",
-			"fighter_doctrine",
+			"crew_training",
+			"officer_training",
 			"electronic_warfare",
+			"weapon_drills",			
+			"flux_regulation",			
 		],
 	},
 	"illegalCommodities":[
@@ -146,52 +146,98 @@
 	"internalComms":"sw_empire_internal",
 
 	"portraits":{
-		"standard_male":[
-			"graphics/portraits/Thrawn.png",
-			"graphics/portraits/Tie_Pilot.png",
-			"graphics/portraits/Walker_Pilot.png",
-			"graphics/portraits/Sand_Trooper.png",
-			"graphics/portraits/Snow_Trooper.png",
-			"graphics/portraits/Storm_Trooper.png",
-			"graphics/portraits/Imperial_Officer.png",
-			"graphics/portraits/Lobot.png",
-			"graphics/portraits/Ozzel.png",
-			"graphics/portraits/Pett1.png",
-			"graphics/portraits/Pett2.png",
-			"graphics/portraits/Veers1.png",
-			"graphics/portraits/Veers2.png",
-			"graphics/portraits/Vader.png",			
-			"graphics/portraits/Thrawn1.png",
-			"graphics/portraits/Thrawn2.png",
-			"graphics/portraits/Moff_Tarkin.png",
-			"graphics/portraits/Wullf.png",
+		"standard_male":[			
+			"graphics/portraits/empire/Tie_Pilot.png",
+			"graphics/portraits/empire/Walker_Pilot.png",
+			"graphics/portraits/empire/Sand_Trooper.png",
+			"graphics/portraits/empire/Snow_Trooper.png",
+			"graphics/portraits/empire/Storm_Trooper.png",
+			"graphics/portraits/empire/Imperial_Officer.png",
+			"graphics/portraits/empire/Imperial_Officer6.png",
+			"graphics/portraits/empire/Imperial_Officer8.png",
+			"graphics/portraits/empire/Ozzel.png",
+			"graphics/portraits/empire/Pett1.png",
+			"graphics/portraits/empire/Pett2.png",
+			"graphics/portraits/empire/Veers1.png",
+			"graphics/portraits/empire/Veers2.png",
+			"graphics/portraits/empire/Vader.png",						
+			"graphics/portraits/empire/Moff_Tarkin.png",
+			"graphics/portraits/empire/Wullf1.png",
+			"graphics/portraits/empire/Gilad_Pellaeon1.png",
+			"graphics/portraits/empire/Gilad_Pellaeon2.png",
+			"graphics/portraits/empire/Gilad_Pellaeon3.png",
+			"graphics/portraits/empire/Gilad_Pellaeon4.png",
+			"graphics/portraits/empire/Inquisitor1.png",
+			"graphics/portraits/empire/Inquisitor2.png",
+			"graphics/portraits/empire/Inquisitor3.png",
+			"graphics/portraits/empire/Inquisitor4.png",
+			"graphics/portraits/chiss/Thrawn5.png",
+			"graphics/portraits/chiss/Thrawn6.png",
+			"graphics/portraits/chiss/Thrawn7.png",			
 		],
 		"standard_female":[
-			"graphics/portraits/C3PO.png",
 			"graphics/portraits/Med_Droid.png",
 			"graphics/portraits/Mara_Jade1.png",
 			"graphics/portraits/Mara_Jade2.png",
-			"graphics/portraits/Imperial_Officer1.png",
-			"graphics/portraits/Imperial_Officer2.png",
-			"graphics/portraits/Imperial_Officer3.png",
-			"graphics/portraits/Imperial_Officer4.png",
+			"graphics/portraits/empire/Imperial_Officer1.png",
+			"graphics/portraits/empire/Imperial_Officer2.png",
+			"graphics/portraits/empire/Imperial_Officer3.png",
+			"graphics/portraits/empire/Imperial_Officer4.png",
+			"graphics/portraits/empire/Imperial_Officer5.png",
+			"graphics/portraits/empire/Imperial_Officer7.png",
+			"graphics/portraits/empire/Natasi_Dalaa1.png",
+			"graphics/portraits/empire/Juno_Eclipse.png",
+			"graphics/portraits/empire/Tie_Pilot1.png",
 		],
 	},
 	"ranks":{
 		"ranks":{
-			"factionLeader":{"name":"Emperor"},
-			"spaceSailor":{"name":"Pilot"},
-			"spaceChief":{"name":"Officer"},
-			"spaceCommander":{"name":"Commander"},
-			"spaceCaptain":{"name":"Captain"},
+			"factionLeader":{"name":"Emperor"},	
+			"spaceSailor":{"name":"Ensign"},
+			"spaceChief":{"name":"Junior Lieutenant"},
+			"spaceEnsign":{"name":"Senior Lieutenant"},
+			"spaceLieutenant":{"name":"Commander"},
+			"spaceCommander":{"name":"Captain"},
+			"spaceCaptain":{"name":"Vice Admiral"},
 			"spaceAdmiral":{"name":"Admiral"},
-			"spaceMarshal":{"name":"Grand Admiral"}
+			"spaceMarshal":{"name":"Grand Admiral"},
+			
+			"groundPrivate":{"name":"Corporal"},
+			"groundSergeant":{"name":"Sergeant"},
+			"groundLieutenant":{"name":"Lieutenant"},
+			"groundCaptain":{"name":"Commandant"},
+			"groundMajor":{"name":"Major"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"General"},
 		},
 		"posts":{
 			"factionLeader":{"name":"Emperor"},
-			"patrolCommander":{"name":"Commodore"},
+			"sithLord":{"name":"Sith Lord"},
+			"patrolCommander":{"name":"Vice Amiral"},
 			"fleetCommander":{"name":"Amiral"},
-			"baseCommander":{"name":"General"},
+			"baseCommander":{"name":"Moff"},
+			"administrator":{"name":"Grand Moff"},
+			
+			"portmaster":{"name":"Port Commander"},
+			
+			"investigator":{"name":"Imperial Security Bureau Agent"},
+			"specialAgent":{"name":"Inquisitor"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+			"aristo":3,
 		},
 	},
 	"custom":{
@@ -204,9 +250,9 @@
 		"hostilityImpactOnGrowth":true,
 		"caresAboutAtrocities":true,
 		"punitiveExpeditionData":{
-			"vsCompetitors":false,
+			"vsCompetitors":true,
 			"vsFreePort":false,
-			"canBombard":false,
+			"canBombard":true,
 			"territorial":true,
 		},
 	},

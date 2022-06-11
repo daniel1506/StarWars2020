@@ -1,0 +1,85 @@
+{
+  "variantId": "sw_providence_cis",
+  "hullId": "sw_providence",
+  "displayName": "CIS",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_tu_quad_turbolaser_heavy",
+        "WS0002": "sw_tu_quad_turbolaser_heavy",
+        "WS0003": "sw_tu_quad_turbolaser_heavy",
+        "WS0004": "sw_tu_quad_turbolaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_tu_quad_turbolaser",
+        "WS0006": "sw_tu_quad_turbolaser",
+        "WS0007": "sw_tu_quad_turbolaser",
+        "WS0008": "sw_tu_quad_turbolaser",
+        "WS0009": "sw_tu_quad_turbolaser",
+        "WS0010": "sw_tu_quad_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sw_flak_gun",
+        "WS0012": "sw_flak_gun",
+        "WS0013": "sw_flak_gun",
+        "WS0014": "sw_flak_gun",
+        "WS0015": "sw_flak_gun",
+        "WS0016": "sw_flak_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "sw_mg7",
+        "WS0018": "sw_mg7",
+        "WS0019": "sw_mg7",
+        "WS0020": "sw_mg7"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "sw_twin_laser_cannon",
+        "WS0022": "sw_twin_laser_cannon",
+        "WS0023": "sw_twin_laser_cannon",
+        "WS0024": "sw_twin_laser_cannon",
+        "WS0025": "sw_twin_laser_cannon",
+        "WS0026": "sw_twin_laser_cannon",
+        "WS0027": "sw_twin_laser_cannon",
+        "WS0028": "sw_twin_laser_cannon",
+        "WS0029": "sw_twin_laser_cannon",
+        "WS0030": "sw_twin_laser_cannon",
+        "WS0031": "sw_twin_laser_cannon",
+        "WS0032": "sw_twin_laser_cannon",
+        "WS0033": "sw_twin_laser_cannon",
+        "WS0034": "sw_twin_laser_cannon",
+        "WS0035": "sw_twin_laser_cannon",
+        "WS0036": "sw_twin_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_vulture_droid_wing",
+    "sw_droid_tri_fighter_wing",
+    "sw_hyena_wing"
+  ]
+}

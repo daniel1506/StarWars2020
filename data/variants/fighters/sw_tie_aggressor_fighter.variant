@@ -1,8 +1,8 @@
 {
   "variantId": "sw_tie_aggressor_fighter",
   "hullId": "sw_tie_aggressor",
-  "displayName": "Heavy Fighter",
-  "goalVariant": false,
+  "displayName": "Starfighter",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,
@@ -21,15 +21,15 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "sw_concussion_missile",
-        "WS0004": "sw_concussion_missile"
+        "WS0003": "sw_laser_cannon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "sw_ls72_laser_cannon"
+        "WS0004": "sw_concussion_missile",
+        "WS0005": "sw_concussion_missile"
       }
     }
   ],

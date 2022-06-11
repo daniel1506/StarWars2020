@@ -1,0 +1,177 @@
+{
+  "hullName": "Interceptor IV-class Frigate",
+  "hullId": "sw_interceptor_iv",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/zann/sw_interceptor_iv.png",
+  "style": "SW_MANDAL",
+  "height": 158,
+  "width": 44,
+  "center": [22, 79.5],
+  "collisionRadius": 77.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "sw_targeting_computer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-10, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-10, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-30, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-30, -15]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [78, 2.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [78, -2.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [78, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [35, 10]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [35, -10]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-38, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-51, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-77, 4],
+      "length": 5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-77, -4],
+      "length": 5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    77, -3.5,
+    69, -6.5,
+    65, -7.5,
+    65, -11.5,
+    43, -14.5,
+    27, -14.5,
+    26, -13.5,
+    26, -11.5,
+    16, -11.5,
+    14, -9.5,
+    1, -9.5,
+    -6, -21.5,
+    -43, -21.5,
+    -56, -15.5,
+    -51, -14.5,
+    -62, -10.5,
+    -62, -9.5,
+    -74, -9.5,
+    -77, -5.5,
+    -77, 5.5,
+    -74, 9.5,
+    -62, 9.5,
+    -62, 10.5,
+    -51, 14.5,
+    -56, 15.5,
+    -43, 21.5,
+    -6, 21.5,
+    1, 9.5,
+    14, 9.5,
+    16, 11.5,
+    26, 11.5,
+    26, 13.5,
+    27, 14.5,
+    43, 14.5,
+    65, 11.5,
+    65, 7.5,
+    69, 6.5,
+    77, 3.5
+  ]
+}

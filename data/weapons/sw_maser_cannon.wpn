@@ -1,0 +1,54 @@
+{
+  "id": "sw_maser_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_bluemaser2",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/sw_laser_cannon_turret_base.png",
+  "hardpointSprite": "graphics/weapons/sw_laser_cannon_hardpoint_base.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    50,
+    205,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    4.5,
+    2,
+    4.5,
+    -2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    3.5,
+    2,
+    3.5,
+    -2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 5,
+    "spread": 3,
+    "particleSizeMin": 5,
+    "particleSizeRange": 3,
+    "particleDuration": 0.12,
+    "particleCount": 3,
+    "particleColor": [
+      100,
+      205,
+      255,
+      200
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "sw_sound_laser_cannon"
+}

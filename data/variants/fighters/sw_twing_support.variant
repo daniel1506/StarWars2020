@@ -1,8 +1,8 @@
 {
   "variantId": "sw_twing_support",
   "hullId": "sw_twing",
-  "displayName": "Support Interceptor",
-  "goalVariant": false,
+  "displayName": "Interceptor",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

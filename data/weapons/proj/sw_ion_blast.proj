@@ -1,0 +1,39 @@
+{
+	"id":"sw_ion_blast",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/sw_ion_blast.png",
+	#"onHitEffect":"data.scripts.combat.SWIonBlastEffect",
+	"size":[25,25],	
+	"center":[12,12],
+	"collisionRadius":12,
+	"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"NONE",
+	"explosionColor":[50,150,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":50, # purely visual
+	"flameoutTime":0.1,
+	"fadeTime":0.1,
+	"engineSpec":{"turnAcc":0,
+                        "turnRate":0,
+                        "acc":500,
+                        "dec":0},
+	"engineSlots":[{"id":"ES1",
+			"loc":[0, 0],
+			"style":"CUSTOM",
+			"styleSpec":{
+                                "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                                "engineColor":[100,200,255,255],
+                                "contrailDuration":0.25,
+                                "contrailWidthMult":1,
+                                "contrailWidthAddedFractionAtEnd":-0.5,  # can be negative. makes trail spread out/narrow at the end
+                                "contrailMinSeg":10, # min segment length, in pixels
+                                "contrailMaxSpeedMult":0f,
+                                "contrailAngularVelocityMult":0f,
+                                "contrailSpawnDistMult":0, # how far away from engine it starts
+                                "contrailColor":[50,150,255,150],
+                                "type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+                        },
+                        "width":20.0,
+                        "length":10.0,
+                        "angle":180.0}],				    
+}

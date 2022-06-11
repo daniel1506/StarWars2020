@@ -1,0 +1,109 @@
+{
+  "hullName": "Ixiyen-class Fast Attack Craft",
+  "hullId": "sw_ixiyen",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_ixiyen.png",
+  "style": "HIGH_TECH",
+  "height": 61,
+  "width": 47,
+  "center": [23.5, 30.5],
+  "collisionRadius": 32,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, -12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26, 9]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [26, -9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21, 3.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21, -3.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    30, -2,
+    28, -6,
+    27, -9,
+    25, -12,
+    24, -12,
+    21, -9,
+    1, -9,
+    1, -18,
+    0, -22,
+    -11, -22,
+    -13, -21,
+    -13, -19,
+    -22, -16,
+    -26, -15,
+    -30, -10,
+    -30, -8,
+    -21, -8,
+    -21, 8,
+    -30, 8,
+    -30, 10,
+    -26, 15,
+    -22, 16,
+    -13, 19,
+    -13, 21,
+    -11, 22,
+    0, 22,
+    1, 18,
+    1, 9,
+    21, 9,
+    24, 12,
+    25, 12,
+    27, 9,
+    28, 6,
+    30, 2
+  ]
+}

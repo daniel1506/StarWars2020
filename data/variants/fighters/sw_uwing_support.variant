@@ -2,7 +2,7 @@
   "variantId": "sw_uwing_support",
   "hullId": "sw_uwing",
   "displayName": "Support Craft",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,
@@ -13,8 +13,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "sw_kx9_laser_cannon",
-        "WS0002": "sw_kx9_laser_cannon"
+        "WS0001": "sw_kx12_laser_cannon",
+        "WS0002": "sw_kx12_laser_cannon"
       }
     },
     {

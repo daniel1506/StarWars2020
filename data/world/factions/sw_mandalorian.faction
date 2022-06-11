@@ -1,0 +1,265 @@
+{
+	"id":"sw_mandalorian",
+	"color":[255,200,0,255],
+	
+	"baseUIColor":[255,200,0,255],
+	"darkUIColor":[255,150,0,175],
+	"gridUIColor":[255,200,100,75],
+	
+	#"displayName":"Church of Galactic Redemption",
+	#"displayNameWithArticle":"the Church of Galactic Redemption",
+	"displayName":"Mandalorian",
+	"displayNameWithArticle":"the Mandalorian",
+	"displayNameLong":"Children of Mandalore",
+	"displayNameLongWithArticle":"the Children of Mandalore",
+	"logo":"graphics/factions/sw_mandalorian_flag.png",
+	"crest":"graphics/factions/sw_mandalorian_crest.png",
+	"shipNamePrefix":"",
+	"shipNameSources":{
+		"STARWARS":2,
+		"ROMAN":1,
+		"GREEK":1,
+	},
+	"names":{
+		"fringe":1,
+		"modern":1,
+		"world":1,
+		"future":1,
+		"myth":2,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"sw_ipv1_mandal":10,
+		"sw_ajuur_mandal":10,
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["mandal", "star_wars"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["mandal"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["sw_missile_bp", "mandal_bp", "rebel_bp"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "star_wars", "mandal"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"converted_hangar",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"heavyarmor",
+			"insulatedengine",
+			"nav_relay",
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"surveying_equipment",
+			"efficiency_overhaul",
+			"converted_fighterbay",
+			"ballistic_rangefinder",
+			"shield_shunt",
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":1,
+		
+		"officerQuality":3,
+		"shipQuality":3,
+		"numShips":4,
+		
+		"shipSize":3,
+		
+		"aggression":4,
+		
+		"combatFreighterProbability":0.25,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.5,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"officer_training",
+			"crew_training",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+		#"luxury_goods",
+		"ai_cores",
+	],
+	"music":{
+		"theme":"music_luddite_market_neutral",
+		"market_neutral":"music_luddite_market_neutral",
+		"market_hostile":"music_luddite_market_hostile",
+		"market_friendly":"music_luddite_market_friendly",
+		"encounter_neutral":"music_luddite_encounter_neutral",
+		"encounter_hostile":"music_luddite_encounter_hostile",
+		"encounter_friendly":"music_luddite_encounter_friendly",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/mandalorian/Boba_Fett1.png",
+			"graphics/portraits/mandalorian/Boba_Fett2.png",
+			"graphics/portraits/mandalorian/Boba_Fett3.png",
+			"graphics/portraits/mandalorian/Boba_Fett4.png",
+			"graphics/portraits/mandalorian/Boba_Fett5.png",
+			"graphics/portraits/mandalorian/Din_Djarin1.png",
+			"graphics/portraits/mandalorian/Din_Djarin2.png",
+			"graphics/portraits/mandalorian/Din_Djarin3.png",
+			"graphics/portraits/mandalorian/Din_Djarin4.png",
+			"graphics/portraits/mandalorian/Mandalorian1.png",
+			"graphics/portraits/mandalorian/Mandalorian3.png",
+			"graphics/portraits/mandalorian/Mandalorian4.png",
+			"graphics/portraits/mandalorian/Mandalorian5.png",
+			"graphics/portraits/mandalorian/Mandalorian6.png",
+			"graphics/portraits/mandalorian/Mandalorian8.png",
+		],
+		"standard_female":[
+			"graphics/portraits/mandalorian/Armor_Smith1.png",
+			"graphics/portraits/mandalorian/Armor_Smith2.png",
+			"graphics/portraits/mandalorian/Armor_Smith3.png",
+			"graphics/portraits/mandalorian/Bo_Katan1.png",
+			"graphics/portraits/mandalorian/Bo_Katan2.png",
+			"graphics/portraits/mandalorian/Bo_Katan3.png",
+			"graphics/portraits/mandalorian/Mando_White.png",
+			"graphics/portraits/mandalorian/Mandalorian2.png",
+			"graphics/portraits/mandalorian/Mandalorian7.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Mand`alor"},
+			
+			"spaceSailor":{"name":"Ensign"},
+			"spaceChief":{"name":"Junior Lieutenant"},
+			"spaceEnsign":{"name":"Senior Lieutenant"},
+			"spaceLieutenant":{"name":"Commander"},
+			"spaceCommander":{"name":"Captain"},
+			"spaceCaptain":{"name":"Vice Admiral"},
+			"spaceAdmiral":{"name":"Admiral"},
+			"spaceMarshal":{"name":"Mandalorian's Guardian"},
+			
+			"groundPrivate":{"name":"Lieutenant"},
+			"groundSergeant":{"name":"Captain"},
+			"groundLieutenant":{"name":"Brigade Leader"},
+			"groundCaptain":{"name":"Colonel"},
+			"groundMajor":{"name":"Lieutenant Commander"},
+			"groundColonel":{"name":"Commander"},
+			"groundGeneral":{"name":"War Leader"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Mand`alor"},
+			
+			"patrolCommander":{"name":"Guardian"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			"baseCommander":{"name":"War Leader"},
+			"administrator":{"name":"Protector of Mandalorians"},			
+			
+			"portmaster":{"name":"Portwatcher"},
+			"quartermaster":{"name":"The Armorer"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":3,
+			"faithful":10,		
+			"pather":5,		
+			"spacer":3,
+		},
+		"MEDIUM":{
+			"soldier":3,
+			"faithful":10,		
+			"pather":5,		
+			"official":10,
+		},
+		"HIGH":{
+			"soldier":5,
+			"faithful":10,		
+			"official":10,
+		},
+	},	
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":false,
+		"AICoreValueMult":0.1,
+		"AICoreRepMult":3,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Trading Convoy",
+		"smallTrader":"Trader",
+		"tradeLiner":"Transport Fleet",
+		
+		"patrolSmall":"Watchers",
+		"patrolMedium":"Recon Fleet",
+		"patrolLarge":"Guardian",
+		
+		"inspectionFleet":"Abjudicator",
+		
+		#"mercScout":"Seeker",
+		#"mercBountyHunter":"Judgment-bringer",
+		#"mercPrivateer":"Abjudicator",
+		#"mercPatrol":"Crusading Fleet",
+		#"mercArmada":"Crusading Armada",
+		
+		"taskForce":"Crusader Fleet",
+	},
+	
+	
+},
+

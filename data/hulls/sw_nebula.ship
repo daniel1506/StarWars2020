@@ -1,9 +1,9 @@
 {
   "hullName": "Nebula Class Star Destroyer",
   "hullId": "sw_nebula",
-  "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/ships/sw_nebula.png",
-  "style": "MIDLINE",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/rebel/sw_nebula.png",
+  "style": "SW_REBEL",
   "height": 441,
   "width": 214,
   "center": [106.5, 220.5],
@@ -30,7 +30,7 @@
       "id": "WS0002",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 0,
       "locations": [-99.5, 22]
@@ -39,7 +39,7 @@
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": -0,
       "locations": [-99.5, -22]
@@ -48,7 +48,7 @@
       "id": "WS0004",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 90,
       "locations": [-166.5, 38]
@@ -57,7 +57,7 @@
       "id": "WS0005",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 270,
       "locations": [-166.5, -38]
@@ -120,7 +120,7 @@
       "id": "WS0012",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 180,
       "locations": [-203.5, -24.5]
@@ -129,7 +129,7 @@
       "id": "WS0013",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 180,
       "locations": [-203.5, 24.5]

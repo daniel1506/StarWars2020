@@ -1,19 +1,28 @@
 {
 
-"music":{
-	
-	"music_combat":[
-			{
-				"source":"sounds/music/",
-				"volume":0.2,
-				"files":[
-					"The_Battle_Of_Endor_I.ogg",
-					"The_Battle_Of_Endor_II.ogg",
-				],
-			},
-		],
-
-	},
+#"music":{
+#	
+#	"music_combat":[
+#			{
+#				"source":"sounds/music/",
+#				"volume":0.2,
+#				"files":[
+#					"The_Battle_Of_Endor_I.ogg",
+#					"The_Battle_Of_Endor_II.ogg",
+#					"Alliance_Assembly.ogg",
+#					"Emperor's_Throne_Room.ogg",
+#					"The_Asteroid_Field.ogg",
+#					"The_Battle_Of_Yavin.ogg",
+#					"The_Stormtroopers.ogg",
+#					"Battle_Over_Couruscant.ogg",
+#					"Across_The_Stars.ogg",
+#					"The_Arrival_At_Tatooine_And_The_Flag_Parade.ogg",
+#					"The_Trip_To_The_Naboo_Temple.ogg",
+#				],
+#			},
+#		],
+#
+#	},
 
 	"sw_sound_quad_turbolaser":[
 		{"file":"sounds/sfx_wpn_energy/sw_quad_turbolaser_fire.ogg","pitch":1.0,"volume":0.3},
@@ -21,70 +30,195 @@
 	"sw_sound_oct_turbolaser":[
 		{"file":"sounds/sfx_wpn_energy/sw_oct_turbolaser_fire.ogg","pitch":1.0,"volume":0.3},
 	],
+	"sw_sound_heavy_dual_turbolaser":[
+		{"file":"sounds/sfx_wpn_energy/sw_heavy_dual_turbolaser_fire.ogg","pitch":1.0,"volume":6.0},
+	],
+	"sw_sound_heavy_turbolaser":[
+		{"file":"sounds/sfx_wpn_energy/sw_heavy_turbolaser_fire.ogg","pitch":1.0,"volume":0.2},
+	],
 	"sw_sound_turbolaser":[
 		{"file":"sounds/sfx_wpn_energy/sw_turbolaser_fire.ogg","pitch":1.0,"volume":0.1},
 	],
 	"sw_sound_laser_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_laser_cannon_fire.ogg","pitch":1.0,"volume":0.25},
+		{"file":"sounds/sfx_wpn_energy/sw_laser_cannon_fire.ogg","pitch":1.0,"volume":0.2},
 	],
 	"sw_sound_ion_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_ion_cannon_fire.ogg","pitch":1.0,"volume":0.2},
+		{"file":"sounds/sfx_wpn_energy/sw_ion_cannon_fire.ogg","pitch":1.0,"volume":0.1},
 	],
 	"sw_sound_torpedo_launch":[
-		{"file":"sounds/sfx_wpn_missiles/sw_torpedo_launch.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_missiles/sw_torpedo_launch.ogg","pitch":1.0,"volume":0.2},
 	],
 	"sw_sound_missile_launch":[
-		{"file":"sounds/sfx_wpn_missiles/sw_missile_launch.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_wpn_missiles/sw_missile_launch.ogg","pitch":1.0,"volume":0.2},
 	],
 	"sw_sound_ls72_laser_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_ls72_laser_cannon_fire.ogg","pitch":1.0,"volume":0.2},
+		{"file":"sounds/sfx_wpn_energy/sw_ls72_laser_cannon_fire.ogg","pitch":1.0,"volume":0.1},
+	],
+	"sw_sound_ht12_laser_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_ht12_laser_cannon_fire.ogg","pitch":1.0,"volume":0.1},
 	],
 	"sw_sound_nk3_ion_cannon":[
-		{"file":"sounds/sfx_wpn_energy/sw_nk3_ion_cannon_fire.ogg","pitch":1.0,"volume":0.2},
+		{"file":"sounds/sfx_wpn_energy/sw_nk3_ion_cannon_fire.ogg","pitch":1.0,"volume":0.1},
 	],
 	"sw_sound_xwing_laser_cannon":[
 		{"file":"sounds/sfx_wpn_energy/sw_xwing_fire.ogg","pitch":1.0,"volume":0.1},
 	],
+	"sw_sound_blaster_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_blaster_cannon_fire.ogg","pitch":1.0,"volume":0.1},
+	],
+	"sw_sound_mass_driver_cannon":[
+		{"file":"sounds/sfx_wpn_missiles/sw_mass_driver_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+	],
+	"sw_sound_plasma_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_plasma_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+	],
+	"sw_sound_ion_blast_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_ion_blast_cannon_fire.ogg","pitch":1.0,"volume":0.3},
+	],
+	"sw_sound_orbital_autocannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_orbital_autocannon_fire.ogg","pitch":1.0,"volume":0.7},
+	],
+	"sw_sound_superlaser_intro":[
+		{"file":"sounds/sfx_wpn_energy/sw_superlaser_intro.ogg","pitch":1.0,"volume":0.5},
+	],
+	"sw_sound_superlaser_fire":[
+		{"file":"sounds/sfx_wpn_energy/sw_superlaser_fire.ogg","pitch":1.0,"volume":0.8},
+	],
 	"sw_system_concentrate_fire":[
-		{"file":"sounds/sfx_systems/sw_concentrate_fire1.ogg","pitch":1.0,"volume":0.4},
-		{"file":"sounds/sfx_systems/sw_concentrate_fire2.ogg","pitch":1.0,"volume":0.4},
+		{"file":"sounds/sfx_systems/sw_concentrate_fire1.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_concentrate_fire2.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_concentrate_fire3.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_concentrate_fire4.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_concentrate_fire5.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_concentrate_fire6.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_concentrate_fire7.ogg","pitch":1.0,"volume":1.0},
 	],
 	"sw_system_shields_boost":[
-		{"file":"sounds/sfx_systems/sw_shields_boost1.ogg","pitch":1.0,"volume":0.3},
-		{"file":"sounds/sfx_systems/sw_shields_boost2.ogg","pitch":1.0,"volume":0.3},
-		{"file":"sounds/sfx_systems/sw_shields_boost3.ogg","pitch":1.0,"volume":0.3},
+		{"file":"sounds/sfx_systems/sw_shields_boost1.ogg","pitch":1.2,"volume":0.1},
+		{"file":"sounds/sfx_systems/sw_shields_boost2.ogg","pitch":1.2,"volume":0.1},
+		{"file":"sounds/sfx_systems/sw_shields_boost3.ogg","pitch":1.2,"volume":0.1},
+	],
+	"sw_system_request_reinforcement":[
+		{"file":"sounds/sfx_systems/sw_request_reinforcement1.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_systems/sw_request_reinforcement2.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_systems/sw_request_reinforcement3.ogg","pitch":1,"volume":0.7},
+	],
+	"sw_system_gravity_well":[
+		{"file":"sounds/sfx_systems/sw_gravity_well1.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_gravity_well2.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_system_tractor_beam":[
+		{"file":"sounds/sfx_systems/sw_tractor_beam1.ogg","pitch":1.0,"volume":0.8},
+		{"file":"sounds/sfx_systems/sw_tractor_beam2.ogg","pitch":1.0,"volume":0.8},
+		{"file":"sounds/sfx_systems/sw_tractor_beam3.ogg","pitch":1.0,"volume":0.8},
+	],
+	"sw_system_tractor_beam_deactivate":[
+		{"file":"sounds/sfx_systems/sw_tractor_beam4.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_tractor_beam5.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_tractor_beam6.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_system_tactical_analysis1":[
+		{"file":"sounds/sfx_systems/sw_tactical_analysis1.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_system_tactical_analysis2":[
+		{"file":"sounds/sfx_systems/sw_tactical_analysis2.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_system_tactical_analysis3":[
+		{"file":"sounds/sfx_systems/sw_tactical_analysis3.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_system_tactical_analysis4":[
+		{"file":"sounds/sfx_systems/sw_tactical_analysis4.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_system_thermal_shield":[
+		{"file":"sounds/sfx_systems/sw_thermal_shield1.ogg","pitch":1.0,"volume":0.5},
+		{"file":"sounds/sfx_systems/sw_thermal_shield2.ogg","pitch":1.0,"volume":0.5},
+	],
+	"sw_system_probe_droid":[
+		{"file":"sounds/sfx_systems/sw_probe_droid1.ogg","pitch":1.0,"volume":0.7},
+	],
+	"sw_system_leech_shield":[
+		{"file":"sounds/sfx_systems/sw_leech_shield1.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_leech_shield2.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_system_point_defense":[
+		{"file":"sounds/sfx_systems/sw_point_defense1.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_point_defense2.ogg","pitch":1.0,"volume":1.0},
 	],
 	"sw_imperial_shields_burnout":[
-		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout1.ogg","pitch":1,"volume":1.7},
-		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout2.ogg","pitch":1,"volume":0.4},
-		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout3.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout1.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout2.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout3.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout4.ogg","pitch":1,"volume":0.7},
 	],
 	"sw_imperial_flameout":[
-		{"file":"sounds/sfx_voices/sw_imperial_flameout1.ogg","pitch":1,"volume":1.7},
-		{"file":"sounds/sfx_voices/sw_imperial_flameout2.ogg","pitch":1,"volume":0.4},
+		{"file":"sounds/sfx_voices/sw_imperial_flameout1.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_voices/sw_imperial_flameout2.ogg","pitch":1,"volume":0.7},
+		{"file":"sounds/sfx_voices/sw_imperial_flameout3.ogg","pitch":1,"volume":0.7},
 	],
-	"sw_rebel_shields_burnout":[
-		{"file":"sounds/sfx_voices/sw_rebel_shields_burnout.ogg","pitch":1,"volume":0.2},
+	"sw_retreat":[
+		{"file":"sounds/sfx_voices/sw_retreat1.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_voices/sw_retreat2.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_voices/sw_retreat3.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_voices/sw_retreat4.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_voices/sw_retreat5.ogg","pitch":1,"volume":1.0},
 	],
-	"sw_rebel_flameout":[
-		{"file":"sounds/sfx_voices/sw_rebel_flameout.ogg","pitch":1,"volume":0.3},
+	"sw_enemy_retreat":[
+		{"file":"sounds/sfx_voices/sw_enemy_retreat1.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_voices/sw_enemy_retreat2.ogg","pitch":1,"volume":1.0},
 	],
-
+	"sw_wings_attack":[
+		{"file":"sounds/sfx_voices/sw_wings_attack1.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_attack2.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_attack3.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_attack4.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_attack5.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_attack6.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_attack7.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_attack8.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_attack9.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_attack10.ogg","pitch":1,"volume":0.9},
+	],
+	"sw_wings_regroup":[
+		{"file":"sounds/sfx_voices/sw_wings_regroup1.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_regroup2.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_regroup3.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_regroup4.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_regroup5.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_regroup6.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_voices/sw_wings_regroup7.ogg","pitch":1,"volume":0.9},
+	],	
 	"sw_imperial_engine_loop":{
 		"sounds":[
 			{"file":"sounds/sfx_engines/sw_tie_engine_loop.ogg","pitch":1,"volume":1}, # index:  0
 			{"file":"sounds/sfx_engines/engine_03_hitek_01_frigate.ogg","pitch":1,"volume":1},    # index: 1
 			{"file":"sounds/sfx_engines/engine_03_hitek_02_destroyer.ogg","pitch":1,"volume":1},  # index: 2
-			{"file":"sounds/sfx_engines/engine_03_hitek_03_cruiser.ogg","pitch":1,"volume":1},    # index: 3
-			{"file":"sounds/sfx_engines/engine_03_hitek_04_capital.ogg","pitch":1,"volume":1},    # index: 4
+			{"file":"sounds/sfx_engines/sw_isd_engine_loop.ogg","pitch":1,"volume":1},    # index: 3
+			{"file":"sounds/sfx_engines/sw_isd_engine_loop.ogg","pitch":1,"volume":1},    # index: 4
 			],
 
 		"SW_IMPERIAL":{"sounds":[0,1,2,3,4], "pitch":1, "volume":0.5},
-		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.3},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.2},
 		"FRIGATE":{"sounds":[1], "pitch":1, "volume":0.7},
 		"DESTROYER":{"sounds":[2], "pitch":1, "volume":0.7},
 		"CRUISER":{"sounds":[3], "pitch":1, "volume":0.7},
-		"CAPITAL_SHIP":{"sounds":[4], "pitch":1, "volume":1},	
+		"CAPITAL_SHIP":{"sounds":[4], "pitch":1, "volume":1.0},	
+		},
+
+	"sw_rebel_engine_loop":{
+		"sounds":[
+			{"file":"sounds/sfx_engines/sw_xwing_engine_loop.ogg","pitch":1,"volume":1}, # index:  0
+			{"file":"sounds/sfx_engines/engine_03_hitek_01_frigate.ogg","pitch":1,"volume":1},    # index: 1
+			{"file":"sounds/sfx_engines/engine_03_hitek_02_destroyer.ogg","pitch":1,"volume":1},  # index: 2
+			{"file":"sounds/sfx_engines/sw_isd_engine_loop.ogg","pitch":1,"volume":1},    # index: 3
+			{"file":"sounds/sfx_engines/sw_isd_engine_loop.ogg","pitch":1,"volume":1},    # index: 4
+			],
+
+		"SW_REBEL":{"sounds":[0,1,2,3,4], "pitch":1, "volume":0.5},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":1.0},
+		"FRIGATE":{"sounds":[1], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[2], "pitch":1, "volume":0.7},
+		"CRUISER":{"sounds":[3], "pitch":1, "volume":0.7},
+		"CAPITAL_SHIP":{"sounds":[4], "pitch":1, "volume":0.7},	
 		},
 
 #	"sw_imperial_shield_burnout":{ # played when a ship overloads

@@ -1,0 +1,248 @@
+{
+  "hullName": "Ormos-class Light Cruiser",
+  "hullId": "sw_ormos",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/chiss/sw_ormos.png",
+  "style": "SW_IMPERIAL",
+  "height": 251,
+  "width": 109,
+  "center": [54.5, 125.5],
+  "collisionRadius": 125.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 126,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "recovery_shuttles"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-9, 17]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-9, -17]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-24.5, 17]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-24.5, -17]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 80,
+      "locations": [90, 16]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -80,
+      "locations": [90, -16]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 75,
+      "locations": [-36, 50]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -75,
+      "locations": [-36, -50]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 75,
+      "locations": [-84, 46]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -75,
+      "locations": [-84, -46]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        80, 5,
+        105, 5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        80, -5,
+        105, -5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -25, 30,
+        -10, 30
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -25, -30,
+        -10, -30
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97, 33],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97, -33],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    108, -5,
+    124, -5,
+    124, -8,
+    103, -13,
+    100, -13,
+    100, -16,
+    86, -19,
+    73, -19,
+    70, -23,
+    57, -26,
+    52, -26,
+    35, -28,
+    24, -32,
+    14, -35,
+    10, -35,
+    6, -31,
+    -14, -35,
+    -19, -35,
+    -21, -42,
+    -25, -48,
+    -44, -54,
+    -47, -54,
+    -51, -53,
+    -70, -42,
+    -74, -45,
+    -91, -50,
+    -100, -50,
+    -103, -47,
+    -104, -45,
+    -104, -40,
+    -97, -33,
+    -102, -27,
+    -103, -24,
+    -112, -22,
+    -125, -8,
+    -125, 8,
+    -112, 22,
+    -103, 24,
+    -102, 27,
+    -97, 33,
+    -104, 40,
+    -104, 45,
+    -103, 47,
+    -100, 50,
+    -91, 50,
+    -74, 45,
+    -70, 42,
+    -51, 53,
+    -47, 54,
+    -44, 54,
+    -25, 48,
+    -21, 42,
+    -19, 35,
+    -14, 35,
+    6, 31,
+    10, 35,
+    14, 35,
+    24, 32,
+    35, 28,
+    52, 26,
+    57, 26,
+    70, 23,
+    73, 19,
+    86, 19,
+    100, 16,
+    100, 13,
+    103, 13,
+    124, 8,
+    124, 5,
+    108, 5
+  ]
+}

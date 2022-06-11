@@ -3,7 +3,7 @@
   "hullId": "sw_ton_falk",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/sw_ton_falk.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 296,
   "width": 112,
   "center": [56, 150.5],
@@ -20,7 +20,7 @@
       "id": "WS0001",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 0,
       "locations": [60.5, 32.5]
@@ -29,7 +29,7 @@
       "id": "WS0002",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": -0,
       "locations": [60.5, -32.5]
@@ -38,7 +38,7 @@
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 0,
       "locations": [-37.5, 40.5]
@@ -47,7 +47,7 @@
       "id": "WS0004",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": -0,
       "locations": [-37.5, -40.5]

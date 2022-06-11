@@ -13,10 +13,16 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "sw_h9_turbolaser",
-        "WS0002": "sw_h9_turbolaser",
-        "WS0003": "sw_h9_turbolaser",
-        "WS0004": "sw_h9_turbolaser",
+        "WS0001": "sw_tb_turbolaser",
+        "WS0002": "sw_tb_turbolaser",
+        "WS0003": "sw_tb_turbolaser",
+        "WS0004": "sw_tb_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0005": "sw_h9_turbolaser",
         "WS0006": "sw_h9_turbolaser"
       }
@@ -25,8 +31,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "sw_concussion_missile_heavy",
-        "WS0008": "sw_concussion_missile_heavy"
+        "WS0007": "sw_concussion_missile_assault",
+        "WS0008": "sw_concussion_missile_assault"
       }
     }
   ],

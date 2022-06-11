@@ -1,0 +1,97 @@
+{
+  "hullName": "Flarestar-class Attack Suttle",
+  "hullId": "sw_flarestar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_flarestar.png",
+  "style": "HIGH_TECH",
+  "height": 68,
+  "width": 69,
+  "center": [34.5, 34.5],
+  "collisionRadius": 34.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, -13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15, 30]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [15, -30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, 5.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33, -5.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    33, -7,
+    32, -11,
+    28, -19,
+    19, -28,
+    11, -32,
+    4, -34,
+    -4, -34,
+    -12, -32,
+    -21, -27,
+    -27, -21,
+    -33, -9,
+    -33, 9,
+    -27, 21,
+    -21, 27,
+    -12, 32,
+    -4, 34,
+    4, 34,
+    11, 32,
+    19, 28,
+    28, 19,
+    32, 11,
+    33, 7
+  ]
+}

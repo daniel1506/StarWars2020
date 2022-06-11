@@ -1,0 +1,84 @@
+{
+  "hullName": "TIE/sf Space Superiority Fighter",
+  "hullId": "sw_tie_sf",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_sf.png",
+  "style": "SW_IMPERIAL",
+  "height": 34,
+  "width": 29,
+  "center": [14.5, 17],
+  "collisionRadius": 22,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 22.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [4.5, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [4.5, -3]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 180,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5.5, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    5.5, -2,
+    3.5, -13,
+    16.5, -13,
+    16.5, -14,
+    -16.5, -14,
+    -16.5, -13,
+    -3.5, -13,
+    -5.5, -5,
+    -5.5, 5,
+    -3.5, 13,
+    -16.5, 13,
+    -16.5, 14,
+    16.5, 14,
+    16.5, 13,
+    3.5, 13,
+    5.5, 2
+  ]
+}

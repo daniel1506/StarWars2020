@@ -2,7 +2,7 @@
   "variantId": "sw_ywing_bomber",
   "hullId": "sw_ywing",
   "displayName": "Bomber",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,
@@ -28,9 +28,21 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "sw_proton_torpedo",
-        "WS0006": "sw_proton_torpedo"
+        "WS0004": "sw_proton_torpedo",
+        "WS0005": "sw_proton_torpedo"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sw_ion_torpedo"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],

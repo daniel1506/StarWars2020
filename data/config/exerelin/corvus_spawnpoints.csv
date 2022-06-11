@@ -1,4 +1,11 @@
 faction,system,entityID
 ,,
 sw_empire,Coruscant Prime,coruscant
-sw_rebel,Chandrila Prime,chandrila
+sw_rebel,Chandrila,chandrila
+sw_republic,Kamino,kamino
+sw_cis,Raxus Secundus,raxus_secundus
+sw_zann,Ryloth,ryloth
+sw_mandalorian,Mandalore,mandalore
+sw_black_sun,Bright Jewel,ordMantell
+sw_first_order,Ilum,ilum
+sw_chiss,Csilla,csilla

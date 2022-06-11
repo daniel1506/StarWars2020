@@ -1,0 +1,24 @@
+{
+  "variantId": "sw_hardcell_cis",
+  "hullId": "sw_hardcell",
+  "displayName": "CIS",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_twin_laser_cannon",
+        "WS0002": "sw_twin_laser_cannon",
+        "WS0003": "sw_twin_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

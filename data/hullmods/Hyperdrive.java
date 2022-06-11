@@ -8,8 +8,8 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
 public class Hyperdrive extends BaseHullMod {
 
-	private static final float FUEL_MULT = 0.5f;
-	private static final int BURN_LEVEL_BONUS = 1;
+	private static final float FUEL_MULT = 0.75f;
+	private static final int BURN_LEVEL_BONUS = 2;
 
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {

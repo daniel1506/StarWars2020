@@ -1,20 +1,19 @@
 {
-  "hullName": "EF76 Nebulon-B Escort Frigatee",
+  "hullName": "EF76 Nebulon-B Escort Frigate",
   "hullId": "sw_nebulon_b",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sw_nebulon_b.png",
-  "style": "MIDLINE",
-  "height": 132,
-  "width": 32,
-  "center": [16, 66],
-  "collisionRadius": 67,
+  "spriteName": "graphics/ships/rebel/sw_nebulon_b.png",
+  "style": "SW_REBEL",
+  "height": 236,
+  "width": 56,
+  "center": [28, 118],
+  "collisionRadius": 117,
   "shieldCenter": [0, 0],
-  "shieldRadius": 67.5,
+  "shieldRadius": 120.5,
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "repair_gantry",
-    "surveying_equipment"
+    "sw_targeting_computer"
   ],
   "weaponSlots": [
     {
@@ -24,7 +23,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 90,
-      "locations": [22.5, 6.5]
+      "locations": [42, 12]
     },
     {
       "id": "WS0002",
@@ -33,7 +32,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 270,
-      "locations": [22.5, -6.5]
+      "locations": [42, -12]
     },
     {
       "id": "WS0003",
@@ -42,7 +41,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 90,
-      "locations": [38.5, 6.5]
+      "locations": [72, 12]
     },
     {
       "id": "WS0004",
@@ -51,7 +50,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": -90,
-      "locations": [38.5, -6.5]
+      "locations": [72, -12]
     },
     {
       "id": "WS0005",
@@ -60,7 +59,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 90,
-      "locations": [-54, 11.5]
+      "locations": [-96.5, 22]
     },
     {
       "id": "WS0006",
@@ -69,7 +68,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": -90,
-      "locations": [-54, -11.5]
+      "locations": [-96.5, -22]
     },
     {
       "id": "WS0007",
@@ -78,7 +77,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [56.5, 4]
+      "locations": [101.5, 6.5]
     },
     {
       "id": "WS0008",
@@ -87,25 +86,25 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [56.5, -4]
+      "locations": [101.5, -6.5]
     },
     {
       "id": "WS0009",
       "size": "SMALL",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": 90,
-      "locations": [-54, 3.5]
+      "locations": [-95, 11.5]
     },
     {
       "id": "WS0010",
       "size": "SMALL",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 180,
       "angle": -90,
-      "locations": [-54, -3.5]
+      "locations": [-95, -11.5]
     },
     {
       "id": "WS0011",
@@ -114,7 +113,7 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 90,
-      "locations": [-23, 2.5]
+      "locations": [-41, 3]
     },
     {
       "id": "WS0012",
@@ -123,25 +122,25 @@
       "mount": "HIDDEN",
       "arc": 180,
       "angle": -90,
-      "locations": [-23, -2.5]
+      "locations": [-41, -3]
     },
     {
       "id": "WS0013",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
       "angle": 90,
-      "locations": [-0.5, 2.5]
+      "locations": [5.5, 3]
     },
     {
       "id": "WS0014",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HIDDEN",
       "arc": 180,
       "angle": -90,
-      "locations": [-0.5, -2.5]
+      "locations": [5.5, -3]
     },
     {
       "id": "LB 1",
@@ -151,63 +150,63 @@
       "arc": 360,
       "angle": 0,
       "locations": [
-        20, -0,
-        33, -0
+        -35, -0,
+        -15, -0
       ]
     }
   ],
   "engineSlots": [
     {
-      "location": [-65.5, 9],
+      "location": [-117, 15],
       "length": 30,
       "width": 10,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 5,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-65.5, -9],
-      "length": 30,
+      "location": [-117, -15],
+      "length": 10,
       "width": 10,
       "angle": -180,
-      "contrailSize": 30,
+      "contrailSize": 5,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-65.5, 3.5],
-      "length": 30,
+      "location": [-117, 5.5],
+      "length": 10,
       "width": 10,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 5,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-65.5, -3.5],
-      "length": 30,
+      "location": [-117, -5.5],
+      "length": 10,
       "width": 10,
       "angle": -180,
-      "contrailSize": 30,
+      "contrailSize": 5,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    64.5, -2.5,
-    61.5, -4.5,
-    42.5, -7.5,
-    19, -7.5,
-    19, -2.5,
-    -39.5, -2.5,
-    -39.5, -6.5,
-    -44.5, -13,
-    -63.5, -13,
-    -63.5, 13,
-    -44.5, 13,
-    -39.5, 6.5,
-    -39.5, 2.5,
-    19, 2.5,
-    19, 7.5,
-    42.5, 7.5,
-    61.5, 4.5,
-    64.5, 2.5
+    115.5, -6.5,
+    76, -13,
+    35, -13.5,
+    25, -5,
+    -69, -5,
+    -69, -12.5,
+    -79, -24.5,
+    -112.5, -24.5,
+    -117.5, -21,
+    -117.5, 21,
+    -112.5, 24.5,
+    -79, 24.5,
+    -69, 12.5,
+    -69, 5,
+    25, 5,
+    35, 13.5,
+    76, 13,
+    115.5, 6.5
   ]
 }

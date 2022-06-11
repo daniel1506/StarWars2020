@@ -1,0 +1,35 @@
+{
+  "variantId": "sw_trireme_blacksun",
+  "hullId": "sw_trireme",
+  "displayName": "Black Sun",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_flak_gun",
+        "WS0002": "sw_flak_gun",
+        "WS0003": "sw_flak_gun",
+        "WS0004": "sw_flak_gun",
+        "WS0005": "sw_flak_gun",
+        "WS0006": "sw_flak_gun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sw_tb_laser_cannon",
+        "WS0008": "sw_tb_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

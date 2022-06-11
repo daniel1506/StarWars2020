@@ -1,16 +1,19 @@
 {
-  "hullName": "R60 T-wing",
+  "hullName": "R60 T-wing Interceptor",
   "hullId": "sw_twing",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_twing.png",
-  "style": "MIDLINE",
-  "height": 32,
-  "width": 16,
-  "center": [8, 16],
-  "collisionRadius": 16,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 16.5,
+  "style": "HIGH_TECH",
+  "height": 46,
+  "width": 34,
+  "center": [17, 20],
+  "collisionRadius": 25.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 26,
   "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -19,7 +22,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-1, 7]
+      "locations": [20.5, 3.5]
     },
     {
       "id": "WS0002",
@@ -28,7 +31,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-1, -7]
+      "locations": [20.5, -3.5]
     },
     {
       "id": "WS0003",
@@ -37,7 +40,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [5.5, 2]
+      "locations": [7.5, 6.5]
     },
     {
       "id": "WS0004",
@@ -46,47 +49,59 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [5.5, -2]
+      "locations": [7.5, -6.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-9.5, 7],
-      "length": 30,
+      "location": [-19.5, 14.5],
+      "length": 10,
       "width": 5,
       "angle": 180,
-      "contrailSize": 5,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-9.5, -7],
+      "location": [-19.5, -14.5],
       "length": 10,
       "width": 5,
       "angle": -180,
-      "contrailSize": 5,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     },
     {
-      "location": [-15.5, -0],
+      "location": [-19.5, -0],
       "length": 10,
       "width": 5,
       "angle": 180,
-      "contrailSize": 5,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    15, -1.5,
-    -0.5, -2.5,
-    -0.5, -7.5,
-    -5.5, -7.5,
-    -9, -2,
-    -14.5, -2,
-    -14.5, 2,
-    -9, 2,
-    -5.5, 7.5,
-    -0.5, 7.5,
-    -0.5, 2.5,
-    15, 1.5
+    24.5, -2.5,
+    8.5, -6.5,
+    -0.5, -6.5,
+    -0.5, -16.5,
+    -16.5, -16.5,
+    -19.5, -14.5,
+    -16.5, -12.5,
+    -10.5, -12.5,
+    -13.5, -5.5,
+    -15.5, -5.5,
+    -15.5, -1.5,
+    -19.5, -1.5,
+    -19.5, 1.5,
+    -15.5, 1.5,
+    -15.5, 5.5,
+    -13.5, 5.5,
+    -10.5, 12.5,
+    -16.5, 12.5,
+    -19.5, 14.5,
+    -16.5, 16.5,
+    -0.5, 16.5,
+    -0.5, 6.5,
+    8.5, 6.5,
+    24.5, 2.5
   ]
 }

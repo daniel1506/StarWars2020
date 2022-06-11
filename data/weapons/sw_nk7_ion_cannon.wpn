@@ -19,13 +19,14 @@
 	"hardpointAngleOffsets":[0],
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"MUZZLE_FLASH",
-	"muzzleFlashSpec":{"length":25.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":13.0,
-					   "particleSizeMin":10.0,
-					   "particleSizeRange":12.0,
+	"muzzleFlashSpec":{"length":5.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":10.0,
 					   "particleDuration":0.12,
-					   "particleCount":17,
-					   "particleColor":[100,200,255,255]},	
+					   "particleCount":10,
+					   "particleColor":[255,204,255,255]
+			  },	
 	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
 	"projectileSpecId":"sw_laser_ion_shot",  # projectile that will be fired
 	"fireSoundTwo":"sw_sound_ion_cannon",

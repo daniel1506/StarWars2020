@@ -1,0 +1,69 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Rebel",
+    
+    "directoryUseShortName":true,
+	
+	"marketSpawnWeight":1.2,
+	
+	"startRelationships":{ "sw_rebel": -0.8 },
+	"maxRelationships":{ "sw_rebel": 0.0 },
+	"diplomacyPositiveChance":{ "sw_empire":0.5, "sw_first_order":0.5 },
+	"diplomacyNegativeChance":{ "hegemony":1, "sw_rebel":1, "sw_cis":0.5},
+	"diplomacyTraits":["paranoid", "stalwart", "likes_ai", "law_and_order", "lowprofile"],
+    
+    "alignments":{
+        "technocratic":1.0,
+        "diplomatic":0.5,
+        "militarist":0.2,
+		"ideological":-0.5,
+    },
+    
+    "startShipsSolo":[["sw_chaf_chiss"]],
+    "startShipsTradeSmall":[
+		["sw_kynigos_chiss", "sw_syzygos_chiss", "sw_bff_1_bulk"],
+		["sw_fruoro_chiss", "sw_ormos_chiss", "sw_bff_1_bulk"]
+	],
+    "startShipsTradeLarge":[
+		["sw_chaf_chiss", "sw_kynigos_chiss", "sw_aa9_super"],
+		["sw_phalanx_chiss", "sw_fruoro_chiss", "sw_aa9_super"]
+	],
+    "startShipsCombatSmall":[
+		["sw_chaf_chiss", "sw_fruoro_chiss", "sw_syzygos_chiss"],
+		["sw_kynigos_chiss", "sw_fruoro_chiss", "sw_fruoro_chiss"]
+	],
+    "startShipsCombatLarge":[
+		["sw_phalanx_chiss", "sw_chaf_chiss", "sw_syzygos_chiss"],
+		["sw_chaf_chiss", "sw_kynigos_chiss", "sw_kynigos_chiss"]
+	],
+    "startShipsCarrierSmall":[
+		["sw_chaf_chiss", "sw_ormos_chiss", "sw_syzygos_chiss"],
+		["sw_kynigos_chiss", "sw_ormos_chiss", "sw_fruoro_chiss"]
+	],
+    "startShipsCarrierLarge":[		
+		["sw_phalanx_chiss", "sw_ormos_chiss", "sw_ormos_chiss"],
+		["sw_phalanx_chiss", "sw_ormos_chiss", "sw_kynigos_chiss"]
+	],
+    
+    "startSpecialItems":[
+        [["sw_weapon_package", "", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["sw_shieldgate_chiss", "sw_golan_iii_chiss", "sw_shipyards_chiss"]},
+        {"ids":["orbitalstation", "battlestation", "starfortress"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

@@ -2,8 +2,8 @@
   "hullName": "Gozanti Class Assault Cruiser",
   "hullId": "sw_gozanti",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sw_gozanti.png",
-  "style": "MIDLINE",
+  "spriteName": "graphics/ships/empire/sw_gozanti.png",
+  "style": "SW_IMPERIAL",
   "height": 132,
   "width": 60,
   "center": [29.5, 66],
@@ -12,7 +12,8 @@
   "shieldRadius": 65.5,
   "viewOffset": 0,
   "builtInMods": [
-    "blast_doors"
+    "blast_doors",
+    "sw_targeting_computer"
   ],
   "weaponSlots": [
     {
@@ -55,7 +56,7 @@
       "id": "WS0005",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 360,
       "angle": 0,
       "locations": [-30.5, -0]

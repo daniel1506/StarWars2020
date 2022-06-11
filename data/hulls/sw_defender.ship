@@ -1,0 +1,89 @@
+{
+  "hullName": "Defender-class Starfighter",
+  "hullId": "sw_defender",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_defender.png",
+  "style": "HIGH_TECH",
+  "height": 34,
+  "width": 38,
+  "center": [19, 15.5],
+  "collisionRadius": 21.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [18, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [18, -3]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, 13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [2, -13.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 5],
+      "length": 5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, -5],
+      "length": 5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    18, -5.5,
+    12, -5.5,
+    12, -8.5,
+    7, -8.5,
+    -2, -18.5,
+    -10, -18.5,
+    -15, -7.5,
+    -15, 7.5,
+    -10, 18.5,
+    -2, 18.5,
+    7, 8.5,
+    12, 8.5,
+    12, 5.5,
+    18, 5.5
+  ]
+}

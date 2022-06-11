@@ -1,0 +1,59 @@
+{
+  "id": "sw_dual_megamaser",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_bluemaser3",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/sw_dual_turbolaser_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sw_dual_turbolaser_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/sw_dual_turbolaser_hardpoint_base.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    50,
+    205,
+    255,
+    255
+  ],
+  "visualRecoil": 2,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    5.5,
+    3,
+    5.5,
+    -3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    6,
+    3,
+    6,
+    -3
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 5,
+    "particleDuration": 0.12,
+    "particleCount": 5,
+    "particleColor": [
+      100,
+      205,
+      255,
+      200
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "sw_sound_turbolaser"
+}

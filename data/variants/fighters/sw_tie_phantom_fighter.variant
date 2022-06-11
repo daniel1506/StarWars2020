@@ -1,8 +1,8 @@
 {
   "variantId": "sw_tie_phantom_fighter",
   "hullId": "sw_tie_phantom",
-  "displayName": "Assault Fighter",
-  "goalVariant": false,
+  "displayName": "Starfighter",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,
@@ -18,6 +18,14 @@
         "WS0003": "sw_ls92_laser_cannon",
         "WS0004": "sw_ls92_laser_cannon",
         "WS0005": "sw_ls92_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sw_concussion_missile",
+        "WS0007": "sw_concussion_missile"
       }
     }
   ],

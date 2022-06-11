@@ -1,0 +1,47 @@
+{
+  "id": "sw_kdd_quad_turbolaser_heavy",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_bluelaser_quad",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/sw_kdd_heavy_quad_turbolaser_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sw_kdd_heavy_quad_turbolaser_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/sw_kdd_heavy_quad_turbolaser_hardpoint_base.png",
+  "glowColor": [
+    0,
+    102,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    8,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 10,
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      0,
+      102,
+      255,
+      200
+    ]
+  },
+  "fireSoundTwo": "sw_sound_quad_turbolaser"
+}

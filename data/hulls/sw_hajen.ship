@@ -1,0 +1,163 @@
+{
+  "hullName": "Hajen-class Fleet Tender",
+  "hullId": "sw_hajen",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/rebel/sw_hajen.png",
+  "style": "SW_REBEL",
+  "height": 342,
+  "width": 154,
+  "center": [77, 171],
+  "collisionRadius": 171.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 172,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "shielded_holds",
+    "repair_gantry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 20,
+      "locations": [165, 23]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -20,
+      "locations": [165, -23]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 85,
+      "locations": [25, 50]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -85,
+      "locations": [25, -50]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 85,
+      "locations": [-10, 53]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -85,
+      "locations": [-10, -53]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [130, 20]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [130, -20]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-80, 55]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-80, -55]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-157.5, 40.5],
+      "length": 10,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-157.5, -40.5],
+      "length": 10,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    170.5, -10.5,
+    163.5, -33.5,
+    154.5, -42.5,
+    47.5, -61.5,
+    42.5, -61.5,
+    42.5, -50.5,
+    -25.5, -55.5,
+    -25.5, -68.5,
+    -104.5, -76.5,
+    -118.5, -76.5,
+    -134.5, -51.5,
+    -144.5, -51.5,
+    -157.5, -42.5,
+    -157.5, -34.5,
+    -163.5, -31.5,
+    -169.5, -15.5,
+    -169.5, 15.5,
+    -163.5, 31.5,
+    -157.5, 34.5,
+    -157.5, 42.5,
+    -144.5, 51.5,
+    -134.5, 51.5,
+    -118.5, 76.5,
+    -104.5, 76.5,
+    -25.5, 68.5,
+    -25.5, 55.5,
+    42.5, 50.5,
+    42.5, 61.5,
+    47.5, 61.5,
+    154.5, 42.5,
+    163.5, 33.5,
+    170.5, 10.5
+  ]
+}

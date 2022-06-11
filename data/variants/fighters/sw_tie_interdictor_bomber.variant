@@ -1,8 +1,8 @@
 {
   "variantId": "sw_tie_interdictor_bomber",
   "hullId": "sw_tie_interdictor",
-  "displayName": "Heavy Bomber",
-  "goalVariant": false,
+  "displayName": "Bomber",
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,
@@ -14,27 +14,39 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "sw_ls92_laser_cannon",
-        "WS0002": "sw_ls92_laser_cannon",
+        "WS0002": "sw_ls92_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sw_concussion_missile",
+        "WS0004": "sw_concussion_missile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0005": "sw_proton_torpedo",
         "WS0006": "sw_proton_torpedo",
-        "WS0007": "sw_concussion_missile",
-        "WS0008": "sw_concussion_missile",
-        "WS0009": "sw_concussion_missile",
-        "WS0010": "sw_concussion_missile"
+        "WS0007": "sw_proton_torpedo",
+        "WS0008": "sw_proton_torpedo"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sw_proton_bomb",
+        "WS0010": "sw_proton_bomb"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {}
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0003": "sw_proton_torpedo",
-        "WS0004": "sw_proton_torpedo"
-      }
     }
   ],
   "modules": [],

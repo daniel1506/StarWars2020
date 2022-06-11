@@ -1,0 +1,32 @@
+{
+	"id":"sw_deflectorshield_cis",
+	"type":"PHASE_CLOAK",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.DeflectorShieldAI",
+	
+	"statsScript":"data.shipsystems.scripts.DeflectorShieldStats",
+	
+	"jitterUnderColor":[0, 102, 255,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":7,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[0, 102, 255,50],
+	"jitterCopies":1,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+	
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	#"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+

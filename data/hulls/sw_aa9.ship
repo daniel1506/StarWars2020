@@ -3,7 +3,7 @@
   "hullId": "sw_aa9",
   "hullSize": "DESTROYER",
   "spriteName": "graphics/ships/sw_aa9.png",
-  "style": "LOW_TECH",
+  "style": "SW_MANDAL",
   "height": 328,
   "width": 188,
   "center": [94, 155],
@@ -14,7 +14,6 @@
   "builtInMods": [
     "blast_doors",
     "civgrade",
-    "drive_field_stabilizer",
     "repair_gantry",
     "shielded_holds"
   ],

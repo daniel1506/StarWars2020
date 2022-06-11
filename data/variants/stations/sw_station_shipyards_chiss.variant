@@ -1,0 +1,24 @@
+{
+  "variantId": "sw_station_shipyards_chiss",
+  "hullId": "sw_station_shipyards",
+  "displayName": "Ascendancy",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0002": "sw_module_shipyards1_chiss"
+    },
+    {
+      "WS0001": "sw_module_shipyards2_chiss"
+    },
+    {
+      "WS0003": "sw_module_shipyards3_chiss"
+    }
+  ],
+  "wings": []
+}

@@ -9,33 +9,36 @@
   "permaMods": [],
   "hullMods": [
     "blast_doors",
-    "ground_support",
-    "repair_gantry"
+    "ground_support"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
       "weapons": {
-        "WS0004": "sw_dual_turbolaser_heavy",
-        "WS0005": "sw_dual_turbolaser_heavy",
-        "WS0006": "sw_dual_turbolaser_heavy",
-        "WS0007": "sw_dual_turbolaser_heavy",
-        "WS0008": "sw_dual_turbolaser_heavy",
-        "WS0009": "sw_dual_turbolaser_heavy"
+        "WS0001": "sw_turbolaser",
+        "WS0002": "sw_turbolaser",
+        "WS0003": "sw_turbolaser"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0010": "sw_concussion_missile_heavy",
-        "WS0011": "sw_concussion_missile_heavy"
+        "WS0004": "sw_dual_turbolaser",
+        "WS0005": "sw_dual_turbolaser",
+        "WS0006": "sw_dual_turbolaser",
+        "WS0007": "sw_dual_turbolaser",
+        "WS0008": "sw_dual_turbolaser",
+        "WS0009": "sw_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sw_concussion_missile_assault",
+        "WS0011": "sw_concussion_missile_assault"
       }
     },
     {

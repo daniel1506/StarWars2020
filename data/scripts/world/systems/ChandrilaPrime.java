@@ -11,12 +11,15 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.campaign.econ.Industry;
+import com.fs.starfarer.api.campaign.SpecialItemData;
 import com.fs.starfarer.api.impl.campaign.ids.Conditions;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.ids.Terrain;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
+import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.impl.campaign.terrain.BaseTiledTerrain;
 import com.fs.starfarer.api.impl.campaign.terrain.MagneticFieldTerrainPlugin.MagneticFieldParams;
 import com.fs.starfarer.api.util.Misc;
@@ -31,13 +34,15 @@ public class ChandrilaPrime {
 
 	public void generate(SectorAPI sector) {
 		
-		StarSystemAPI system = sector.createStarSystem("Chandrila Prime");
+		StarSystemAPI system = sector.createStarSystem("Chandrila");
 		LocationAPI hyper = Global.getSector().getHyperspace();
 		
-		system.setBackgroundTextureFilename("graphics/backgrounds/background3.jpg");
-		system.getLocation().set(10000.0f, 4000.0f);
+		system.setBackgroundTextureFilename("graphics/backgrounds/background5.jpg");
+		system.getLocation().set(-3074.9f, 15715.9f);
+		//system.getLocation().set(-6833f, 9454f);
+		//Star Wars map to Starsector map ratio: 1x1 (grid) : 6833x4727
 		
-		SectorEntityToken chandrila_nebula = Misc.addNebulaFromPNG("data/campaign/terrain/eos_nebula.png",
+		SectorEntityToken chandrila_nebula = Misc.addNebulaFromPNG("data/campaign/terrain/valhalla_nebula.png",
 				  0, 0, // center of nebula
 				  system, // location to add to
 				  "terrain", "nebula_blue", // "nebula_blue", // texture to use, uses xxx_map for map
@@ -45,12 +50,16 @@ public class ChandrilaPrime {
 		
 		// create the star and generate the hyperspace anchor for this system
 		PlanetAPI chandrila_star = system.initStar("chandrila_prime", // unique id for this star 
-										    "star_yellow",  // id in planets.json
-										    600f, 		  // radius (in pixels at default zoom)
+										    "star_orange",  // id in planets.json
+										    700f, 		  // radius (in pixels at default zoom)
 										    500); // corona radius, from star edge
-		system.setLightColor(new Color(255, 220, 190)); // light color in entire system, affects all entities				
-		
-		PlanetAPI chandrila1 = system.addPlanet("chandrila", chandrila_star, "Chandrila", "terran", 10, 110, 2500, 110);
+		system.setLightColor(new Color(255, 230, 205)); // light color in entire system, affects all entities				
+	
+		//light: "Blue(240, 255, 255)", "Yellow(255, 255, 240)", "Orange(255, 230, 205)", "White(245, 250, 255)"
+		//star_type: "star_neutron", "black_hole", "star_yellow", "star_white", "star_blue_giant", "star_blue_supergiant"
+		//star_type: "star_orange", "star_orange_giant", "star_red_supergiant", "star_red_giant", "star_red_dwarf", "star_browndwarf", ""
+	
+		PlanetAPI chandrila1 = system.addPlanet("chandrila", chandrila_star, "Chandrila", "terran", 24, 135f, 5000, 368);
 		chandrila1.getSpec().setPlanetColor(new Color(205,205,205,205));
 		chandrila1.setCustomDescriptionId("planet_chandrila");
 		chandrila1.applySpecChanges();
@@ -60,49 +69,58 @@ public class ChandrilaPrime {
 		chandrilaStation.setInteractionImage("illustrations", "orbital");
 		chandrilaStation.setCustomDescriptionId("station_chandrila");
 		
-		SW_AddMarket.SW_AddMarket("sw_rebel", (SectorEntityToken)chandrila1, new ArrayList<String>(Arrays.asList((SectorEntityToken)chandrilaStation)), "Chandrila", 5, new ArrayList<String>(Arrays.asList("farmland_rich", "habitable", "population_5", "mild_climate", "trade_center", "regional_capital")), new ArrayList<String>(Arrays.asList("lightindustry", "heavyindustry", "spaceport", "commerce", "farming", "highcommand", "population", "heavybatteries", "battlestation_high", "planetaryshield")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.1f);
+		//planet_type: "gas_giant", "ice_giant", "lava", "frozen", "frozen1-3", "barren", "barren_castiron"
+		//planet_type: "barren_venuslike", "toxic", "toxic_cold", "jungle", "terran", "desert", "arid", "rocky_metallic"
+		//planet_type: "cryovolcanic", "rocky_unstable", "water", "rocky_ice", "irradiated", "tundra", "barren-bombarded"
+		//planet_type: "barren-desert", "terran-eccentric", "ecumenopolis"
 		
-	// Mon Cala System 
-		PlanetAPI chandrila2 = system.addPlanet("mon_cala", chandrila_star, "Mon Cala", "water", 20, 400, 4750, 220);
-		chandrila2.getSpec().setIconColor(new Color(50,50,255,255));
-		chandrila1.setCustomDescriptionId("planet_mon_cala");
-		chandrila2.applySpecChanges();
-					
-			//Relay, L5 (behind)
-			SectorEntityToken relay = system.addCustomEntity("mon_cala_relay", // unique id
-					 "Mon Cala Relay", // name - if null, defaultName from custom_entities.json will be used
-					 "comm_relay", // type of object, defined in custom_entities.json
-					 "sw_rebel"); // faction
-			relay.setCircularOrbitPointingDown( system.getEntityById("chandrila_prime"), 320, 4750, 220);
+		//SectorEntityToken mandaloreStation = system.addCustomEntity("mandalore_starforge", "Mandal Hypernautics", "sw_station_golan_iii", "sw_mandalorian");
+		//mandaloreStation.setCircularOrbitPointingDown(system.getEntityById("mandalore"), 0, 250, 30);		
+		//mandaloreStation.setInteractionImage("illustrations", "orbital");
+		//mandaloreStation.setCustomDescriptionId("station_mandalore");
 		
-		SectorEntityToken moncalaStation = system.addCustomEntity("mon_cala_starforge", "Mon Calamari Shipyards", "station_hightech2", "sw_rebel");
-		moncalaStation.setCircularOrbitPointingDown(system.getEntityById("mon_cala"), 0, 700, 30);		
-		moncalaStation.setCustomDescriptionId("station_mon_cala");
+		MarketAPI chandrila_market = SW_AddMarket.SW_AddMarket("sw_rebel", (SectorEntityToken)chandrila1, new ArrayList<String>(Arrays.asList((SectorEntityToken)chandrilaStation)), "Chandrila", 9, new ArrayList<String>(Arrays.asList("population_9", "habitable", "mild_climate", "terran", "regional_capital", "free_market", "farmland_rich")), new ArrayList<String>(Arrays.asList("population", "megaport", "highcommand", "commerce", "lightindustry", "farming", "patrolhq", "heavybatteries", "sw_golan_iii_rebel", "planetaryshield")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.3f);
 		
-		SW_AddMarket.SW_AddMarket("sw_rebel", (SectorEntityToken)chandrila2, null, "Mon Cala", 5, new ArrayList<String>(Arrays.asList("water", "habitable", "population_5", "mild_climate", "water_surface")), new ArrayList<String>(Arrays.asList("lightindustry", "heavyindustry", "aquaculture", "megaport", "population", "heavybatteries", "battlestation_high")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market")), 0.1f);
+		//SpecialItemData nanoforge = new SpecialItemData("pristine_nanoforge", "special_item1");
+		//copero_market.getIndustry("orbitalworks").setSpecialItem(nanoforge);
+		chandrila_market.getIndustry("highcommand").setAICoreId("alpha_core");
+		chandrila_market.getIndustry("commerce").setAICoreId("alpha_core");		
+		chandrila_market.getIndustry("lightindustry").setAICoreId("alpha_core");
+		chandrila_market.getIndustry("farming").setAICoreId("alpha_core");
+		chandrila_market.getIndustry("patrolhq").setAICoreId("alpha_core");
+		chandrila_market.getIndustry("sw_golan_iii_rebel").setAICoreId("alpha_core");
+		chandrila_market.getIndustry("population").setAICoreId("beta_core");
+		chandrila_market.getIndustry("megaport").setAICoreId("alpha_core");
+		chandrila_market.getIndustry("heavybatteries").setAICoreId("beta_core");
+		chandrila_market.getIndustry("planetaryshield").setAICoreId("beta_core");
 		
-		MarketAPI mon_cala_market = SW_AddMarket.SW_AddMarket("sw_rebel", (SectorEntityToken)moncalaStation, null, "Mon Calamari Shipyard", 5, new ArrayList<String>(Arrays.asList("no_atmosphere", "population_4", "outpost", "ai_core_admin")), new ArrayList<String>(Arrays.asList("lightindustry", "fuelprod", "spaceport", "waystation", "militarybase", "population", "heavybatteries", "orbitalworks", "starfortress_high")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.3f);				
-
-		mon_cala_market.getIndustry("militarybase").setAICoreId("beta_core");
-		mon_cala_market.getIndustry("starfortress_high").setAICoreId("alpha_core");
-		mon_cala_market.getIndustry("orbitalworks").setAICoreId("beta_core");
+		//Industrie: "farming", "aquaculture", "mining", "techmining", "refining", "spaceport", "megaport",
+		//Industrie: "lightindustry", "heavyindustry", "orbitalworks", "fuelprod", "commerce", "heavybatteries"
+		//Industrie: "patrolhq", "militarybase", "highcommand", "planetaryshield", "waystation", "cryosanctum"
 		
-		PlanetAPI chandrila3 = system.addPlanet("hoth", chandrila_star, "Hoth", "frozen3", 50, 220f, 7300, 207f);
-		chandrila3.getSpec().setPlanetColor(new Color(100,175,250,255));
-		chandrila3.applySpecChanges();
-		chandrila3.setCustomDescriptionId("planet_hoth");
-//		coruscant3.setInteractionImage("illustrations", "mine");
+		//conditions: "farmland_rich", "organics_abundant", "volatiles_plentiful", "rare_ore_rich", "ore_ultrarich"
+		//conditions: "pollution", "water_surface", "mild_climate", "hot", "cold", "ruins_extensive", "habitable"
+		//conditions: "hydroponics_complex", "headquarters", "water", "jungle", "terran", "desert", "ice", "frontier"
+		//conditions: "urbanized_polity", "industrial_polity", "rural_polity", "trade_center", "shipbreaking_center"
+		//conditions: "outpost", "regional_capital", "free_market", "sw_ecumenopolis"						
 		
-		SW_AddMarket.SW_AddMarket("sw_rebel", (SectorEntityToken)chandrila3, null, "Hoth", 5, new ArrayList<String>(Arrays.asList("ice", "cold", "population_4", "ore_rich", "rare_ore_rich", "organics_plentiful", "headquarters")), new ArrayList<String>(Arrays.asList("lightindustry", "heavyindustry", "spaceport", "fuelprod", "refining", "mining", "militarybase", "population", "heavybatteries", "battlestation_high", "techmining")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.3f);
+		//SectorEntityToken ryloth_loc = system.addCustomEntity(null,null, "sensor_array_makeshift","sw_zann"); 
+		//ryloth_loc.setCircularOrbitPointingDown(ryloth_star, 180-60, 7300, 340);		
 		
-		SectorEntityToken hoth_loc = system.addCustomEntity(null,null, "sensor_array_makeshift","sw_rebel"); 
-		hoth_loc.setCircularOrbitPointingDown( chandrila_star, 180-60, 7300, 340);		
+		float outermostOrbitDistance = StarSystemGenerator.addOrbitingEntities(
+			system, 
+			chandrila_star, 
+			StarAge.AVERAGE, //This setting determines what kind of potential entities are added.
+			7, 8, //Min-Max entities to add, here we'll just add 1 entity!
+			2000, //Radius to start adding at. Make sure it's greater than your star's actual radius! You can have planets inside a star otherwise (maybe cool???) 
+			1, //Name offset - next planet will be <system name> <roman numeral of this parameter + 1> if using system-based names.
+			false);
 		
-		// jump point
-		JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("chandrila_inner_jump", "Chandrila Prime Inner System Jump-point");
-		OrbitAPI orbit = Global.getFactory().createCircularOrbit(chandrila2, 0, 1500, 65);
+		// jump point 
+		JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("chandrila_inner_jump", "Chandrila Inner System Jump-point");
+		OrbitAPI orbit = Global.getFactory().createCircularOrbit(chandrila1, 0, 1500, 65);
 		jumpPoint.setOrbit(orbit);
-		jumpPoint.setRelatedPlanet(chandrila3);
+		jumpPoint.setRelatedPlanet(chandrila1);
 		jumpPoint.setStandardWormholeToHyperspaceVisual();
 		system.addEntity(jumpPoint);
 		

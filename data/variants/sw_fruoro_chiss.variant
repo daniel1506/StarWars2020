@@ -1,0 +1,48 @@
+{
+  "variantId": "sw_fruoro_chiss",
+  "hullId": "sw_fruoro",
+  "displayName": "Ascendancy",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_dual_megamaser",
+        "WS0002": "sw_dual_megamaser",
+        "WS0003": "sw_dual_megamaser",
+        "WS0004": "sw_dual_megamaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_nk7_ion_cannon",
+        "WS0006": "sw_nk7_ion_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sw_maser_cannon",
+        "WS0008": "sw_maser_cannon",
+        "WS0009": "sw_maser_cannon",
+        "WS0010": "sw_maser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

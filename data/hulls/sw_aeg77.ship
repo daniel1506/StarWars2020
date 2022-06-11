@@ -1,0 +1,181 @@
+{
+  "hullName": "AEG-77 Vigo Transport",
+  "hullId": "sw_aeg77",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/blacksun/sw_aeg77.png",
+  "style": "SW_MANDAL",
+  "height": 151,
+  "width": 77,
+  "center": [38.5, 75.5],
+  "collisionRadius": 77,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 77.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "shielded_holds",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [40, 8]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [40, -8]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-10, 29]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-10, -29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-28, 29]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-28, -29]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-50, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75, 9.5],
+      "length": 5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-75, -9.5],
+      "length": 5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, 34],
+      "length": 3,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, -34],
+      "length": 3,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    40, -12,
+    71, -12,
+    75, -14,
+    75, -15,
+    71, -18,
+    5, -18,
+    -2, -25,
+    -2, -32,
+    0, -32,
+    0, -35,
+    -2, -38,
+    -38, -38,
+    -38, -36,
+    -43, -36,
+    -44, -35,
+    -44, -33,
+    -43, -32,
+    -38, -32,
+    -38, -23,
+    -49, -20,
+    -49, -14,
+    -73, -14,
+    -75, -13,
+    -75, -6,
+    -70, -4,
+    -64, -4,
+    -64, 4,
+    -70, 4,
+    -75, 6,
+    -75, 13,
+    -73, 14,
+    -49, 14,
+    -49, 20,
+    -38, 23,
+    -38, 32,
+    -43, 32,
+    -44, 33,
+    -44, 35,
+    -43, 36,
+    -38, 36,
+    -38, 38,
+    -2, 38,
+    0, 35,
+    0, 32,
+    -2, 32,
+    -2, 25,
+    5, 18,
+    71, 18,
+    75, 15,
+    75, 14,
+    71, 12,
+    40, 12
+  ]
+}

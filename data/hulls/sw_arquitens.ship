@@ -2,8 +2,8 @@
   "hullName": "Arquitens Class Light Cruiser",
   "hullId": "sw_arquitens",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sw_arquitens.png",
-  "style": "MIDLINE",
+  "spriteName": "graphics/ships/empire/sw_arquitens.png",
+  "style": "SW_IMPERIAL",
   "height": 240,
   "width": 100,
   "center": [50, 120],
@@ -12,7 +12,8 @@
   "shieldRadius": 128.5,
   "viewOffset": 0,
   "builtInMods": [
-    "blast_doors"
+    "blast_doors",
+    "sw_targeting_computer"
   ],
   "weaponSlots": [
     {

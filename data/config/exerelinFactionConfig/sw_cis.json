@@ -1,0 +1,69 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Rebel",
+    
+    "directoryUseShortName":true,
+	
+	"marketSpawnWeight":0.8,
+	
+	"startRelationships":{ "independent":0.5, "hegemony": -0.7, "sw_republic": -1.0, "sw_empire": -0.5},
+	"maxRelationships":{ "hegemony": -0.5, "sw_empire":-0.5, "sw_republic":-0.5},
+	"diplomacyPositiveChance":{ "independent":0.5, },
+	"diplomacyNegativeChance":{ "sw_republic":1, "sw_empire":1 },
+	"diplomacyTraits":["helps_allies", "likes_ai", "stalwart", "devious"],
+    
+    "alignments":{
+        "technocratic":0.5,
+        "diplomatic":0.3,
+        "militarist":0.5,
+		"ideological":-0.3,
+    },
+    
+    "startShipsSolo":[["sw_munificent_cis"]],
+    "startShipsTradeSmall":[
+		["sw_munificent_cis", "sw_hardcell_cis", "sw_bff_1_bulk"],
+		["sw_munificent_cis", "sw_hardcell_cis", "sw_bff_1_bulk"]
+	],
+    "startShipsTradeLarge":[
+		["sw_providence_cis", "sw_hardcell_cis", "sw_aa9_super"],
+		["sw_munificent_cis", "sw_separatist_supply_ship_cis", "sw_aa9_super"]
+	],
+    "startShipsCombatSmall":[
+		["sw_recusant_cis", "sw_munificent_cis", "sw_munificent_cis"],
+		["sw_providence_cis", "sw_munificent_cis", "sw_aa9_super"]		
+	],
+    "startShipsCombatLarge":[		
+		["sw_providence_cis", "sw_recusant_cis", "sw_munificent_cis"],
+		["sw_providence_dreadnought_cis", "sw_munificent_cis", "sw_bff_1_bulk"]
+	],
+    "startShipsCarrierSmall":[		
+		["sw_providence_cis", "sw_munificent_cis", "sw_munificent_cis"],
+		["sw_providence_cis", "sw_munificent_cis", "sw_munificent_cis"]
+	],
+    "startShipsCarrierLarge":[
+		["sw_providence_cis", "sw_lucrehulk_cis", "sw_bff_1_bulk"],
+		["sw_munificent_cis", "sw_lucrehulk_cis", "sw_separatist_supply_ship_cis"]
+	],
+    
+    "startSpecialItems":[
+        [["sw_weapon_package", "sw_lowtech_package"]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["sw_golan_ii_cis", "sw_golan_iii_cis", "sw_shipyards_cis"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

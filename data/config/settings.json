@@ -2,6 +2,10 @@
 	"graphics":{		
 		"blueprint_packages":{
 			"sw_weapon_package":"graphics/icons/cargo/sw_weapon_package.png",
+			"sw_empire_weapon_package":"graphics/icons/cargo/sw_weapon_package.png",
+			"sw_rebel_weapon_package":"graphics/icons/cargo/sw_weapon_package.png",
+			"sw_republic_weapon_package":"graphics/icons/cargo/sw_weapon_package.png",
+			"sw_cis_weapon_package":"graphics/icons/cargo/sw_weapon_package.png",
 			"sw_lowtech_package":"graphics/icons/cargo/sw_lowtech_package.png",
 			"sw_midline_package":"graphics/icons/cargo/sw_midline_package.png",
 			"sw_hightech_package":"graphics/icons/cargo/sw_hightech_package.png",

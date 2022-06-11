@@ -1,0 +1,48 @@
+{
+  "id": "sw_ht12_laser_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_ht12_laser",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/sw_laser_cannon_turret_base.png",
+  "hardpointSprite": "graphics/weapons/sw_laser_cannon_hardpoint_base.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    250,
+    250,
+    0,
+    255
+  ],
+  "turretOffsets": [
+    2,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    6.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 3,
+    "spread": 5,
+    "particleSizeMin": 5,
+    "particleSizeRange": 5,
+    "particleDuration": 0.2,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      200,
+      0,
+      175
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "sw_sound_ht12_laser_cannon"
+}

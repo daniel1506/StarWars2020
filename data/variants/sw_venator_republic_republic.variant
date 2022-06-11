@@ -1,0 +1,76 @@
+{
+  "variantId": "sw_venator_republic_republic",
+  "hullId": "sw_venator_republic",
+  "displayName": "Republic",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_dby827_dual_turbolaser",
+        "WS0002": "sw_dby827_dual_turbolaser",
+        "WS0003": "sw_dby827_dual_turbolaser",
+        "WS0004": "sw_dby827_dual_turbolaser",
+        "WS0005": "sw_dby827_dual_turbolaser",
+        "WS0006": "sw_dby827_dual_turbolaser",
+        "WS0007": "sw_dby827_dual_turbolaser",
+        "WS0008": "sw_dby827_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sw_dual_turbolaser_medium",
+        "WS0010": "sw_dual_turbolaser_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sw_mg7",
+        "WS0012": "sw_mg7",
+        "WS0013": "sw_mg7",
+        "WS0014": "sw_mg7"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "sw_kdd_laser_cannon",
+        "WS0016": "sw_kdd_laser_cannon",
+        "WS0017": "sw_kdd_laser_cannon",
+        "WS0018": "sw_kdd_laser_cannon",
+        "WS0019": "sw_kdd_laser_cannon",
+        "WS0020": "sw_kdd_laser_cannon",
+        "WS0021": "sw_kdd_laser_cannon",
+        "WS0022": "sw_kdd_laser_cannon",
+        "WS0023": "sw_kdd_laser_cannon",
+        "WS0024": "sw_kdd_laser_cannon",
+        "WS0025": "sw_kdd_laser_cannon",
+        "WS0026": "sw_kdd_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_arc170_wing",
+    "sw_vwing_wing",
+    "sw_btl_b_ywing_wing",
+    "sw_btl_b_ywing_wing",
+    "sw_laat_wing"
+  ]
+}

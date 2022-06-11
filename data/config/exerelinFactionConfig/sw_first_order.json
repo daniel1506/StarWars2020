@@ -1,0 +1,69 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Resistance",
+    
+    "directoryUseShortName":true,
+	
+	"marketSpawnWeight":0.8,
+	
+	"startRelationships":{ "sw_rebel":-1.0 },
+	"maxRelationships":{ "hegemony": 0.0, "persean":-0.5, "sw_rebel":-0.5 },
+	"diplomacyPositiveChance":{ "sw_empire":0.5, "sw_chiss":0.5 },
+	"diplomacyNegativeChance":{ "hegemony":1, "sw_zann":0.5, "sw_rebel":1, "sw_cis":0.5, "sw_republic":1},
+	"diplomacyTraits":["paranoid", "stalwart", "likes_ai", "law_and_order", "envious"],
+    
+    "alignments":{
+        "technocratic":0.5,
+        "diplomatic":0.3,
+        "militarist":1.0,
+		"ideological":-0.5,
+    },
+    
+    "startShipsSolo":[["sw_resurgent_firstorder"]],
+    "startShipsTradeSmall":[
+		["sw_first_order_light_cruiser_firstorder", "sw_gozanti_firstorder", "sw_bff_1_bulk"],
+		["sw_lancer_heavy", "sw_first_order_carrier_firstorder", "sw_bff_1_bulk"]
+	],
+    "startShipsTradeLarge":[
+		["sw_imperial_i_firstorder", "sw_lancer_heavy", "sw_aa9_super"],
+		["sw_dissident_firstorder", "sw_dreadnought_heavy", "sw_aa9_super"]
+	],
+    "startShipsCombatSmall":[
+		["sw_dissident_firstorder", "sw_first_order_light_cruiser_firstorder", "sw_dreadnought_heavy"],
+		["sw_dissident_firstorder", "sw_dreadnought_heavy", "sw_lancer_heavy"]
+	],
+    "startShipsCombatLarge":[
+		["sw_resurgent_firstorder", "sw_dreadnought_heavy", "sw_lancer_heavy"],
+		["sw_imperial_i_firstorder", "sw_dreadnought_heavy", "sw_dreadnought_heavy"]
+	],
+    "startShipsCarrierSmall":[
+		["sw_dissident_firstorder", "sw_first_order_carrier_firstorder", "sw_gozanti_firstorder"],
+		["sw_dissident_firstorder", "sw_first_order_carrier_firstorder", "sw_lancer_heavy"]
+	],
+    "startShipsCarrierLarge":[		
+		["sw_resurgent_firstorder", "sw_victory_i_imperial", "sw_lancer_heavy"],
+		["sw_imperial_i_firstorder", "sw_victory_i_imperial", "sw_dreadnought_heavy"]
+	],
+    
+    "startSpecialItems":[
+        [["sw_weapon_package", "", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["sw_shieldgate_firstorder", "sw_golan_iii_firstorder", "sw_shipyards_firstorder"]},
+        {"ids":["orbitalstation", "battlestation", "starfortress"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

@@ -1,0 +1,148 @@
+{
+  "hullName": "Low Altiude Assault Transport",
+  "hullId": "sw_laat",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_laat.png",
+  "style": "MIDLINE",
+  "height": 58,
+  "width": 55,
+  "center": [27.5, 29],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [23.5, 2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -0,
+      "locations": [23.5, -2]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-24.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [10.5, 9]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [10.5, -9]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-8.5, 21]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-8.5, -21]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, 4.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, -4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23.5, 4.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23.5, -4.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    28.5, -4,
+    23.5, -2,
+    18.5, -5,
+    9.5, -5,
+    11.5, -7,
+    11.5, -11,
+    9.5, -11,
+    8.5, -10,
+    8.5, -5,
+    -3.5, -5,
+    -3.5, -25,
+    -14.5, -25,
+    -17.5, -5,
+    -23.5, -5,
+    -24.5, -2,
+    -24.5, 2,
+    -23.5, 5,
+    -17.5, 5,
+    -14.5, 25,
+    -3.5, 25,
+    -3.5, 5,
+    8.5, 5,
+    8.5, 10,
+    9.5, 11,
+    11.5, 11,
+    11.5, 7,
+    9.5, 5,
+    18.5, 5,
+    23.5, 2,
+    28.5, 4,
+    24.5, -0
+  ]
+}

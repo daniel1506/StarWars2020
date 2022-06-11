@@ -1,7 +1,9 @@
 {
 	"id":"sw_deflectorshield",
 	"type":"PHASE_CLOAK",
-	"aiType":"PHASE_CLOAK",
+	#"aiType":"PHASE_CLOAK",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.DeflectorShieldAI",
 	
 	"statsScript":"data.shipsystems.scripts.DeflectorShieldStats",
 	
@@ -16,11 +18,6 @@
 	"jitterMinRange":0,
 	"jitterRange":5,
 	"jitterRangeRadiusFraction":0,
-	
-	#"weaponGlowColor":[255,165,90,0],
-	#"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
-	
-	#"engineGlowColor":[255,90,255,255],
 
 	"fadeActivationSoundOnChargedown":true,
 	"useSound":"system_damper",

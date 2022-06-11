@@ -1,0 +1,21 @@
+{
+	"id":"sw_gravitywellgenerator",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.GravityWellGeneratorAI",
+	
+	"statsScript":"data.shipsystems.scripts.GravityWellGeneratorStats",
+		
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	#"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+

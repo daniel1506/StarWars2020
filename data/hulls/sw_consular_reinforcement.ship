@@ -1,0 +1,129 @@
+{
+  "hullName": "Consular-class Space Cruiser",
+  "hullId": "sw_consular_reinforcement",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/republic/sw_consular.png",
+  "style": "SW_REPUBLIC",
+  "height": 145,
+  "width": 85,
+  "center": [43, 67.5],
+  "collisionRadius": 78,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 79,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "sw_targeting_computer"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [70, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [37, 9.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [37, -9.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [12.5, 6.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [12.5, -6.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-30, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-67, -0],
+      "length": 10,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67, 32],
+      "length": 10,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67, -32],
+      "length": 10,
+      "width": 30,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    73, -4.5,
+    68, -4.5,
+    67, -5.5,
+    42, -5.5,
+    32, -14.5,
+    11, -14.5,
+    1, -10.5,
+    -10, -10.5,
+    -41, -37.5,
+    -41, -40.5,
+    -42, -41.5,
+    -62, -41.5,
+    -66, -38.5,
+    -66, 38.5,
+    -62, 41.5,
+    -42, 41.5,
+    -41, 40.5,
+    -41, 37.5,
+    -10, 10.5,
+    1, 10.5,
+    11, 14.5,
+    32, 14.5,
+    42, 5.5,
+    67, 5.5,
+    68, 4.5,
+    73, 4.5,
+    77, 2.5
+  ]
+}

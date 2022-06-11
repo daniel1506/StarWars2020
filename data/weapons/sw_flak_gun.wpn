@@ -1,0 +1,40 @@
+{
+  "id": "sw_flak_gun",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_flak_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/sw_flak_gun_turret_base.png",
+  "hardpointSprite": "graphics/weapons/sw_flak_gun_turret_base.png",
+  "turretOffsets": [
+    7,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    10.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 5,
+    "spread": 8,
+    "particleSizeMin": 6,
+    "particleSizeRange": 10,
+    "particleDuration": 0.4,
+    "particleCount": 6,
+    "particleColor": [
+      255,
+      125,
+      105,
+      255
+    ]
+  },
+  "fireSoundTwo": "light_mortar_fire"
+}

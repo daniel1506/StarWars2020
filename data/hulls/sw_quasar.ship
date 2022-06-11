@@ -3,7 +3,7 @@
   "hullId": "sw_quasar",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/sw_quasar.png",
-  "style": "MIDLINE",
+  "style": "SW_IMPERIAL",
   "height": 249,
   "width": 221,
   "center": [110.5, 124.5],
@@ -107,18 +107,6 @@
       "locations": [
         -100, -80,
         -55, -80
-      ]
-    },
-    {
-      "id": "LB 5",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [
-        -100, -0,
-        -67, -0
       ]
     }
   ],

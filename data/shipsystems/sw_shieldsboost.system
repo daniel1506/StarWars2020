@@ -20,11 +20,7 @@
 	"jitterCopies":10,
 	"jitterMinRange":0,
 	"jitterRange":5,
-	"jitterRangeRadiusFraction":0,
-	
-	"soundFilterType":"LOWPASS",
-	"soundFilterGain":0.75,
-	"soundFilterGainHF":0.0,
+	"jitterRangeRadiusFraction":0,	
 	
 	#"useSound":"shield_raise",
 	#"loopSound":"beam_heavy_loop",

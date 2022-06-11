@@ -1,0 +1,21 @@
+{
+  "variantId": "sw_station_shieldgate_imperial",
+  "hullId": "sw_station_shieldgate",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "sw_module_shieldgate1_imperial"
+    },
+    {
+      "WS0002": "sw_module_shieldgate2_imperial"
+    }
+  ],
+  "wings": []
+}

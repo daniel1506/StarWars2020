@@ -1,0 +1,128 @@
+{
+  "hullName": "Furion-class Assault Bomber",
+  "hullId": "sw_furion",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_furion.png",
+  "style": "SW_IMPERIAL",
+  "height": 56,
+  "width": 38,
+  "center": [19, 28],
+  "collisionRadius": 28,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 28.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22.5, 7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [22.5, -7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [20, 4.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [20, -4.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 14.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3.5, -14.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21.5, 9],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-21.5, -9],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    27.5, -1.5,
+    20.5, -1.5,
+    20.5, -3.5,
+    23.5, -7.5,
+    15.5, -10.5,
+    10.5, -10.5,
+    -3.5, -18.5,
+    -8.5, -18.5,
+    -15.5, -12.5,
+    -21.5, -12.5,
+    -21.5, -4.5,
+    -27.5, -4.5,
+    -27.5, 4.5,
+    -21.5, 4.5,
+    -21.5, 12.5,
+    -15.5, 12.5,
+    -8.5, 18.5,
+    -3.5, 18.5,
+    10.5, 10.5,
+    15.5, 10.5,
+    23.5, 7.5,
+    20.5, 3.5,
+    20.5, 1.5,
+    27.5, 1.5
+  ]
+}

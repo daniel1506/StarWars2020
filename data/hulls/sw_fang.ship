@@ -1,0 +1,96 @@
+{
+  "hullName": "Fang-class Starfighter",
+  "hullId": "sw_fang",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_fang.png",
+  "style": "HIGH_TECH",
+  "height": 34,
+  "width": 34,
+  "center": [17, 16],
+  "collisionRadius": 20,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [17, 6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [17, -6]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15.5, 7],
+      "length": 3,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15.5, -7],
+      "length": 3,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-15.5, -0],
+      "length": 3,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    8.5, -5.5,
+    17.5, -5.5,
+    17.5, -6.5,
+    16.5, -7.5,
+    13.5, -8.5,
+    4.5, -9.5,
+    -2.5, -9.5,
+    -5.5, -15.5,
+    -11.5, -15.5,
+    -11.5, -9.5,
+    -15.5, -9.5,
+    -15.5, 9.5,
+    -11.5, 9.5,
+    -11.5, 15.5,
+    -5.5, 15.5,
+    -2.5, 9.5,
+    4.5, 9.5,
+    13.5, 8.5,
+    16.5, 7.5,
+    17.5, 6.5,
+    17.5, 5.5,
+    8.5, 5.5
+  ]
+}

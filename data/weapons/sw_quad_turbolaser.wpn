@@ -1,13 +1,12 @@
 {
   "id": "sw_quad_turbolaser",
   "specClass": "projectile",
-  "projectileSpecId": "sw_greenlaser_dual",
+  "projectileSpecId": "sw_greenlaser3",
   "type": "ENERGY",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/mg_light_dual_turret_base.png",
-  "turretGunSprite": "graphics/weapons/mg_light_dual_turret_recoil.png",
-  "hardpointSprite": "graphics/weapons/mg_light_dual_hardpoint_base.png",
-  "hardpointGunSprite": "graphics/weapons/mg_light_dual_hardpoint_recoil.png",
+  "turretSprite": "graphics/weapons/sw_quad_turbolaser_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sw_quad_turbolaser_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/sw_quad_turbolaser_hardpoint_base.png",
   "renderAboveAllWeapons": 0,
   "glowColor": [
     0,
@@ -15,33 +14,39 @@
     0,
     255
   ],
-  "visualRecoil": 7,
+  "visualRecoil": 3,
   "renderHints": [
     RENDER_BARREL_BELOW
   ],
   "turretOffsets": [
-    12.5,
-    0
+    5,
+    3,
+    5,
+    -3
   ],
   "turretAngleOffsets": [
+    0,
     0
   ],
   "hardpointOffsets": [
-    17,
-    0
+    6,
+    3,
+    6,
+    -3
   ],
   "hardpointAngleOffsets": [
+    0,
     0
   ],
-  "barrelMode": "LINKED",
+  "barrelMode": "ALTERNATING",
   "animationType": "GLOW_AND_FLASH",
   "muzzleFlashSpec": {
-    "length": 40,
-    "spread": 15,
-    "particleSizeMin": 20,
-    "particleSizeRange": 10,
+    "length": 5,
+    "spread": 3,
+    "particleSizeMin": 5,
+    "particleSizeRange": 3,
     "particleDuration": 0.12,
-    "particleCount": 12,
+    "particleCount": 5,
     "particleColor": [
       0,
       250,
@@ -50,5 +55,5 @@
     ]
   },
   "textureType": ROUGH,
-  "fireSoundTwo": "sw_sound_turbolaser"
+  "fireSoundTwo": "sw_sound_laser_cannon"
 }

@@ -1,0 +1,18 @@
+{
+	"id":"sw_blaster_laser",
+	"specClass":"projectile",
+	"spawnType":"BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":4.0,
+	"width":1.75,
+	"fadeTime":0.25,
+	"fringeColor":[255, 51, 0,255],
+	"coreColor":[255, 102, 0,255],
+	"glowColor":[255, 51, 0,75],
+	"glowRadius":0,
+	"hitGlowRadius":5,
+	"textureType":"SMOOTH",	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,	
+}

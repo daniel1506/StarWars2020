@@ -8,12 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "advancedcore",
-    "advancedshieldemitter",
-    "chassis_storage",
-    "drive_field_stabilizer",
-    "recovery_shuttles",
-    "repair_gantry"
+    "recovery_shuttles"
   ],
   "weaponGroups": [
     {
@@ -21,10 +16,10 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "sw_tb_turbolaser",
-        "WS0002": "sw_laser_cannon",
+        "WS0002": "sw_tb_laser_cannon",
         "WS0003": "sw_tb_laser_cannon",
-        "WS0004": "sw_laser_cannon",
-        "WS0005": "sw_laser_cannon"
+        "WS0004": "sw_tb_laser_cannon",
+        "WS0005": "sw_tb_laser_cannon"
       }
     },
     {
@@ -38,7 +33,6 @@
     "sw_t65b_xwing_wing",
     "sw_awing_wing",
     "sw_ywing_wing",
-    "sw_zwing_wing",
-    "sw_t65b_xwing_wing"
+    "sw_zwing_wing"
   ]
 }

@@ -1,0 +1,38 @@
+{
+	"id":"sw_mass_driver_projectile",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/missiles/sw_mass_driver_projectile.png",
+	"size":[12.5,12.5],	
+	"center":[6,6],
+	"collisionRadius":10,
+	"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"RAY_FIGHTER",
+	"explosionColor":[255,200,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":20, # purely visual
+	"flameoutTime":0.1,
+	"fadeTime":0.1,
+	"engineSpec":{"turnAcc":0,
+                        "turnRate":0,
+                        "acc":500,
+                        "dec":0},
+	"engineSlots":[{"id":"ES1",
+			"loc":[0, 0],
+			"style":"CUSTOM",
+			"styleSpec":{
+                                "mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+                                "engineColor":[255,150,0,255],
+                                "contrailDuration":0.1,
+                                "contrailWidthMult":1,
+                                "contrailWidthAddedFractionAtEnd":-0.5,  # can be negative. makes trail spread out/narrow at the end
+                                "contrailMinSeg":5, # min segment length, in pixels
+                                "contrailMaxSpeedMult":0f,
+                                "contrailAngularVelocityMult":0f,
+                                "contrailSpawnDistMult":0, # how far away from engine it starts
+                                "contrailColor":[255,200,0,150],
+                                "type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+                        },
+                        "width":10.0,
+                        "length":5.0,
+                        "angle":180.0}],				    
+}

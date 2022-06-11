@@ -1,0 +1,34 @@
+{
+  "variantId": "sw_gozanti_firstorder",
+  "hullId": "sw_gozanti",
+  "displayName": "First Order",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_laser_cannon",
+        "WS0002": "sw_laser_cannon",
+        "WS0003": "sw_laser_cannon",
+        "WS0004": "sw_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_dual_turbolaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_tie_sf_wing"
+  ]
+}

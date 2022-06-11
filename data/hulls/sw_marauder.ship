@@ -2,8 +2,8 @@
   "hullName": "Marauder Class Corvette",
   "hullId": "sw_marauder",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sw_marauder.png",
-  "style": "LOW_TECH",
+  "spriteName": "graphics/ships/rebel/sw_marauder.png",
+  "style": "SW_REBEL",
   "height": 137,
   "width": 97,
   "center": [48.5, 68.5],
@@ -12,8 +12,7 @@
   "shieldRadius": 70,
   "viewOffset": 0,
   "builtInMods": [
-    "blast_doors",
-    "eccm"
+    "blast_doors"
   ],
   "weaponSlots": [
     {

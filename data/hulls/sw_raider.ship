@@ -2,8 +2,8 @@
   "hullName": "Raider Class Corvette",
   "hullId": "sw_raider",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/sw_raider.png",
-  "style": "MIDLINE",
+  "spriteName": "graphics/ships/empire/sw_raider.png",
+  "style": "SW_IMPERIAL",
   "height": 132,
   "width": 54,
   "center": [27, 66],
@@ -12,7 +12,8 @@
   "shieldRadius": 68,
   "viewOffset": 0,
   "builtInMods": [
-    "blast_doors"
+    "blast_doors",
+    "sw_targeting_computer"
   ],
   "weaponSlots": [
     {
@@ -118,10 +119,10 @@
   "engineSlots": [
     {
       "location": [-65, -0],
-      "length": 30,
+      "length": 10,
       "width": 10,
       "angle": 180,
-      "contrailSize": 30,
+      "contrailSize": 10,
       "style": "HIGH_TECH"
     }
   ],

@@ -1,16 +1,19 @@
 {
-  "hullName": "Tie Advanced",
+  "hullName": "TIE Advanced X1",
   "hullId": "sw_tie_advanced",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/sw_tie_advanced.png",
   "style": "SW_IMPERIAL",
-  "height": 25,
-  "width": 24,
-  "center": [12, 12.5],
-  "collisionRadius": 16,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 16.5,
+  "height": 49,
+  "width": 44,
+  "center": [22, 25.5],
+  "collisionRadius": 31,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 31.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -19,7 +22,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [6.5, 1.5]
+      "locations": [12, 4.5]
     },
     {
       "id": "WS0002",
@@ -28,7 +31,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [6.5, -1.5]
+      "locations": [12, -4.5]
     },
     {
       "id": "WS0003",
@@ -37,7 +40,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [2, 6]
+      "locations": [8, 10]
     },
     {
       "id": "WS0004",
@@ -46,23 +49,47 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [2, -6]
+      "locations": [8, -10]
     }
   ],
   "engineSlots": [
     {
-      "location": [-10.5, -0],
+      "location": [-19, 8],
       "length": 30,
       "width": 10,
       "angle": 180,
       "contrailSize": 128,
-      "style": "LOW_TECH_FIGHTER"
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-19, -8],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
     }
   ],
   "bounds": [
-    11, -10.5,
-    -11.5, -10.5,
-    -11.5, 10.5,
-    11, 10.5
+    13, -4.5,
+    7, -9.5,
+    7, -13.5,
+    16, -13.5,
+    21, -20.5,
+    21, -20.5,
+    -22, -20.5,
+    -17, -13.5,
+    -21, -3.5,
+    -21, 3.5,
+    -17, 13.5,
+    -22, 20.5,
+    21, 20.5,
+    21, 20.5,
+    16, 13.5,
+    7, 13.5,
+    7, 9.5,
+    13, 4.5
   ]
 }

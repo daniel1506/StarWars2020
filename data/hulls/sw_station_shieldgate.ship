@@ -1,0 +1,48 @@
+{
+  "hullName": "Golan M3185",
+  "hullId": "sw_station_shieldgate",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/stations/sw_station_shield_gate_base.png",
+  "style": "HIGH_TECH",
+  "height": 250,
+  "width": 346,
+  "center": [173, 125],
+  "collisionRadius": 173,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 174.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "nav_relay",
+    "vastbulk"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 162]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -162]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    120, -120,
+    0, -170,
+    -120, -120,
+    -120, 120,
+    0, 170,
+    120, 120
+  ]
+}

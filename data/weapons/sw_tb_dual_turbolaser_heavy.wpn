@@ -4,10 +4,9 @@
   "projectileSpecId": "sw_redlaser_dual",
   "type": "ENERGY",
   "size": "MEDIUM",
-  "turretSprite": "graphics/weapons/mg_light_dual_turret_base.png",
-  "turretGunSprite": "graphics/weapons/mg_light_dual_turret_recoil.png",
-  "hardpointSprite": "graphics/weapons/mg_light_dual_hardpoint_base.png",
-  "hardpointGunSprite": "graphics/weapons/mg_light_dual_hardpoint_recoil.png",
+  "turretSprite": "graphics/weapons/sw_tb_heavy_dual_turbolaser_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sw_tb_heavy_dual_turbolaser_turret_recoil.png",
+  "hardpointSprite": "graphics/weapons/sw_tb_heavy_dual_turbolaser_hardpoint_base.png",
   "renderAboveAllWeapons": 0,
   "glowColor": [
     255,
@@ -20,14 +19,14 @@
     RENDER_BARREL_BELOW
   ],
   "turretOffsets": [
-    13,
-    0
+    7.5,
+    -0.5
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    16.5,
+    8.5,
     0
   ],
   "hardpointAngleOffsets": [
@@ -36,12 +35,12 @@
   "barrelMode": "LINKED",
   "animationType": "GLOW_AND_FLASH",
   "muzzleFlashSpec": {
-    "length": 40,
-    "spread": 15,
-    "particleSizeMin": 20,
+    "length": 10,
+    "spread": 5,
+    "particleSizeMin": 10,
     "particleSizeRange": 10,
     "particleDuration": 0.12,
-    "particleCount": 12,
+    "particleCount": 10,
     "particleColor": [
       250,
       0,
