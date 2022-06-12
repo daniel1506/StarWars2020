@@ -75,14 +75,14 @@
         "WS0048": "sw_mg7",
         "WS0049": "sw_mg7",
         "WS0050": "sw_mg7",
-        "WS0051": "sw_mg7",
-        "WS0052": "sw_mg7"
+        "WS0051": "sw_mg7"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0052": "sw_tb_laser_cannon",
         "WS0053": "sw_tb_laser_cannon",
         "WS0054": "sw_tb_laser_cannon",
         "WS0055": "sw_tb_laser_cannon",
@@ -97,8 +97,7 @@
         "WS0064": "sw_tb_laser_cannon",
         "WS0065": "sw_tb_laser_cannon",
         "WS0066": "sw_tb_laser_cannon",
-        "WS0067": "sw_tb_laser_cannon",
-        "WS0068": "sw_tb_laser_cannon"
+        "WS0067": "sw_tb_laser_cannon"
       }
     },
     {
