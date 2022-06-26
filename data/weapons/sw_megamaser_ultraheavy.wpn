@@ -1,0 +1,47 @@
+{
+  "id": "sw_megamaser_ultraheavy",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_blueturbolaser",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/sw_plasma_cannon_turret_base.png",
+  "hardpointSprite": "graphics/weapons/sw_plasma_cannon_turret_base.png",
+  "glowColor": [
+    50,
+    150,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    15,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    23,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": -34,
+    "spread": 15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.15,
+    "particleCount": 20,
+    "particleColor": [
+      100,
+      200,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "sw_sound_quad_turbolaser"
+}

@@ -30,6 +30,7 @@
 		"sw_syzygos_chiss":5,
 		
 		"sw_first_order_light_cruiser_firstorder":10,
+		"sw_nebulon_k_firstorder":8,
 
 		"sw_gozanti_imperial":5,
 		"sw_hammerhead_rebel":5,
@@ -41,6 +42,7 @@
 		"sw_cr90_rebel":10,
 		"sw_dp20_rebel":10,
 		"sw_consular_republic":10,
+		"sw_nebulon_k_firstorder":10,
 
 		"sw_vigil_imperial":10,
 		"sw_marauder_rebel":10,
@@ -103,7 +105,11 @@
 	"combatLarge":{
 		"sw_acclamator_imperial":5,
 		"sw_acclamator_republic":5,
+		
 		"sw_ascendancy_chiss":5,
+		"sw_peltast_chiss":10,
+		"sw_chaf_chiss":10,
+		"sw_maxima_a_firstorder":10,
 
 		"sw_victory_i_imperial":10,
 		"sw_victory_ii_imperial":10,
@@ -135,6 +141,7 @@
 		"sw_bulwark_mk2_cis":9,
 		"sw_bulwark_mk2_rebel":8,
 		"sw_resurgent_firstorder":10,
+		"sw_first_order_interdictor_firstorder":8,
 		"sw_imperial_i_firstorder":6,
 
 		"sw_imperial_ii_imperial":10,
@@ -145,6 +152,8 @@
 		"sw_aggressor_mandalorian_mandal":10,
 		
 		"sw_phalanx_chiss":10,
+		"sw_syndic_chiss":10,
+		"sw_intego_chiss":7,
 		
 		"sw_mc90_rebel":7,
 		"sw_allegiance_imperial":7,

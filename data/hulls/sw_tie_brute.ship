@@ -1,0 +1,42 @@
+{
+  "hullName": "TIE/rb Brute Heavy Starfighter",
+  "hullId": "sw_tie_brute",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_tie_brute.png",
+  "style": "SW_IMPERIAL",
+  "height": 34,
+  "width": 39,
+  "center": [19.5, 17],
+  "collisionRadius": 25,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 25.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6.5, 3.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    16.5, -18,
+    -16.5, -18,
+    -16.5, 18,
+    16.5, 18
+  ]
+}

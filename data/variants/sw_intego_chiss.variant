@@ -1,0 +1,91 @@
+{
+  "variantId": "sw_intego_chiss",
+  "hullId": "sw_intego",
+  "displayName": "Ascendancy",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_quad_megamaser_heavy",
+        "WS0002": "sw_quad_megamaser_heavy",
+        "WS0003": "sw_quad_megamaser_heavy",
+        "WS0004": "sw_quad_megamaser_heavy",
+        "WS0005": "sw_quad_megamaser_heavy",
+        "WS0006": "sw_quad_megamaser_heavy",
+        "WS0007": "sw_quad_megamaser_heavy",
+        "WS0008": "sw_quad_megamaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sw_quad_megamaser",
+        "WS0010": "sw_quad_megamaser",
+        "WS0011": "sw_quad_megamaser",
+        "WS0012": "sw_quad_megamaser",
+        "WS0013": "sw_quad_megamaser",
+        "WS0014": "sw_quad_megamaser",
+        "WS0015": "sw_quad_megamaser",
+        "WS0016": "sw_quad_megamaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "sw_ball_ion_cannon",
+        "WS0018": "sw_ball_ion_cannon",
+        "WS0019": "sw_ball_ion_cannon",
+        "WS0020": "sw_ball_ion_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "sw_dual_ion_cannon",
+        "WS0022": "sw_dual_ion_cannon",
+        "WS0023": "sw_dual_ion_cannon",
+        "WS0024": "sw_dual_ion_cannon",
+        "WS0025": "sw_dual_ion_cannon",
+        "WS0026": "sw_dual_ion_cannon",
+        "WS0027": "sw_dual_ion_cannon",
+        "WS0028": "sw_dual_ion_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0029": "sw_quad_maser_cannon",
+        "WS0030": "sw_quad_maser_cannon",
+        "WS0031": "sw_quad_maser_cannon",
+        "WS0032": "sw_quad_maser_cannon",
+        "WS0033": "sw_quad_maser_cannon",
+        "WS0034": "sw_quad_maser_cannon",
+        "WS0035": "sw_quad_maser_cannon",
+        "WS0036": "sw_quad_maser_cannon",
+        "WS0037": "sw_quad_maser_cannon",
+        "WS0038": "sw_quad_maser_cannon",
+        "WS0039": "sw_quad_maser_cannon",
+        "WS0040": "sw_quad_maser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_nsiss_wing",
+    "sw_scarsiss_wing",
+    "sw_furion_wing"
+  ]
+}
