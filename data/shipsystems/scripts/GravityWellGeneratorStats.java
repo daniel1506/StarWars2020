@@ -16,10 +16,6 @@ import com.fs.starfarer.api.combat.CollisionClass;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
-//import com.fs.starfarer.api.combat.ShipHullSpecAPI;
-//import com.fs.starfarer.api.combat.ShipHullSpecAPI.ShieldSpecAPI;
-//import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-//import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 

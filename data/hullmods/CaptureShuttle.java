@@ -17,6 +17,7 @@ import com.fs.starfarer.api.combat.DeployedFleetMemberAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
+import com.fs.starfarer.api.combat.BattleCreationContext;
 
 import org.apache.log4j.Logger;
 
@@ -25,6 +26,7 @@ public class CaptureShuttle extends BaseHullMod {
 	public Logger log = Logger.getLogger(this.getClass());
 	private String id;
 	private int number = 0;
+	private BattleCreationContext context;
 	public static final float COMBAT_SALVAGE = 80f;
 	private static Map mag = new HashMap();
 	static {
@@ -47,25 +49,30 @@ public class CaptureShuttle extends BaseHullMod {
 		if (!isInPlayerFleet(ship)) return;
 		if (!ship.isAlive()) return;
 		
-		if (Global.getCombatEngine().isCombatOver()) {
-			number = 0;
+		if (number != 0 && context != null) {
+			if (Global.getCombatEngine().getContext() != context) {
+				number = 0;
+			}		
 		}
-
-		CombatFleetManagerAPI fleet = new Global().getCombatEngine().getFleetManager(FleetSide.ENEMY);
-		List<DeployedFleetMemberAPI> ships = fleet.getDeployedCopyDFM();
-		for (DeployedFleetMemberAPI s : ships) {
-			if (!s.isFighterWing() && s.getShip().isAlive()) {
-				if (number >= ((Float) mag.get(ship.getHullSize())).intValue()) {
-					return;
-				}
-				else {
-					if (s.getShip().getMutableStats().getBreakProb().getModifiedValue() > 0.0f) {
-						if (Math.random() >= 0.2f) {
-							s.getShip().getMutableStats().getBreakProb().modifyMult(id, 0f);
-							s.getShip().getMutableStats().getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat(id, 1000f);
-							//log.info("Captured!");
+		
+		if (number == 0) {
+			context = Global.getCombatEngine().getContext();
+			CombatFleetManagerAPI fleet = new Global().getCombatEngine().getFleetManager(FleetSide.ENEMY);
+			List<DeployedFleetMemberAPI> ships = fleet.getDeployedCopyDFM();
+			for (DeployedFleetMemberAPI s : ships) {
+				if (!s.isFighterWing() && s.getShip().isAlive()) {
+					if (number >= ((Float) mag.get(ship.getHullSize())).intValue()) {
+						return;					
+					}
+					else {
+						if (s.getShip().getMutableStats().getBreakProb().getModifiedValue() > 0.0f) {
+							if (Math.random() >= 0.2f) {
+								s.getShip().getMutableStats().getBreakProb().modifyMult(id, 0f);
+								s.getShip().getMutableStats().getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat(id, 1000f);
+								//log.info("Captured!");
+							}
+							number++;
 						}
-						number++;
 					}
 				}
 			}

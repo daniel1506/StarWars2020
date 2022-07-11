@@ -115,13 +115,21 @@ fleetName:Golan III Space Defense NovaGun,
 
 Must be reduced before invasions or bombardment can be attempted.",2020
 ,,,,,,,,,,,,,
-sw_golan_ii_zann,Zann Consortium Golan II Space Defense SpaceGun,50,90,,3,,sw_golan_iii_zann,"station, sub_item, unraidable, structure","{
+sw_zann_station_zann,Zann Consortium Space Station,50,90,,3,,sw_golan_ii_zann,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:sw_station_zann_station_zann,
+fleetName:Zann Consortium Space Station,
+}",graphics/icons/industry/sw_zann_station.png,data.scripts.campaign.industry.SWOrbitalStationZann,"The Zann Consortium Space Station a space defense outpost used by the Zann Consortium.
+
+Must be reduced before invasions or bombardment can be attempted.",2010
+,,,,,,,,,,,,,
+sw_golan_ii_zann,Zann Consortium Golan II Space Defense SpaceGun,50,90,,3,sw_zann_station_zann,sw_golan_iii_zann,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:sw_station_golan_ii_zann,
 fleetName:Golan II Space Defense SpaceGun,
 }",graphics/icons/industry/sw_golan_ii.png,data.scripts.campaign.industry.SWOrbitalStationZann,"The Golan II Space Defense SpaceGun, also known simply as the Golan II, was the second space station in Golan Arms' series of space defense platforms.
 
-Must be reduced before invasions or bombardment can be attempted.",2010
+Must be reduced before invasions or bombardment can be attempted.",2020
 ,,,,,,,,,,,,,
 sw_golan_iii_zann,Zann Consortium Golan III Space Defense NovaGun,100,120,,4,sw_golan_ii_zann,,"station, battlestation, unraidable, structure","{
 radius:65,
@@ -129,7 +137,7 @@ variant:sw_station_golan_iii_zann,
 fleetName:Golan III Space Defense NovaGun,
 }",graphics/icons/industry/sw_golan_iii.png,data.scripts.campaign.industry.SWOrbitalStationZann,"Built as a more powerful successor to the dangerous Golan II, the Golan III was larger and arguably better armed than an Imperial-class Star Destroyer.
 
-Must be reduced before invasions or bombardment can be attempted.",2020
+Must be reduced before invasions or bombardment can be attempted.",2030
 ,,,,,,,,,,,,,
 sw_golan_ii_blacksun,Black Sun Golan II Space Defense SpaceGun,50,90,,3,,sw_golan_iii_blacksun,"station, sub_item, unraidable, structure","{
 radius:55,

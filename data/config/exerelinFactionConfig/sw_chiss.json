@@ -21,7 +21,7 @@
 		"ideological":-0.5,
     },
     
-    "startShipsSolo":[["sw_chaf_chiss"]],
+    "startShipsSolo":[["sw_syndic_chiss"]],
     "startShipsTradeSmall":[
 		["sw_kynigos_chiss", "sw_syzygos_chiss", "sw_bff_1_bulk"],
 		["sw_fruoro_chiss", "sw_ormos_chiss", "sw_bff_1_bulk"]
@@ -31,12 +31,12 @@
 		["sw_phalanx_chiss", "sw_fruoro_chiss", "sw_aa9_super"]
 	],
     "startShipsCombatSmall":[
-		["sw_chaf_chiss", "sw_fruoro_chiss", "sw_syzygos_chiss"],
-		["sw_kynigos_chiss", "sw_fruoro_chiss", "sw_fruoro_chiss"]
+		["sw_chaf_chiss", "sw_kynigos_chiss", "sw_fruoro_chiss"],
+		["sw_peltast_chiss", "sw_fruoro_chiss", "sw_syzygos_chiss"]
 	],
     "startShipsCombatLarge":[
 		["sw_phalanx_chiss", "sw_chaf_chiss", "sw_syzygos_chiss"],
-		["sw_chaf_chiss", "sw_kynigos_chiss", "sw_kynigos_chiss"]
+		["sw_chaf_chiss", "sw_peltast_chiss", "sw_kynigos_chiss"]
 	],
     "startShipsCarrierSmall":[
 		["sw_chaf_chiss", "sw_ormos_chiss", "sw_syzygos_chiss"],
@@ -44,7 +44,7 @@
 	],
     "startShipsCarrierLarge":[		
 		["sw_phalanx_chiss", "sw_ormos_chiss", "sw_ormos_chiss"],
-		["sw_phalanx_chiss", "sw_ormos_chiss", "sw_kynigos_chiss"]
+		["sw_syndic_chiss", "sw_ormos_chiss", "sw_kynigos_chiss"]
 	],
     
     "startSpecialItems":[

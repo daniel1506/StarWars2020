@@ -8,8 +8,7 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "sw_deflector_shield",
-    "sw_r_droids"
+    "dedicated_targeting_core"
   ],
   "weaponGroups": [
     {

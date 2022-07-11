@@ -1,0 +1,49 @@
+{
+  "hullName": "Zann Consortium Space Station",
+  "hullId": "sw_station_zann_station",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/stations/sw_station_zann_station_base.png",
+  "style": "HIGH_TECH",
+  "height": 339,
+  "width": 338,
+  "center": [169, 169.5],
+  "collisionRadius": 169.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 170,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "vastbulk"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 168.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -168.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    169, -13.5,
+    14, -168.5,
+    -14, -168.5,
+    -169, -12.5,
+    -169, 12.5,
+    -14, 168.5,
+    14, 168.5,
+    169, 13.5
+  ]
+}

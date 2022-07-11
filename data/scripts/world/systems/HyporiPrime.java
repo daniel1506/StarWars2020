@@ -63,7 +63,7 @@ public class HyporiPrime {
 		//rylothStation.setInteractionImage("illustrations", "orbital");
 		//rylothStation.setCustomDescriptionId("station_coruscant");
 		
-		MarketAPI hypori_market = SW_AddMarket.SW_AddMarket("sw_zann", (SectorEntityToken)hypori1, null, "Hypori", 8, new ArrayList<String>(Arrays.asList("population_8", "desert", "hot", "ore_rich", "rare_ore_rich", "shipbreaking_center")), new ArrayList<String>(Arrays.asList("population", "spaceport", "refining", "mining", "militarybase", "heavyindustry", "heavybatteries", "sw_golan_iii_zann", "patrolhq")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.2f);
+		MarketAPI hypori_market = SW_AddMarket.SW_AddMarket("sw_zann", (SectorEntityToken)hypori1, null, "Hypori", 8, new ArrayList<String>(Arrays.asList("population_8", "desert", "hot", "ore_rich", "rare_ore_rich", "shipbreaking_center")), new ArrayList<String>(Arrays.asList("population", "spaceport", "refining", "mining", "militarybase", "heavyindustry", "heavybatteries", "sw_zann_station_zann", "patrolhq")), new ArrayList<String>(Arrays.asList("storage", "black_market", "open_market", "generic_military")), 0.2f);
 		
 		//SpecialItemData nanoforge = new SpecialItemData("pristine_nanoforge", "special_item1");
 		hypori_market.getIndustry("militarybase").setAICoreId("alpha_core");
@@ -71,7 +71,7 @@ public class HyporiPrime {
 		hypori_market.getIndustry("mining").setAICoreId("alpha_core");
 		hypori_market.getIndustry("refining").setAICoreId("alpha_core");
 		hypori_market.getIndustry("patrolhq").setAICoreId("alpha_core");
-		hypori_market.getIndustry("sw_golan_iii_zann").setAICoreId("alpha_core");
+		hypori_market.getIndustry("sw_zann_station_zann").setAICoreId("alpha_core");
 		hypori_market.getIndustry("population").setAICoreId("beta_core");
 		hypori_market.getIndustry("spaceport").setAICoreId("beta_core");
 		hypori_market.getIndustry("heavybatteries").setAICoreId("beta_core");		

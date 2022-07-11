@@ -56,7 +56,7 @@
     ],
     
     "defenceStations":[
-        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["sw_zann_station_zann", "sw_golan_ii_zann", "sw_golan_iii_zann"]},
         {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
     ],
     

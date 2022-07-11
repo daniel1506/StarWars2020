@@ -14,7 +14,7 @@ import com.fs.starfarer.api.util.IntervalUtil;
 public class DeflectorShield extends BaseHullMod {
 
 	private IntervalUtil tracker = new IntervalUtil(0.5f, 1f);
-	private boolean shieldRecharging;
+	private boolean shieldRecharging = false;
 	private float sinceLast = 0f;
 	private float time;
 	public static final int HARD_FLUX_DISSIPATION_PERCENT = 20;

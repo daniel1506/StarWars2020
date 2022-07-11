@@ -32,19 +32,19 @@
 	],
     "startShipsCombatSmall":[
 		["sw_dissident_firstorder", "sw_first_order_light_cruiser_firstorder", "sw_dreadnought_heavy"],
-		["sw_dissident_firstorder", "sw_dreadnought_heavy", "sw_lancer_heavy"]
+		["sw_maxima_a_firstorder", "sw_dreadnought_heavy", "sw_lancer_heavy"]
 	],
     "startShipsCombatLarge":[
 		["sw_resurgent_firstorder", "sw_dreadnought_heavy", "sw_lancer_heavy"],
 		["sw_imperial_i_firstorder", "sw_dreadnought_heavy", "sw_dreadnought_heavy"]
 	],
     "startShipsCarrierSmall":[
-		["sw_dissident_firstorder", "sw_first_order_carrier_firstorder", "sw_gozanti_firstorder"],
+		["sw_maxima_a_firstorder", "sw_first_order_carrier_firstorder", "sw_gozanti_firstorder"],
 		["sw_dissident_firstorder", "sw_first_order_carrier_firstorder", "sw_lancer_heavy"]
 	],
     "startShipsCarrierLarge":[		
-		["sw_resurgent_firstorder", "sw_victory_i_imperial", "sw_lancer_heavy"],
-		["sw_imperial_i_firstorder", "sw_victory_i_imperial", "sw_dreadnought_heavy"]
+		["sw_resurgent_firstorder", "sw_first_order_carrier_firstorder", "sw_lancer_heavy"],
+		["sw_imperial_i_firstorder", "sw_first_order_carrier_firstorder", "sw_dreadnought_heavy"]
 	],
     
     "startSpecialItems":[

@@ -96,7 +96,7 @@ public class BrightJewelPrime {
 		ordMantell_market.getIndustry("megaport").setAICoreId("beta_core");
 		ordMantell_market.getIndustry("heavybatteries").setAICoreId("beta_core");
 		ordMantell_market.getIndustry("planetaryshield").setAICoreId("beta_core");
-		ordMantell_market.getIndustry("orbitalworks").setAICoreId("alpha_core_core");
+		ordMantell_market.getIndustry("orbitalworks").setAICoreId("alpha_core");
 		ordMantell_market.getIndustry("orbitalworks").setSpecialItem(nanoforge);
 		
 		//PlanetAPI coruscant3 = system.addPlanet("byss", coruscant_star, "Byss", "terran", 50, 216f, 9000, 207f);
