@@ -1,0 +1,51 @@
+{
+  "id": "sw_cin_ion_cannon",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_nk3_ion_laser",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/sw_laser_cannon_turret_base.png",
+  #"turretGlowSprite": "graphics/weapons/sw_ion_cannon_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/sw_laser_cannon_turret_base.png",
+  #"hardpointGlowSprite": "graphics/weapons/sw_ion_cannon_hardpoint_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    0,
+    250,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    2,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    2,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 3,
+    "spread": 5,
+    "particleSizeMin": 5,
+    "particleSizeRange": 7,
+    "particleDuration": 0.2,
+    "particleCount": 10,
+    "particleColor": [
+      0,
+      200,
+      255,
+      200
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "sw_sound_nk7_ion_cannon"
+}

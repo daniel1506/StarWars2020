@@ -2,7 +2,7 @@
   "variantId": "sw_acclamator_republic",
   "hullId": "sw_acclamator",
   "displayName": "Republic",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

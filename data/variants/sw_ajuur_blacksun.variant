@@ -2,7 +2,7 @@
   "variantId": "sw_ajuur_blacksun",
   "hullId": "sw_ajuur",
   "displayName": "Black Sun",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

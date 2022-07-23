@@ -13,7 +13,7 @@ public class SWOrbitalStationFirstOrder extends OrbitalStation
         final SectorAPI sector = Global.getSector();
         final FactionAPI player = sector.getFaction("player");
         final FactionAPI empire = sector.getFaction("sw_first_order");
-        if (!this.market.hasIndustry("sw_golan_iii_firstorder") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(empire).isAtWorst(RepLevel.WELCOMING) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
+        if (!this.market.hasIndustry("sw_golan_iii_firstorder") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(empire).isAtWorst(RepLevel.FRIENDLY) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
             canBuild = false;
         }
         return canBuild;

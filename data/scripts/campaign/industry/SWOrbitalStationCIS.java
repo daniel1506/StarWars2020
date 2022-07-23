@@ -13,7 +13,7 @@ public class SWOrbitalStationCIS extends OrbitalStation
         final SectorAPI sector = Global.getSector();
         final FactionAPI player = sector.getFaction("player");
         final FactionAPI cis = sector.getFaction("sw_cis");
-        if (!this.market.hasIndustry("sw_golan_iii_cis") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(cis).isAtWorst(RepLevel.WELCOMING) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
+        if (!this.market.hasIndustry("sw_golan_iii_cis") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(cis).isAtWorst(RepLevel.FRIENDLY) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
             canBuild = false;
         }
         return canBuild;

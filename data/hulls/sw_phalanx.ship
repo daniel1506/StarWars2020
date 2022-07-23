@@ -3,7 +3,7 @@
   "hullId": "sw_phalanx",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/chiss/sw_phalanx.png",
-  "style": "SW_IMPERIAL",
+  "style": "SW_CHISS",
   "height": 649,
   "width": 206,
   "center": [103, 324.5],

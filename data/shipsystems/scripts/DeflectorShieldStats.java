@@ -64,7 +64,7 @@ public class DeflectorShieldStats extends BaseShipSystemScript {
 					}
 				}
 				else {
-					flux.increaseFlux(damageAmount, true);
+					flux.increaseFlux(damageAmount, !(param instanceof BeamAPI));
 					if (param instanceof DamagingProjectileAPI) {
 						DamagingProjectileAPI proj = (DamagingProjectileAPI) param;
 						engine.addFloatingDamageText(point, damageAmount, TEXT_COLOR, target, proj.getSource());
@@ -72,7 +72,7 @@ public class DeflectorShieldStats extends BaseShipSystemScript {
 					else if (param instanceof BeamAPI) {
 						BeamAPI beam = (BeamAPI) param;
 						engine.addFloatingDamageText(point, damageAmount, TEXT_COLOR, target, beam.getSource());
-						flux.increaseFlux(damageAmount, false);
+						//flux.increaseFlux(damageAmount, false);
 					}
 				}
 				return "On";

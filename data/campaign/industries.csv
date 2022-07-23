@@ -1,5 +1,5 @@
 id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
-sw_shieldgate_imperial,Golan M3185 Shield Gate,50,90,,3,,sw_golan_iii_imperial,"station, sub_item, unraidable, structure","{
+sw_shieldgate_imperial,Imperial Golan M3185 Shield Gate,50,90,,3,,sw_golan_iii_imperial,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:sw_station_shieldgate_imperial,
 fleetName:Golan M3185 Shield Gate,
@@ -156,7 +156,7 @@ fleetName:Golan III Space Defense NovaGun,
 Must be reduced before invasions or bombardment can be attempted.",2020
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
-sw_shieldgate_firstorder,Golan M3185 Shield Gate,50,90,,3,,sw_golan_iii_firstorder,"station, sub_item, unraidable, structure","{
+sw_shieldgate_firstorder,First Order Golan M3185 Shield Gate,50,90,,3,,sw_golan_iii_firstorder,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:sw_station_shieldgate_firstorder,
 fleetName:Golan M3185 Shield Gate,
@@ -181,7 +181,7 @@ fleetName:Imperial Dockyards
 Must be reduced before invasions or bombardment can be attempted.",2030
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
-sw_shieldgate_chiss,Golan M3185 Shield Gate,50,90,,3,,sw_golan_iii_chiss,"station, sub_item, unraidable, structure","{
+sw_shieldgate_chiss,Asscendancy Golan M3185 Shield Gate,50,90,,3,,sw_golan_iii_chiss,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:sw_station_shieldgate_chiss,
 fleetName:Golan M3185 Shield Gate,
@@ -189,7 +189,7 @@ fleetName:Golan M3185 Shield Gate,
 
 Must be reduced before invasions or bombardment can be attempted.",2010
 ,,,,,,,,,,,,,
-sw_golan_iii_chiss,Chiss Ascendancy Golan III Space Defense NovaGun,100,120,,4,sw_shieldgate_chiss,sw_shipyards_chiss,"station, battlestation, unraidable, structure","{
+sw_golan_iii_chiss,Ascendancy Golan III Space Defense NovaGun,100,120,,4,sw_shieldgate_chiss,sw_shipyards_chiss,"station, battlestation, unraidable, structure","{
 radius:65,
 variant:sw_station_golan_iii_chiss,
 fleetName:Golan III Space Defense NovaGun,

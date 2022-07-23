@@ -13,7 +13,7 @@ public class SWOrbitalStationZann extends OrbitalStation
         final SectorAPI sector = Global.getSector();
         final FactionAPI player = sector.getFaction("player");
         final FactionAPI zann = sector.getFaction("sw_zann");
-        if (!this.market.hasIndustry("sw_golan_ii_zann") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(zann).isAtWorst(RepLevel.WELCOMING) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
+        if (!this.market.hasIndustry("sw_golan_ii_zann") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(zann).isAtWorst(RepLevel.FRIENDLY) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
             canBuild = false;
         }
         return canBuild;

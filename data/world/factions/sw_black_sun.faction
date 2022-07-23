@@ -43,6 +43,7 @@
 		"sw_bulwark_mk1_blacksun":10,
 		"sw_bulwark_mk2_blacksun":10,
 		"sw_neutron_star_rebel":10,
+		"sw_interceptor_iv_blacksun":10,
 	},
 	
 	# multiplier for how often hulls show up in the faction's fleets

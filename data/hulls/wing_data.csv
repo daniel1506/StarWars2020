@@ -69,6 +69,8 @@ sw_preybird_wing,sw_preybird_fighter,"fighter4, fighter, high, sw_hightech_bp, b
 sw_flarestar_wing,sw_flarestar_support,"support5, support, high, sw_hightech_bp, zann, black_sun",3,,0,15,V,4000,500,0,3,SUPPORT,Support,15,4000,,,,,,,,,,,,,
 sw_m22t_wing,sw_m22t_bomber,"bomber5, bomber, high, sw_hightech_bp, mandal, black_sun",3,,0,15,V,4000,500,0,3,BOMBER,Bomber,17,4000,,,,,,,,,,,,,
 sw_g1m4c_wing,sw_g1m4c_fighter,"fighter5, fighter, high, sw_hightech_bp, mandal, black_sun",3,,0,15,V,4000,500,0,3,FIGHTER,Fighter,15,4000,,,,,,,,,,,,,
+sw_kyrgalaar_wing,sw_kyrgalaar_fighter,"fighter5, fighter, high, sw_hightech_bp, mandal",3,,0,15,V,4000,500,0,3,FIGHTER,Fighter,17,4000,,,,,,,,,,,,,
+sw_besuliik_wing,sw_besuliik_interceptor,"interceptor5, interceptor, high, sw_hightech_bp, mandal",3,,0,15,V,4000,500,0,3,INTERCEPTOR,Interceptor,15,4000,,,,,,,,,,,,,
 sw_ixiyen_wing,sw_ixiyen_interceptor,"interceptor5, interceptor, high, sw_hightech_bp, black_sun",3,,0,15,V,4000,500,0,3,INTERCEPTOR,Interceptor,15,4000,,,,,,,,,,,,,
 sw_lancer_pc_wing,sw_lancer_pc_fighter,"fighter5, fighter, high, sw_hightech_bp, mandal, black_sun",3,,0,20,V,4000,500,0,3,FIGHTER,Fighter,17,5000,,,,,,,,,,,,,
 sw_komrk_wing,sw_komrk_fighter,"fighter5, fighter, high, sw_hightech_bp, mandal",3,,0,20,V,4000,500,0,3,FIGHTER,Fighter,17,5000,,,,,,,,,,,,,

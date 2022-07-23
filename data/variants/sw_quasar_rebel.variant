@@ -2,7 +2,7 @@
   "variantId": "sw_quasar_rebel",
   "hullId": "sw_quasar",
   "displayName": "Rebel",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

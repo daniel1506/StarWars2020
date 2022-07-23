@@ -1,7 +1,7 @@
 {
   "id": "sw_quad_megamaser",
   "specClass": "projectile",
-  "projectileSpecId": "sw_bluelaser3",
+  "projectileSpecId": "sw_bluemaser3",
   "type": "ENERGY",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/sw_quad_turbolaser_turret_base.png",

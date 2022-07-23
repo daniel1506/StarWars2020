@@ -1,0 +1,95 @@
+{
+  "hullName": "Besuliik Starfighter",
+  "hullId": "sw_besuliik",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_besuliik.png",
+  "style": "HIGH_TECH",
+  "height": 50,
+  "width": 54,
+  "center": [27, 25],
+  "collisionRadius": 30,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [11, -12]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5, 22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-5, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, 7.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-22, -7.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    24.5, -2.5,
+    12.5, -8.5,
+    12.5, -11.5,
+    -0.5, -12,
+    -4.5, -24.5,
+    -9.5, -26.5,
+    -12.5, -26.5,
+    -11.5, -24.5,
+    -11.5, -21.5,
+    -24.5, -6.5,
+    -24.5, 6.5,
+    -11.5, 21.5,
+    -11.5, 24.5,
+    -12.5, 26.5,
+    -9.5, 26.5,
+    -4.5, 24.5,
+    -0.5, 12,
+    12.5, 11.5,
+    12.5, 8.5,
+    24.5, 2.5
+  ]
+}

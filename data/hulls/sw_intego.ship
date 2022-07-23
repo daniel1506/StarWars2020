@@ -3,7 +3,7 @@
   "hullId": "sw_intego",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/chiss/sw_intego.png",
-  "style": "SW_IMPERIAL",
+  "style": "SW_CHISS",
   "height": 671,
   "width": 389,
   "center": [194.5, 336.5],

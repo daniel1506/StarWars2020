@@ -2,7 +2,7 @@
   "variantId": "sw_carrack_republic",
   "hullId": "sw_carrack",
   "displayName": "Republic",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 10,
   "fluxVents": 10,
   "quality": 1,

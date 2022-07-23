@@ -2,7 +2,7 @@
   "variantId": "sw_carrack_imperial",
   "hullId": "sw_carrack",
   "displayName": "Imperial",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 10,
   "fluxVents": 10,
   "quality": 1,

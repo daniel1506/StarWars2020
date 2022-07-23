@@ -23,23 +23,23 @@
     
     "startShipsSolo":[["sw_keldabe_zann"]],
     "startShipsTradeSmall":[
-		["sw_jahaveyir_mandal", "sw_crusader_mandal", "sw_bff_1_bulk"],
-		["sw_jahaveyir_mandal", "sw_jahaveyir_mandal", "sw_bff_1_bulk"]
+		["sw_jehaveyir_mandal", "sw_crusader_mandal", "sw_bff_1_bulk"],
+		["sw_jehaveyir_mandal", "sw_jehaveyir_mandal", "sw_bff_1_bulk"]
 	],
     "startShipsTradeLarge":[
 		["sw_kandosii_mandal", "sw_crusader_mandal", "sw_aa9_super"],
 		["sw_keldabe_zann", "sw_crusader_mandal", "sw_aa9_super"]
 	],
     "startShipsCombatSmall":[
-		["sw_jahaveyir_mandal", "sw_jahaveyir_mandal", "sw_crusader_mandal"],
+		["sw_jehaveyir_mandal", "sw_jehaveyir_mandal", "sw_crusader_mandal"],
 		["sw_teroch_mandal", "sw_crusader_mandal", "sw_crusader_mandal"]
 	],
     "startShipsCombatLarge":[
-		["sw_aggressor_mandalorian_mandal", "sw_jahaveyir_mandal", "sw_crusader_mandal"],
-		["sw_keldabe_zann", "sw_teroch_mandal", "sw_jahaveyir_mandal"]
+		["sw_aggressor_mandalorian_mandal", "sw_jehaveyir_mandal", "sw_crusader_mandal"],
+		["sw_keldabe_zann", "sw_teroch_mandal", "sw_jehaveyir_mandal"]
 	],
     "startShipsCarrierSmall":[
-		["sw_dreadnought_carrier_mandal", "sw_jahaveyir_mandal", "sw_crusader_mandal"],
+		["sw_dreadnought_carrier_mandal", "sw_jehaveyir_mandal", "sw_crusader_mandal"],
 		["sw_dreadnought_carrier_mandal", "sw_dreadnought_carrier_mandal", "sw_crusader_mandal"]
 	],
     "startShipsCarrierLarge":[		

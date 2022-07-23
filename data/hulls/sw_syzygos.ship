@@ -3,7 +3,7 @@
   "hullId": "sw_syzygos",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/chiss/sw_syzygos.png",
-  "style": "SW_IMPERIAL",
+  "style": "SW_CHISS",
   "height": 146,
   "width": 64,
   "center": [32, 73],

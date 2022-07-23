@@ -3,7 +3,7 @@
   "hullId": "sw_syndic",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/chiss/sw_syndic.png",
-  "style": "SW_IMPERIAL",
+  "style": "SW_CHISS",
   "height": 493,
   "width": 232,
   "center": [116, 246.5],

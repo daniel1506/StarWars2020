@@ -1,0 +1,142 @@
+{
+  "hullName": "Kyr'galaar Starfighter",
+  "hullId": "sw_kyrgalaar",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_kyrgallar.png",
+  "style": "HIGH_TECH",
+  "height": 59,
+  "width": 42,
+  "center": [21, 29.5],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [20.5, 2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [20.5, -2]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3.5, 11.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [3.5, -11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14.5, 4.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [14.5, -4.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7.5, 8.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-7.5, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, 10.5],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    },
+    {
+      "location": [-22, -10.5],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    29, -0.5,
+    21, -2.5,
+    14, -5.5,
+    6, -6.5,
+    6, -10.5,
+    -10, -20.5,
+    -19, -20.5,
+    -22, -13.5,
+    -22, -8.5,
+    -29, -2,
+    -29, 2,
+    -22, 8.5,
+    -22, 13.5,
+    -19, 20.5,
+    -10, 20.5,
+    6, 10.5,
+    6, 6.5,
+    14, 5.5,
+    21, 2.5,
+    29, 0.5
+  ]
+}

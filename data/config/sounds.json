@@ -45,6 +45,9 @@
 	"sw_sound_ion_cannon":[
 		{"file":"sounds/sfx_wpn_energy/sw_ion_cannon_fire.ogg","pitch":1.0,"volume":0.1},
 	],
+	"sw_sound_nk7_ion_cannon":[
+		{"file":"sounds/sfx_wpn_energy/sw_nk7_ion_cannon_fire.ogg","pitch":1.0,"volume":0.2},
+	],
 	"sw_sound_torpedo_launch":[
 		{"file":"sounds/sfx_wpn_missiles/sw_torpedo_launch.ogg","pitch":1.0,"volume":0.2},
 	],
@@ -116,6 +119,16 @@
 		{"file":"sounds/sfx_systems/sw_tractor_beam4.ogg","pitch":1.0,"volume":1.0},
 		{"file":"sounds/sfx_systems/sw_tractor_beam5.ogg","pitch":1.0,"volume":1.0},
 		{"file":"sounds/sfx_systems/sw_tractor_beam6.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_system_s_foils":[
+		{"file":"sounds/sfx_systems/sw_s_foils1.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_s_foils2.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_s_foils3.ogg","pitch":1.0,"volume":1.0},
+	],
+	"sw_system_s_foils_deactivate":[
+		{"file":"sounds/sfx_systems/sw_s_foils4.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_s_foils5.ogg","pitch":1.0,"volume":1.0},
+		{"file":"sounds/sfx_systems/sw_s_foils6.ogg","pitch":1.0,"volume":1.0},
 	],
 	"sw_system_tactical_analysis1":[
 		{"file":"sounds/sfx_systems/sw_tactical_analysis1.ogg","pitch":1.0,"volume":1.0},

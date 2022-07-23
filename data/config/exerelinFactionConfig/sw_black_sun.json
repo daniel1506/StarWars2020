@@ -27,16 +27,16 @@
     
     "startShipsSolo":[["sw_venator_black_sun_blacksun"]],
     "startShipsTradeSmall":[
-		["sw_interceptor_iv_blacksun", "sw_veg77_blacksun", "sw_bff_1_bulk"],
+		["sw_interceptor_iv_blacksun", "sw_aeg77_blacksun", "sw_bff_1_bulk"],
 		["sw_interceptor_iv_blacksun", "sw_gozanti_black_sun_blacksun", "sw_bff_1_bulk"]
 	],
     "startShipsTradeLarge":[
-		["sw_venngeance_friagate_zann", "sw_trireme_blacksun", "sw_aa9_super"],
-		["sw_venngeance_friagate_zann", "sw_interceptor_iv_blacksun", "sw_aa9_super"]
+		["sw_vengeance_frigate_zann", "sw_trireme_blacksun", "sw_aa9_super"],
+		["sw_vengeance_frigate_zann", "sw_interceptor_iv_blacksun", "sw_aa9_super"]
 	],
     "startShipsCombatSmall":[
-		["sw_venngeance_friagate_zann", "sw_interceptor_iv_blacksun", "sw_trireme_blacksun"],
-		["sw_venngeance_friagate_zann", "sw_corona_blacksun", "sw_trireme_blacksun"]
+		["sw_vengeance_frigate_zann", "sw_interceptor_iv_blacksun", "sw_trireme_blacksun"],
+		["sw_vengeance_frigate_zann", "sw_corona_blacksun", "sw_trireme_blacksun"]
 	],
     "startShipsCombatLarge":[
 		["sw_venator_black_sun_blacksun", "sw_interceptor_iv_blacksun", "sw_interceptor_iv_blacksun"],

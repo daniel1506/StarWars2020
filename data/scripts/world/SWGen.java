@@ -104,33 +104,6 @@ public class SWGen implements SectorGeneratorPlugin {
 		SharedData.getData().getPersonBountyEventData().addParticipatingFaction("sw_first_order");
 		SharedData.getData().getPersonBountyEventData().addParticipatingFaction("sw_chiss");
 		
-		
-		/*SectorEntityToken deep_hyperspace_test = Global.getSector().getHyperspace().addTerrain(Terrain.NEBULA, new BaseTiledTerrain.TileParams(
-				"   xx     " +
-				"   xxx    " +
-				"  xxx x   " +
-				"  xx   x  " +
-				" xxxx xxx " +
-				"  xxxxxxx " +
-				" xxxxxxxxx" +
-				" xxxxxxxxx" +
-				"  xxxxxxx " +
-				" xxxxxxx  " +
-				" x xxxxx  " +
-				"  xxxxxx  " +
-				" xxxx xxx " +
-				"xxxx  xxx " +
-				" xxxx     " +
-				"xxxxxxxxx " +
-				"  xxxxxxxx" +
-				" xxxxxxxxx" +
-				"  xxxxxxx " +
-				"   xxx    ",
-				10, 20, // size of the nebula grid, should match above string
-				"terrain", "deep_hyperspace", 4, 4));
-		
-		deep_hyperspace_test.getLocation().set(5000,5000);*/
-		
 		this.setRelationships(sector);
 		
 	}

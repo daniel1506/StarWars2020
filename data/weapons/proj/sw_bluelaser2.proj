@@ -11,7 +11,7 @@
 	"coreColor":[0,102,255,200],
 	"glowColor":[0,102,255,75],
 	"glowRadius":0,
-	"hitGlowRadius":5,	
+	"hitGlowRadius":10,	
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
 	"bulletSprite":"graphics/missiles/sw_bluelaser2.png"	

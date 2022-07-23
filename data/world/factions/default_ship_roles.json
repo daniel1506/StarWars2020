@@ -63,6 +63,8 @@
 		"sw_mc20_rebel":7,
 		
 		"sw_trireme_blacksun":10,
+		"sw_interceptor_iv_zann":10,
+		"sw_interceptor_iv_blacksun":10,
 		"sw_crusader_mandal":10,
 		"sw_jehaveyir_mandal":5,
 		"sw_ipv2c_republic":4,
@@ -97,6 +99,7 @@
 		"sw_neutron_star_imperial":2,
 		
 		"sw_kynigos_chiss":10,
+		"sw_prolipsi_chiss":7,
 		
 		"sw_dissident_firstorder":10,
 		
@@ -243,7 +246,8 @@
 		"sw_core_ship_cis":8,
 		"sw_venator_imperial_imperial":5,
 		"sw_auxilia_cis":5,
-		"sw_liberator_rebel":7,
+		"sw_liberator_rebel":8,
+		"sw_endurance_rebel":6,
 		"sw_captor_cis":10,
 		
 		"sw_ormos_chiss":5,
@@ -257,6 +261,7 @@
 
 		"sw_consolidator_assault":10,
 		"sw_mc75_rebel":10,
+		"sw_endurance_rebel":5,
 		
 		"sw_auxilia_cis":10,
 		"sw_venator_black_sun_blacksun":10,

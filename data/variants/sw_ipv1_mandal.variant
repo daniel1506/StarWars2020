@@ -2,7 +2,7 @@
   "variantId": "sw_ipv1_mandal",
   "hullId": "sw_ipv1",
   "displayName": "Mandalorian",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

@@ -2,7 +2,7 @@
   "variantId": "sw_quasar_imperial",
   "hullId": "sw_quasar",
   "displayName": "Imperial",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

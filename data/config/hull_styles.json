@@ -203,6 +203,47 @@
 		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_hightech_heavy.png",
 	},
 
+	"SW_CHISS":{
+		"hyperspaceJitterColor":[50,205,255,200],
+		"baseCampaignExplosionColor":[100,165,255,255],
+		"baseCombatExplosionColor":[255,150,50,255],
+		"fighterRepairFlickerColor":[100,165,255,0],
+		"fighterChipIconColor":[255,150,50,255],
+		"weaponDisabledExplosionColor":[100,165,255,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[255,200,100,75],
+		"fluxVentCoreColor":[50,205,255,50],
+		"fluxVentFringeColor":[50,150,255,50],
+		"engineLoopSet":"sw_imperial_engine_loop", 					# id of entry in sounds.json
+		"engineAccelerateSet":"engine_accelerate",		# id of entry in sounds.json
+		"empLoopSet":"emp_loop",						# id of entry in sounds.json
+		"fluxLoopSet":"flux_loop",						# id of entry in sounds.json
+		"ventFluxSet":"vent_flux",						# id of entry in sounds.json
+		"shieldBurnoutSet":"shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		#"colorShiftCovers":true,
+		"coversColorShiftAmount":1,  # 0 to 1
+		"coversMatchShipBrightness":true,
+		
+		#"colorShiftCovers":false,
+		"slotCoverSmallTurret":"graphics/weapons/covers/cover_turret_hightech_small.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_small.png",
+		"slotCoverMediumTurret":"graphics/weapons/covers/cover_turret_hightech_medium.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_medium.png",
+		"slotCoverLargeTurret":"graphics/weapons/covers/cover_turret_hightech_large.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_large.png",
+
+		"dHullOverlayLight":"graphics/damage/dmod_overlay_hightech_light.png",
+		"dHullOverlayMedium":"graphics/damage/dmod_overlay_hightech_medium.png",
+		"dHullOverlayHeavy":"graphics/damage/dmod_overlay_hightech_heavy.png",
+	},
+
+
 	
 }
 

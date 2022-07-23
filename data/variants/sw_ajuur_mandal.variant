@@ -2,7 +2,7 @@
   "variantId": "sw_ajuur_mandal",
   "hullId": "sw_ajuur",
   "displayName": "Mandalorian",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

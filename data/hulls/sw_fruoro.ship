@@ -3,7 +3,7 @@
   "hullId": "sw_fruoro",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/chiss/sw_fruoro.png",
-  "style": "SW_IMPERIAL",
+  "style": "SW_CHISS",
   "height": 232,
   "width": 93,
   "center": [46, 116],

@@ -2,7 +2,7 @@
   "variantId": "sw_lucrehulk_cis",
   "hullId": "sw_lucrehulk",
   "displayName": "CIS",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "quality": 1,

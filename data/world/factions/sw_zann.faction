@@ -28,6 +28,7 @@
 	"variantOverrides":{
 		"sw_ipv1_mandal":10,
 		"sw_corona_zann":10,
+		"sw_interceptor_iv_zann":10,
 	},
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
