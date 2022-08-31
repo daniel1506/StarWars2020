@@ -7,12 +7,13 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
 public class JediCommander extends BaseHullMod {
 
-	public static final float CR_LOSS_PER_SECOND_PERCENT = 50f;
+	public static final float CR_LOSS_PER_SECOND_PERCENT = 25f;
 	//public static final float PEAK_CR_DURATION_BONUS = 120f;
 	public static final float MALFUNCTION_CHANCE_PERCENT = 0.5f;
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-		stats.getCRLossPerSecondPercent().modifyFlat(id, 0f - CR_LOSS_PER_SECOND_PERCENT);
+		//stats.getCRLossPerSecondPercent().modifyFlat(id, 0f - CR_LOSS_PER_SECOND_PERCENT);
+		stats.getCRLossPerSecondPercent().modifyMult(id, 1f - CR_LOSS_PER_SECOND_PERCENT / 100f);
 		//stats.getPeakCRDuration().modifyFlat(id, PEAK_CR_DURATION_BONUS);
 		stats.getCriticalMalfunctionChance().modifyMult(id, MALFUNCTION_CHANCE_PERCENT);
 	}

@@ -1,0 +1,215 @@
+{
+  "hullName": "Modular Taskforce Cruiser",
+  "hullId": "sw_modular_taskforce_cruiser",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/empire/sw_modular_taskforce_cruiser.png",
+  "style": "SW_IMPERIAL",
+  "height": 478,
+  "width": 149,
+  "center": [74.5, 239],
+  "collisionRadius": 242.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 243.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "advanced_ground_support"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -190, 25,
+        -165, 25
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -190, -25,
+        -165, -25
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 80,
+      "locations": [167.5, 16.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -80,
+      "locations": [167.5, -16.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 80,
+      "locations": [99, 32.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -80,
+      "locations": [99, -32.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [30, 40]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [30, -40]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-52, 43]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-52, -43]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-190, 30]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-190, -30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-237.5, 31.5],
+      "length": 10,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-237.5, -31.5],
+      "length": 10,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-237.5, -0],
+      "length": 10,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    220.5, -6,
+    196.5, -12,
+    190.5, -12,
+    166.5, -19,
+    157.5, -19,
+    89.5, -36,
+    71.5, -39,
+    62.5, -44,
+    26.5, -62,
+    6.5, -68,
+    -7.5, -71,
+    -40.5, -74,
+    -50.5, -74,
+    -73.5, -62,
+    -81.5, -56,
+    -85.5, -51,
+    -95.5, -39,
+    -103.5, -20,
+    -103.5, -15,
+    -147.5, -15,
+    -152.5, -19.5,
+    -148.5, -22,
+    -148.5, -43,
+    -156.5, -57,
+    -229.5, -57,
+    -237.5, -48,
+    -237.5, 48,
+    -229.5, 57,
+    -156.5, 57,
+    -148.5, 43,
+    -148.5, 22,
+    -152.5, 19.5,
+    -147.5, 15,
+    -103.5, 15,
+    -103.5, 20,
+    -95.5, 39,
+    -85.5, 51,
+    -81.5, 56,
+    -73.5, 62,
+    -50.5, 74,
+    -40.5, 74,
+    -7.5, 71,
+    6.5, 68,
+    26.5, 62,
+    62.5, 44,
+    71.5, 39,
+    89.5, 36,
+    157.5, 19,
+    166.5, 19,
+    190.5, 12,
+    196.5, 12,
+    220.5, 6,
+    238.5, -0
+  ]
+}
