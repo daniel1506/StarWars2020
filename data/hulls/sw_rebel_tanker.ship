@@ -13,7 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
-    "repair_gantry"
+    "repair_gantry",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

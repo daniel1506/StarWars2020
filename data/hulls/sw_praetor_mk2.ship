@@ -16,7 +16,8 @@
     "ground_support",
     "nav_relay",
     "operations_center",
-    "hiressensors"
+    "hiressensors",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

@@ -14,7 +14,8 @@
   "builtInMods": [
     "blast_doors",
     "operations_center",
-    "ground_support"
+    "ground_support",
+    "sw_deflector_shield"
   ],
   "builtInWeapons": {
     "WS0001": "sw_megamaser_ultraheavy"

@@ -14,7 +14,8 @@
   "builtInMods": [
     "blast_doors",
     "repair_gantry",
-    "sw_targeting_computer"
+    "sw_targeting_computer",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

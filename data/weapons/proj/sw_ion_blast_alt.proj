@@ -1,0 +1,17 @@
+{
+	"id":"sw_ion_blast_alt",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"width":100,
+	"fadeTime":0.3,
+	"fringeColor":[100,200,255,255],
+	"coreColor":[255,255,255,200],
+	"textureType":"ROUGH",  # now also used for "BALLISTIC_AS_BEAM", if specified
+	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":1.0,
+	"passThroughMissiles":true,
+}

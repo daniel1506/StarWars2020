@@ -16,7 +16,8 @@
     "drive_field_stabilizer",
     "hiressensors",
     "operations_center",
-    "ground_support"
+    "ground_support",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

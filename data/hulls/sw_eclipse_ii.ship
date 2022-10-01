@@ -17,7 +17,8 @@
     "hiressensors",
     "operations_center",
     "drive_field_stabilizer",
-    "sw_base_delta_zero"
+    "sw_base_delta_zero",
+    "sw_deflector_shield"
   ],
   "builtInWeapons": {
     "WS0001": "sw_eclipse_ii_superlaser"

@@ -1,14 +1,13 @@
 {
 	"id":"sw", # required code id
 	"name":"Star Wars Mod", # required friendly name
-	"version":"0.9.4", # required mod version
+	"version":"0.9.5", # required mod version
 	"description":"Star Wars 2020 Mod", # required friendly mod description
 	"gameVersion":"0.95.1a-RC6", # required starsector version this was designed for
 	"dependencies": [
         	{
             	"id": "lw_lazylib",
             	"name": "LazyLib",
-            	#"version": "2.6"
         	},
 		{
             	"id": "shaderLib",
@@ -17,11 +16,11 @@
         	{
             	"id": "MagicLib",
             	"name": "MagicLib",
-            	#"version": "0.42"
         	},
     	],
 	"author":"BeyondTheHorizon", # author's name
 	"utility":"false", # utility toggle
 	"totalConversion":"false", # total conversion toggle
-	"replace":[""] # files to not load (for total conversions)
+	"replace":[""], # files to not load (for total conversions)
+	"modPlugin":"data.scripts.SWModPlugin",
 }

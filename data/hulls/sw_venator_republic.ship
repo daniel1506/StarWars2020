@@ -16,7 +16,8 @@
     "ground_support",
     "operations_center",
     "recovery_shuttles",
-    "sw_jedi_commander"
+    "sw_jedi_commander",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

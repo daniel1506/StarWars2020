@@ -15,7 +15,9 @@
     "advanced_ground_support",
     "blast_doors",
     "hiressensors",
-    "operations_center"
+    "operations_center",
+    "sw_redundant_shield_generator",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

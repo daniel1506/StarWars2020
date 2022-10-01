@@ -16,7 +16,8 @@
     "blast_doors",
     "hiressensors",
     "operations_center",
-    "phasefield"
+    "phasefield",
+    "sw_deflector_shield"
   ],
   "builtInWeapons": {
     "WS0001": "sw_ion_blast_cannon",

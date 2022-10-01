@@ -1,7 +1,7 @@
 {
   "id": "sw_ion_blast_cannon",
   "specClass": "projectile",
-  "projectileSpecId": "sw_ion_blast",
+  "projectileSpecId": "sw_ion_blast_alt",
   "type": "ENERGY",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/sw_plasma_cannon_turret_base.png",

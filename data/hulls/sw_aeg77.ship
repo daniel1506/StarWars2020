@@ -14,7 +14,8 @@
   "builtInMods": [
     "blast_doors",
     "shielded_holds",
-    "civgrade"
+    "civgrade",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

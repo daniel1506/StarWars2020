@@ -1,0 +1,64 @@
+{
+  "variantId": "sw_mg100_bomber",
+  "hullId": "sw_mg100",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_tb_laser_cannon",
+        "WS0002": "sw_tb_laser_cannon",
+        "WS0003": "sw_tb_laser_cannon",
+        "WS0004": "sw_tb_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_tb_laser_cannon",
+        "WS0006": "sw_tb_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sw_tb_quad_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sw_tb_quad_laser_cannon",
+        "WS0009": "sw_tb_quad_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sw_proton_bomb",
+        "WS0011": "sw_proton_bomb",
+        "WS0012": "sw_proton_bomb",
+        "WS0013": "sw_proton_bomb",
+        "WS0014": "sw_proton_bomb",
+        "WS0015": "sw_proton_bomb",
+        "WS0016": "sw_proton_bomb",
+        "WS0017": "sw_proton_bomb",
+        "WS0018": "sw_proton_bomb",
+        "WS0019": "sw_proton_bomb"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -15,7 +15,8 @@
     "blast_doors",
     "repair_gantry",
     "civgrade",
-    "shielded_holds"
+    "shielded_holds",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

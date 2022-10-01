@@ -1,7 +1,7 @@
 {
   "id": "sw_plasma_cannon",
   "specClass": "projectile",
-  "projectileSpecId": "sw_plasma_charge",
+  "projectileSpecId": "sw_plasma_charge_alt",
   "type": "ENERGY",
   "size": "LARGE",
   "turretSprite": "graphics/weapons/sw_plasma_cannon_turret_base.png",

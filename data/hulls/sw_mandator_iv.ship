@@ -16,7 +16,8 @@
     "blast_doors",
     "operations_center",
     "hiressensors",
-    "sw_base_delta_zero"
+    "sw_base_delta_zero",
+    "sw_deflector_shield"
   ],
   "builtInWeapons": {
     "WS0001": "sw_orbital_autocannon",

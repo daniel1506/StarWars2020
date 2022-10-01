@@ -14,7 +14,8 @@
   "builtInMods": [
     "blast_doors",
     "ground_support",
-    "recovery_shuttles"
+    "recovery_shuttles",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

@@ -157,6 +157,9 @@
 		{"file":"sounds/sfx_systems/sw_point_defense1.ogg","pitch":1.0,"volume":1.0},
 		{"file":"sounds/sfx_systems/sw_point_defense2.ogg","pitch":1.0,"volume":1.0},
 	],
+	"sw_system_hyperspace_jump":[
+		{"file":"sounds/sfx_systems/sw_hyperspace_jump1.ogg","pitch":1.0,"volume":0.9},
+	],
 	"sw_imperial_shields_burnout":[
 		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout1.ogg","pitch":1,"volume":0.7},
 		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout2.ogg","pitch":1,"volume":0.7},

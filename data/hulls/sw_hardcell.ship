@@ -14,7 +14,8 @@
   "builtInMods": [
     "blast_doors",
     "shielded_holds",
-    "repair_gantry"
+    "repair_gantry",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

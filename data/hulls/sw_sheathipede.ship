@@ -12,7 +12,8 @@
   "shieldRadius": 49.5,
   "viewOffset": 0,
   "builtInMods": [
-    "blast_doors"
+    "blast_doors",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

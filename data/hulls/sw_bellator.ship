@@ -16,7 +16,8 @@
     "hiressensors",
     "operations_center",
     "targetingunit",
-    "advanced_ground_support"
+    "advanced_ground_support",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {

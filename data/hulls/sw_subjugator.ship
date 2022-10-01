@@ -15,7 +15,8 @@
     "advanced_ground_support",
     "blast_doors",
     "hiressensors",
-    "operations_center"
+    "operations_center",
+    "sw_deflector_shield"
   ],
   "builtInWeapons": {
     "WS0001": "sw_ion_pulse_cannon",

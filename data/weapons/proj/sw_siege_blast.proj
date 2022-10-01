@@ -1,0 +1,20 @@
+{
+	"id":"sw_siege_blast",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":90.0,
+	"width":14,
+	"fadeTime":0.3,
+	"fringeColor":[255,80,80,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[255,50,50,125],
+	"glowRadius":90,
+	"hitGlowRadius":90,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/sw_plasma_charge.png",
+	"passThroughMissiles":true,
+	#"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

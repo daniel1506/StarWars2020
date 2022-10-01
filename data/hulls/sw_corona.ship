@@ -14,7 +14,8 @@
   "builtInMods": [
     "blast_doors",
     "ground_support",
-    "anchorrotation"
+    "anchorrotation",
+    "sw_deflector_shield"
   ],
   "weaponSlots": [
     {
