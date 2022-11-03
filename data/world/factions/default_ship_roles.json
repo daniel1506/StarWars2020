@@ -21,12 +21,15 @@
 		"sw_arquitens_imperial":10,
 		"sw_arquitens_republic_republic":10,
 		"sw_nebulon_b_rebel":10,
+		"sw_pinnance_cis":10,
+		"sw_lupus_cis":5,
 
 		"sw_ipv1_imperial":10,
 		"sw_ipv1_mandal":10,
 		"sw_ipv1_blacksun":10,
 		
 		"sw_fruoro_chiss":10,
+		"sw_rohkea_chiss":7,
 		"sw_syzygos_chiss":5,
 		
 		"sw_first_order_light_cruiser_firstorder":10,
@@ -56,6 +59,9 @@
 
 		"sw_arquitens_imperial":10,
 		"sw_nebulon_b_rebel":10,
+		"sw_pinnance_cis":10,
+		"sw_lupus_cis":10,
+		"sw_arquitens_republic_republic":5,
 
 		"sw_gozanti_imperial":5,
 		"sw_gozanti_black_sun_blacksun":5,
@@ -71,6 +77,7 @@
 		
 		"sw_fruoro_chiss":10,
 		"sw_syzygos_chiss":10,
+		"sw_rohkea_chiss":10,
 		
 		"sw_first_order_light_cruiser_firstorder":10,
 		
@@ -199,7 +206,7 @@
 		"sw_vcx100_light":10,
 		"sw_gr75_medium":10,
 		"sw_aeg77_blacksun":10,
-		"sw_c9979_cis":2,
+		"sw_c9979_cis":1,
 		"fallback":{"freighterSmall":1},
 	},
 	"combatFreighterMedium":{
@@ -229,7 +236,7 @@
 	"carrierSmall":{
 		"sw_quasar_imperial":10,
 		"sw_quasar_rebel":10,
-		"sw_c9979_cis":2,
+		"sw_c9979_cis":1,
 		
 		"sw_ormos_chiss":10,
 		
@@ -366,7 +373,7 @@
 		"sw_vcx100_light":5,
 		"sw_vt49_imperial":5,
 		"sw_aeg77_blacksun":5,
-		"sw_c9979_cis":2,
+		"sw_c9979_cis":1,
 		"fallback":{"linerMedium":0.5},
 		"fallback2":{"linerLarge":0.25},
 	},
