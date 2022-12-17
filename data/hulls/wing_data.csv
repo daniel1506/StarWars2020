@@ -65,7 +65,7 @@ sw_m12l_wingt,sw_m12l_bomber,"bomber4, bomber, midline, sw_midline_bp, mandal",2
 sw_kihraxz_wing,sw_kihraxz_fighter,"fighter4, fighter, midline, sw_midline_bp, black_sun",2,,0,10,V,4000,500,0,3,FIGHTER,Fighter,10,3000,,,,,,,,,,,,,
 sw_n1_wing,sw_n1_fighter,"fighter4, fighter, midline, sw_midline_bp, republic",2,,0,10,V,4000,500,0,3,FIGHTER,Fighter,10,3000,,,,,,,,,,,,,
 sw_nb1s_wing,sw_nb1s_bomber,"bomber4, bomber, midline, sw_midline_bp, republic",2,,0,10,V,4000,500,0,3,BOMBER,Bomber,15,3000,,,,,,,,,,,,,
-sw_t20_wing,sw_t20_support,"support4, support, midline, sw_midline_bp, cis",2,,0,10,V,4000,500,0,3,SUPPORT,Support,12,3000,,,,,,,,,,,,,
+sw_t20_wing,sw_t20_support,"support4, support, midline, sw_midline_bp, cis",2,,0,10,V,4000,500,0,5,SUPPORT,Support,12,3000,,,,,,,,,,,,,
 sw_scimitar_wing,sw_scimitar_fighter,"fighter5, fighter, high, sw_hightech_bp, cis",3,,0,15,V,4000,500,0,3,FIGHTER,Fighter,15,4000,,,,,,,,,,,,,
 sw_x4_gunship_wing,sw_x4_gunship_fighter,"fighter5, fighter, high, sw_hightech_bp, rebel, black_sun",3,,0,20,V,4000,500,0,3,FIGHTER,Fighter,20,5000,,,,,,,,,,,,,
 sw_preybird_wing,sw_preybird_fighter,"fighter4, fighter, high, sw_hightech_bp, black_sun",3,,0,15,V,4000,500,0,3,FIGHTER,Fighter,13,4000,,,,,,,,,,,,,

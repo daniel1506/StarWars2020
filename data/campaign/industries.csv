@@ -123,7 +123,7 @@ fleetName:Zann Consortium Space Station,
 
 Must be reduced before invasions or bombardment can be attempted.",2010
 ,,,,,,,,,,,,,
-sw_golan_ii_zann,Zann Consortium Golan II Space Defense SpaceGun,50,90,,3,sw_zann_station_zann,sw_golan_iii_zann,"station, sub_item, unraidable, structure","{
+sw_golan_ii_zann,Zann Consortium Golan II Space Defense SpaceGun,50,90,,3,sw_zann_station_zann,sw_golan_iii_zann,"station, battlestation, unraidable, structure","{
 radius:55,
 variant:sw_station_golan_ii_zann,
 fleetName:Golan II Space Defense SpaceGun,
@@ -131,7 +131,7 @@ fleetName:Golan II Space Defense SpaceGun,
 
 Must be reduced before invasions or bombardment can be attempted.",2020
 ,,,,,,,,,,,,,
-sw_golan_iii_zann,Zann Consortium Golan III Space Defense NovaGun,100,120,,4,sw_golan_ii_zann,,"station, battlestation, unraidable, structure","{
+sw_golan_iii_zann,Zann Consortium Golan III Space Defense NovaGun,100,120,,4,sw_golan_ii_zann,,"station, starfortress, unraidable, structure","{
 radius:65,
 variant:sw_station_golan_iii_zann,
 fleetName:Golan III Space Defense NovaGun,
@@ -204,3 +204,19 @@ fleetName:Imperial Dockyards
 }",graphics/icons/industry/sw_shipyards.png,data.scripts.campaign.industry.SWOrbitalStationChiss,"Imperial dockyards were a class of space stations servicing and attending to its many starships.
 
 Must be reduced before invasions or bombardment can be attempted.",2030
+,,,,,,,,,,,,,
+sw_light_shipyard,Orbital Light Shipyard,50,90,,3,,sw_heavy_shipyard,"station, sub_item, unraidable, structure","{
+radius:60,
+variant:sw_station_light_shipyard_standard,
+fleetName:Light Shipyard,
+}",graphics/icons/industry/sw_light_shipyard.png,data.scripts.campaign.industry.SWOrbitalStationShipyard,"Orbital Light Shipyard was a place where starships were either constructed or repaired, typically located in orbit around a planet, dedicated ship production facilities improved the quality of the ships produced by 20 percent. Shipyard was lightly armed compares to space defense stations but was guarded by starfighters and ships. ",2010
+sw_heavy_shipyard,Orbital Heavy Shipyard,100,120,,4,sw_light_shipyard,sw_capital_shipyard,"station, battlestation, unraidable, structure","{
+radius:65,
+variant:sw_station_heavy_shipyard_standard,
+fleetName:Heavy Shipyard,
+}",graphics/icons/industry/sw_heavy_shipyard.png,data.scripts.campaign.industry.SWOrbitalStationShipyard,"Orbital Heavy Shipyard was a place where starships were either constructed or repaired, typically located in orbit around a planet, it improved the quality of the ships produced by 30 percent. Shipyard was lightly armed compares to space defense stations but was guarded by starfighters and ships.",2020
+sw_capital_shipyard,Orbital Capital Shipyard,200,180,,5,sw_heavy_shipyard,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:sw_station_capital_shipyard_standard,
+fleetName:Capital Shipyard,
+}",graphics/icons/industry/sw_capital_shipyard.png,data.scripts.campaign.industry.SWOrbitalStationShipyard,"Orbital Capital Shipyard was a place where starships were either constructed or repaired, typically located in orbit around a planet, it improved the quality of the ships produced by 40 percent. Shipyard was lightly armed compares to space defense stations but was guarded by starfighters and ships.",2030

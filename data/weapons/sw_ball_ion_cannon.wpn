@@ -5,9 +5,9 @@
   "type": "ENERGY",
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/sw_ball_ion_cannon_turret_base.png",
-  "turretGlowSprite": "graphics/weapons/sw_ion_cannon_turret_glow.png",
+  #"turretGlowSprite": "graphics/weapons/sw_ion_cannon_turret_glow.png",
   "hardpointSprite": "graphics/weapons/sw_ball_ion_cannon_turret_base.png",
-  "hardpointGlowSprite": "graphics/weapons/sw_ion_cannon_hardpoint_glow.png",
+  #"hardpointGlowSprite": "graphics/weapons/sw_ion_cannon_hardpoint_glow.png",
   "renderAboveAllWeapons": 0,
   "glowColor": [
     0,

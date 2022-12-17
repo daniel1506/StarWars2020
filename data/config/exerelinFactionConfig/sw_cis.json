@@ -53,7 +53,7 @@
     
     "defenceStations":[
         {"ids":["sw_golan_ii_cis", "sw_golan_iii_cis", "sw_shipyards_cis"]},
-        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+        {"ids":["sw_light_shipyard", "sw_heavy_shipyard", "sw_capital_shipyard"], "weight":0.5},
     ],
     
     "industrySeeds":[

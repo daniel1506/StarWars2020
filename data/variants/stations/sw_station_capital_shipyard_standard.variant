@@ -1,0 +1,27 @@
+{
+  "variantId": "sw_station_capital_shipyard_standard",
+  "hullId": "sw_station_capital_shipyard",
+  "displayName": "Orbital",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "sw_module_capital_shipyard1_standard"
+    },
+    {
+      "WS0002": "sw_module_capital_shipyard2_standard"
+    },
+    {
+      "WS0003": "sw_module_capital_shipyard4_standard"
+    },
+    {
+      "WS0004": "sw_module_capital_shipyard3_standard"
+    }
+  ],
+  "wings": []
+}

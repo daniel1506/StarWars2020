@@ -53,7 +53,7 @@
     
     "defenceStations":[
         {"ids":["sw_shieldgate_imperial", "sw_golan_iii_imperial", "sw_shipyards_imperial"]},
-        {"ids":["orbitalstation", "battlestation", "starfortress"], "weight":0.5},
+        {"ids":["sw_light_shipyard", "sw_heavy_shipyard", "sw_capital_shipyard"], "weight":0.5},
     ],
     
     "industrySeeds":[

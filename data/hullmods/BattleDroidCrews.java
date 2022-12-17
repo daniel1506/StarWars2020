@@ -19,7 +19,7 @@ public class BattleDroidCrews extends BaseHullMod {
 	
 	public String getDescriptionParam(int index, HullSize hullSize, ShipAPI ship) {
 		if (index == 0) return "" + (int) Math.round((1f - CREW_MULT) * 100f) + "%";
-		if (index == 1) return "" + (int) Math.round((1f - MAL_MULT) * 100f) + "%";
+		if (index == 1) return "" + (int) Math.round((MAL_MULT - 1f) * 100f) + "%";
 		return null;
 	}
 
