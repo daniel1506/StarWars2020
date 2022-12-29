@@ -1,0 +1,222 @@
+{
+  "hullName": "Imperial Escort Carrier",
+  "hullId": "sw_imperial_escort_carrier",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/empire/sw_imperial_escort_carrier.png",
+  "style": "SW_IMPERIAL",
+  "height": 239,
+  "width": 91,
+  "center": [45.5, 119.5],
+  "collisionRadius": 119.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 120,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "ground_support",
+    "recovery_shuttles",
+    "sw_deflector_shield",
+    "sw_escape_pod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [62.5, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [9.5, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-88, 26.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-88, -26.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-79, 40]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-79, -40]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-88, 40]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-88, -40]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -35, 5,
+        -35, 15
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -35, -5,
+        -35, -15
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -50, -0,
+        -30, -0
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-111, 18],
+      "length": 10,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-111, -18],
+      "length": 10,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [39, 36],
+      "length": 15,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [39, -36],
+      "length": 15,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    114, -3,
+    110, -3,
+    110, -5,
+    92, -15,
+    87, -15,
+    76, -24,
+    64, -31,
+    60, -31,
+    41, -44,
+    39, -44,
+    39, -31,
+    20, -13,
+    2, -15,
+    -11, -15,
+    -11, -12,
+    -39, -16,
+    -64, -16,
+    -64, -19,
+    -68, -22,
+    -74, -24,
+    -74, -37,
+    -73, -40,
+    -77, -41,
+    -92, -41,
+    -111, -20,
+    -112, -15,
+    -119, -8,
+    -119, 8,
+    -112, 15,
+    -111, 20,
+    -92, 41,
+    -77, 41,
+    -73, 40,
+    -74, 37,
+    -74, 24,
+    -68, 22,
+    -64, 19,
+    -64, 16,
+    -39, 16,
+    -11, 12,
+    -11, 15,
+    2, 15,
+    20, 13,
+    39, 31,
+    39, 44,
+    41, 44,
+    60, 31,
+    64, 31,
+    76, 24,
+    87, 15,
+    92, 15,
+    110, 5,
+    110, 3,
+    114, 3,
+    119, -0
+  ]
+}

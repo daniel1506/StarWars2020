@@ -124,6 +124,7 @@
 		"sw_victory_i_imperial":10,
 		"sw_victory_ii_imperial":10,
 		"sw_victory_i_republic":10,
+		"sw_onager_imperial": 5,
 		"sw_nebula_rebel":10,
 		"sw_providence_cis":10,
 		"sw_sabaoth_destroyer_cis":10,
@@ -188,6 +189,7 @@
 		"sw_mandator_iv_firstorder":3,
 		"sw_mc85_rebel":2,
 		"sw_viscount_rebel":3,
+		"sw_lusankya_rebel":1,
 		"sw_executor_imperial":3,
 		"sw_eclipse_i_imperial":2,
 		"sw_eclipse_ii_imperial":1,
@@ -237,6 +239,7 @@
 		"sw_quasar_imperial":10,
 		"sw_quasar_rebel":10,
 		"sw_c9979_cis":1,
+		"sw_imperial_escort_carrier_imperial":5,
 		
 		"sw_ormos_chiss":10,
 		

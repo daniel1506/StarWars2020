@@ -3,7 +3,7 @@
 	"type":"DRONE_LAUNCHER",
 	"aiType":"DRONE_LAUNCHER_PD",
 	
-	"droneVariant":"sw_imperial_ii_imperial",
+	"droneVariant":"sw_tector_imperial",
 	#"droneVariant":"gargoyle_Standard",
 	
 	

@@ -89,5 +89,6 @@ sw_tie_baron_wing,sw_tie_baron_interceptor,"interceptor5, interceptor, high, sw_
 sw_nsiss_wing,sw_nsiss_fighter,"fighter2, fighter, low, sw_lowtech_bp, chiss",1,,0,5,V,4000,500,0,3,FIGHTER,Fighter,7,2000,,,,,,,,,,,,,
 sw_krsiss_wing,sw_krsiss_interceptor,"interceptor2, interceptor, low, sw_lowtech_bp, chiss",1,,0,5,V,4000,500,0,3,INTERCEPTOR,Interceptor,7,2000,,,,,,,,,,,,,
 sw_syca_wing,sw_syca_bomber,"bomber2, bomber, low, sw_lowtech_bp, chiss",1,,0,5,V,4000,500,0,3,BOMBER,Bomber,10,2000,,,,,,,,,,,,,
+sw_air_straeker_wing,sw_air_straeker_support,"support2, support, low, sw_lowtech_bp, chiss",1,,0,5,BOX,4000,500,0,4,SUPPORT,Support,7,2000,,,,,,,,,,,,,
 sw_scarsiss_wing,sw_scarsiss_interceptor,"interceptor4, interceptor, mid, sw_midline_bp, chiss",2,,0,10,V,4000,500,0,3,INTERCEPTOR,Interceptor,10,3000,,,,,,,,,,,,,
 sw_furion_wing,sw_furion_bomber,"bomber4, bomber, mid, sw_midline_bp, chiss",2,,0,10,V,4000,500,0,3,BOMBER,Bomber,13,3000,,,,,,,,,,,,,

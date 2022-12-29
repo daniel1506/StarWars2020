@@ -1,0 +1,8 @@
+{
+	"id":"sw_compositebeamturbolaser",
+	"type":"WEAPON",
+	"aiType":"CANISTER_FLAK",
+	
+	"weaponDataId":"sw_composite_beam_turbolaser",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

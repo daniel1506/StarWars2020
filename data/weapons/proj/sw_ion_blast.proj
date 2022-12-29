@@ -9,6 +9,7 @@
 	"collisionRadius":12,
 	"collisionClass":"PROJECTILE_FF",
 	#"collisionClassByFighter":"NONE",
+	"passThroughMissiles":true,
 	"explosionColor":[50,150,255,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":50, # purely visual
 	"flameoutTime":0.1,
