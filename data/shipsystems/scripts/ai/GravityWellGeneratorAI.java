@@ -28,9 +28,27 @@ public class GravityWellGeneratorAI implements ShipSystemAIScript {
 	private CombatUtils combat;
 	private IntervalUtil tracker = new IntervalUtil(0.5f, 1f);	
 	
-	public boolean started = false;
-	public boolean isActive = false;
-	public List<String> Teleport_System = new ArrayList<String>();		
+	private boolean isActive = false;
+	public static List<String> Teleport_System = new ArrayList<String>();
+	static {
+		Teleport_System.add("phaseteleporter");
+		Teleport_System.add("displacer");
+		Teleport_System.add("deracinator");
+		Teleport_System.add("deracinator_small");
+		Teleport_System.add("br_impulseskimmer");
+		Teleport_System.add("fds_quantum_generator");
+		Teleport_System.add("ora_teleporter");
+		Teleport_System.add("SCY_experimentalTeleporter");
+		Teleport_System.add("SCY_teleport");
+		Teleport_System.add("ms_displacer");
+		Teleport_System.add("ms_rakporter");
+		Teleport_System.add("diableavionics_flicker");
+		Teleport_System.add("diableavionics_heavyflicker");
+		Teleport_System.add("diableavionics_drift");	
+		Teleport_System.add("AL_displacerSec");
+		Teleport_System.add("AL_eddydisplacer");
+	}
+	
 	
 	public void init(CombatUtils combat)
 	{
@@ -51,27 +69,7 @@ public class GravityWellGeneratorAI implements ShipSystemAIScript {
 	public void advance(float amount, Vector2f missileDangerDir, Vector2f collisionDangerDir, ShipAPI target) {
 		tracker.advance(amount);
 		
-		sinceLast += amount;
-		
-		if (!started) {
-			Teleport_System.add("phaseteleporter");
-			Teleport_System.add("displacer");
-			Teleport_System.add("deracinator");
-			Teleport_System.add("deracinator_small");
-			Teleport_System.add("br_impulseskimmer");
-			Teleport_System.add("fds_quantum_generator");
-			Teleport_System.add("ora_teleporter");
-			Teleport_System.add("SCY_experimentalTeleporter");
-			Teleport_System.add("SCY_teleport");
-			Teleport_System.add("ms_displacer");
-			Teleport_System.add("ms_rakporter");
-			Teleport_System.add("diableavionics_flicker");
-			Teleport_System.add("diableavionics_heavyflicker");
-			Teleport_System.add("diableavionics_drift");	
-			Teleport_System.add("AL_displacerSec");
-			Teleport_System.add("AL_eddydisplacer");					
-			started = true;
-		}
+		sinceLast += amount;	
 		
 		if (tracker.intervalElapsed()) {
 			if (system.getCooldownRemaining() > 0) return;
@@ -80,7 +78,7 @@ public class GravityWellGeneratorAI implements ShipSystemAIScript {
 			if (ship.getHardFluxLevel() > 0.7f) return;
 			
 			int enemyMissiles = 0;
-			List<ShipAPI> ships = combat.getShipsWithinRange(ship.getLocation(), 1900);
+			List<ShipAPI> ships = combat.getShipsWithinRange(ship.getLocation(), ship.getCollisionRadius() + 1950f);
 			for (ShipAPI s : ships) {		
 				if (s.getOriginalOwner() != ship.getOriginalOwner() && s.isAlive()) {
 					if (s.getSystem() != null) {
@@ -92,7 +90,7 @@ public class GravityWellGeneratorAI implements ShipSystemAIScript {
 					}															
 				}				
 			}			
-			List<MissileAPI> missiles = combat.getMissilesWithinRange(ship.getLocation(), 1300f);
+			List<MissileAPI> missiles = combat.getMissilesWithinRange(ship.getLocation(), ship.getCollisionRadius() + 1400f);
 			for (MissileAPI m : missiles) {
 				if (m.getSource().getOriginalOwner() != ship.getOriginalOwner()) {
 						enemyMissiles++;

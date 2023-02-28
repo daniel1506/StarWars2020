@@ -1,0 +1,21 @@
+{
+	"id":"sw_cloakingdevice",
+	"type":"PHASE_CLOAK",
+	#"aiType":"PHASE_CLOAK",
+	#"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.CloakingDeviceAI",
+	
+	"statsScript":"data.shipsystems.scripts.CloakingDeviceStats",
+	
+	#"weaponGlowColor":[255,0,255,255],
+	#"weaponTypes":[ENERGY],
+	
+	#"useSound":"beam_heavy_intro",
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	#"loopSound":"system_high_energy_focus_loop",	
+}

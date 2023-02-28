@@ -1,4 +1,5 @@
 # Star Wars 2020
+
 A Star Wars mod for the game Starsector
 
 ### Features
@@ -17,12 +18,18 @@ Pilotable Starfighter sub-mod (require Arma Armature mod)
 
 Star Wars Portraits.
 
+Commissioned Crews mod supported.
+
 Compatible with Nexerelin.
 
-### Credit 
+### Credit
 
 Ship sprite artworks:
-﻿Fractalsponge (Ansel Hsiao) and Star Wars Interregnum team, especially dolynick.
+Fractalsponge (Ansel Hsiao), Star Wars Interregnum team, EAW Thrawn's Revenge team, EAW remake team and EAW Rise of the Mandalorians team.
+
+DecimaMASAdmiral for Lusankya Executor-class SSD and Knight Hammer Executor-class SSD.
+
+YoungJihad and acky1 for gathering Star Wars portraits.
 
 LazyWizard for LazyLib.
 
@@ -32,9 +39,9 @@ Tartiflette for MagicLib.
 
 shoi for Arma Armature.
 
-YoungJihad and acky1 for gathering Star Wars portraits.
+Timid for Commissioned Crews.
 
-﻿Inspiration from the Star Wars mod created by LazyWizard and ShadowFox.
+Inspiration from the Star Wars mod created by LazyWizard and ShadowFox.
 
 Special thanks to Alex and the dev team of Starsector, Starsector community and all Star Wars fans.
 

@@ -59,25 +59,27 @@ public class SWVoiceLines extends BaseEveryFrameCombatPlugin{
 		{
 			FlamedOutSoundPlayed = false;
 		}
+		
 		if (playerShip.getFluxTracker().isOverloaded() == true && playerShip.isAlive())
 		{
-			if(ShieldsBurnoutSoundPlayed == false) 
-			{
+			if(ShieldsBurnoutSoundPlayed == false) {
 				sound.playSound("sw_imperial_shields_burnout",1f,1f,playerShip.getLocation(),playerShip.getVelocity());
 				ShieldsBurnoutSoundPlayed = true;
-			}
+			}		
 		}
 		else if (playerShip.getVariant().hasHullMod("sw_deflector_shield") && playerShip.isDefenseDisabled()) {
-			if(ShieldsBurnoutSoundPlayed == false) 
-			{
-				sound.playSound("sw_imperial_shields_burnout",1f,1f,playerShip.getLocation(),playerShip.getVelocity());
-				ShieldsBurnoutSoundPlayed = true;
-			}
+			if (!playerShip.getSystem().getId().equals("sw_cloakingdevice") || !playerShip.getSystem().isActive()) {
+				if(ShieldsBurnoutSoundPlayed == false) {
+					sound.playSound("sw_imperial_shields_burnout",1f,1f,playerShip.getLocation(),playerShip.getVelocity());
+					ShieldsBurnoutSoundPlayed = true;
+				}
+			}		
 		}
 		else if (playerShip.getFluxTracker().isOverloaded() == false && !playerShip.isDefenseDisabled())
 		{			
 			ShieldsBurnoutSoundPlayed = false;
-		}	
+		}
+		
 		if (engine.getFleetManager(playerShip.getOriginalOwner()).getTaskManager(false).isInFullRetreat() && !FullRetreatSoundPlayed) {
 			sound.playSound("sw_retreat",1f,1f,playerShip.getLocation(),playerShip.getVelocity());
 			FullRetreatSoundPlayed = true;
@@ -86,6 +88,7 @@ public class SWVoiceLines extends BaseEveryFrameCombatPlugin{
 			sound.playSound("sw_enemy_retreat",1f,1f,playerShip.getLocation(),playerShip.getVelocity());
 			EnemyFullRetreatSoundPlayed = true;
 		}
+		
 		if (!playerShip.isPullBackFighters() && isRegrouping != playerShip.isPullBackFighters()) {
 			if (engine.isUIAutopilotOn()) {
 				sound.playSound("sw_wings_attack",1f,1f,playerShip.getLocation(),playerShip.getVelocity());

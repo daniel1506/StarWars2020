@@ -165,7 +165,7 @@
       "locations": [40, -55]
     },
     {
-      "id": "WS0010",
+      "id": "WS0009",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",
@@ -174,7 +174,7 @@
       "locations": [10, 55]
     },
     {
-      "id": "WS0011",
+      "id": "WS0010",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "TURRET",

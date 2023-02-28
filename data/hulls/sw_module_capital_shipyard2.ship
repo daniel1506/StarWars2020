@@ -17,7 +17,6 @@
     "heavyarmor",
     "never_detaches",
     "sw_r_droids",
-    "supercomputer",
     "reduced_explosion"
   ],
   "weaponSlots": [
@@ -67,18 +66,6 @@
       "locations": [
         -125, -310,
         -125, -345
-      ]
-    },
-    {
-      "id": "LB 5",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [
-        -110, -310,
-        -110, -345
       ]
     },
     {

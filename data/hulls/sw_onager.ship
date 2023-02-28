@@ -195,7 +195,7 @@
       "id": "WS0017",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "TURRET",
+      "mount": "HIDDEN",
       "arc": 180,
       "angle": 85,
       "locations": [40, 76]
@@ -204,7 +204,7 @@
       "id": "WS0018",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "TURRET",
+      "mount": "HIDDEN",
       "arc": 180,
       "angle": -85,
       "locations": [40, -76]
@@ -213,7 +213,7 @@
       "id": "WS0019",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "TURRET",
+      "mount": "HIDDEN",
       "arc": 180,
       "angle": 85,
       "locations": [-40, 83.5]
@@ -222,7 +222,7 @@
       "id": "WS0020",
       "size": "MEDIUM",
       "type": "ENERGY",
-      "mount": "TURRET",
+      "mount": "HIDDEN",
       "arc": 180,
       "angle": -85,
       "locations": [-40, -83.5]

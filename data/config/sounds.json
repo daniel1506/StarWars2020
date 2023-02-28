@@ -160,6 +160,20 @@
 	"sw_system_hyperspace_jump":[
 		{"file":"sounds/sfx_systems/sw_hyperspace_jump1.ogg","pitch":1.0,"volume":0.9},
 	],
+	"sw_system_cloaking_device":[
+		{"file":"sounds/sfx_systems/sw_cloaking_device1.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/sfx_systems/sw_cloaking_device2.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/sfx_systems/sw_cloaking_device3.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/sfx_systems/sw_cloaking_device4.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/sfx_systems/sw_cloaking_device5.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/sfx_systems/sw_cloaking_device6.ogg","pitch":1.0,"volume":0.9},
+	],
+	"sw_system_cloaking_device_deactivate":[
+		{"file":"sounds/sfx_systems/sw_cloaking_device7.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/sfx_systems/sw_cloaking_device8.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/sfx_systems/sw_cloaking_device9.ogg","pitch":1.0,"volume":0.9},
+		{"file":"sounds/sfx_systems/sw_cloaking_device10.ogg","pitch":1.0,"volume":0.9},
+	],
 	"sw_imperial_shields_burnout":[
 		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout1.ogg","pitch":1,"volume":0.7},
 		{"file":"sounds/sfx_voices/sw_imperial_shields_burnout2.ogg","pitch":1,"volume":0.7},
