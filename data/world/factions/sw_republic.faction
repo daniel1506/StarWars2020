@@ -28,6 +28,7 @@
 		"sw_acclamator_republic":10,
 		"sw_dreadnought_republic":10,
 		"sw_victory_i_republic":10,
+		"sw_secutor_republic":10,
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{

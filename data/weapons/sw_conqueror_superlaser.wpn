@@ -1,0 +1,55 @@
+{
+  "id": "sw_conqueror_superlaser",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.combat.SWConquerorFireEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/sw_conqueror_superlaser_turret_base.png",
+  "hardpointSprite": "graphics/weapons/sw_conqueror_superlaser_turret_base.png",
+  "glowColor": [
+    0,
+    255,
+    0,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    75,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    50,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    0,
+    200,
+    0,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 30,
+  "autocharge": true,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 100,
+  "pixelsPerTexel": 10,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundTwo": "sw_sound_superlaser_fire"
+}

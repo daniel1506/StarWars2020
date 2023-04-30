@@ -12,7 +12,7 @@ Tractor Beam Projector,sw_tractorbeam,,,,,,,,,,0.5,10,0.25,45,,,TRUE,,,,,,,,grap
 Medium Tractor Beam Emitter,sw_mediumtractorbeam,,,,,,,,,,0.5,5,0.25,30,,,TRUE,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png,,
 Tactical Analysis,sw_tacticalanalysis,,,,500,,,,,,0.5,10,0.5,30,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png,,
 Thermal Shield,sw_thermalshield,,,,,,,,,,0.5,10,0.5,30,,,TRUE,,TRUE,,,,TRUE,,graphics/icons/hullsys/damper_field.png,,
-Deploy Probe Droid,sw_probedroid,,,,,,,,,,1,1,0.25,60,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png,,
+Deploy Probe Droid,sw_probedroid,,,,,,,,,,1,1,0.25,120,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png,,
 Holdo Maneuver,sw_holdomaneuver,1,,,,,,,,,2.5,2,1,10,,,,,,TRUE,TRUE,TRUE,,TRUE,graphics/icons/hullsys/burn_drive.png,,
 Superheavy Composite Beam Turbolaser,sw_compositebeamturbolaser,,,,,,,,,,,4,,5,,,,,TRUE,,,,,,graphics/icons/hullsys/emp_emitter.png,,
 Request Escort,sw_requestescort_imperial,,,,,,,,,,0.25,,0.1,240,,,,,,,,,,,graphics/icons/hullsys/displacer.png,,

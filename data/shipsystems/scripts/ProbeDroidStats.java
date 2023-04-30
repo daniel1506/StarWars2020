@@ -48,7 +48,7 @@ public class ProbeDroidStats extends BaseShipSystemScript {
 				else if (o.getOwner() != ship.getOriginalOwner() && o.getOwner() != 100) {
 					Random rand = new Random();
 					int successrate = rand.nextInt(9);
-					if (successrate > 3) {
+					if (successrate > 4) {
 						o.setOwner(ship.getOriginalOwner());						
 						//objective = o;
 						//objectivecaptured = 1;

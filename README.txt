@@ -38,6 +38,8 @@ Tartiflette for MagicLib.
 
 shoi for Arma Armature.
 
+Timid for Commissioned Crews.
+
 ﻿Inspiration from the Star Wars mod created by LazyWizard and ShadowFox.
 
 Special thanks to Alex and the dev team of Starsector, Starsector community and all Star Wars fans.

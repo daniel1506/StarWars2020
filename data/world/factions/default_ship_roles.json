@@ -91,6 +91,7 @@
 		"sw_corona_blacksun":10,
 		"sw_jehaveyir_mandal":10,
 		"sw_teroch_mandal":10,
+		"sw_cumulus_pirate":10,
 
 		"sw_dreadnought_heavy":10,
 		"sw_dreadnought_republic":10,
@@ -195,6 +196,7 @@
 		"sw_executor_imperial":3,
 		"sw_eclipse_i_imperial":2,
 		"sw_eclipse_ii_imperial":1,
+		"sw_conqueror_imperial":2,
 		"sw_mega_firstorder":1,
 		
 		"fallback":{"combatLarge":1},
@@ -284,6 +286,7 @@
 		"sw_lucrehulk_cis":7,
 
 		"sw_secutor_imperial":3,
+		"sw_secutor_republic":3,
 		"sw_lucrehulk_rebel":5,
 		
 		"fallback":{"carrierMedium":1},

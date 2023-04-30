@@ -36,6 +36,7 @@
 		"sw_ipv1_imperial":10,
 		"sw_gozanti_imperial":10,
 		"sw_imperial_i_imperial":10,
+		"sw_secutor_imperial":10,
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
@@ -172,9 +173,11 @@
 			"graphics/portraits/empire/Inquisitor2.png",
 			"graphics/portraits/empire/Inquisitor3.png",
 			"graphics/portraits/empire/Inquisitor4.png",
+			"graphics/portraits/empire/Moff_Gideon1.png",
+			"graphics/portraits/empire/Moff_Gideon2.png",
 			"graphics/portraits/chiss/Thrawn5.png",
 			"graphics/portraits/chiss/Thrawn6.png",
-			"graphics/portraits/chiss/Thrawn7.png",			
+			"graphics/portraits/chiss/Thrawn7.png",		
 		],
 		"standard_female":[
 			"graphics/portraits/Med_Droid.png",
