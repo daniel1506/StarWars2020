@@ -25,7 +25,7 @@ public class BaseDeltaZero extends BaseHullMod {
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		stats.getDynamic().getMod(Stats.FLEET_GROUND_SUPPORT).modifyFlat(id, (Float) mag.get(hullSize));
-		stats.getDynamic().getMod(Stats.FLEET_BOMBARD_COST_REDUCTION).modifyFlat(id, GROUND_BONUS);
+		stats.getDynamic().getMod(Stats.FLEET_BOMBARD_COST_REDUCTION).modifyFlat(id, GROUND_BONUS);	
 	}
 	
 	public String getDescriptionParam(int index, HullSize hullSize) {

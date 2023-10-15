@@ -21,7 +21,7 @@ public class SWCCChiss extends BaseHullMod {
     
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return "" + (int) EMP_MULT;
+        if (index == 0) return "" + (int) EMP_MULT + "%";
         //if (index == 1) return "" + ((Float) coom.get(HullSize.DESTROYER)).intValue();
         //if (index == 2) return "" + ((Float) coom.get(HullSize.CRUISER)).intValue();
         //if (index == 3) return "" + ((Float) coom.get(HullSize.CAPITAL_SHIP)).intValue();

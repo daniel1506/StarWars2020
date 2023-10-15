@@ -15,13 +15,22 @@ fleetName:Golan III Space Defense NovaGun,
 
 Must be reduced before invasions or bombardment can be attempted.",2020
 ,,,,,,,,,,,,,
-sw_shipyards_imperial,Imperial Dockyards,200,180,,5,sw_golan_iii_imperial,,"station, starfortress, unraidable, structure","{
+sw_shipyards_imperial,Imperial Dockyards,200,180,,5,sw_golan_iii_imperial,sw_death_star_i,"station, starfortress, unraidable, structure","{
 radius:70,
 variant:sw_station_shipyards_imperial,
 fleetName:Imperial Dockyards
 }",graphics/icons/industry/sw_shipyards.png,data.scripts.campaign.industry.SWOrbitalStationImperial,"Imperial dockyards were a class of space stations servicing and attending to its many starships.
 
 Must be reduced before invasions or bombardment can be attempted.",2030
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+sw_death_star_i,Death Star I,300,250,,6,sw_shipyards_imperial,,"station, starfortress, unraidable, structure","{
+radius:80,
+variant:sw_station_death_star_imperial,
+fleetName:Death Star I
+}",graphics/icons/industry/sw_death_star_i.png,data.scripts.campaign.industry.SWOrbitalStationImperial,"The Death Star Mobile Battle Station was a moon-sized, deep-space mobile battle station constructed by the Galactic Empire.
+
+Must be reduced before invasions or bombardment can be attempted.",2040
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 sw_golan_ii_rebel,New Republic Golan II Space Defense SpaceGun,50,90,,3,,sw_golan_iii_rebel,"station, sub_item, unraidable, structure","{

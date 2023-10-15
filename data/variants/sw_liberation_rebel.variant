@@ -1,0 +1,82 @@
+{
+  "variantId": "sw_liberation_rebel",
+  "hullId": "sw_liberation",
+  "displayName": "Rebel",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sw_dby827_dual_turbolaser",
+        "WS0003": "sw_dby827_dual_turbolaser",
+        "WS0004": "sw_dby827_dual_turbolaser",
+        "WS0005": "sw_dby827_dual_turbolaser",
+        "WS0006": "sw_dby827_dual_turbolaser",
+        "WS0007": "sw_dby827_dual_turbolaser",
+        "WS0008": "sw_dby827_dual_turbolaser",
+        "WS0009": "sw_dby827_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "sw_dual_turbolaser_medium",
+        "WS0011": "sw_dual_turbolaser_medium",
+        "WS0012": "sw_dual_turbolaser_medium",
+        "WS0013": "sw_dual_turbolaser_medium",
+        "WS0014": "sw_dual_turbolaser_medium",
+        "WS0015": "sw_dual_turbolaser_medium",
+        "WS0016": "sw_dual_turbolaser_medium",
+        "WS0017": "sw_dual_turbolaser_medium"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "sw_kdd_dual_turbolaser",
+        "WS0019": "sw_kdd_dual_turbolaser",
+        "WS0020": "sw_kdd_dual_turbolaser",
+        "WS0021": "sw_kdd_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "sw_mg7",
+        "WS0023": "sw_mg7",
+        "WS0024": "sw_mg7",
+        "WS0025": "sw_mg7"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0026": "sw_kdd_laser_cannon",
+        "WS0027": "sw_kdd_laser_cannon",
+        "WS0028": "sw_kdd_laser_cannon",
+        "WS0029": "sw_kdd_laser_cannon",
+        "WS0030": "sw_kdd_laser_cannon",
+        "WS0031": "sw_kdd_laser_cannon",
+        "WS0032": "sw_kdd_laser_cannon",
+        "WS0033": "sw_kdd_laser_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_t65b_xwing_wing",
+    "sw_awing_wing",
+    "sw_ywing_wing",
+    "sw_zwing_wing"
+  ]
+}

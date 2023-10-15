@@ -193,7 +193,9 @@
 			"graphics/portraits/empire/Juno_Eclipse.png",
 			"graphics/portraits/empire/Tie_Pilot1.png",
 			"graphics/portraits/empire/Dedra_Meero1.png",
-			"graphics/portraits/empire/Dedra_Meero2.png",			
+			"graphics/portraits/empire/Dedra_Meero2.png",
+			"graphics/portraits/empire/Morgan_Elsbeth1.png",
+			"graphics/portraits/empire/Morgan_Elsbeth2.png",
 		],
 	},
 	"ranks":{

@@ -11,7 +11,7 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 public class BeskarArmor extends BaseHullMod {
 
 	public static final float ARMOR_BOUNS = 20f;
-	
+	public static float SMOD_MANEUVER_PENALTY = 10f;	
 	
 	private static Map mag = new HashMap();
 	static {
@@ -22,9 +22,17 @@ public class BeskarArmor extends BaseHullMod {
 	}
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+		boolean sMod = isSMod(stats);
 		
 		stats.getArmorBonus().modifyFlat(id, (Float) mag.get(hullSize));
 		stats.getArmorDamageTakenMult().modifyMult(id, 1f - ARMOR_BOUNS * 0.01f);
+		
+		if (sMod) {
+			stats.getAcceleration().modifyMult(id, 1f - SMOD_MANEUVER_PENALTY * 0.01f);
+			stats.getDeceleration().modifyMult(id, 1f - SMOD_MANEUVER_PENALTY * 0.01f);
+			stats.getTurnAcceleration().modifyMult(id, 1f - SMOD_MANEUVER_PENALTY * 0.01f);
+			stats.getMaxTurnRate().modifyMult(id, 1f - SMOD_MANEUVER_PENALTY * 0.01f);
+		}
 		
 	}
 	
@@ -35,6 +43,17 @@ public class BeskarArmor extends BaseHullMod {
 		if (index == 3) return "" + ((Float) mag.get(HullSize.CAPITAL_SHIP)).intValue();
 		if (index == 4) return "" + (int) ARMOR_BOUNS + "%";
 		return null;
+	}
+	
+	@Override
+	public String getSModDescriptionParam(int index, HullSize hullSize, ShipAPI ship) {
+		if (index == 0) return "" + (int) SMOD_MANEUVER_PENALTY + "%";
+		return null;
+	}
+	
+	@Override
+	public boolean isSModEffectAPenalty() {
+		return true;
 	}
 
 	public boolean isApplicableToShip(ShipAPI ship) {		

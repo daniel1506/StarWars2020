@@ -1,0 +1,97 @@
+{
+  "hullName": "Pirate Snug Fighter",
+  "hullId": "sw_pirate_snug_fighter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_pirate_snub_fighter.png",
+  "style": "SW_MANDAL",
+  "height": 44,
+  "width": 27,
+  "center": [13.5, 22],
+  "collisionRadius": 24.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 25,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_deflector_shield"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [20.5, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [20.5, -4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19.5, 4]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [19.5, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, 3.5],
+      "length": 5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18.5, -3.5],
+      "length": 5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18.5, -0],
+      "length": 5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    18.5, -4,
+    14.5, -10,
+    4.5, -6,
+    -6, -6,
+    -16.5, -12,
+    -20.5, -12,
+    -18.5, -4,
+    -18.5, 4,
+    -20.5, 12,
+    -16.5, 12,
+    -6, 6,
+    4.5, 6,
+    14.5, 10,
+    18.5, 4
+  ]
+}

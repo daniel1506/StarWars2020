@@ -20,7 +20,7 @@ public class SWCCCIS extends BaseHullMod {
     
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return "" + (int) SUPPLIES_MULT;
+        if (index == 0) return "" + (int) SUPPLIES_MULT + "%";
         if (index == 1) return "" + 60;
         //if (index == 2) return "" + ((Float) coom.get(HullSize.CRUISER)).intValue();
         //if (index == 3) return "" + ((Float) coom.get(HullSize.CAPITAL_SHIP)).intValue();

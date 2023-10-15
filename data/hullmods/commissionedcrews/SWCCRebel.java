@@ -29,8 +29,8 @@ public class SWCCRebel extends BaseHullMod {
     
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return "" + (int) SHIELD_UPKEEP_MULT;
-        if (index == 1) return "" + (int) OVERLOAD_TIME_MULT;
+        if (index == 0) return "" + (int) SHIELD_UPKEEP_MULT + "%";
+        if (index == 1) return "" + (int) OVERLOAD_TIME_MULT + "%";
         //if (index == 2) return "" + ((Float) map.get(HullSize.CRUISER)).intValue();
         //if (index == 3) return "" + ((Float) map.get(HullSize.CAPITAL_SHIP)).intValue();
         //if (index == 4) return "" + (int) ARMOR_BONUS;

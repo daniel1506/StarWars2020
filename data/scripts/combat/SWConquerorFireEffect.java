@@ -19,7 +19,7 @@ import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.loading.WeaponSlotAPI;
 import com.fs.starfarer.api.util.Misc;
-import data.scripts.util.MagicFakeBeam;
+import org.magiclib.util.MagicFakeBeam;
 
 /**
  * IMPORTANT: will be multiple instances of this, as this doubles as the every frame effect and the on fire effect (same instance)

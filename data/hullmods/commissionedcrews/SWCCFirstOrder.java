@@ -23,7 +23,7 @@ public class SWCCFirstOrder extends BaseHullMod {
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
         //if (index == 0) return "" + HULL_MULT.intValue();
-        if (index == 0) return "" + (int) HULL_DAMAGE_TAKEN_MULT;
+        if (index == 0) return "" + (int) HULL_DAMAGE_TAKEN_MULT + "%";
         //if (index == 2) return "" + ((Float) coom.get(HullSize.CRUISER)).intValue();
         //if (index == 3) return "" + ((Float) coom.get(HullSize.CAPITAL_SHIP)).intValue();
         //if (index == 4) return "" + (int) ARMOR_BONUS;

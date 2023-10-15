@@ -46,6 +46,10 @@ public class RequestEscortAI implements ShipSystemAIScript {
 		
 	@SuppressWarnings("unchecked")	
 	public void advance(float amount, Vector2f missileDangerDir, Vector2f collisionDangerDir, ShipAPI target) {
+		if (!engine.isInCampaign() && !engine.isInCampaignSim() && !engine.isMission()) {
+			return;
+		}
+		
 		tracker.advance(amount);
 		
 		sinceLast += amount;

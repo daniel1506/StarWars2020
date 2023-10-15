@@ -196,6 +196,12 @@
 		{"file":"sounds/sfx_voices/sw_enemy_retreat1.ogg","pitch":1,"volume":1.0},
 		{"file":"sounds/sfx_voices/sw_enemy_retreat2.ogg","pitch":1,"volume":1.0},
 	],
+	"sw_enemy_defeated":[
+		{"file":"sounds/sfx_voices/sw_enemy_defeated1.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_voices/sw_enemy_defeated2.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_voices/sw_enemy_defeated3.ogg","pitch":1,"volume":1.0},
+		{"file":"sounds/sfx_voices/sw_enemy_defeated4.ogg","pitch":1,"volume":1.0},
+	],
 	"sw_wings_attack":[
 		{"file":"sounds/sfx_voices/sw_wings_attack1.ogg","pitch":1,"volume":0.9},
 		{"file":"sounds/sfx_voices/sw_wings_attack2.ogg","pitch":1,"volume":0.9},

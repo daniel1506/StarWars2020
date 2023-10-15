@@ -16,6 +16,8 @@ import com.fs.starfarer.api.combat.ViewportAPI;
 import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.combat.ShipEngineControllerAPI;
 import com.fs.starfarer.api.combat.MutableStat;
+import com.fs.starfarer.api.combat.CombatFleetManagerAPI;
+import com.fs.starfarer.api.mission.FleetSide;
 
 //import org.apache.log4j.Logger;
 
@@ -31,6 +33,7 @@ public class SWVoiceLines extends BaseEveryFrameCombatPlugin{
 	boolean FlamedOutSoundPlayed = false;
 	boolean FullRetreatSoundPlayed = false;
 	boolean EnemyFullRetreatSoundPlayed = false;
+	boolean EnemyDefeatedSoundPlayed = false;
 	boolean isRegrouping = true;
 	
 	public void init(CombatEngineAPI engine)
@@ -45,6 +48,7 @@ public class SWVoiceLines extends BaseEveryFrameCombatPlugin{
         if (Global.getCurrentState() != GameState.COMBAT) return;
 		ShipAPI playerShip = engine.getPlayerShip();
 		if (playerShip.getVariant().hasHullMod("strikeCraft")) return;
+		CombatFleetManagerAPI enemyFleet = engine.getFleetManager(FleetSide.ENEMY);
 		//FluxTrackerAPI flux = playerShip.getFluxTracker();
 		
 		if (playerShip.getEngineController().isFlamedOut() == true && playerShip.isAlive())
@@ -84,9 +88,13 @@ public class SWVoiceLines extends BaseEveryFrameCombatPlugin{
 			sound.playSound("sw_retreat",1f,1f,playerShip.getLocation(),playerShip.getVelocity());
 			FullRetreatSoundPlayed = true;
 		}
-		if (engine.isEnemyInFullRetreat() && !EnemyFullRetreatSoundPlayed) {
+		if (engine.isEnemyInFullRetreat() && !EnemyFullRetreatSoundPlayed && enemyFleet.getDeployedCopy().size() > 0) {
 			sound.playSound("sw_enemy_retreat",1f,1f,playerShip.getLocation(),playerShip.getVelocity());
 			EnemyFullRetreatSoundPlayed = true;
+		}
+		if (engine.isEnemyInFullRetreat() && !EnemyFullRetreatSoundPlayed && !EnemyDefeatedSoundPlayed && enemyFleet.getDeployedCopy().size() == 0) {
+			sound.playSound("sw_enemy_defeated",1f,1f,playerShip.getLocation(),playerShip.getVelocity());
+			EnemyDefeatedSoundPlayed = true;
 		}
 		
 		if (!playerShip.isPullBackFighters() && isRegrouping != playerShip.isPullBackFighters()) {

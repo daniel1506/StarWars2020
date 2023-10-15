@@ -1,0 +1,67 @@
+{
+  "variantId": "sw_station_death_star_i_imperial",
+  "hullId": "sw_station_death_star_i",
+  "displayName": "Imperial",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_death_star_i_superlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_xx9_turbolaser_heavy",
+        "WS0006": "sw_xx9_turbolaser_heavy",
+        "WS0007": "sw_xx9_turbolaser_heavy",
+        "WS0008": "sw_xx9_turbolaser_heavy",
+        "WS0009": "sw_xx9_turbolaser_heavy",
+        "WS0010": "sw_xx9_turbolaser_heavy",
+        "WS0011": "sw_xx9_turbolaser_heavy",
+        "WS0012": "sw_xx9_turbolaser_heavy",
+        "WS0013": "sw_xx9_turbolaser_heavy",
+        "WS0014": "sw_xx9_turbolaser_heavy",
+        "WS0015": "sw_xx9_turbolaser_heavy",
+        "WS0016": "sw_xx9_turbolaser_heavy",
+        "WS0017": "sw_xx9_turbolaser_heavy",
+        "WS0018": "sw_xx9_turbolaser_heavy",
+        "WS0019": "sw_xx9_turbolaser_heavy",
+        "WS0020": "sw_xx9_turbolaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "sw_xx9_turbolaser_heavy",
+        "WS0022": "sw_xx9_turbolaser_heavy",
+        "WS0023": "sw_xx9_turbolaser_heavy",
+        "WS0024": "sw_xx9_turbolaser_heavy",
+        "WS0025": "sw_xx9_turbolaser_heavy",
+        "WS0026": "sw_xx9_turbolaser_heavy",
+        "WS0027": "sw_xx9_turbolaser_heavy",
+        "WS0028": "sw_xx9_turbolaser_heavy"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_tie_fighter_wing",
+    "sw_tie_fighter_wing",
+    "sw_tie_fighter_wing",
+    "sw_tie_fighter_wing",
+    "sw_tie_fighter_wing",
+    "sw_tie_fighter_wing",
+    "sw_tie_bomber_wing",
+    "sw_tie_bomber_wing"
+  ]
+}

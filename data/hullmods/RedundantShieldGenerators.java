@@ -11,6 +11,7 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 public class RedundantShieldGenerators extends BaseHullMod {
 
 	public static final int FLUX_CAPACITY_BOUNS = 10;
+	public static final int OVERLOAD_MULT = 10;
 	//public static final float SHIELD_BONUS = 20f;
 	private static Map mag = new HashMap();
 	static {
@@ -21,6 +22,10 @@ public class RedundantShieldGenerators extends BaseHullMod {
 	}
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+		boolean sMod = isSMod(stats);
+		if (sMod) {
+			stats.getOverloadTimeMod().modifyMult(id, 1f + OVERLOAD_MULT * 0.01f);
+		}
 		stats.getShieldDamageTakenMult().modifyMult(id, 1f - (Float) mag.get(hullSize) * 0.01f);
 		stats.getFluxCapacity().modifyMult(id, 1f + (float) FLUX_CAPACITY_BOUNS * 0.01f);
 	}
@@ -33,6 +38,17 @@ public class RedundantShieldGenerators extends BaseHullMod {
 		if (index == 3) return "" + ((Float) mag.get(HullSize.CAPITAL_SHIP)).intValue() + "%";
 		if (index == 4) return "" + FLUX_CAPACITY_BOUNS + "%";
 		return null;
+	}
+	
+	@Override
+	public String getSModDescriptionParam(int index, HullSize hullSize, ShipAPI ship) {
+		if (index == 0) return "" + (int) OVERLOAD_MULT + "%";
+		return null;
+	}
+	
+	@Override
+	public boolean isSModEffectAPenalty() {
+		return true;
 	}
 
 	//public boolean isApplicableToShip(ShipAPI ship) {

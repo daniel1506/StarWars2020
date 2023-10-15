@@ -1,7 +1,7 @@
 {
   "hullName": "Venator Class Star Destroyer",
   "hullId": "sw_venator_imperial",
-  "hullSize": "CRUISER",
+  "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/empire/sw_venator_imperial.png",
   "style": "SW_IMPERIAL",
   "height": 494,

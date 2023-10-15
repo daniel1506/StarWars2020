@@ -27,10 +27,10 @@ public class SWCCBlackSun extends BaseHullMod {
     
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return "" + ((Float) map.get(HullSize.FRIGATE)).intValue();
-        if (index == 1) return "" + ((Float) map.get(HullSize.DESTROYER)).intValue();
-        if (index == 2) return "" + ((Float) map.get(HullSize.CRUISER)).intValue();
-        if (index == 3) return "" + ((Float) map.get(HullSize.CAPITAL_SHIP)).intValue();
+        if (index == 0) return "" + ((Float) map.get(HullSize.FRIGATE)).intValue() + "%";
+        if (index == 1) return "" + ((Float) map.get(HullSize.DESTROYER)).intValue() + "%";
+        if (index == 2) return "" + ((Float) map.get(HullSize.CRUISER)).intValue() + "%";
+        if (index == 3) return "" + ((Float) map.get(HullSize.CAPITAL_SHIP)).intValue() + "%";
         //if (index == 4) return "" + (int) ARMOR_BONUS;
         return null;
     }

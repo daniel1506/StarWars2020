@@ -23,7 +23,7 @@ import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.util.Misc;
 
-import data.scripts.util.MagicFakeBeam;
+import org.magiclib.util.MagicFakeBeam;
 import org.lazywizard.lazylib.combat.CombatUtils;
 import org.lazywizard.lazylib.MathUtils;
 

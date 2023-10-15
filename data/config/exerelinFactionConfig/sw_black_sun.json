@@ -39,7 +39,7 @@
 		["sw_vengeance_frigate_zann", "sw_corona_blacksun", "sw_trireme_blacksun"]
 	],
     "startShipsCombatLarge":[
-		["sw_venator_black_sun_blacksun", "sw_interceptor_iv_blacksun", "sw_interceptor_iv_blacksun"],
+		["sw_venator_black_sun_blacksun", "sw_cumulus_pirate", "sw_interceptor_iv_blacksun"],
 		["sw_venator_black_sun_blacksun", "sw_corona_blacksun", "sw_trireme_blacksun"]
 	],
     "startShipsCarrierSmall":[
@@ -47,8 +47,8 @@
 		["sw_dreadnought_carrier_blacksun", "sw_dreadnought_carrier_blacksun", "sw_trireme_blacksun"]
 	],
     "startShipsCarrierLarge":[		
-		["sw_lucrehulk_blacksun", "sw_dreadnought_carrier_blacksun", "sw_dreadnought_carrier_blacksun"],
-		["sw_dreadnought_carrier_blacksun", "sw_dreadnought_carrier_blacksun", "sw_dreadnought_carrier_blacksun"]
+		["sw_lucrehulk_blacksun", "sw_cumulus_pirate", "sw_dreadnought_carrier_blacksun"],
+		["sw_cumulus_pirate", "sw_dreadnought_carrier_blacksun", "sw_dreadnought_carrier_blacksun"]
 	],
     
     "startSpecialItems":[

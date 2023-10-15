@@ -18,7 +18,7 @@ import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.ShipSystemAPI.SystemState;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.util.Misc;
-import data.scripts.util.MagicFakeBeam;
+import org.magiclib.util.MagicFakeBeam;
 
 
 public class HeavyTractorBeamStats extends BaseShipSystemScript {

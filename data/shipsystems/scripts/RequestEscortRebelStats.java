@@ -23,6 +23,7 @@ public class RequestEscortRebelStats extends BaseShipSystemScript {
 	
 	
 	public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
+		
 		ShipAPI ship = null;
 		ship = (ShipAPI) stats.getEntity();
 		CombatFleetManagerAPI FleetManager = engine.getFleetManager(ship.getOriginalOwner());
