@@ -1,9 +1,9 @@
 {
 	"id":"sw", # required code id
 	"name":"Star Wars Mod", # required friendly name
-	"version":"1.0.0a", # required mod version
+	"version":"1.0.1", # required mod version
 	"description":"Star Wars 2020 Mod", # required friendly mod description
-	"gameVersion":"0.96a-RC8", # required starsector version this was designed for
+	"gameVersion":"0.96a-RC10", # required starsector version this was designed for
 	"dependencies": [
         	{
             	"id": "lw_lazylib",
