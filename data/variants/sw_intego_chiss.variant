@@ -7,9 +7,7 @@
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [
-    "sw_deflector_shield"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,

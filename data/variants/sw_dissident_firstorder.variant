@@ -3,11 +3,13 @@
   "hullId": "sw_dissident",
   "displayName": "First Order",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
   "weaponGroups": [
     {
       "autofire": false,

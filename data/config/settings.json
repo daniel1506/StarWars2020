@@ -11,4 +11,7 @@
 			"sw_hightech_package":"graphics/icons/cargo/sw_hightech_package.png",
 		},
 	},
+	"ruleCommandPackages":[
+                "data.scripts.campaign.rules",
+        ],
 }

@@ -10,6 +10,7 @@ import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI.SystemState;
 import com.fs.starfarer.api.combat.ShipwideAIFlags;
 import com.fs.starfarer.api.combat.ShipwideAIFlags.AIFlags;
+import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 
 //import org.apache.log4j.Logger;
@@ -24,6 +25,7 @@ public class DeflectorShieldAI implements ShipSystemAIScript {
 	private ShipSystemAPI shield;
 	
 	//public Logger log = Logger.getLogger(this.getClass());
+	private boolean lowerShield = false;
 	private IntervalUtil tracker = new IntervalUtil(0.5f, 1f);
 	
 	public void init(ShipAPI ship, ShipSystemAPI system, ShipwideAIFlags flags, CombatEngineAPI engine) {
@@ -49,7 +51,12 @@ public class DeflectorShieldAI implements ShipSystemAIScript {
 			
 			if (ship.getHardFluxLevel() >= 0.7f) {
 				if (ship.getHullLevel() >= 0.7f) {
-					shield.deactivate();
+					if (lowerShield) {
+						shield.deactivate();
+						this.shouldLowerShield();
+					} else if (ship.getFluxTracker().isOverloaded() || ship.getHardFluxLevel() == 1f) {
+						this.shouldLowerShield();
+					}				
 				}
 				else if (ship.getHullLevel() >= 0.5f) {
 					if (flags.hasFlag(AIFlags.SAFE_FROM_DANGER_TIME)) {
@@ -85,6 +92,25 @@ public class DeflectorShieldAI implements ShipSystemAIScript {
 				}
 			}
 		}
+	}
+	
+	private void shouldLowerShield() {
+		float factor = 5f;
+		if (ship.getCaptain() instanceof PersonAPI) {
+			PersonAPI officer = ship.getCaptain();
+			if (officer.getPersonalityAPI().getDisplayName().equals("Cautious")) {
+				factor = 2.5f;
+			} else if (officer.getPersonalityAPI().getDisplayName().equals("Aggressive")) {
+				factor = 7.5f;
+			} else if (officer.getPersonalityAPI().getDisplayName().equals("Timid")) {
+				factor = 0f;
+			} else if (officer.getPersonalityAPI().getDisplayName().equals("Reckless")) {
+				factor = 10f;
+			}
+		}		
+		if (Math.random() * 11f < factor) {
+			this.lowerShield = true;
+		} else this.lowerShield = false;
 	}
 
 }

@@ -3,11 +3,13 @@
   "hullId": "sw_prolipsi",
   "displayName": "Ascendancy",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 20,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
   "weaponGroups": [
     {
       "autofire": false,

@@ -26,6 +26,7 @@
 
 		"sw_ipv1_imperial":10,
 		"sw_ipv1_mandal":10,
+		"sw_teroch_mandal": 5,
 		"sw_ipv1_blacksun":10,
 		
 		"sw_fruoro_chiss":10,
@@ -73,6 +74,7 @@
 		"sw_interceptor_iv_blacksun":10,
 		"sw_crusader_mandal":10,
 		"sw_jehaveyir_mandal":5,
+		"sw_teroch_mandal":3,
 		"sw_ipv2c_republic":4,
 		
 		"sw_fruoro_chiss":10,

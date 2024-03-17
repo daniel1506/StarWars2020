@@ -31,7 +31,7 @@
 		{"file":"sounds/sfx_wpn_energy/sw_oct_turbolaser_fire.ogg","pitch":1.0,"volume":0.3},
 	],
 	"sw_sound_heavy_dual_turbolaser":[
-		{"file":"sounds/sfx_wpn_energy/sw_heavy_dual_turbolaser_fire.ogg","pitch":1.0,"volume":6.0},
+		{"file":"sounds/sfx_wpn_energy/sw_heavy_dual_turbolaser_fire.ogg","pitch":1.0,"volume":2.0},
 	],
 	"sw_sound_heavy_turbolaser":[
 		{"file":"sounds/sfx_wpn_energy/sw_heavy_turbolaser_fire.ogg","pitch":1.0,"volume":0.2},

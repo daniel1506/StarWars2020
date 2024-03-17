@@ -3,13 +3,12 @@
   "hullId": "sw_immobilizer",
   "displayName": "Imperial",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "blast_doors",
-    "drive_field_stabilizer"
+    "targetingunit"
   ],
   "weaponGroups": [
     {

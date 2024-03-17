@@ -24,8 +24,8 @@ fleetName:Imperial Dockyards
 Must be reduced before invasions or bombardment can be attempted.",2030
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
-sw_death_star_i,Death Star I,300,250,,6,sw_shipyards_imperial,,"station, starfortress, unraidable, structure","{
-radius:80,
+sw_death_star_i,Death Star I,300,250,,7,sw_shipyards_imperial,,"station, starfortress, unraidable, structure","{
+radius:70,
 variant:sw_station_death_star_i_imperial,
 fleetName:Death Star I
 }",graphics/icons/industry/sw_death_star_i.png,data.scripts.campaign.industry.SWOrbitalStationImperial,"The Death Star Mobile Battle Station was a moon-sized, deep-space mobile battle station constructed by the Galactic Empire.

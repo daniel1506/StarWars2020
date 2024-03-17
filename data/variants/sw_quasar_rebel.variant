@@ -3,13 +3,11 @@
   "hullId": "sw_quasar",
   "displayName": "Rebel",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [
-    "recovery_shuttles"
-  ],
+  "hullMods": [],
   "weaponGroups": [
     {
       "autofire": false,

@@ -3,11 +3,13 @@
   "hullId": "sw_bulwark_mk1",
   "displayName": "CIS",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 15,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
   "weaponGroups": [
     {
       "autofire": false,

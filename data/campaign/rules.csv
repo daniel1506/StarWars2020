@@ -188,3 +188,22 @@ aiCores_turnInResponseNewRepublic,AICoresTurnedIn,$faction.id == sw_rebel,FireAl
 ,,,,,,
 ,,,,,,
 ##############################################,#############################,####################################################,##########################################################################,,,
+,,,,,,
+,,,,,,
+##Death Star Options,,,,,,
+,,,,,,
+sw_DeathStarIToStationOption,PopulateOptions,"$hasMarket
+$menuState == main
+$faction.id == player
+SWDeathStarToStationCheck",,,11:sw_DeathStarIToStation:Death Star I locks on orbit,
+sw_DeathStarIToShipOption,PopulateOptions,"$hasMarket
+$menuState == main
+$faction.id == player
+SWDeathStarToShipCheck",,,12:sw_DeathStarIToShip:Death Star I joins your fleet,
+sw_DeathStarIToStationId,DialogOptionSelected,$option == sw_DeathStarIToStation,SWDeathStarIToStation,Death Star I station-keeping,,
+sw_DeathStarIToShipId,DialogOptionSelected,$option == sw_DeathStarIToShip,SWDeathStarIToShip,Death Star I reporting in,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+##Planet Destruction Options,,,,,,

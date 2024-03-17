@@ -45,8 +45,10 @@ public class SWVoiceLines extends BaseEveryFrameCombatPlugin{
 		
 		if (engine == null) return;
         if (engine.isPaused()) return;
+		if (sound == null) return;
         if (Global.getCurrentState() != GameState.COMBAT) return;
 		ShipAPI playerShip = engine.getPlayerShip();
+		if (playerShip == null || playerShip.isShuttlePod()) return;
 		if (playerShip.getVariant().hasHullMod("strikeCraft")) return;
 		CombatFleetManagerAPI enemyFleet = engine.getFleetManager(FleetSide.ENEMY);
 		//FluxTrackerAPI flux = playerShip.getFluxTracker();
@@ -94,7 +96,7 @@ public class SWVoiceLines extends BaseEveryFrameCombatPlugin{
 		}
 		if (engine.isEnemyInFullRetreat() && !EnemyFullRetreatSoundPlayed && !EnemyDefeatedSoundPlayed && enemyFleet.getDeployedCopy().size() == 0) {
 			sound.playSound("sw_enemy_defeated",1f,1f,playerShip.getLocation(),playerShip.getVelocity());
-			EnemyDefeatedSoundPlayed = true;
+			EnemyDefeatedSoundPlayed = true;	
 		}
 		
 		if (!playerShip.isPullBackFighters() && isRegrouping != playerShip.isPullBackFighters()) {

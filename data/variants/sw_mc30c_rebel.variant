@@ -3,13 +3,12 @@
   "hullId": "sw_mc30c",
   "displayName": "Mon Calamari",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "militarized_subsystems",
-    "surveying_equipment"
+    "targetingunit"
   ],
   "weaponGroups": [
     {

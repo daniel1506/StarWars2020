@@ -3,13 +3,12 @@
   "hullId": "sw_dreadnought",
   "displayName": "Heavy",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "blast_doors",
-    "ground_support"
+    "targetingunit"
   ],
   "weaponGroups": [
     {

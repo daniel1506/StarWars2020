@@ -12,7 +12,7 @@
   "shieldRadius": 29.5,
   "viewOffset": 0,
   "builtInMods": [
-    "sw_deflector_shield"
+    "sw_deflector_shield",
   ],
   "weaponSlots": [
     {

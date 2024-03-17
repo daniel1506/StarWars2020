@@ -107,7 +107,7 @@
 	"sw_station_death_star_i":{
 		"defaultName":"Death Star I",
 		"defaultRadius":70,
-		"customDescriptionId":"sw_station_shipyards",
+		"customDescriptionId":"sw_station_death_star_i",
 		"interactionImage":"graphics/illustrations/sw_death_star_i.png",
 		"icon":"graphics/icons/station0.png",
 		"iconWidth":24,
