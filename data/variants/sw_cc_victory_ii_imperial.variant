@@ -1,0 +1,97 @@
+{
+  "variantId": "sw_cc_victory_ii_imperial",
+  "hullId": "sw_cc_victory_ii",
+  "displayName": "Imperial",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_quad_turbolaser",
+        "WS0002": "sw_quad_turbolaser",
+        "WS0003": "sw_quad_turbolaser",
+        "WS0004": "sw_quad_turbolaser",
+        "WS0005": "sw_quad_turbolaser",
+        "WS0006": "sw_quad_turbolaser",
+        "WS0007": "sw_quad_turbolaser",
+        "WS0008": "sw_quad_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sw_tri_turbolaser",
+        "WS0010": "sw_tri_turbolaser",
+        "WS0011": "sw_tri_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "sw_xx9_turbolaser_heavy",
+        "WS0013": "sw_xx9_turbolaser_heavy",
+        "WS0014": "sw_xx9_turbolaser_heavy",
+        "WS0015": "sw_xx9_turbolaser_heavy",
+        "WS0016": "sw_xx9_turbolaser_heavy",
+        "WS0017": "sw_xx9_turbolaser_heavy",
+        "WS0024": "sw_xx9_turbolaser_heavy",
+        "WS0025": "sw_xx9_turbolaser_heavy",
+        "WS0032": "sw_xx9_turbolaser_heavy",
+        "WS0033": "sw_xx9_turbolaser_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "sw_ion_cannon_heavy",
+        "WS0019": "sw_ion_cannon_heavy",
+        "WS0020": "sw_ion_cannon_heavy",
+        "WS0021": "sw_ion_cannon_heavy",
+        "WS0022": "sw_ion_cannon_heavy",
+        "WS0023": "sw_ion_cannon_heavy",
+        "WS0040": "sw_ion_cannon_heavy",
+        "WS0041": "sw_ion_cannon_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0026": "sw_laser_cannon",
+        "WS0027": "sw_laser_cannon",
+        "WS0028": "sw_laser_cannon",
+        "WS0029": "sw_laser_cannon",
+        "WS0030": "sw_laser_cannon",
+        "WS0031": "sw_laser_cannon",
+        "WS0048": "sw_laser_cannon",
+        "WS0049": "sw_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_tie_aggressor_wing",
+    "sw_tie_avenger_wing"
+  ]
+}

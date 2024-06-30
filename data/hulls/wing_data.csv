@@ -7,6 +7,7 @@ sw_tie_aggressor_wing,sw_tie_aggressor_fighter,"fighter4, fighter, mid, sw_midli
 sw_tie_advanced_wing,sw_tie_advanced_interceptor,"interceptor3, interceptor, mid, sw_midline_bp, empire",2,,0,10,V,4000,500,0,3,INTERCEPTOR,Interceptor,10,2000,,,,,,,,,,,,,
 sw_tie_oppressor_wing,sw_tie_oppressor_bomber,"bomber4, bomber, mid, sw_midline_bp, empire",2,,0,10,V,4000,500,0,3,BOMBER,Bomber,13,2000,,,,,,,,,,,,,
 sw_tie_automated_wing,sw_tie_automated_support,"support3, support, mid, sw_midline_bp, empire",2,,0,10,CLAW,4000,500,0,4,SUPPORT,Support,10,1000,,,,,,,,,,,,,
+sw_tie_fc_wing,sw_tie_fc_support,"support3, support, mid, sw_midline_bp, empire",2,,0,10,V,4000,500,0,2,SUPPORT,Recon Support,10,2500,,,,,,,,,,,,,
 sw_tie_fighter_wing,sw_tie_fighter_fighter,"fighter2, fighter, low, sw_lowtech_bp, empire",1,,0,5,V,4000,500,0,5,FIGHTER,Fighter,5,1000,,,,,,,,,,,,,
 sw_tie_interceptor_wing,sw_tie_interceptor_interceptor,"interceptor3, interceptor, low, sw_lowtech_bp, empire",1,,0,5,V,4000,500,0,5,INTERCEPTOR,Interceptor,7,1750,,,,,,,,,,,,,
 sw_tie_striker_bomber_wing,sw_tie_striker_bomber,"bomber3, bomber, low, sw_lowtech_bp, empire",1,,0,5,CLAW,4000,500,0,4,BOMBER,Bomber,7,1500,,,,,,,,,,,,,

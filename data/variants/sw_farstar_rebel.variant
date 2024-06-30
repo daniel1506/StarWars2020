@@ -1,0 +1,35 @@
+{
+  "variantId": "sw_farstar_rebel",
+  "hullId": "sw_farstar",
+  "displayName": "Rebel",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sw_tb_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sw_h9_turbolaser",
+        "WS0005": "sw_h9_turbolaser",
+        "WS0006": "sw_h9_turbolaser",
+        "WS0007": "sw_h9_turbolaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_t65b_xwing_wing",
+    "sw_t65b_xwing_wing"
+  ]
+}

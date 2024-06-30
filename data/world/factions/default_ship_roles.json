@@ -2,6 +2,8 @@
 	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
+		"sw_farstar_rebel":1,
+		"sw_corvus_imperial":1,
 		"sw_raider_light":7,
 		"sw_cr90_rebel":7,
 		"sw_dp20_rebel":7,
@@ -42,6 +44,8 @@
 		"fallback":{"combatSmall":1},
 	},
 	"combatSmall":{
+		"sw_farstar_rebel":1,
+		"sw_corvus_imperial":1,
 		"sw_raider_light":10,
 		"sw_cr90_rebel":10,
 		"sw_dp20_rebel":10,
