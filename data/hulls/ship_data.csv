@@ -284,7 +284,7 @@ Imperial Dockyards,sw_station_shipyards,Space Station,,,400,160000,2400,1000,250
 Light Shipyard,sw_station_light_shipyard,Space Station,,sw_stationdefenseforce_low,100,50000,1500,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,
 Heavy Shipyard,sw_station_heavy_shipyard,Space Station,,sw_stationdefenseforce_mid,100,75000,1750,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,75,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,
 Capital Shipyard,sw_station_capital_shipyard,Space Station,,sw_stationdefenseforce_high,400,160000,2400,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,
-Death Star I,sw_station_death_star_i,Mobile Battle Station,,reservewing,450,200000,2000,75000,2500,5000,1000,8,30,200,200,2,2,5000,OMNI,,200,0.5,1,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",no_autofit,,0,,,
+Death Star I,sw_station_death_star_i,Mobile Battle Station,,,450,200000,2000,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,
 #Orbital Station,station1,Orbital Station,,,100,40000,1600,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,2002
 #Battlestation,station2_midline,Battlestation,,,200,80000,2000,1000,2500,100,0,,30,200,200,7,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,75,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,2003.5
 #Star Fortress,station3_hightech,Star Fortress,,drone_station_high,400,160000,2400,1000,2500,100,0,,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,2004.5
@@ -308,6 +308,7 @@ Death Star I,sw_station_death_star_i,Mobile Battle Station,,reservewing,450,2000
 ,sw_module_capital_shipyard2,Shipyard Section,,sw_mediumtractorbeam,1,30000,1750,25000,37500,5000,1000,4,0,0,0,10,10,3500,FRONT,,200,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0,2,4,
 ,sw_module_capital_shipyard3,Shipyard Section,,reservewing,1,30000,1750,25000,37500,5000,1000,4,0,0,0,10,10,3500,FRONT,,200,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0,2,4,
 ,sw_module_capital_shipyard4,Shipyard Section,,sw_pointdefensesystem,1,30000,1750,25000,37500,5000,1000,4,0,0,0,10,10,3500,FRONT,,200,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0,2,4,
+,sw_module_death_star_i,Mobile Battle Station,,reservewing,1,200000,2300,75000,37500,5000,1000,8,0,0,0,10,10,5000,OMNI,,360,0.5,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0,2,4,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #,#module_midline_citadel,Heavy Station Battery,,forgevats_station,1,20000,1750,25000,37500,5000,1000,,0,0,0,10,10,3500,FRONT,,40,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,2068
 #,#module_midline_support,Heavy Support Module,,forgevats_station,1,15000,1500,10000,10000,400,1000,4,0,0,0,10,10,2500,FRONT,,100,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,2069

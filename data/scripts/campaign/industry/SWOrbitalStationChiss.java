@@ -13,7 +13,7 @@ public class SWOrbitalStationChiss extends OrbitalStation
         final SectorAPI sector = Global.getSector();
         final FactionAPI player = sector.getFaction("player");
         final FactionAPI empire = sector.getFaction("sw_chiss");
-        if (!this.market.hasIndustry("sw_golan_iii_chiss") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(empire).isAtWorst(RepLevel.FRIENDLY) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
+        if (!this.market.hasIndustry("sw_golan_iii_chiss") && this.market.getPlanetEntity() != null && !(player.getRelationshipLevel(empire).isAtWorst(RepLevel.FRIENDLY) || Global.getSector().getPlayerFaction().knowsIndustry(this.getId()))) {
             canBuild = false;
         }
         return canBuild;

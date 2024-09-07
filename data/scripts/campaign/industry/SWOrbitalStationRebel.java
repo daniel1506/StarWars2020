@@ -13,7 +13,7 @@ public class SWOrbitalStationRebel extends OrbitalStation
         final SectorAPI sector = Global.getSector();
         final FactionAPI player = sector.getFaction("player");
         final FactionAPI rebel = sector.getFaction("sw_rebel");
-        if (!this.market.hasIndustry("sw_golan_iii_rebel") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(rebel).isAtWorst(RepLevel.FRIENDLY) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
+        if (!this.market.hasIndustry("sw_golan_iii_rebel") && this.market.getPlanetEntity() != null && !(player.getRelationshipLevel(rebel).isAtWorst(RepLevel.FRIENDLY) || Global.getSector().getPlayerFaction().knowsIndustry(this.getId()))) {
             canBuild = false;
         }
         return canBuild;

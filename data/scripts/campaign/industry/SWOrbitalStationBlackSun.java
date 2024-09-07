@@ -13,7 +13,7 @@ public class SWOrbitalStationBlackSun extends OrbitalStation
         final SectorAPI sector = Global.getSector();
         final FactionAPI player = sector.getFaction("player");
         final FactionAPI blacksun = sector.getFaction("sw_black_sun");
-        if (!this.market.hasIndustry("sw_golan_iii_blacksun") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(blacksun).isAtWorst(RepLevel.FRIENDLY) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
+        if (!this.market.hasIndustry("sw_golan_iii_blacksun") && this.market.getPlanetEntity() != null && !(player.getRelationshipLevel(blacksun).isAtWorst(RepLevel.FRIENDLY) || Global.getSector().getPlayerFaction().knowsIndustry(this.getId()))) {
             canBuild = false;
         }
         return canBuild;

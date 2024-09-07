@@ -13,7 +13,7 @@ public class SWOrbitalStationMandal extends OrbitalStation
         final SectorAPI sector = Global.getSector();
         final FactionAPI player = sector.getFaction("player");
         final FactionAPI mandal = sector.getFaction("sw_mandalorian");
-        if (!this.market.hasIndustry("sw_golan_iii_mandal") && this.market.getPlanetEntity() != null && !player.getRelationshipLevel(mandal).isAtWorst(RepLevel.FRIENDLY) && !Global.getSector().getPlayerFaction().knowsIndustry(this.getId())) {
+        if (!this.market.hasIndustry("sw_golan_iii_mandal") && this.market.getPlanetEntity() != null && !(player.getRelationshipLevel(mandal).isAtWorst(RepLevel.FRIENDLY) || Global.getSector().getPlayerFaction().knowsIndustry(this.getId()))) {
             canBuild = false;
         }
         return canBuild;
