@@ -8,7 +8,7 @@
 	
 	"marketSpawnWeight":0.8,
 	
-	"startRelationships":{ "independent":0.5, "hegemony": -0.7, "sw_republic": -1.0, "sw_empire": -0.5},
+	"startRelationships":{ "independent":0.0, "hegemony": -0.7, "sw_republic": -1.0, "sw_empire": -0.5},
 	"maxRelationships":{ "hegemony": -0.5, "sw_empire":-0.5, "sw_republic":-0.5},
 	"diplomacyPositiveChance":{ "independent":0.5, },
 	"diplomacyNegativeChance":{ "sw_republic":1, "sw_empire":1 },

@@ -1,0 +1,45 @@
+{
+  "variantId": "sw_broadside_cruiser_imperial",
+  "hullId": "sw_broadside_cruiser",
+  "displayName": "Imperial",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_dual_turbolaser",
+        "WS0002": "sw_dual_turbolaser",
+        "WS0003": "sw_dual_turbolaser",
+        "WS0004": "sw_dual_turbolaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sw_concussion_missile",
+        "WS0006": "sw_concussion_missile",
+        "WS0007": "sw_concussion_missile",
+        "WS0008": "sw_concussion_missile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sw_turbolaser",
+        "WS0010": "sw_turbolaser",
+        "WS0011": "sw_turbolaser",
+        "WS0012": "sw_turbolaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -4,7 +4,7 @@
 	"displayName":"Empire",
 	"displayNameWithArticle":"the Empire",
 	"displayNameLong":"Galactic Empire",   
-    "displayNameLongWithArticle":"the Galactic Empire",  
+    	"displayNameLongWithArticle":"the Galactic Empire",  
 	"logo":"graphics/factions/sw_empire_flag.png",
 	"crest":"graphics/factions/sw_empire_crest.png",
 	"shipNamePrefix":"Imperial",
@@ -37,6 +37,7 @@
 		"sw_gozanti_imperial":10,
 		"sw_imperial_i_imperial":10,
 		"sw_secutor_imperial":10,
+		"sw_broadside_cruiser_imperial":10,
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{

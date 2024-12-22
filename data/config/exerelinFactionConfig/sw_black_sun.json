@@ -12,7 +12,7 @@
 	"marketSpawnWeight":0.8,
 	"morality":"evil",
 	
-	"startRelationships":{"sw_mandalorian":0.5, "hegemony": -1.0, "luddic_church": -0.7, "tritachyon": 0.3, "persean":-0.7, "sw_rebel":-1.0, "sw_empire":-1.0, "sw_zann":-1.0, "sw_republic":-1.0},
+	"startRelationships":{"sw_mandalorian":0.5, "hegemony": -1.0, "luddic_church": -0.7, "tritachyon": 0.3, "persean":-0.7, "sw_rebel":-1.0, "sw_empire":-1.0, "sw_zann":-1.0, "sw_republic":-1.0, "independent":-0.4,},
 	"maxRelationships":{ "sw_zann": -1.0, "sw_empire":-0.5, "sw_rebel":-0.5, "sw_republic":-0.5},
 	"diplomacyPositiveChance":{"sw_mandalorian":0.5, "sw_cis":0.2},
 	"diplomacyNegativeChance":{"sw_empire":1, "sw_rebel":1, "sw_republic":0.5, "sw_cis":0.5},

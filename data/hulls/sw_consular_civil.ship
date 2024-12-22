@@ -14,7 +14,6 @@
   "builtInMods": [
     "blast_doors",
     "civgrade",
-    "drive_field_stabilizer",
     "sw_deflector_shield"
   ],
   "weaponSlots": [

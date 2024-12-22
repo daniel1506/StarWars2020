@@ -67,6 +67,8 @@
 		"sw_pinnance_cis":10,
 		"sw_lupus_cis":10,
 		"sw_arquitens_republic_republic":5,
+		"sw_broadside_cruiser_imperial":2,
+		"sw_broadside_cruiser_zann":2,
 
 		"sw_gozanti_imperial":5,
 		"sw_gozanti_black_sun_blacksun":5,
@@ -89,8 +91,10 @@
 		
 		"fallback":{"combatMedium":0.5},
 	},
-	"combatMedium":{
+	"combatMedium":{	
 		"sw_vindicator_imperial":10,
+		"sw_broadside_cruiser_imperial":8,
+		"sw_broadside_cruiser_zann":8,
 		"sw_mc40a_rebel":10,
 		"sw_munificent_cis":10,
 		"sw_recusant_cis":10,

@@ -1,0 +1,177 @@
+{
+  "hullName": "Broadside Cruiser",
+  "hullId": "sw_broadside_cruiser",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sw_broadside_cruiser.png",
+  "style": "SW_IMPERIAL",
+  "height": 257,
+  "width": 174,
+  "center": [87, 128.5],
+  "collisionRadius": 129,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 129.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "blast_doors",
+    "sw_deflector_shield",
+    "missleracks"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [13, 37.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [13, -37.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-18, 37.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-18, -37.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [46, 13]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [46, -13]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [46, 4.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [46, -4.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [83.5, 35]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [83.5, -35]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-60.5, 65]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-60.5, -65]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-103, 12.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-103, -12.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-103, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    47, -17.5,
+    127, -18.5,
+    127, -21.5,
+    120, -41.5,
+    33, -63.5,
+    -73, -86.5,
+    -76, -86.5,
+    -76, -47.5,
+    -127, -20.5,
+    -102, -20.5,
+    -102, 20.5,
+    -127, 20.5,
+    -76, 47.5,
+    -76, 86.5,
+    -73, 86.5,
+    33, 63.5,
+    120, 41.5,
+    127, 21.5,
+    127, 18.5,
+    47, 17.5
+  ]
+}
