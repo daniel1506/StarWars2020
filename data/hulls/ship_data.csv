@@ -167,6 +167,8 @@ Syzygos,sw_syzygos,Corvette,Chiss Ascendancy,sw_pointdefensesystem,3,1500,150,20
 Ascendancy,sw_ascendancy,Star Destroyer,Chiss Ascendancy,sw_mediumtractorbeam,40,15000,1000,15000,,1000,410,5,55,25,20,5,3,3000,PHASE,sw_deflectorshield,360,0.3,1,,,500,1000,400,300,3,100,8,500000,10,10,750,0.25,30,30,"COMBAT, CARRIER","sw_midline_bp, chiss, no_autofit",,0.6,2,4,
 Ormos,sw_ormos,Light Cruiser,Chiss Ascendancy,sw_probedroid,15,5000,300,3000,,500,140,4,100,70,50,25,25,800,PHASE,sw_deflectorshield,360,0.5,1,,,100,200,100,100,1,150,9,30000,10,10,350,0.25,15,15,"COMBAT, CARRIER","sw_lowtech_bp, chiss, no_autofit",,0.5,2,3,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Miid ro'ik,sw_miid_roik,Warship,Yuuzhan Vong,,50,20000,1500,23000,,1500,520,3,50,30,20,3,3,3500,OMNI,,180,0,1,,,750,1000,500,300,3,100,7,600000,10,10,800,0.25,45,45,,"sw_hightech_bp, vong, no_autofit",,0.6,2,4,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 TIE/ln,sw_tie_fighter,,Sienar Fleet Systems,,,200,35,150,,50,0,,300,200,100,80,80,10,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,
 TIE/IN,sw_tie_interceptor,,Sienar Fleet Systems,,,150,30,150,,50,0,,330,220,110,100,100,10,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,
 TIE/sa,sw_tie_bomber,,Sienar Fleet Systems,,,200,40,150,,50,0,,180,120,60,80,80,20,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,

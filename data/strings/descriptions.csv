@@ -291,6 +291,8 @@ sw_quad_laser_cannon,WEAPON,"A quad laser cannon was a laser weapon consisting o
 sw_laser_cannon,WEAPON,A laser cannon was the standard weapon for use by most starships and other vehicles.,Point Defence,,
 sw_ls72_laser_cannon,WEAPON,The L-s7.2 laser cannon was a laser cannon that was equipped on TIE fighters. It was an improved design over the earlier L-s1 laser cannon that offered a lower recycle time and faster rate of fire.,Assault,,
 sw_ls92_laser_cannon,WEAPON,"More destructive than the new but more common Sienar Fleet Systems L-s7.2 laser cannon, it had the power to destroy small asteroids in one shot.",Assault,,
+sw_tie_heavy_laser_cannon,WEAPON,"Heavy laser cannon was pieces of artillery installed on AT-ST Mark IIIs, standard AT-ATs, the TIE Avenger, and First Order All Terrain Armored Transports.",Assault,,
+sw_rotary_blaster_cannon,WEAPON,Rotary blaster cannon was a rapid fire version of anti-personnel blaster cannon installed on TIE Avenger.,Assault,,
 sw_nk3_ion_cannon,WEAPON,The NK-3 ion cannon was a type of starfighter-scale ion cannon that was manufactured by Borstel Galactic Defense.,Suppression,,
 sw_tb_quad_turbolaser_heavy,WEAPON,The quad heavy turbolaser cannon was a heavier version of the quad turbolaser cannon designed for battlecruisers and dreadnoughts.,Assault,,
 sw_tb_quad_turbolaser,WEAPON,The quad turbolaser cannon (also called quad turbolaser battery) was a heavier version of the quad laser cannon designed for cruisers.,Assault,,
