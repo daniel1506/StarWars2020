@@ -1,0 +1,100 @@
+{
+  "hullName": "Yorik Vec Assault Cruiser",
+  "hullId": "sw_yorik_vec",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_yorik_vec.png",
+  "style": "LOW_TECH",
+  "height": 99,
+  "width": 72,
+  "center": [36, 51],
+  "collisionRadius": 48.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 50,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_dovin_basal"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [10, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [15, 25]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [15, -25]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    32.5, -4.5,
+    38.5, -4.5,
+    38.5, -6.5,
+    20.5, -12.5,
+    20.5, -15.5,
+    41.5, -15.5,
+    44.5, -12.5,
+    44.5, -16.5,
+    31.5, -28.5,
+    37.5, -28.5,
+    37.5, -30.5,
+    31.5, -34.5,
+    28, -34.5,
+    25.5, -31.5,
+    20.5, -33.5,
+    8.5, -33.5,
+    -32.5, -13.5,
+    -19.5, -8,
+    -21.5, -4.5,
+    -35.5, -4.5,
+    -47.5, -2.5,
+    -47.5, 2.5,
+    -35.5, 4.5,
+    -21.5, 4.5,
+    -19.5, 8,
+    -32.5, 13.5,
+    8.5, 33.5,
+    20.5, 33.5,
+    25.5, 31.5,
+    28, 34.5,
+    31.5, 34.5,
+    37.5, 30.5,
+    37.5, 28.5,
+    31.5, 28.5,
+    44.5, 16.5,
+    44.5, 12.5,
+    41.5, 15.5,
+    20.5, 15.5,
+    20.5, 12.5,
+    38.5, 6.5,
+    38.5, 4.5,
+    32.5, 4.5
+  ]
+}

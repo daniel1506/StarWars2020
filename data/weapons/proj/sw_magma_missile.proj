@@ -1,0 +1,41 @@
+{
+	"id":"sw_magma_missile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/sw_magma_missile.png",
+	"size":[20,21],	
+	"center":[10,10.5],
+	"collisionRadius":11,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,155,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"engineSpec":{
+				  #"turnAcc":150,
+				  #"turnRate":70,
+				  #"acc":200,
+				  #"dec":100},
+				  "turnAcc":60,
+				  "turnRate":40,
+				  "acc":200,
+				  "dec":175},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-11, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,205,0,255],
+						"contrailDuration":0.25,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":-2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":10, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.75, # how far away from engine it starts
+						"contrailColor":[255,205,100,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":6.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}

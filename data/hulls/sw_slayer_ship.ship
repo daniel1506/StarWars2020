@@ -1,0 +1,112 @@
+{
+  "hullName": "Vong Slayer Ship",
+  "hullId": "sw_slayer_ship",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_slayer_ship.png",
+  "style": "LOW_TECH",
+  "height": 57,
+  "width": 24,
+  "center": [12, 29],
+  "collisionRadius": 28,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 29,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_dovin_basal"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26.5, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [26.5, -7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25.5, 4.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [25.5, -4.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [25.5, 1.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [25.5, -1.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [6, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-4.5, 7.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-4.5, -7.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    26.5, -8.5,
+    13.5, -11.5,
+    1.5, -11.5,
+    -8.5, -5.5,
+    -27.5, -1.5,
+    -27.5, 1.5,
+    -8.5, 5.5,
+    1.5, 11.5,
+    13.5, 11.5,
+    26.5, 8.5
+  ]
+}

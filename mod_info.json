@@ -1,7 +1,7 @@
 {
 	"id":"sw", # required code id
 	"name":"Star Wars Mod", # required friendly name
-	"version":"1.1.0", # required mod version
+	"version":"1.1.1a", # required mod version
 	"description":"Star Wars 2020 Mod", # required friendly mod description
 	"gameVersion":"0.98a-RC7", # required starsector version this was designed for
 	"dependencies": [

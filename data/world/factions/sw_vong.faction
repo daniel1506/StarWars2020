@@ -1,0 +1,244 @@
+{
+	"id":"sw_vong",
+	"color":[205,0,255,255],
+	
+	"baseUIColor":[205,0,255,255],
+	"darkUIColor":[100,0,205,175],
+	"gridUIColor":[205,100,255,75],
+	
+	"displayName":"Yuuzhan Vong Empire",
+	"displayNameWithArticle":"the Yuuzhan Vong Empire",
+	"showInIntelTab":true,
+	"logo":"graphics/factions/sw_vong_flag.png",
+	"crest":"graphics/factions/sw_vong_crest.png",
+	"shipNamePrefix":"",
+	"shipNameSources":{
+		"STARWARS":1,
+		"ROMAN":2,
+		"GREEK":2,
+	},
+	"names":{
+		"fringe":1,
+		"modern":1,
+		"world":1,
+		"future":1,
+		"old english":2,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["base_bp", "midline_bp", "hightech_bp"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["vong"],
+		"hulls":[
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["vong"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["sw_missile_bp", "vong_bp"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "vong"],
+		"hullMods":[
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"converted_hangar",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"frontshield",  # makeshift
+			"heavyarmor",
+			"insulatedengine",
+			"fluxbreakers",
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":2,
+		"shipQuality":3,
+		"numShips":4,
+		
+		"shipSize":3,
+		
+		"aggression":5,
+		
+		"combatFreighterProbability":0.1,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.75,			# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.0,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+	],
+	"music":{
+		"theme":"music_luddite_market_neutral",
+		"market_neutral":"music_luddite_market_neutral",
+		"market_hostile":"music_luddite_market_hostile",
+		"market_friendly":"music_luddite_market_friendly",
+		"encounter_neutral":"music_luddite_encounter_neutral",
+		"encounter_hostile":"music_luddite_encounter_hostile",
+		"encounter_friendly":"music_luddite_encounter_friendly",
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/vong/Vong1.png",
+			"graphics/portraits/vong/Vong2.png",
+			"graphics/portraits/vong/Vong3.png",
+			"graphics/portraits/vong/Vong4.png",
+			"graphics/portraits/vong/Vong5.png",
+			"graphics/portraits/vong/Vong6.png",
+			"graphics/portraits/vong/Vong7.png",
+			"graphics/portraits/vong/Vong8.png",
+			"graphics/portraits/vong/Vong9.png",
+			"graphics/portraits/vong/Vong10.png",
+		],
+		"standard_female":[
+			"graphics/portraits/vong/VongF1.png",
+			"graphics/portraits/vong/VongF2.png",
+			"graphics/portraits/vong/VongF3.png",
+			"graphics/portraits/vong/VongF4.png",
+			"graphics/portraits/vong/VongF5.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Supreme Overlord"},
+			
+			"spaceAdmiral":{"name":"Warmaster"},
+			"spaceCaptain":{"name":"Supreme Commander"},
+			"spaceCommander":{"name":"Commander"},
+			"spaceMarshal":{"name":"Warrior"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Supreme Overlord"},
+			
+			"patrolCommander":{"name":"Captain"},
+			"fleetCommander":{"name":"Supreme Commander"},
+			"baseCommander":{"name":"Warmaster"},
+			"administrator":{"name":"Lord"},
+			
+			"portmaster":{"name":"Portwatcher"},
+			"quartermaster":{"name":"Purser"},
+			
+			"investigator":{"name":"Adjudicator"},
+			"agent":{"name":"Infiltrator"},
+			"specialAgent":{"name":"Vanguard"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Black Market Convoy",
+		"smallTrader":"Black Market Trader",
+		"tradeLiner":"Spy",
+		"tradeSmuggler":"Smuggler",
+		
+		"patrolSmall":"Infiltrator",
+		"patrolMedium":"Recon Fleet",
+		"patrolLarge":"Vanguard Fleet",
+		
+		"inspectionFleet":"Praetorite Fleet",
+		
+		#"mercScout":"Seeker",
+		#"mercBountyHunter":"Judgment-bringer",
+		#"mercPrivateer":"Abjudicator",
+		#"mercPatrol":"Crusading Fleet",
+		#"mercArmada":"Crusading Armada",
+		
+		"taskForce":"Praetorite Vong Fleet",
+	},
+	"voices":{
+		"LOW":{
+			"soldier":3,
+			"pather":10,
+			"faithful":5,		
+			"spacer":2,
+		},
+		"MEDIUM":{
+			"soldier":3,
+			"pather":10,
+			"faithful":2,
+		},
+		"HIGH":{
+			"pather":10,
+			"faithful":4,
+		},
+	},	
+	"custom":{
+		"decentralized":true,
+		#"gaVIPMission":false,
+		"engageWhenEvenStrength":true,
+		"allowsTransponderOffTrade":true,
+		"buysSurveyData":true,
+		"buysAICores":true,
+		"AICoreValueMult":0.5,
+		"AICoreRepMult":1.5,
+		#"ignoreTradeWithEnemiesForReputation":true,
+		"willTradeWhenHostile":true,
+		"patrolsHaveNoPatrolMemoryKey":true,
+		"pirateBehavior":true,
+		"makesPirateBases":true,
+		#"fightToTheLast":true, # order a full assault instead of retreating, in most cases
+		"patherBaseTypesSmall":{
+			"orbitalstation":10,
+		},
+		"patherBaseTypesLarge":{
+			"battlestation":10,
+		},
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":false,
+		},
+	},
+},
+
+
+
+
+
+

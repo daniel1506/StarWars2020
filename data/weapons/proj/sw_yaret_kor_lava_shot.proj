@@ -1,0 +1,16 @@
+{
+	"id":"sw_yaret_kor_lava_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":5,
+	"length":30.0,
+	"width":3.0,
+	"fadeTime":0.25,
+	"fringeColor":[255,255,50,150],
+	"coreColor":[255,255,205,255],
+	#"glowRadius":1,
+	#"glowColor":[0,1,2,150],
+	"bulletSprite":"graphics/missiles/shell_small_yellow.png"
+}

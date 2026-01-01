@@ -1,0 +1,65 @@
+{
+  "id": "sw_quad_yaret_kor_plasma_heavy",
+  "specClass": "projectile",
+  "projectileSpecId": "sw_yaret_kor_plasma_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/sw_heavy_quad_yaret_kor_turret_base.png",
+  "hardpointSprite": "graphics/weapons/sw_heavy_quad_yaret_kor_hardpoint_base.png",
+  "glowColor": [
+    205,
+    100,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    7.5,
+    4,
+    7.5,
+    -4,
+    7.5,
+    2,
+    7.5,
+    -2
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    11,
+    4,
+    11,
+    -4,
+    11,
+    2,
+    11,
+    -2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": -34,
+    "spread": 15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.15,
+    "particleCount": 20,
+    "particleColor": [
+      230,
+      150,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "mjolnir_fire"
+}

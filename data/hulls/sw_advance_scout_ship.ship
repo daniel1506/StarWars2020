@@ -1,0 +1,182 @@
+{
+  "hullName": "Advance Scout Ship",
+  "hullId": "sw_advance_scout_ship",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/vong/sw_advance_scout_ship.png",
+  "style": "LOW_TECH",
+  "height": 131,
+  "width": 68,
+  "center": [34, 65.5],
+  "collisionRadius": 66,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 67,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_dovin_basal"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        50, -0,
+        65, -0
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [35, 12.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [35, -12.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [59, 11.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [59, -11.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [50, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [5, 15]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [5, -15]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-30, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-56, 8.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-56, -8.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-63, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    65, -4.5,
+    60, -11.5,
+    45, -19.5,
+    18, -27.5,
+    20, -21.5,
+    15, -21.5,
+    -2, -33.5,
+    -5, -33.5,
+    -2, -20.5,
+    -9, -19.5,
+    -15, -25.5,
+    -18, -25.5,
+    -17, -17.5,
+    -22, -17.5,
+    -34, -12.5,
+    -44, -12.5,
+    -47, -9.5,
+    -50, -12.5,
+    -54, -12.5,
+    -58, -6.5,
+    -65, -3.5,
+    -65, 3.5,
+    -58, 6.5,
+    -54, 12.5,
+    -50, 12.5,
+    -47, 9.5,
+    -44, 12.5,
+    -34, 12.5,
+    -22, 17.5,
+    -17, 17.5,
+    -18, 25.5,
+    -15, 25.5,
+    -9, 19.5,
+    -2, 20.5,
+    -5, 33.5,
+    -2, 33.5,
+    15, 21.5,
+    20, 21.5,
+    18, 27.5,
+    45, 19.5,
+    60, 11.5,
+    65, 4.5
+  ]
+}

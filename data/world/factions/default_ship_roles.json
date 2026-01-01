@@ -22,6 +22,7 @@
 
 		"sw_arquitens_imperial":10,
 		"sw_arquitens_republic_republic":10,
+		"sw_victory_ii_frigate_republic":5,
 		"sw_nebulon_b_rebel":10,
 		"sw_pinnance_cis":10,
 		"sw_lupus_cis":5,
@@ -40,6 +41,8 @@
 
 		"sw_gozanti_imperial":5,
 		"sw_hammerhead_rebel":5,
+
+		"sw_advance_scout_ship_vong": 10,
 
 		"fallback":{"combatSmall":1},
 	},
@@ -67,6 +70,7 @@
 		"sw_pinnance_cis":10,
 		"sw_lupus_cis":10,
 		"sw_arquitens_republic_republic":5,
+		"sw_victory_ii_frigate_republic":5,
 		"sw_broadside_cruiser_imperial":2,
 		"sw_broadside_cruiser_zann":2,
 
@@ -88,6 +92,8 @@
 		"sw_rohkea_chiss":10,
 		
 		"sw_first_order_light_cruiser_firstorder":10,
+
+		"sw_advance_scout_ship_vong": 10,
 		
 		"fallback":{"combatMedium":0.5},
 	},
@@ -120,6 +126,9 @@
 		"sw_prolipsi_chiss":7,
 		
 		"sw_dissident_firstorder":10,
+
+		"sw_advance_scout_ship_vong": 5,
+		"sw_shrip_shpa_vong": 7, 
 		
 		"fallback":{"combatSmall":1},
 	},
@@ -152,6 +161,9 @@
 		"sw_bulwark_mk1_cis":10,
 		"sw_bulwark_mk1_rebel":10,
 		"sw_bulwark_mk1_blacksun":10,
+
+		"sw_shrip_shpa_vong": 10,
+		"sw_miid_roik_vong": 5,
 		
 		"fallback":{"combatMedium":1},
 	},
@@ -208,6 +220,8 @@
 		"sw_eclipse_ii_imperial":1,
 		"sw_conqueror_imperial":2,
 		"sw_mega_firstorder":1,
+
+		"sw_miid_roik_vong": 10,
 		
 		"fallback":{"combatLarge":1},
 	},
@@ -230,6 +244,7 @@
 		"sw_hajen_rebel":8,
 		"sw_neutron_star_imperial":5,
 		"sw_neutron_star_rebel":10,
+		"sw_shrip_shpa_vong": 5,
 		"fallback":{"combatFreighterSmall":1},
 	},
 	"combatFreighterLarge":{
@@ -279,6 +294,8 @@
 		
 		"sw_ormos_chiss":5,
 		"sw_first_order_carrier_firstorder":10,
+
+		"sw_shrip_shpa_vong": 5,
 		
 		"fallback":{"carrierSmall":1},
 		"fallback2":{"carrierLarge":0.5},
@@ -299,6 +316,8 @@
 		"sw_secutor_imperial":3,
 		"sw_secutor_republic":3,
 		"sw_lucrehulk_rebel":5,
+
+		"sw_shrip_shpa_vong": 10,
 		
 		"fallback":{"carrierMedium":1},
 		"fallback2":{"carrierSmall":1},
@@ -329,6 +348,7 @@
 		"sw_neutron_star_imperial":6,
 		"sw_contentor_replenishment":5,
 		"sw_core_ship_cis":5,
+		"sw_shrip_shpa_vong": 1,
 		"fallback":{"freighterSmall":1},
 		"fallback2":{"freighterLarge":0.5},
 	},

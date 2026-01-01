@@ -1,0 +1,50 @@
+{
+  "variantId": "sw_advance_scout_ship_vong",
+  "hullId": "sw_advance_scout_ship",
+  "displayName": "Vong",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sw_dual_yaret_kor_volcano",
+        "WS0002": "sw_dual_yaret_kor_volcano"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sw_yaret_kor_plasma_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sw_rock_spitter",
+        "WS0005": "sw_rock_spitter"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "sw_yaret_kor_lava",
+        "WS0007": "sw_yaret_kor_lava",
+        "WS0008": "sw_yaret_kor_lava",
+        "WS0009": "sw_yaret_kor_lava"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sw_yorik_et_wing"
+  ]
+}

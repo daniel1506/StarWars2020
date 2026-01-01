@@ -1,0 +1,70 @@
+{
+  "hullName": "Yorik-et Interceptor",
+  "hullId": "sw_yorik_et_interceptor",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sw_yorik_et_interceptor.png",
+  "style": "LOW_TECH",
+  "height": 53,
+  "width": 26,
+  "center": [13, 27.5],
+  "collisionRadius": 23.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 24.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sw_dovin_basal"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [22, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [16.5, 2.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [16.5, -2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23, -0],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    23, -1,
+    13, -3.5,
+    5, -3.5,
+    -6, -11.5,
+    -14, -11.5,
+    -23, -2.5,
+    -23, 2.5,
+    -14, 11.5,
+    -6, 11.5,
+    5, 3.5,
+    13, 3.5,
+    23, 1
+  ]
+}

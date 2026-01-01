@@ -13,6 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "blast_doors",
+    "sw_deflector_shield",
     "sw_targeting_computer"
   ],
   "weaponSlots": [
